@@ -1,22 +1,23 @@
-
-
-import tkinter as tk
-
-class Example(tk.Frame):
-    def __init__(self, root):
-        tk.Frame.__init__(self, root)
-        b1 = tk.Button(self, text="Add another window", command = self.newWindow)
-        b1.pack(side="top", padx=40, pady=40)
-        self.count = 0
-
-    def newWindow(self):
-        self.count += 1
-        window = tk.Toplevel(self)
-        label = tk.Label(window, text="This is window #%s" % self.count)
-        label.pack(side="top", fill="both", expand=True, padx=40, pady=40);
-        b1 = tk.Button(self, text="Add another window", command = self.newWindow)
-        
-if __name__ == "__main__":
-    root = tk.Tk()
-    Example(root).pack(side="top", fill="both", expand=True)
-    root.mainloop()
+import win32con,win32api,win32gui
+import pygetwindow as gw
+import time
+import keyboard
+while True:
+    titles = gw.getAllTitles()
+    for title in titles:
+        if "nl" in title:
+            print(title)
+            hwnd = win32gui.FindWindow(None,title)
+            print(win32gui.GetWindowRect(hwnd))
+            print(win32gui.GetCursorPos())
+            x_adjusted = 727
+            y_adjusted = 579
+            lParam = win32api.MAKELONG(x_adjusted, y_adjusted)
+            win32gui.SendMessage(hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+            c=win32gui.SendMessage(hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+            print(c)
+            a = "2141"
+            keyboard.write(a)
+    time.sleep(2)
