@@ -1,13 +1,18 @@
 import tkinter
 import threading
+from tkinter.constants import LEFT
 import win32gui,win32api,win32con
 import time
 import pyperclip
 class PkrWindow:
     def __init__(self):
         self.window_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-        if "NL Hold" in self.window_name: self.table_name = self.window_name
-        self.big_blind = float(self.table_name.split("-")[3].split("/")[1])
+     
+        self.table_name ="Anonymt bord 2749 - 56773411 - NL Hold'em - kr5.00/10.00"
+        try:
+            self.big_blind = float(self.table_name.split("-")[3].split("/")[1])
+        except:
+            self.big_blind = 10.0
         self.custom_size = 0
         self.bb3vsSB = 9.5 #keybind shift+1 
         self.threeSB = 9.75 #keybind shift+2
@@ -18,6 +23,11 @@ class PkrWindow:
         
         self.button_list = []
         self.root = tkinter.Tk()
+        self.root.geometry("203x45")
+        self.top = tkinter.Frame(self.root)
+        self.top.pack()
+        self.label = tkinter.Label(text="BB:"+str(self.big_blind)+"kr")
+        self.label.pack()
         self.create_betbutton()
         self.thread = threading.Thread(target=self.get_last_active_poker_table,daemon=True)
         self.thread.start()
@@ -27,7 +37,7 @@ class PkrWindow:
     def create_betbutton(self):
         for size in self.bet_list:
             button = tkinter.Button(self.root,text=str(size),command= lambda in_size = size: self.write_Size(in_size))
-            button.pack()
+            button.pack(in_=self.top,side=LEFT)
             self.button_list.append(button)
 
     def adjust_click_pos(self):
@@ -50,12 +60,13 @@ class PkrWindow:
         while True:
             if "NL Hold" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-            print(self.table_name,win32gui.GetWindowText(win32gui.GetForegroundWindow()))
-            time.sleep(1)
+                self.big_blind = float(self.table_name.split("-")[3].split("/")[1])
+                self.label.configure(text="BB:"+str(self.big_blind)+"kr")
+            time.sleep(0.5)
     def write_Size(self,in_size):
 
         print(self.window_name,self.table_name)
-        self.big_blind = float(self.table_name.split("-")[3].split("/")[1])
+        
         real_size = self.big_blind*in_size
         real_size = str(real_size)
         real_size = real_size.split(".")
@@ -66,7 +77,5 @@ class PkrWindow:
         pyperclip.copy(real_size)
 
 if __name__ == "__main__":
-    while True:
-        unfiltered = win32gui.GetWindowText (win32gui.GetForegroundWindow())
-        if "NL Hold" in unfiltered:
-            pkr = PkrWindow()
+    
+    pkr = PkrWindow()
