@@ -5,7 +5,7 @@ import keyboard
 while True:
     titles = gw.getAllTitles()
     for title in titles:
-        if "nl" in title:
+        if "NL" in title:
             print(title)
             hwnd = win32gui.FindWindow(None,title)
             print(win32gui.GetWindowRect(hwnd))

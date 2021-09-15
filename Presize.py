@@ -4,10 +4,11 @@ from tkinter.constants import LEFT
 import win32gui,win32api,win32con
 import time
 import pyperclip
+import pyautogui
 class PkrWindow:
     def __init__(self):
         self.window_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-     
+        self.hwnd = win32gui.FindWindow(None,self.window_name)
         self.table_name ="Anonymt bord 2749 - 56773411 - NL Hold'em - kr5.00/10.00"
         try:
             self.big_blind = float(self.table_name.split("-")[3].split("/")[1])
@@ -41,6 +42,7 @@ class PkrWindow:
             self.button_list.append(button)
 
     def adjust_click_pos(self):
+        self.table_geo =win32gui.GetWindowRect(self.hwnd)
         betbox_x =  1227
         betbox_y = 910
         default_w = 1364
@@ -60,8 +62,10 @@ class PkrWindow:
         while True:
             if "NL Hold" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-                self.big_blind = float(self.table_name.split("-")[3].split("/")[1])
+                self.big_blind = float(self.table_name.split("-")[3].split("/")[1])#problem 9manna bord
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
+                self.hwnd = win32gui.FindWindow(None,self.table_name)
+                #self.adjust_click_pos()
             time.sleep(0.5)
     def write_Size(self,in_size):
 
@@ -74,6 +78,16 @@ class PkrWindow:
             real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
         except:
             real_size =  real_size[0]+"."+real_size[1]
+        """
+        lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+        time.sleep(0.1)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+        time.sleep(2)
+        pyautogui.typewrite(real_size)
+        """
         pyperclip.copy(real_size)
 
 if __name__ == "__main__":
