@@ -20,7 +20,7 @@ class PkrWindow:
         self.threesbLarge = 10.25 #keybind shift+3
         self.threebetBB = 11.25#keybind shift+4
         self.fourBetOP = 23.25
-        self.bet_list = [self.bb3vsSB,self.threeSB,self.threesbLarge,self.threebetBB,self.fourBetOP]
+        self.bet_list = [5.5,self.bb3vsSB,self.threeSB,self.threesbLarge,self.threebetBB,self.fourBetOP]
         
         self.button_list = []
         self.root = tkinter.Tk()
@@ -60,12 +60,19 @@ class PkrWindow:
 
     def get_last_active_poker_table(self):
         while True:
-            if "NL Hold" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
+            if "NL Hold" in win32gui.GetWindowText(win32gui.GetForegroundWindow()) :
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
                 self.big_blind = float(self.table_name.split("-")[3].split("/")[1])#problem 9manna bord
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
                 #self.adjust_click_pos()
+            elif  "table" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
+                self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
+
+                self.big_blind = float(self.table_name.split("-")[4].split(" ")[1].split("/")[1])#problem 9manna bord
+                self.label.configure(text="BB:"+str(self.big_blind)+"kr")
+                self.hwnd = win32gui.FindWindow(None,self.table_name)
+
             time.sleep(0.5)
     def write_Size(self,in_size):
 
@@ -74,10 +81,15 @@ class PkrWindow:
         real_size = self.big_blind*in_size
         real_size = str(real_size)
         real_size = real_size.split(".")
-        try:
-            real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
-        except:
-            real_size =  real_size[0]+"."+real_size[1]
+        if real_size[1] == "0":
+            real_size = real_size[0]
+        else:
+            try:
+
+                real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
+
+            except:
+                real_size =  real_size[0]+"."+real_size[1]
         """
         lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
