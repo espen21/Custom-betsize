@@ -5,8 +5,9 @@ import win32gui,win32api,win32con
 import time
 import pygetwindow as gw
 import pyautogui
+import os
 class PkrWindow:
-    def __init__(self,table_name):
+    def __init__(self,table_name,size_list):
         self.table_name = table_name
         self.hwnd = win32gui.FindWindow(None,self.table_name)
         self.table_geo =win32gui.GetWindowRect(self.hwnd)
@@ -22,7 +23,7 @@ class PkrWindow:
         self.threesbLarge = 10.25 #keybind shift+3
         self.threebetBB = 11.25#keybind shift+4
         self.fourBetOP = 23.25
-        self.bet_list = [self.t3bip,self.bb3vsSB,self.threeSB,self.threesbLarge,self.threebetBB,self.fourBetOP]
+        self.bet_list = size_list
         self.start = True
         self.button_list = []
     def start_size(self):
@@ -153,20 +154,50 @@ class PkrWindow:
 
 class SizeHandler:
     def __init__(self):
+        self.bet_sizes = []
+        self.path_saved_sizes = "saved_sizes.txt"
         self.root = tkinter.Tk()
+
+        self.ca = tkinter.Canvas(self.root, width = 400, height = 300)
+        self.ca.pack()
+        
+        self.entry1 = tkinter.Entry(self.root) 
+        self.read_config()
+
+        self.ca.create_window(200, 140, window=self.entry1)
         self.create_button()
-      
+        
         self.size_objs = []
         self.root.mainloop()
-        
+
+    def read_config(self):
+        try:
+            with open(self.path_saved_sizes,'r') as f:
+                txt = f.read()
+                self.entry1.insert(0,txt)
+                print(txt)
+        except Exception as e:
+            self.entry1.insert(0,"")
+    def write_saved_sizes(self):
+        with open(self.path_saved_sizes,'w', encoding="utf-8") as f:
+            f.write(self.entry1.get())
+    def set_sizes(self):
+        self.write_saved_sizes()
+        unfiltred_sizes = self.entry1.get().split(",")
+        for s in unfiltred_sizes:
+            self.bet_sizes.append(float(s))
+
     def create_button(self):
-      
-        start_button = tkinter.Button(self.root,text="Start",command=self.start_button)
-        start_button.pack()
-        exit_button = tkinter.Button(self.root,text="Quit",command=self.close)
-        exit_button.pack()
-    
+        
+        start_button = tkinter.Button(text="Start",command=self.start_button)
+        exit_button = tkinter.Button(text="Quit",command=self.close)
+        button1 = tkinter.Button(text='Set sizes', command=self.set_sizes)
+        self.ca.create_window(150, 180, window=button1)
+        self.ca.create_window(200,180,window=start_button)
+        self.ca.create_window(240,180,window=exit_button)
+
     def start_button(self):
+        self.set_sizes()
         self.thread = threading.Thread(target=self.find_tables,daemon=True)
         self.thread.start()
     def table_name_exist(self,table_name):
@@ -184,7 +215,7 @@ class SizeHandler:
             titles = gw.getAllTitles()
             for t in titles:
                 if ("NL Hold'em" in t or "-table" in t) and self.table_name_exist(t)==False : 
-                    pkr=PkrWindow(table_name=t)
+                    pkr=PkrWindow(table_name=t,size_list=self.bet_sizes)
                     self.pkr_thread = threading.Thread(target=pkr.start_size,daemon=True)
                     self.pkr_thread.start()
                     self.size_objs.append([t,pkr])
