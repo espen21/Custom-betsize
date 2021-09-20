@@ -60,10 +60,14 @@ class PkrWindow:
             time.sleep(0.2)
     def write_custom(self):
         in_size=self.entry1.get()
-        if in_size == "":
-            in_size = 5.5
-        in_size=float(in_size)
-        self.write_Size(in_size)
+       
+        try:
+            in_size=float(in_size)
+            self.write_Size(in_size)
+
+        except:
+            tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) , u need to input for example (use dot not comma)  5.5 to raise to 5.5bb")
+
     def create_betbutton(self):
         self.entry1 = tkinter.Entry(self.root,bg="black",fg="white",width=4)
         self.entry1.pack(in_=self.top,side=LEFT)
@@ -221,23 +225,35 @@ class SizeHandler:
             pass
     def table_name_exist(self,table_name):
         for t in self.size_objs:
-            if table_name in t[0]:
+            if  t[0] in table_name :
                 return True
         return False
+    def is_table_closed(self,sizeobj,titles):
+        for t in titles:
+            if sizeobj in t:
+                return False
+        return True
     def check_table_closed(self,titles):
         for i in range (len(self.size_objs)):
-            if self.size_objs[i][0] not in titles:
-                self.size_objs.pop(i)
-            
+            try:
+                if self.is_table_closed(self.size_objs[i][0],titles):
+                    a = self.size_objs.pop(i)
+            except:
+                pass
     def find_tables(self):
         while True:
             titles = gw.getAllTitles()
             for t in titles:
                 if ("NL Hold'em" in t or "table-" in t) and self.table_name_exist(t)==False : 
+                    t_copy = t.split("-")
+                    try:
+                        t_copy = t_copy[0]+"-"+t_copy[1]+"-"+t_copy[2]
+                    except:
+                        t_copy = t
                     pkr=PkrWindow(table_name=t,size_list=self.bet_sizes)
                     self.pkr_thread = threading.Thread(target=pkr.start_size,daemon=True)
                     self.pkr_thread.start()
-                    self.size_objs.append([t,pkr])
+                    self.size_objs.append([t_copy,pkr])
                 #print("hello",len(self.size_objs)) debug
             self.check_table_closed(titles)
             time.sleep(1)
