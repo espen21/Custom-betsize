@@ -10,7 +10,6 @@ class PkrWindow:
         self.table_name = table_name
         self.hwnd = win32gui.FindWindow(None,self.table_name)
         self.table_geo =win32gui.GetWindowRect(self.hwnd)
-        
         self.first = True
         try:
             self.big_blind = self.get_big_blind()
@@ -27,6 +26,7 @@ class PkrWindow:
         self.start = True
         self.button_list = []
     def start_size(self):
+        
         self.root = tkinter.Tk()
         self.root.attributes("-topmost",True)
         self.root.overrideredirect(True)
@@ -38,15 +38,18 @@ class PkrWindow:
         self.root.mainloop()
     def set_button_pos(self):
         while True:
-            t_pos = win32gui.GetWindowRect(self.hwnd)
-           
+            try:
+                t_pos = win32gui.GetWindowRect(self.hwnd)
+
+            except Exception as e:
+                self.root.destroy()
             if self.table_geo != t_pos or self.start:
                 self.table_geo = t_pos
                 width_adjust = abs(t_pos[2])-abs(t_pos[0])
                 width_adjust = width_adjust/2
                 move_x = int(t_pos[0]+width_adjust)
                 move_x = move_x-150
-                move_y = t_pos[1]+10
+                move_y = t_pos[1]+5
                 move_x = "+"+str(move_x)
                 move_y = "+" + str(move_y)
                 move = move_x+move_y
@@ -61,8 +64,11 @@ class PkrWindow:
             self.button_list.append(button)
 
     def adjust_click_pos(self):
-        self.table_geo =win32gui.GetWindowRect(self.hwnd)
-        print(self.table_geo)
+        try:
+            self.table_geo =win32gui.GetWindowRect(self.hwnd)
+        except Exception as e:
+            #print(e)
+            self.root.destroy()
         betbox_x =  1223
         betbox_y = 862#868
         default_w = 1359    
@@ -71,7 +77,6 @@ class PkrWindow:
         t_y = abs(self.table_geo[1])
         t_w = abs(self.table_geo[2])-abs(t_x)
         t_h = abs(self.table_geo[3])-abs(t_y)
-        print(t_x,t_y,t_w,t_h,"e")
         adjuster_x = ((t_w)/default_w) 
         adjuster_y = ((t_h)/default_h)
         self.x_adjusted =  adjuster_x*(betbox_x)
@@ -83,14 +88,11 @@ class PkrWindow:
         else:
             self.x_adjusted = 435
             self.y_adjusted = 300
-        print(self.x_adjusted,self.y_adjusted,"adjusted")
     def get_last_active_poker_table(self):
         while True:
-            print(win32gui.GetCursorPos())
             
             if "NL Hold" in win32gui.GetWindowText(win32gui.GetForegroundWindow()) :
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-                print(self.table_name.split("-"))
                 for s in self.table_name.split("-"):
                     if "/" in s:
                         self.big_blind = float(s.split("/")[1])
@@ -99,7 +101,6 @@ class PkrWindow:
                 self.adjust_click_pos()
             elif  "table" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-                print(self.table_name.split("-"))
                 for s in self.table_name.split("-"):
                     if "/" in s:
                         self.big_blind = float(s.split(" ")[0].split("/")[1])
@@ -118,9 +119,8 @@ class PkrWindow:
                 if "/" in s:
                     self.big_blind = float(s.split(" ")[0].split("/")[1])
     def write_Size(self,in_size):
-
+        self.get_big_blind()
         self.adjust_click_pos()
-        
         real_size = self.big_blind*in_size
         real_size = str(real_size)
         real_size = real_size.split(".")
@@ -172,9 +172,13 @@ class SizeHandler:
     def table_name_exist(self,table_name):
         for t in self.size_objs:
             if table_name in t[0]:
-                print(table_name)
                 return True
         return False
+    def check_table_closed(self,titles):
+        for i in range (len(self.size_objs)):
+            if self.size_objs[i][0] not in titles:
+                self.size_objs.pop(i)
+            
     def find_tables(self):
         while True:
             titles = gw.getAllTitles()
@@ -184,7 +188,8 @@ class SizeHandler:
                     self.pkr_thread = threading.Thread(target=pkr.start_size,daemon=True)
                     self.pkr_thread.start()
                     self.size_objs.append([t,pkr])
-                    print("hello",len(self.size_objs))
+                #print("hello",len(self.size_objs)) debug
+            self.check_table_closed(titles)
             time.sleep(1)
     def close(self):
         self.root.destroy()
