@@ -43,36 +43,41 @@ class PkrWindow:
 
     def adjust_click_pos(self):
         self.table_geo =win32gui.GetWindowRect(self.hwnd)
-        betbox_x =  1227
-        betbox_y = 910
-        default_w = 1364
-        default_h = 1050
+        print(self.table_geo)
+        betbox_x =  1220
+        betbox_y = 889
+        default_w = 1366    
+        default_h = 1057
         t_x = self.table_geo[0]
         t_y = self.table_geo[1]
-        t_w = self.table_geo[2]-t_x
-        t_h = self.table_geo[3]-t_y
+        t_w = abs(self.table_geo[2])-abs(t_x)
+        t_h = abs(self.table_geo[3])-abs(t_y)
         adjuster_x = ((t_w)/default_w) 
         adjuster_y = ((t_h)/default_h) 
         self.x_adjusted =  adjuster_x*(betbox_x)
         self.y_adjusted = adjuster_y*(betbox_y )
         self.x_adjusted = int(self.x_adjusted)
         self.y_adjusted = int(self.y_adjusted)
-
+        print(self.x_adjusted,self.y_adjusted,"adjusted")
     def get_last_active_poker_table(self):
         while True:
+            print(win32gui.GetCursorPos())
+
             if "NL Hold" in win32gui.GetWindowText(win32gui.GetForegroundWindow()) :
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
+                print(self.table_name.split("-"))
+
                 self.big_blind = float(self.table_name.split("-")[3].split("/")[1])#problem 9manna bord
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
                 #self.adjust_click_pos()
             elif  "table" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-
+                print(self.table_name.split("-"))
                 self.big_blind = float(self.table_name.split("-")[4].split(" ")[1].split("/")[1])#problem 9manna bord
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
-
+            self.adjust_click_pos()
             time.sleep(0.5)
     def write_Size(self,in_size):
 
@@ -90,17 +95,23 @@ class PkrWindow:
 
             except:
                 real_size =  real_size[0]+"."+real_size[1]
-        """
+        
         lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
         time.sleep(0.1)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        time.sleep(2)
+        time.sleep(0.1)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+
+        win32gui.SetForegroundWindow(self.hwnd)
+        time.sleep(0.1)
+
         pyautogui.typewrite(real_size)
-        """
-        pyperclip.copy(real_size)
+        
+        #pyperclip.copy(real_size)
 
 if __name__ == "__main__":
     
