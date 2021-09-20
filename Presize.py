@@ -128,6 +128,7 @@ class PkrWindow:
         elif "table-" in self.table_name:
             for s in self.table_name.split("-"):
                 if "/" in s:
+                    a = s+ " ante 10"
                     self.big_blind = float(s.split(" ")[1].split("/")[1])
     
     def write_Size(self,in_size):
