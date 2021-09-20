@@ -5,7 +5,8 @@ import win32gui,win32api,win32con
 import time
 import pygetwindow as gw
 import pyautogui
-import os
+
+from tkinter import Tk, messagebox as mb
 class PkrWindow:
     def __init__(self,table_name,size_list):
         self.table_name = table_name
@@ -57,8 +58,16 @@ class PkrWindow:
                 self.root.geometry(move)
                 self.start = False
             time.sleep(0.2)
-
+    def write_custom(self):
+        in_size=self.entry1.get()
+        if in_size == "":
+            in_size = 5.5
+        self.write_Size(in_size)
     def create_betbutton(self):
+        self.entry1 = tkinter.Entry(self.root,bg="black",fg="white",width=4)
+        self.entry1.pack(in_=self.top,side=LEFT)
+        self.be = tkinter.Button(self.root,text="CU",bg="black",fg="white",command= self.write_custom)
+        self.be.pack(in_=self.top,side=LEFT)
         for size in self.bet_list:
             button = tkinter.Button(self.root,text=str(size),bg="black",fg="white",command= lambda in_size = size: self.write_Size(in_size))
             button.pack(in_=self.top,side=LEFT)
@@ -119,39 +128,41 @@ class PkrWindow:
             for s in self.table_name.split("-"):
                 if "/" in s:
                     self.big_blind = float(s.split(" ")[0].split("/")[1])
+    
     def write_Size(self,in_size):
-        self.get_big_blind()
-        self.adjust_click_pos()
-        real_size = self.big_blind*in_size
-        real_size = str(real_size)
-        real_size = real_size.split(".")
-        if real_size[1] == "0":
-            real_size = real_size[0]
-        else:
-            try:
+        try:
+            self.get_big_blind()
+            self.adjust_click_pos()
+            real_size = self.big_blind*in_size
+            real_size = str(real_size)
+            real_size = real_size.split(".")
+            if real_size[1] == "0":
+                real_size = real_size[0]
+            else:
+                try:
 
-                real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
+                    real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
 
-            except:
-                real_size =  real_size[0]+"."+real_size[1]
-        
-        lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        time.sleep(0.1)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        time.sleep(0.1)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+                except:
+                    real_size =  real_size[0]+"."+real_size[1]
+            
+            lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+            time.sleep(0.1)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+            time.sleep(0.1)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
 
-        win32gui.SetForegroundWindow(self.hwnd)
-        time.sleep(0.1)
+            win32gui.SetForegroundWindow(self.hwnd)
+            time.sleep(0.1)
 
-        pyautogui.typewrite(real_size)
-        
-        #pyperclip.copy(real_size)
-
+            pyautogui.typewrite(real_size)
+        except:
+            tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) , u need to input  5.5 to raise to 5.5bb")
+           
 class SizeHandler:
     def __init__(self):
         self.bet_sizes = []
@@ -161,7 +172,7 @@ class SizeHandler:
         self.ca = tkinter.Canvas(self.root, width = 400, height = 300)
         self.ca.pack()
         
-        self.entry1 = tkinter.Entry(self.root) 
+        self.entry1 = tkinter.Entry(self.root,width=50) 
         self.read_config()
 
         self.ca.create_window(200, 140, window=self.entry1)
@@ -184,22 +195,29 @@ class SizeHandler:
     def set_sizes(self):
         self.write_saved_sizes()
         unfiltred_sizes = self.entry1.get().split(",")
-        for s in unfiltred_sizes:
-            self.bet_sizes.append(float(s))
-
+        if len(unfiltred_sizes) != 0:
+        
+            for s in unfiltred_sizes:
+                self.bet_sizes.append(float(s))
+          
     def create_button(self):
         
         start_button = tkinter.Button(text="Start",command=self.start_button)
         exit_button = tkinter.Button(text="Quit",command=self.close)
-        button1 = tkinter.Button(text='Set sizes', command=self.set_sizes)
-        self.ca.create_window(150, 180, window=button1)
+        #button1 = tkinter.Button(text='Set sizes', command=self.set_sizes)
+        #self.ca.create_window(150, 180, window=button1)
         self.ca.create_window(200,180,window=start_button)
         self.ca.create_window(240,180,window=exit_button)
 
     def start_button(self):
-        self.set_sizes()
-        self.thread = threading.Thread(target=self.find_tables,daemon=True)
-        self.thread.start()
+        try:
+            self.set_sizes()
+            self.thread = threading.Thread(target=self.find_tables,daemon=True)
+            self.thread.start()
+        except:
+            tkinter.messagebox.showinfo("Error set sizes","U can leave this empty. To set sizes input for example 5.5,7.5 and 5.5bb and 7.5bb will be set as sizes ")
+
+            pass
     def table_name_exist(self,table_name):
         for t in self.size_objs:
             if table_name in t[0]:
