@@ -27,6 +27,7 @@ class PkrWindow:
         self.bet_list = size_list
         self.start = True
         self.button_list = []
+        self.top_most = True
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -154,15 +155,15 @@ class PkrWindow:
             lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-            time.sleep(0.1)
+            time.sleep(0.05)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-            time.sleep(0.1)
+            time.sleep(0.05)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
 
             win32gui.SetForegroundWindow(self.hwnd)
-            time.sleep(0.1)
+            time.sleep(0.05)
 
             pyautogui.typewrite(real_size)
         except Exception as e:
@@ -186,7 +187,18 @@ class SizeHandler:
         
         self.size_objs = []
         self.root.mainloop()
-
+    def is_foreground_table_poker(self):
+        fg_table = win32gui.GetWindowText(win32gui.GetForegroundWindow())
+        if "table-" in fg_table or "NL Hold'em" in fg_table or "Omaha" in fg_table:
+            for o in self.size_objs:
+                if o[1].top_most ==False:
+                    o[1].root.attributes("-topmost",True)
+                    o[1].top_most = True
+        else:
+            for o in self.size_objs:
+                if o[1].top_most == True:
+                    o[1].root.attributes("-topmost",False)
+                    o[1].top_most = False
     def read_config(self):
         try:
             with open(self.path_saved_sizes,'r') as f:
@@ -256,6 +268,7 @@ class SizeHandler:
                     self.size_objs.append([t_copy,pkr])
                 #print("hello",len(self.size_objs)) debug
             self.check_table_closed(titles)
+            self.is_foreground_table_poker()
             time.sleep(1)
     def close(self):
         self.root.destroy()
