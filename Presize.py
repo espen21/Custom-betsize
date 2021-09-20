@@ -62,6 +62,7 @@ class PkrWindow:
         in_size=self.entry1.get()
         if in_size == "":
             in_size = 5.5
+        in_size=float(in_size)
         self.write_Size(in_size)
     def create_betbutton(self):
         self.entry1 = tkinter.Entry(self.root,bg="black",fg="white",width=4)
@@ -124,10 +125,10 @@ class PkrWindow:
             for s in self.table_name.split("-"):
                 if "/" in s:
                     self.big_blind = float(s.split("/")[1])
-        elif "-table" in self.table_name:
+        elif "table-" in self.table_name:
             for s in self.table_name.split("-"):
                 if "/" in s:
-                    self.big_blind = float(s.split(" ")[0].split("/")[1])
+                    self.big_blind = float(s.split(" ")[1].split("/")[1])
     
     def write_Size(self,in_size):
         try:
@@ -160,7 +161,8 @@ class PkrWindow:
             time.sleep(0.1)
 
             pyautogui.typewrite(real_size)
-        except:
+        except Exception as e:
+            print(e)
             tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) , u need to input  5.5 to raise to 5.5bb")
            
 class SizeHandler:
@@ -186,7 +188,6 @@ class SizeHandler:
             with open(self.path_saved_sizes,'r') as f:
                 txt = f.read()
                 self.entry1.insert(0,txt)
-                print(txt)
         except Exception as e:
             self.entry1.insert(0,"")
     def write_saved_sizes(self):
@@ -195,7 +196,7 @@ class SizeHandler:
     def set_sizes(self):
         self.write_saved_sizes()
         unfiltred_sizes = self.entry1.get().split(",")
-        if len(unfiltred_sizes) != 0:
+        if unfiltred_sizes[0]!="" :
         
             for s in unfiltred_sizes:
                 self.bet_sizes.append(float(s))
@@ -232,7 +233,7 @@ class SizeHandler:
         while True:
             titles = gw.getAllTitles()
             for t in titles:
-                if ("NL Hold'em" in t or "-table" in t) and self.table_name_exist(t)==False : 
+                if ("NL Hold'em" in t or "table-" in t) and self.table_name_exist(t)==False : 
                     pkr=PkrWindow(table_name=t,size_list=self.bet_sizes)
                     self.pkr_thread = threading.Thread(target=pkr.start_size,daemon=True)
                     self.pkr_thread.start()
