@@ -219,22 +219,24 @@ class SizeHandler:
           
     def create_button(self):
         
-        start_button = tkinter.Button(text="Start",command=self.start_button)
-        exit_button = tkinter.Button(text="Quit",command=self.close)
+        self.start_button2 = tkinter.Button(text="Start",command=self.start_button)
+        self.exit_button = tkinter.Button(text="Quit",command=self.close)
         #button1 = tkinter.Button(text='Set sizes', command=self.set_sizes)
         #self.ca.create_window(150, 180, window=button1)
-        self.ca.create_window(200,180,window=start_button)
-        self.ca.create_window(240,180,window=exit_button)
+        self.ca.create_window(200,180,window=self.start_button2)
+        self.ca.create_window(240,180,window=self.exit_button)
 
     def start_button(self):
         try:
+            self.start_button2.destroy()
             self.set_sizes()
             self.thread = threading.Thread(target=self.find_tables,daemon=True)
             self.thread.start()
-        except:
+            
+        except Exception as e:
             tkinter.messagebox.showinfo("Error set sizes","U can leave this empty. To set sizes input for example 5.5,7.5 and 5.5bb and 7.5bb will be set as sizes ")
-
-            pass
+            print(e)
+            
     def table_name_exist(self,table_name):
         for t in self.size_objs:
             if  t[0] in table_name :
