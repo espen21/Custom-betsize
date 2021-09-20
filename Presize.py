@@ -44,9 +44,9 @@ class PkrWindow:
     def adjust_click_pos(self):
         self.table_geo =win32gui.GetWindowRect(self.hwnd)
         print(self.table_geo)
-        betbox_x =  1220
-        betbox_y = 889
-        default_w = 1366    
+        betbox_x =  1223
+        betbox_y = 862#868
+        default_w = 1359    
         default_h = 1057
         t_x = abs(self.table_geo[0])
         t_y = abs(self.table_geo[1])
@@ -54,11 +54,16 @@ class PkrWindow:
         t_h = abs(self.table_geo[3])-abs(t_y)
         print(t_x,t_y,t_w,t_h,"e")
         adjuster_x = ((t_w)/default_w) 
-        adjuster_y = ((t_h)/default_h) 
+        adjuster_y = ((t_h)/default_h)
         self.x_adjusted =  adjuster_x*(betbox_x)
         self.y_adjusted = adjuster_y*(betbox_y )
         self.x_adjusted = int(self.x_adjusted)
-        self.y_adjusted = int(self.y_adjusted)
+        if t_w>470:
+        
+            self.y_adjusted = int(self.y_adjusted)
+        else:
+            self.x_adjusted = 435
+            self.y_adjusted = 300
         print(self.x_adjusted,self.y_adjusted,"adjusted")
     def get_last_active_poker_table(self):
         while True:
