@@ -48,10 +48,11 @@ class PkrWindow:
         betbox_y = 889
         default_w = 1366    
         default_h = 1057
-        t_x = self.table_geo[0]
-        t_y = self.table_geo[1]
+        t_x = abs(self.table_geo[0])
+        t_y = abs(self.table_geo[1])
         t_w = abs(self.table_geo[2])-abs(t_x)
         t_h = abs(self.table_geo[3])-abs(t_y)
+        print(t_x,t_y,t_w,t_h,"e")
         adjuster_x = ((t_w)/default_w) 
         adjuster_y = ((t_h)/default_h) 
         self.x_adjusted =  adjuster_x*(betbox_x)
@@ -66,18 +67,21 @@ class PkrWindow:
             if "NL Hold" in win32gui.GetWindowText(win32gui.GetForegroundWindow()) :
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
                 print(self.table_name.split("-"))
-
-                self.big_blind = float(self.table_name.split("-")[3].split("/")[1])#problem 9manna bord
+                for s in self.table_name.split("-"):
+                    if "/" in s:
+                        self.big_blind = float(s.split("/")[1])
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
-                #self.adjust_click_pos()
+                self.adjust_click_pos()
             elif  "table" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
                 print(self.table_name.split("-"))
-                self.big_blind = float(self.table_name.split("-")[4].split(" ")[1].split("/")[1])#problem 9manna bord
+                for s in self.table_name.split("-"):
+                    if "/" in s:
+                        self.big_blind = float(s.split(" ")[0].split("/")[1])
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
-            self.adjust_click_pos()
+                self.adjust_click_pos()
             time.sleep(0.5)
     def write_Size(self,in_size):
 
