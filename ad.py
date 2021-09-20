@@ -9,7 +9,7 @@ while True:
             print(title)
             hwnd = win32gui.FindWindow(None,title)
             print(win32gui.GetWindowRect(hwnd))
-            print(win32gui.GetCursorPos())
+            
             x_adjusted = 727
             y_adjusted = 579
             lParam = win32api.MAKELONG(x_adjusted, y_adjusted)

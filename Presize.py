@@ -1,43 +1,62 @@
 import tkinter
 import threading
-from tkinter.constants import LEFT
+from tkinter.constants import LEFT, TRUE
 import win32gui,win32api,win32con
 import time
-import pyperclip
+import pygetwindow as gw
 import pyautogui
 class PkrWindow:
-    def __init__(self):
-        self.window_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-        self.hwnd = win32gui.FindWindow(None,self.window_name)
-        self.table_name ="Anonymt bord 2749 - 56773411 - NL Hold'em - kr5.00/10.00"
+    def __init__(self,table_name):
+        self.table_name = table_name
+        self.hwnd = win32gui.FindWindow(None,self.table_name)
+        self.table_geo =win32gui.GetWindowRect(self.hwnd)
+        
+        self.first = True
         try:
-            self.big_blind = float(self.table_name.split("-")[3].split("/")[1])
+            self.big_blind = self.get_big_blind()
         except:
             self.big_blind = 10.0
         self.custom_size = 0
+        self.t3bip=7.5 
         self.bb3vsSB = 9.5 #keybind shift+1 
         self.threeSB = 9.75 #keybind shift+2
         self.threesbLarge = 10.25 #keybind shift+3
         self.threebetBB = 11.25#keybind shift+4
         self.fourBetOP = 23.25
-        self.bet_list = [5.5,self.bb3vsSB,self.threeSB,self.threesbLarge,self.threebetBB,self.fourBetOP]
-        
+        self.bet_list = [self.t3bip,self.bb3vsSB,self.threeSB,self.threesbLarge,self.threebetBB,self.fourBetOP]
+        self.start = True
         self.button_list = []
+    def start_size(self):
         self.root = tkinter.Tk()
-        self.root.geometry("203x45")
+        self.root.attributes("-topmost",True)
+        self.root.overrideredirect(True)
         self.top = tkinter.Frame(self.root)
         self.top.pack()
-        self.label = tkinter.Label(text="BB:"+str(self.big_blind)+"kr")
-        self.label.pack()
         self.create_betbutton()
-        self.thread = threading.Thread(target=self.get_last_active_poker_table,daemon=True)
+        self.thread = threading.Thread(target=self.set_button_pos,daemon=True)
         self.thread.start()
-
         self.root.mainloop()
-        
+    def set_button_pos(self):
+        while True:
+            t_pos = win32gui.GetWindowRect(self.hwnd)
+           
+            if self.table_geo != t_pos or self.start:
+                self.table_geo = t_pos
+                width_adjust = abs(t_pos[2])-abs(t_pos[0])
+                width_adjust = width_adjust/2
+                move_x = int(t_pos[0]+width_adjust)
+                move_x = move_x-150
+                move_y = t_pos[1]+10
+                move_x = "+"+str(move_x)
+                move_y = "+" + str(move_y)
+                move = move_x+move_y
+                self.root.geometry(move)
+                self.start = False
+            time.sleep(0.2)
+
     def create_betbutton(self):
         for size in self.bet_list:
-            button = tkinter.Button(self.root,text=str(size),command= lambda in_size = size: self.write_Size(in_size))
+            button = tkinter.Button(self.root,text=str(size),bg="black",fg="white",command= lambda in_size = size: self.write_Size(in_size))
             button.pack(in_=self.top,side=LEFT)
             self.button_list.append(button)
 
@@ -68,7 +87,7 @@ class PkrWindow:
     def get_last_active_poker_table(self):
         while True:
             print(win32gui.GetCursorPos())
-
+            
             if "NL Hold" in win32gui.GetWindowText(win32gui.GetForegroundWindow()) :
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
                 print(self.table_name.split("-"))
@@ -86,11 +105,21 @@ class PkrWindow:
                         self.big_blind = float(s.split(" ")[0].split("/")[1])
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
-                self.adjust_click_pos()
+          
             time.sleep(0.5)
+    
+    def get_big_blind(self):
+        if "NL Hold'em" in self.table_name:
+            for s in self.table_name.split("-"):
+                if "/" in s:
+                    self.big_blind = float(s.split("/")[1])
+        elif "-table" in self.table_name:
+            for s in self.table_name.split("-"):
+                if "/" in s:
+                    self.big_blind = float(s.split(" ")[0].split("/")[1])
     def write_Size(self,in_size):
 
-        print(self.window_name,self.table_name)
+        self.adjust_click_pos()
         
         real_size = self.big_blind*in_size
         real_size = str(real_size)
@@ -122,6 +151,44 @@ class PkrWindow:
         
         #pyperclip.copy(real_size)
 
-if __name__ == "__main__":
+class SizeHandler:
+    def __init__(self):
+        self.root = tkinter.Tk()
+        self.create_button()
+      
+        self.size_objs = []
+        self.root.mainloop()
+        
+    def create_button(self):
+      
+        start_button = tkinter.Button(self.root,text="Start",command=self.start_button)
+        start_button.pack()
+        exit_button = tkinter.Button(self.root,text="Quit",command=self.close)
+        exit_button.pack()
     
-    pkr = PkrWindow()
+    def start_button(self):
+        self.thread = threading.Thread(target=self.find_tables,daemon=True)
+        self.thread.start()
+    def table_name_exist(self,table_name):
+        for t in self.size_objs:
+            if table_name in t[0]:
+                print(table_name)
+                return True
+        return False
+    def find_tables(self):
+        while True:
+            titles = gw.getAllTitles()
+            for t in titles:
+                if ("NL Hold'em" in t or "-table" in t) and self.table_name_exist(t)==False : 
+                    pkr=PkrWindow(table_name=t)
+                    self.pkr_thread = threading.Thread(target=pkr.start_size,daemon=True)
+                    self.pkr_thread.start()
+                    self.size_objs.append([t,pkr])
+                    print("hello",len(self.size_objs))
+            time.sleep(1)
+    def close(self):
+        self.root.destroy()
+        quit()
+if __name__ == "__main__":
+    SizeHandler()
+    #pkr = PkrWindow()
