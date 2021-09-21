@@ -5,11 +5,13 @@ import win32gui,win32api,win32con
 import time
 import pygetwindow as gw
 import pyautogui
-
+import random
 from tkinter import Tk, messagebox as mb
+from datetime import datetime 
 class PkrWindow:
-    def __init__(self,table_name,size_list):
+    def __init__(self,table_name,size_list,rng_yes):
         self.table_name = table_name
+        self.rng_yes = rng_yes
         self.hwnd = win32gui.FindWindow(None,self.table_name)
         self.table_geo =win32gui.GetWindowRect(self.hwnd)
         self.first = True
@@ -78,7 +80,15 @@ class PkrWindow:
             button = tkinter.Button(self.root,text=str(size),bg="black",fg="white",command= lambda in_size = size: self.write_Size(in_size))
             button.pack(in_=self.top,side=LEFT)
             self.button_list.append(button)
-
+        if self.rng_yes == True:
+            self.rng()
+            self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng)
+            self.rng_button.pack(in_=self.top,side=LEFT)
+            self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=4)
+            self.label.pack(in_=self.top,side=LEFT)
+    def rng(self):
+        random.seed(datetime.now())
+        self.rng_num= str( random.randint(0,100))
     def adjust_click_pos(self):
         try:
             self.table_geo =win32gui.GetWindowRect(self.hwnd)
@@ -181,7 +191,7 @@ class SizeHandler:
         
         self.entry1 = tkinter.Entry(self.root,width=50) 
         self.read_config()
-
+        self.rng_yes = tkinter.BooleanVar()
         self.ca.create_window(200, 140, window=self.entry1)
         self.create_button()
         
@@ -223,10 +233,13 @@ class SizeHandler:
         self.exit_button = tkinter.Button(text="Quit",command=self.close)
         #button1 = tkinter.Button(text='Set sizes', command=self.set_sizes)
         #self.ca.create_window(150, 180, window=button1)
+        self.rng_check = tkinter.Checkbutton( text='RNG',variable=self.rng_yes, onvalue=True, offvalue=False)
+        self.ca.create_window(150,180,window=self.rng_check)
         self.ca.create_window(200,180,window=self.start_button2)
         self.ca.create_window(240,180,window=self.exit_button)
 
     def start_button(self):
+        self.rng_yes = self.rng_yes.get()
         try:
             self.start_button2.destroy()
             self.set_sizes()
@@ -264,13 +277,16 @@ class SizeHandler:
                         t_copy = t_copy[0]+"-"+t_copy[1]+"-"+t_copy[2]
                     except:
                         t_copy = t
-                    pkr=PkrWindow(table_name=t,size_list=self.bet_sizes)
+                    pkr=PkrWindow(table_name=t,size_list=self.bet_sizes,rng_yes= self.rng_yes)
                     self.pkr_thread = threading.Thread(target=pkr.start_size,daemon=True)
                     self.pkr_thread.start()
                     self.size_objs.append([t_copy,pkr])
                 #print("hello",len(self.size_objs)) debug
             self.check_table_closed(titles)
-            self.is_foreground_table_poker()
+            try:
+                self.is_foreground_table_poker()
+            except:
+                pass
             time.sleep(1)
     def close(self):
         self.root.destroy()
