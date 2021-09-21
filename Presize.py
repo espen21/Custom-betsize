@@ -30,6 +30,11 @@ class PkrWindow:
         self.start = True
         self.button_list = []
         self.top_most = True
+        self.manual_move =False
+        self.manual_pressed =False
+        self.x = 0
+        self.y = 0
+        self.test = []
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -41,30 +46,70 @@ class PkrWindow:
         self.thread = threading.Thread(target=self.set_button_pos,daemon=True)
         self.thread.start()
         self.root.mainloop()
+    def move_help(self):
+        self.manual_move = True
+        while self.manual_move:
+            self.x,self.y = win32api.GetCursorPos()
+            print(self.x,self.y,"mök")
+            self.manual_move = True
+            px = ""
+            py = ""
+            if self.x >-1 : px = "+"
+            if self.y >-1 : py ="+"
+            x = px+str(self.x)
+            y = py+str(self.y)
+            move = x+y
+            self.root.geometry(move)
+            if self.manual_move == False:
+                print("öl")
+                return
+        self.manual_move = False
+        self.th.join()
+    def manual_move_start(self,event):
+        self.manual_pressed = True
+        self.th = threading.Thread(target=self.move_help,daemon=True)
+        self.test.append(self.th)
+        self.th.start()
+        
+        
+    
+    def manual_move_stop(self,event):
+        self.manual_move =False
     def set_button_pos(self):
         while True:
             try:
                 t_pos = win32gui.GetWindowRect(self.hwnd)
+                
             except Exception as e:
                 self.root.destroy()
-            if self.table_geo != t_pos or self.start:
+            print(t_pos,"pos")
+            if (self.table_geo != t_pos or self.start) or self.manual_move == True:
                 self.table_geo = t_pos
                 if t_pos[0] >= 0: width_adjust = abs(t_pos[2])-abs(t_pos[0])
                 else: width_adjust = (abs(t_pos[2])+(t_pos[0]))
                 width_adjust = width_adjust/2
-                move_x = t_pos[0]+8
-                if move_x >= 0:  move_x = int(t_pos[0]+width_adjust)
-                else: move_x = int(t_pos[0]-width_adjust)
-                if move_x >= 0: move_x = move_x-150
-                else: move_x = move_x -1850
-                move_y = t_pos[1]
-                if move_y >= 0: move_y = t_pos[1]+5
-                else: move_y = t_pos[1]-5
-                if move_x>= 0 :move_x = "+"+str(move_x)
-                else :move_x =str(move_x)
-                if move_y>0: move_y = "+" + str(move_y)
-                else: move_y =str(move_y)
-                move = move_x+move_y
+                self.move_x = t_pos[0]+8
+                self.move_y = t_pos[1]
+                adjust_help_x = 0
+                adjust_help_y = 0
+                if self.manual_pressed == True : 
+                    adjust_help_x = self.move_x-self.x
+                    adjust_help_y = self.move_y-self.y
+                    print(self.move_x,self.x)
+                    print(adjust_help_y)
+                if self.move_x >= 0:  self.move_x = int(t_pos[0]+width_adjust+adjust_help_x)
+                else: self.move_x = int(t_pos[0]-width_adjust+adjust_help_x)
+                if self.move_x >= 0: self.move_x = self.move_x-150
+                else: self.move_x = self.move_x -1850
+                
+                if self.move_y >= 0: self.move_y = t_pos[1]+adjust_help_y
+                else: self.move_y = t_pos[1]-5+adjust_help_y
+                if self.move_x>= 0 :self.move_x = "+"+str(self.move_x)
+                else :self.move_x =str(self.move_x)
+                if self.move_y>0: self.move_y = "+" + str(self.move_y)
+                else: self.move_y =str(self.move_y)
+                move = self.move_x+self.move_y
+                print(move,"Move")
                 self.root.geometry(move)
                 self.start = False
             time.sleep(0.2)
@@ -79,6 +124,10 @@ class PkrWindow:
             tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) , u need to input for example (use dot not comma)  5.5 to raise to 5.5bb")
 
     def create_betbutton(self):
+        self.move_button = tkinter.Button(self.root,text="M",bg="RED",fg="WHITE")
+        self.move_button.pack(in_=self.top,side=LEFT)
+        self.move_button.bind('<ButtonPress-1>',self.manual_move_start)
+        self.move_button.bind('<ButtonRelease-1>',self.manual_move_stop)
         self.entry1 = tkinter.Entry(self.root,bg="black",fg="white",width=4)
         self.entry1.pack(in_=self.top,side=LEFT)
         self.be = tkinter.Button(self.root,text="CU",bg="black",fg="white",command= self.write_custom)
@@ -93,6 +142,7 @@ class PkrWindow:
             self.rng_button.pack(in_=self.top,side=LEFT)
             self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=4)
             self.label.pack(in_=self.top,side=LEFT)
+     
     def rng(self):
         random.seed(datetime.now())
         self.rng_num= str( random.randint(0,100))
