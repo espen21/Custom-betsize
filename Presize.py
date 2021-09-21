@@ -1,6 +1,6 @@
 import tkinter
 import threading
-from tkinter.constants import LEFT, TRUE
+from tkinter.constants import FALSE, LEFT, TRUE
 import win32gui,win32api,win32con
 import time
 import pygetwindow as gw
@@ -30,6 +30,10 @@ class PkrWindow:
         self.start = True
         self.button_list = []
         self.top_most = True
+        self.manual_move = False
+        self.manual_x = 0
+        self.manual_y = 0
+        self.manual_toggled = False
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -41,13 +45,36 @@ class PkrWindow:
         self.thread = threading.Thread(target=self.set_button_pos,daemon=True)
         self.thread.start()
         self.root.mainloop()
+    def set_move(self,bo):
+        self.manual_move = bo
+        self.manual_toggled = True
+    def set_reset_move(self,bo):
+        self.manual_toggled = bo
     def set_button_pos(self):
         while True:
             try:
                 t_pos = win32gui.GetWindowRect(self.hwnd)
             except Exception as e:
                 self.root.destroy()
-            if self.table_geo != t_pos or self.start:
+            if self.manual_move == True:
+                self.manual_x = self.root.winfo_x()
+                self.manual_y = self.root.winfo_y()
+                self.a_x = abs(self.manual_x)- abs(t_pos[0]) 
+                self.a_y = abs(self.manual_y)-abs(t_pos[1])
+
+                self.manual_toggled = True
+            if (self.manual_toggled  and self.manual_move== False) and (self.table_geo != t_pos or self.start):
+
+                move_x = self.a_x + t_pos[0]
+                move_y = self.a_y + t_pos[1]
+                if move_x>= 0 :move_x = "+"+str(move_x)
+                else :move_x =str(move_x)
+                if move_y>0: move_y = "+" + str(move_y)
+                else: move_y =str(move_y)
+                move = move_x+move_y
+                self.root.geometry(move)
+                
+            if (self.table_geo != t_pos or self.start) and self.manual_toggled == False:
                 self.table_geo = t_pos
                 if t_pos[0] >= 0: width_adjust = abs(t_pos[2])-abs(t_pos[0])
                 else: width_adjust = (abs(t_pos[2])+(t_pos[0]))
@@ -97,6 +124,7 @@ class PkrWindow:
         random.seed(datetime.now())
         self.rng_num= str( random.randint(0,100))
         try:
+            
             self.label.configure(text = self.rng_num)
         except:
             pass
@@ -202,6 +230,7 @@ class SizeHandler:
         
         self.entry1 = tkinter.Entry(self.root,width=50) 
         self.read_config()
+        self.move_yes = tkinter.BooleanVar()
         self.rng_yes = tkinter.BooleanVar()
         self.ca.create_window(200, 140, window=self.entry1)
         self.create_button()
@@ -231,6 +260,7 @@ class SizeHandler:
         with open(self.path_saved_sizes,'w', encoding="utf-8") as f:
             f.write(self.entry1.get())
     def set_sizes(self):
+        self.bet_sizes=[]
         self.write_saved_sizes()
         unfiltred_sizes = self.entry1.get().split(",")
         if unfiltred_sizes[0]!="" :
@@ -248,15 +278,31 @@ class SizeHandler:
         self.ca.create_window(150,180,window=self.rng_check)
         self.ca.create_window(200,180,window=self.start_button2)
         self.ca.create_window(240,180,window=self.exit_button)
-
+    
+    def add_toolbar_to_move(self):
+        move_bool = self.move_yes.get()
+        for o in self.size_objs:
+            o[1].root.overrideredirect(not move_bool)
+            o[1].set_move(move_bool)
+    
+    def reset_move(self):
+        
+        for o in self.size_objs:
+            
+            o[1].set_reset_move(False)
+    
     def start_button(self):
         self.rng_yes = self.rng_yes.get()
         try:
-            self.start_button2.destroy()
+            self.start_button2.destroy()#tar bort startknapp
             self.set_sizes()
             self.thread = threading.Thread(target=self.find_tables,daemon=True)
             self.thread.start()
-            
+            self.move_check = tkinter.Checkbutton( text='Move',variable=self.move_yes, onvalue=True, offvalue=False,command=self.add_toolbar_to_move)
+            self.ca.create_window(100,180,window=self.move_check)
+            self.reset_move_button = tkinter.Button(text="Reset Move",command=self.reset_move)
+            self.ca.create_window(100,220,window=self.reset_move_button)
+
         except Exception as e:
             tkinter.messagebox.showinfo("Error set sizes","U can leave this empty. To set sizes input for example 5.5,7.5 and 5.5bb and 7.5bb will be set as sizes ")
             print(e)
