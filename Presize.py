@@ -63,8 +63,8 @@ class PkrWindow:
                 self.a_y = abs(self.manual_y)-abs(t_pos[1])
 
                 self.manual_toggled = True
+            
             if (self.manual_toggled  and self.manual_move== False) and (self.table_geo != t_pos or self.start):
-
                 move_x = self.a_x + t_pos[0]
                 move_y = self.a_y + t_pos[1]
                 if move_x>= 0 :move_x = "+"+str(move_x)
