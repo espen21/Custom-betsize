@@ -89,6 +89,10 @@ class PkrWindow:
     def rng(self):
         random.seed(datetime.now())
         self.rng_num= str( random.randint(0,100))
+        try:
+            self.label.configure(text = self.rng_num)
+        except:
+            pass
     def adjust_click_pos(self):
         try:
             self.table_geo =win32gui.GetWindowRect(self.hwnd)
