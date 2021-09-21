@@ -45,18 +45,25 @@ class PkrWindow:
         while True:
             try:
                 t_pos = win32gui.GetWindowRect(self.hwnd)
-
             except Exception as e:
                 self.root.destroy()
             if self.table_geo != t_pos or self.start:
                 self.table_geo = t_pos
-                width_adjust = abs(t_pos[2])-abs(t_pos[0])
+                if t_pos[0] >= 0: width_adjust = abs(t_pos[2])-abs(t_pos[0])
+                else: width_adjust = (abs(t_pos[2])+(t_pos[0]))
                 width_adjust = width_adjust/2
-                move_x = int(t_pos[0]+width_adjust)
-                move_x = move_x-150
-                move_y = t_pos[1]+5
-                move_x = "+"+str(move_x)
-                move_y = "+" + str(move_y)
+                move_x = t_pos[0]+8
+                if move_x >= 0:  move_x = int(t_pos[0]+width_adjust)
+                else: move_x = int(t_pos[0]-width_adjust)
+                if move_x >= 0: move_x = move_x-150
+                else: move_x = move_x -1850
+                move_y = t_pos[1]
+                if move_y >= 0: move_y = t_pos[1]+5
+                else: move_y = t_pos[1]-5
+                if move_x>= 0 :move_x = "+"+str(move_x)
+                else :move_x =str(move_x)
+                if move_y>0: move_y = "+" + str(move_y)
+                else: move_y =str(move_y)
                 move = move_x+move_y
                 self.root.geometry(move)
                 self.start = False
@@ -291,7 +298,7 @@ class SizeHandler:
                 self.is_foreground_table_poker()
             except:
                 pass
-            time.sleep(1)
+            time.sleep(0.2)
     def close(self):
         self.root.destroy()
         quit()
