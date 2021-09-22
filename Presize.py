@@ -239,7 +239,7 @@ class SizeHandler:
         self.root.mainloop()
     def is_foreground_table_poker(self):
         fg_table = win32gui.GetWindowText(win32gui.GetForegroundWindow())
-        if "table-" in fg_table or "NL Hold'em" in fg_table or "Omaha" in fg_table:
+        if "table-" in fg_table or "NL Hold'em" in fg_table or "Omaha" in fg_table or "tk" in fg_table:            
             for o in self.size_objs:
                 if o[1].top_most ==False:
                     o[1].root.attributes("-topmost",True)
@@ -348,6 +348,7 @@ class SizeHandler:
     def close(self):
         self.root.destroy()
         quit()
+    
 if __name__ == "__main__":
     SizeHandler()
     #pkr = PkrWindow()
