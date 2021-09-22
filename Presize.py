@@ -175,6 +175,7 @@ class PkrWindow:
             time.sleep(0.5)
     
     def get_big_blind(self):
+        self.table_name = win32gui.GetWindowText(self.hwnd)
         if "NL Hold'em" in self.table_name:
             for s in self.table_name.split("-"):
                 if "/" in s:
