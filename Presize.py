@@ -329,7 +329,7 @@ class SizeHandler:
         while True:
             titles = gw.getAllTitles()
             for t in titles:
-                if ("NL Hold'em" in t or "table-" in t) and self.table_name_exist(t)==False : 
+                if ("- NL Hold'em -" in t or "table-" in t) and self.table_name_exist(t)==False : 
                     t_copy = t.split("-")
                     try:
                         t_copy = t_copy[0]+"-"+t_copy[1]+"-"+t_copy[2]
