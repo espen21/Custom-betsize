@@ -179,11 +179,11 @@ class PkrWindow:
         if "NL Hold'em" in self.table_name:
             for s in self.table_name.split("-"):
                 if "/" in s:
-                    self.big_blind = float(s.split("/")[1])
+                    self.big_blind = float(s.split("/")[1].replace(",","."))
         elif "table-" in self.table_name:
             for s in self.table_name.split("-"):
                 if "/" in s:
-                    self.big_blind = float(s.split(" ")[1].split("/")[1])
+                    self.big_blind = float(s.split(" ")[1].split("/")[1].replace(",","."))
     
     def write_Size(self,in_size):
         try:
