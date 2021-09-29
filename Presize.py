@@ -34,6 +34,11 @@ class PkrWindow:
         self.manual_x = 0
         self.manual_y = 0
         self.manual_toggled = False
+        self.run = True
+    def del_self(self):
+        self.run = False
+        self.thread.join()
+        self.root.quit()
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -51,7 +56,7 @@ class PkrWindow:
     def set_reset_move(self,bo):
         self.manual_toggled = bo
     def set_button_pos(self):
-        while True:
+        while self.run:
             try:
                 t_pos = win32gui.GetWindowRect(self.hwnd)
             except Exception as e:
@@ -95,6 +100,7 @@ class PkrWindow:
                 self.root.geometry(move)
                 self.start = False
             time.sleep(0.2)
+        if self.run == False: return
     def write_custom(self):
         in_size=self.entry1.get()
        
@@ -228,14 +234,14 @@ class SizeHandler:
 
         self.ca = tkinter.Canvas(self.root, width = 400, height = 300)
         self.ca.pack()
-        
+        self.size_threads = []
         self.entry1 = tkinter.Entry(self.root,width=50) 
         self.read_config()
         self.move_yes = tkinter.BooleanVar()
         self.rng_yes = tkinter.BooleanVar()
         self.ca.create_window(200, 140, window=self.entry1)
         self.create_button()
-        
+        self._start = False
         self.size_objs = []
         self.root.mainloop()
     def is_foreground_table_poker(self):
@@ -271,15 +277,45 @@ class SizeHandler:
           
     def create_button(self):
         
-        self.start_button2 = tkinter.Button(text="Start",command=self.start_button)
         self.exit_button = tkinter.Button(text="Quit",command=self.close)
         #button1 = tkinter.Button(text='Set sizes', command=self.set_sizes)
         #self.ca.create_window(150, 180, window=button1)
+       
+        self.ca.create_window(240,180,window=self.exit_button)
+        self.create_rng_bn()
+        self.create_start_bn()
+    def create_rng_bn(self):
         self.rng_check = tkinter.Checkbutton( text='RNG',variable=self.rng_yes, onvalue=True, offvalue=False)
         self.ca.create_window(150,180,window=self.rng_check)
+    def create_start_bn(self):
+        
+        self.start_button2 = tkinter.Button(text="Start",command=self.start_button)
         self.ca.create_window(200,180,window=self.start_button2)
-        self.ca.create_window(240,180,window=self.exit_button)
-    
+
+    def create_stop_bn(self):
+        self.stop_bn = tkinter.Button(text="Stop",command=self.stop_reset)
+        self.ca.create_window(200,180,window=self.stop_bn)
+    def stop_reset(self):
+        self.stop_bn.destroy()
+        
+        self._start = False
+
+        try:
+            
+ 
+            for o in self.size_objs:
+                o[1].del_self()
+            for t in self.size_threads:
+                t.join()
+            self.size_objs = []
+            
+            self.size_threads = []
+
+        except Exception as e:
+            print(e)
+        self.thread.join()
+        self.create_rng_bn()
+        self.create_start_bn()
     def add_toolbar_to_move(self):
         move_bool = self.move_yes.get()
         for o in self.size_objs:
@@ -293,9 +329,13 @@ class SizeHandler:
             o[1].set_reset_move(False)
     
     def start_button(self):
-        self.rng_yes = self.rng_yes.get()
+        self.rng_bool = self.rng_yes.get()
+
         try:
+            self._start = True
             self.start_button2.destroy()#tar bort startknapp
+            self.rng_check.destroy()
+            self.create_stop_bn()
             self.set_sizes()
             self.thread = threading.Thread(target=self.find_tables,daemon=True)
             self.thread.start()
@@ -326,7 +366,7 @@ class SizeHandler:
             except:
                 pass
     def find_tables(self):
-        while True:
+        while self._start:
             titles = gw.getAllTitles()
             for t in titles:
                 if ("- NL Hold'em -" in t or "table-" in t) and self.table_name_exist(t)==False : 
@@ -335,17 +375,20 @@ class SizeHandler:
                         t_copy = t_copy[0]+"-"+t_copy[1]+"-"+t_copy[2]
                     except:
                         t_copy = t
-                    pkr=PkrWindow(table_name=t,size_list=self.bet_sizes,rng_yes= self.rng_yes)
+                    pkr=PkrWindow(table_name=t,size_list=self.bet_sizes,rng_yes= self.rng_bool)
                     self.pkr_thread = threading.Thread(target=pkr.start_size,daemon=True)
                     self.pkr_thread.start()
+                    self.size_threads.append(self.pkr_thread)
                     self.size_objs.append([t_copy,pkr])
                 #print("hello",len(self.size_objs)) debug
+        
             self.check_table_closed(titles)
             try:
                 self.is_foreground_table_poker()
             except:
                 pass
             time.sleep(0.2)
+        if self._start == False: return
     def close(self):
         self.root.destroy()
         quit()
