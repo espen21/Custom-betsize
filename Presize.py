@@ -306,7 +306,8 @@ class SizeHandler:
             for o in self.size_objs:
                 o[1].del_self()
             for t in self.size_threads:
-                t.join()
+                #del(t)
+                print(t)
             self.size_objs = []
             
             self.size_threads = []
