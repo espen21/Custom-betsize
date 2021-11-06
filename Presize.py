@@ -97,13 +97,13 @@ class PkrWindow:
             time.sleep(0.2)
     def write_custom(self):
         in_size=self.entry1.get()
-       
+        in_size = in_size.replace(",",".")
         try:
             in_size=float(in_size)
             self.write_Size(in_size)
 
         except:
-            tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) , u need to input for example (use dot not comma)  5.5 to raise to 5.5bb")
+            tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) ,example 5.5 to raise to 5.5bb")
 
     def create_betbutton(self):
         self.entry1 = tkinter.Entry(self.root,bg="black",fg="white",width=4)
@@ -189,6 +189,7 @@ class PkrWindow:
         try:
             self.get_big_blind()
             self.adjust_click_pos()
+            in_size = float(str(in_size).replace(",","."))
             real_size = self.big_blind*in_size
             real_size = str(real_size)
             real_size = real_size.split(".")
@@ -263,10 +264,11 @@ class SizeHandler:
     def set_sizes(self):
         self.bet_sizes=[]
         self.write_saved_sizes()
-        unfiltred_sizes = self.entry1.get().split(",")
+        unfiltred_sizes = self.entry1.get().split("-")
         if unfiltred_sizes[0]!="" :
         
             for s in unfiltred_sizes:
+                s = s.replace(",",".")
                 self.bet_sizes.append(float(s))
           
     def create_button(self):
