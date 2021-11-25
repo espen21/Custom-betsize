@@ -35,7 +35,10 @@ class PkrWindow:
         self.manual_x = 0
         self.manual_y = 0
         self.manual_toggled = False
-
+        self.betbox_x =  1223
+        self.betbox_y = 862
+        self.halfpot_x = 798
+        self.halfpot_y = 841
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -49,9 +52,9 @@ class PkrWindow:
         self.root.mainloop()
 
     def get_betbox_num(self):
-        self.adjust_click_pos()
+        self.adjust_pos_click_betbox()
         
-        lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
+        lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
         time.sleep(0.05)
@@ -68,10 +71,23 @@ class PkrWindow:
         str_bet_box= pyperclip.paste()
         return str_bet_box
     def get_pot_size(self):
+        self.press_half_pot()
         str_bet_box = self.get_betbox_num()
         print(str_bet_box)
-        pot_size = float(str_bet_box)*2.0
+        try:
+            pot_size = float(str_bet_box)*2.0
+        except:
+            pot_size = 0
         print(pot_size)
+    def press_half_pot(self):
+        self.adjusted_half_pot_x,self.adjusted_half_pot_y = self.adjust_pos_click(self.halfpot_x,self.halfpot_y)
+        print("bajs")
+        print(self.adjusted_half_pot_x)
+        print(self.adjusted_half_pot_y)
+        print("bajsen")
+        lParam = win32api.MAKELONG(self.adjusted_half_pot_x, self.adjusted_half_pot_y)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
     def set_move(self,bo):
         self.manual_move = bo
         self.manual_toggled = True
@@ -158,14 +174,14 @@ class PkrWindow:
             self.label.configure(text = self.rng_num)
         except:
             pass
-    def adjust_click_pos(self):
+    def adjust_pos_click(self,x,y):
         try:
             self.table_geo =win32gui.GetWindowRect(self.hwnd)
         except Exception as e:
             #print(e)
             self.root.destroy()
-        betbox_x =  1223
-        betbox_y = 862#868
+        betbox_x = x
+        betbox_y = y 
         default_w = 1359    
         default_h = 1057
         t_x = abs(self.table_geo[0])
@@ -174,15 +190,19 @@ class PkrWindow:
         t_h = abs(self.table_geo[3])-abs(t_y)
         adjuster_x = ((t_w)/default_w) 
         adjuster_y = ((t_h)/default_h)
-        self.x_adjusted =  adjuster_x*(betbox_x)
-        self.y_adjusted = adjuster_y*(betbox_y )
-        self.x_adjusted = int(self.x_adjusted)
+        x_adjusted =  adjuster_x*(betbox_x)
+        y_adjusted = adjuster_y*(betbox_y )
+        x_adjusted = int(x_adjusted)
         if t_w>470:
-        
-            self.y_adjusted = int(self.y_adjusted)
+            print("uare a faggot")
+            y_adjusted = int(y_adjusted)
         else:
-            self.x_adjusted = 435
-            self.y_adjusted = 300
+            x_adjusted = 435
+            y_adjusted = 300
+            print("hej")
+        return x_adjusted,y_adjusted
+    def adjust_pos_click_betbox(self):
+        self.x_adjusted_betbox,self.y_adjusted_betbox = self.adjust_pos_click(self.betbox_x,self.betbox_y)
     def get_last_active_poker_table(self):
         while True:
             
@@ -193,7 +213,7 @@ class PkrWindow:
                         self.big_blind = float(s.split("/")[1])
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
-                self.adjust_click_pos()
+                self.adjust_pos_click_betbox()
             elif  "table" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
                 for s in self.table_name.split("-"):
@@ -232,10 +252,10 @@ class PkrWindow:
     def write_Size(self,in_size):
         try:
             self.get_big_blind()
-            self.adjust_click_pos()
+            self.adjust_pos_click_betbox()
             real_size = self.remove_dec_nums(in_size)
             
-            lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
+            lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
             time.sleep(0.05)
@@ -361,6 +381,7 @@ class SizeHandler:
                 pass
     def find_tables(self):
         while True:
+            #print(win32api.GetCursorPos())
             titles = gw.getAllTitles()
             for t in titles:
                 if ("- NL Hold'em -" in t or "table-" in t) and self.table_name_exist(t)==False : 
