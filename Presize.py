@@ -5,6 +5,7 @@ import win32gui,win32api,win32con
 import time
 import pygetwindow as gw
 import pyautogui
+import pyperclip
 import random
 from tkinter import Tk, messagebox as mb
 from datetime import datetime 
@@ -34,6 +35,7 @@ class PkrWindow:
         self.manual_x = 0
         self.manual_y = 0
         self.manual_toggled = False
+
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -45,6 +47,31 @@ class PkrWindow:
         self.thread = threading.Thread(target=self.set_button_pos,daemon=True)
         self.thread.start()
         self.root.mainloop()
+
+    def get_betbox_num(self):
+        self.adjust_click_pos()
+        
+        lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+        time.sleep(0.05)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+        time.sleep(0.05)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+        win32gui.SetForegroundWindow(self.hwnd)
+        time.sleep(0.05)
+
+        pyautogui.hotkey('ctrl', 'c')
+        time.sleep(.01)  # ctrl-c is usually very fast but your program may execute faster
+        str_bet_box= pyperclip.paste()
+        return str_bet_box
+    def get_pot_size(self):
+        str_bet_box = self.get_betbox_num()
+        print(str_bet_box)
+        pot_size = float(str_bet_box)*2.0
+        print(pot_size)
     def set_move(self,bo):
         self.manual_move = bo
         self.manual_toggled = True
@@ -114,12 +141,15 @@ class PkrWindow:
             button = tkinter.Button(self.root,text=str(size),bg="black",fg="white",command= lambda in_size = size: self.write_Size(in_size))
             button.pack(in_=self.top,side=LEFT)
             self.button_list.append(button)
+        self.post_size_button = tkinter.Button(self.root,text="25%",bg="black",fg="white",command= self.get_pot_size )
+        self.post_size_button.pack(in_ = self.top,side=LEFT)
         if self.rng_yes == True:
             self.rng()
             self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng)
             self.rng_button.pack(in_=self.top,side=LEFT)
             self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=4)
             self.label.pack(in_=self.top,side=LEFT)
+        
     def rng(self):
         random.seed(datetime.now())
         self.rng_num= str( random.randint(0,100))
@@ -184,24 +214,26 @@ class PkrWindow:
             for s in self.table_name.split("-"):
                 if "/" in s:
                     self.big_blind = float(s.split(" ")[1].split("/")[1].replace(",","."))
-    
+    def remove_dec_nums(self,in_size):
+        in_size = float(str(in_size).replace(",","."))
+        real_size = self.big_blind*in_size
+        real_size = str(real_size)
+        real_size = real_size.split(".")
+        if real_size[1] == "0":
+            real_size = real_size[0]
+        else:
+            try:
+
+                real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
+
+            except:
+                real_size =  real_size[0]+"."+real_size[1]
+        return real_size
     def write_Size(self,in_size):
         try:
             self.get_big_blind()
             self.adjust_click_pos()
-            in_size = float(str(in_size).replace(",","."))
-            real_size = self.big_blind*in_size
-            real_size = str(real_size)
-            real_size = real_size.split(".")
-            if real_size[1] == "0":
-                real_size = real_size[0]
-            else:
-                try:
-
-                    real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
-
-                except:
-                    real_size =  real_size[0]+"."+real_size[1]
+            real_size = self.remove_dec_nums(in_size)
             
             lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
