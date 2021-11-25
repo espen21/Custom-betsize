@@ -106,7 +106,7 @@ class PkrWindow:
             time.sleep(0.05)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-    
+           
             win32gui.SetForegroundWindow(self.hwnd)
             time.sleep(0.05)
             pyautogui.typewrite(bet_size_filtered)
