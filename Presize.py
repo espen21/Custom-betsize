@@ -71,7 +71,7 @@ class PkrWindow:
         str_bet_box= pyperclip.paste()
         return str_bet_box
     def get_pot_size(self):
-        self.press_half_pot()
+        #self.press_half_pot() #buggig maunelltklick på 1/2
         str_bet_box = self.get_betbox_num()
         try:
             pot_size = float(str_bet_box)*2.0
@@ -216,10 +216,9 @@ class PkrWindow:
         t_y = abs(self.table_geo[1])
         t_w = abs(self.table_geo[2])-abs(t_x)
         t_h = abs(self.table_geo[3])-abs(t_y)
-        print(t_w)
-        if t_w>557:
-            betbox_y = betbox_y-18
-            betbox_x =  betbox_x +10
+        #if t_w>557:
+         #   betbox_y = betbox_y-18
+         #   betbox_x =  betbox_x +10
         adjuster_x = ((t_w)/default_w) 
         adjuster_y = ((t_h)/default_h)
         x_adjusted =  adjuster_x*(betbox_x)
@@ -427,7 +426,7 @@ class SizeHandler:
                 pass
     def find_tables(self):
         while True:
-            print(win32api.GetCursorPos())
+            #print(win32api.GetCursorPos())
             titles = gw.getAllTitles()
             for t in titles:
                 if ("- NL Hold'em -" in t or "table-" in t) and self.table_name_exist(t)==False : 
