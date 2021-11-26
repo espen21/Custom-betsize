@@ -257,7 +257,7 @@ class PkrWindow:
     
     def get_big_blind(self):
         self.table_name = win32gui.GetWindowText(self.hwnd)
-        if "NL Hold'em" in self.table_name:
+        if "NL Hold'em" in self.table_name or "PL Omaha" in self.table_name:
             for s in self.table_name.split("-"):
                 if "/" in s:
                     self.big_blind = float(s.split("/")[1].replace(",","."))
@@ -265,6 +265,7 @@ class PkrWindow:
             for s in self.table_name.split("-"):
                 if "/" in s:
                     self.big_blind = float(s.split(" ")[1].split("/")[1].replace(",","."))
+        
     def remove_dec_bb_size(self,in_size):
         in_size = float(str(in_size).replace(",","."))
         real_size = self.big_blind*in_size
@@ -323,7 +324,7 @@ class SizeHandler:
         self.bet_sizes = []
         self.path_saved_sizes = "saved_sizes.txt"
         self.root = tkinter.Tk()
-
+        self.root.title("SVS sizes")
         self.ca = tkinter.Canvas(self.root, width = 400, height = 300)
         self.ca.pack()
         
@@ -429,7 +430,7 @@ class SizeHandler:
             #print(win32api.GetCursorPos())
             titles = gw.getAllTitles()
             for t in titles:
-                if ("- NL Hold'em -" in t or "table-" in t) and self.table_name_exist(t)==False : 
+                if ("- NL Hold'em -" in t or "table-" in t or "- PL Omaha -" in t) and self.table_name_exist(t)==False : 
                     t_copy = t.split("-")
                     try:
                         t_copy = t_copy[0]+"-"+t_copy[1]+"-"+t_copy[2]
