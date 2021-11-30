@@ -39,6 +39,7 @@ class PkrWindow:
         self.betbox_y = 862
         self.halfpot_x = 798
         self.halfpot_y = 841 #funkar inte för max size på bord
+        self.reset = False
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -123,6 +124,7 @@ class PkrWindow:
         self.manual_toggled = bo
     def set_button_pos(self):
         while True:
+            
             try:
                 t_pos = win32gui.GetWindowRect(self.hwnd)
             except Exception as e:
@@ -166,6 +168,7 @@ class PkrWindow:
                 self.root.geometry(move)
                 self.start = False
             time.sleep(0.2)
+        
     def write_custom(self):
         in_size=self.entry1.get()
         in_size = in_size.replace(",",".")
@@ -234,7 +237,8 @@ class PkrWindow:
             x_adjusted = 435
             y_adjusted = 300
         return x_adjusted,y_adjusted
-
+    def destroy_sub_root(self):
+        self.root.attributes("-topmost",True)
     def adjust_pos_click_betbox(self):
         self.x_adjusted_betbox,self.y_adjusted_betbox = self.adjust_pos_click(self.betbox_x,self.betbox_y)
     def get_last_active_poker_table(self):
@@ -395,7 +399,9 @@ class SizeHandler:
             
             o[1].set_reset_move(False)
     def refind_tables(self):
-        self.size_objs = []
+        for s in self.size_objs:
+            s[1].destroy_sub_root()
+      
 
     def start_button(self):
         self.rng_yes = self.rng_yes.get()
@@ -408,7 +414,7 @@ class SizeHandler:
             self.ca.create_window(100,180,window=self.move_check)
             self.reset_move_button = tkinter.Button(text="Reset Move",command=self.reset_move)
             self.ca.create_window(100,220,window=self.reset_move_button)
-            self.reset_move_button = tkinter.Button(text="Refind tables",command=self.refind_tables)
+            self.reset_move_button = tkinter.Button(text="On top",command=self.refind_tables)
             self.ca.create_window(100,260,window=self.reset_move_button)
         except Exception as e:
             tkinter.messagebox.showinfo("Error set sizes","U can leave this empty. To set sizes input for example 5.5,7.5 and 5.5bb and 7.5bb will be set as sizes ")
