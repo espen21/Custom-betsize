@@ -394,7 +394,9 @@ class SizeHandler:
         for o in self.size_objs:
             
             o[1].set_reset_move(False)
-    
+    def refind_tables(self):
+        self.size_objs = []
+
     def start_button(self):
         self.rng_yes = self.rng_yes.get()
         try:
@@ -406,7 +408,8 @@ class SizeHandler:
             self.ca.create_window(100,180,window=self.move_check)
             self.reset_move_button = tkinter.Button(text="Reset Move",command=self.reset_move)
             self.ca.create_window(100,220,window=self.reset_move_button)
-
+            self.reset_move_button = tkinter.Button(text="Refind tables",command=self.refind_tables)
+            self.ca.create_window(100,260,window=self.reset_move_button)
         except Exception as e:
             tkinter.messagebox.showinfo("Error set sizes","U can leave this empty. To set sizes input for example 5.5,7.5 and 5.5bb and 7.5bb will be set as sizes ")
             print(e)
