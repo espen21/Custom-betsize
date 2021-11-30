@@ -54,7 +54,10 @@ class PkrWindow:
 
     def get_betbox_num(self):
         self.adjust_pos_click_betbox()
-        
+        lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
+        time.sleep(0.05)
         lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
@@ -100,8 +103,11 @@ class PkrWindow:
            
 
             self.adjust_pos_click_betbox()
-            
+            lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
             lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
+            time.sleep(0.05)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
             time.sleep(0.05)
