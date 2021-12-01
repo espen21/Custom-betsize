@@ -167,14 +167,18 @@ class PkrWindow:
                 self.start = False
             time.sleep(0.2)
     def write_custom(self):
+        
         in_size=self.entry1.get()
         in_size = in_size.replace(",",".")
-        try:
-            in_size=float(in_size)
-            self.write_Size(in_size)
+        if "%" in in_size:
+            self.write_postflop_size(in_size)
+        else:    
+            try:
+                in_size=float(in_size)
+                self.write_Size(in_size)
 
-        except:
-            tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) ,example 5.5 to raise to 5.5bb")
+            except:
+                tkinter.messagebox.showinfo("Error custom size, example write 5.5 to raise to 5.5bb or 10% to bet 10%, of pot ")
 
     def create_betbutton(self):
         self.entry1 = tkinter.Entry(self.root,bg="black",fg="white",width=4)
