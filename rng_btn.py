@@ -13,9 +13,9 @@ class Freq:
         self.rng()
         self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=16,font=("Helvetica", 32))
         self.label.pack()
-        self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng,width=12,height=2)
-        self.rng_button.pack()
-        
+        #self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng,width=12,height=2)
+        #self.rng_button.pack()
+        self.root.bind("<Button-1>",lambda e:self.rng())
         self.root.mainloop()
     def rng(self):
         random.seed(str(datetime.now()))
