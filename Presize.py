@@ -241,11 +241,10 @@ class PkrWindow:
         y_adjusted = adjuster_y*(betbox_y )
         x_adjusted = int(x_adjusted)
        
-        if t_w>470:
-            y_adjusted = int(y_adjusted)
-        else:
-            x_adjusted = 435
-            y_adjusted = 300
+        
+        y_adjusted = int(y_adjusted)
+        print("ute")
+      
         return x_adjusted,y_adjusted
     def destroy_sub_root(self):
         self.root.attributes("-topmost",True)
