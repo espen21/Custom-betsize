@@ -1,3 +1,4 @@
+from ast import keyword
 import tkinter
 import threading
 from tkinter.constants import FALSE, LEFT, TRUE
@@ -71,8 +72,10 @@ class PkrWindow:
         time.sleep(0.05)
 
         pyautogui.hotkey('ctrl', 'c')
+        
         time.sleep(.01)  # ctrl-c is usually very fast but your program may execute faster
         str_bet_box= pyperclip.paste()
+        
         return str_bet_box
     def get_pot_size(self):
         #self.press_half_pot() #buggig maunelltklick på 1/2
@@ -228,10 +231,10 @@ class PkrWindow:
         betbox_y = y 
         default_w = 1359    
         default_h = 1057
-        t_x = abs(self.table_geo[0])
-        t_y = abs(self.table_geo[1])
-        t_w = abs(self.table_geo[2])-abs(t_x)
-        t_h = abs(self.table_geo[3])-abs(t_y)
+        t_x = self.table_geo[0]
+        t_y = self.table_geo[1]
+        t_w = self.table_geo[2]-t_x
+        t_h = self.table_geo[3]-t_y
         #if t_w>557:
          #   betbox_y = betbox_y-18
          #   betbox_x =  betbox_x +10
@@ -240,10 +243,8 @@ class PkrWindow:
         x_adjusted =  adjuster_x*(betbox_x)
         y_adjusted = adjuster_y*(betbox_y )
         x_adjusted = int(x_adjusted)
-       
-        
         y_adjusted = int(y_adjusted)
-        print("ute")
+       
       
         return x_adjusted,y_adjusted
     def destroy_sub_root(self):
@@ -301,6 +302,7 @@ class PkrWindow:
         real_size = str(in_size)
         real_size = real_size.split(".")
         if real_size[1] == "0":
+            
             real_size = real_size[0]
         else:
             try:
