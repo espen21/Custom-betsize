@@ -1,3 +1,4 @@
+from ast import keyword
 import tkinter
 import threading
 from tkinter.constants import FALSE, LEFT, TRUE
@@ -5,6 +6,7 @@ import win32gui,win32api,win32con
 import time
 import pygetwindow as gw
 import pyautogui
+import pyperclip
 import random
 from tkinter import Tk, messagebox as mb
 from datetime import datetime 
@@ -34,6 +36,11 @@ class PkrWindow:
         self.manual_x = 0
         self.manual_y = 0
         self.manual_toggled = False
+        self.betbox_x =  1223
+        self.betbox_y = 862
+        self.halfpot_x = 798
+        self.halfpot_y = 841 #funkar inte för max size på bord
+        self.reset = False
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -45,6 +52,80 @@ class PkrWindow:
         self.thread = threading.Thread(target=self.set_button_pos,daemon=True)
         self.thread.start()
         self.root.mainloop()
+
+    def get_betbox_num(self):
+        self.adjust_pos_click_betbox()
+        lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
+        time.sleep(0.05)
+        lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+        time.sleep(0.05)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+        time.sleep(0.05)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+        win32gui.SetForegroundWindow(self.hwnd)
+        time.sleep(0.05)
+
+        pyautogui.hotkey('ctrl', 'c')
+        
+        time.sleep(.01)  # ctrl-c is usually very fast but your program may execute faster
+        str_bet_box= pyperclip.paste()
+        
+        return str_bet_box
+    def get_pot_size(self):
+        #self.press_half_pot() #buggig maunelltklick på 1/2
+        str_bet_box = self.get_betbox_num()
+        try:
+            pot_size = float(str_bet_box)*2.0
+        except:
+            pot_size = 0
+        return pot_size
+
+            
+    def press_half_pot(self):
+        self.adjusted_half_pot_x,self.adjusted_half_pot_y = self.adjust_pos_click(self.halfpot_x,self.halfpot_y)
+        print(self.adjusted_half_pot_x,self.adjusted_half_pot_y,"adjusted")
+        lParam = win32api.MAKELONG(self.adjusted_half_pot_x, self.adjusted_half_pot_y)
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+    def write_postflop_size(self,in_size):
+        in_size = in_size.replace("%","")
+        in_size = float(in_size)/100
+        potsize =self.get_pot_size()
+      
+        bet_size_unfilt = float(potsize)*float(in_size)
+        bet_size_filtered = self.remove_dec_nums(bet_size_unfilt)
+        self.adjust_pos_click_betbox()
+            
+        try:
+           
+
+            self.adjust_pos_click_betbox()
+            lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
+            lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
+            time.sleep(0.05)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+            time.sleep(0.05)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+            time.sleep(0.05)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+           
+            win32gui.SetForegroundWindow(self.hwnd)
+            time.sleep(0.05)
+            pyautogui.typewrite(bet_size_filtered)
+        except Exception as e:
+            print(e)
+            tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) , u need to input  5.5 to raise to 5.5bb")
     def set_move(self,bo):
         self.manual_move = bo
         self.manual_toggled = True
@@ -52,6 +133,7 @@ class PkrWindow:
         self.manual_toggled = bo
     def set_button_pos(self):
         while True:
+            
             try:
                 t_pos = win32gui.GetWindowRect(self.hwnd)
             except Exception as e:
@@ -82,7 +164,7 @@ class PkrWindow:
                 move_x = t_pos[0]+8
                 if move_x >= 0:  move_x = int(t_pos[0]+width_adjust)
                 else: move_x = int(t_pos[0]-width_adjust)
-                if move_x >= 0: move_x = move_x-150
+                if move_x >= 0: move_x = move_x-200
                 else: move_x = move_x -1850
                 move_y = t_pos[1]
                 if move_y >= 0: move_y = t_pos[1]+5
@@ -95,15 +177,20 @@ class PkrWindow:
                 self.root.geometry(move)
                 self.start = False
             time.sleep(0.2)
+        
     def write_custom(self):
+        
         in_size=self.entry1.get()
         in_size = in_size.replace(",",".")
-        try:
-            in_size=float(in_size)
-            self.write_Size(in_size)
+        if "%" in in_size:
+            self.write_postflop_size(in_size)
+        else:    
+            try:
+                in_size=float(in_size)
+                self.write_Size(in_size)
 
-        except:
-            tkinter.messagebox.showinfo("Error custom size","To use custom size(CU) ,example 5.5 to raise to 5.5bb")
+            except:
+                tkinter.messagebox.showinfo("Error custom size, example write 5.5 to raise to 5.5bb or 10% to bet 10%, of pot ")
 
     def create_betbutton(self):
         self.entry1 = tkinter.Entry(self.root,bg="black",fg="white",width=4)
@@ -111,15 +198,21 @@ class PkrWindow:
         self.be = tkinter.Button(self.root,text="CU",bg="black",fg="white",command= self.write_custom)
         self.be.pack(in_=self.top,side=LEFT)
         for size in self.bet_list:
-            button = tkinter.Button(self.root,text=str(size),bg="black",fg="white",command= lambda in_size = size: self.write_Size(in_size))
-            button.pack(in_=self.top,side=LEFT)
-            self.button_list.append(button)
+            if "%" not in size:
+                button = tkinter.Button(self.root,text=str(size),bg="black",fg="white",command= lambda in_size = size: self.write_Size(in_size))
+                button.pack(in_=self.top,side=LEFT)
+                self.button_list.append(button)
+            else:
+                button = tkinter.Button(self.root,text=str(size),bg="black",fg="white",command= lambda in_size = size: self.write_postflop_size(in_size))
+                button.pack(in_=self.top,side=LEFT)
+                self.button_list.append(button)
         if self.rng_yes == True:
             self.rng()
             self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng)
             self.rng_button.pack(in_=self.top,side=LEFT)
             self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=4)
             self.label.pack(in_=self.top,side=LEFT)
+        
     def rng(self):
         random.seed(datetime.now())
         self.rng_num= str( random.randint(0,100))
@@ -128,31 +221,38 @@ class PkrWindow:
             self.label.configure(text = self.rng_num)
         except:
             pass
-    def adjust_click_pos(self):
+    def adjust_pos_click(self,x,y):
         try:
             self.table_geo =win32gui.GetWindowRect(self.hwnd)
         except Exception as e:
             #print(e)
             self.root.destroy()
-        betbox_x =  1223
-        betbox_y = 862#868
+        betbox_x = x
+        betbox_y = y 
         default_w = 1359    
         default_h = 1057
-        t_x = abs(self.table_geo[0])
-        t_y = abs(self.table_geo[1])
-        t_w = abs(self.table_geo[2])-abs(t_x)
-        t_h = abs(self.table_geo[3])-abs(t_y)
+        t_x = self.table_geo[0]
+        t_y = self.table_geo[1]
+        t_w = self.table_geo[2]-t_x
+        t_h = self.table_geo[3]-t_y
+        #if t_w>557:
+         #   betbox_y = betbox_y-18
+         #   betbox_x =  betbox_x +10
         adjuster_x = ((t_w)/default_w) 
         adjuster_y = ((t_h)/default_h)
-        self.x_adjusted =  adjuster_x*(betbox_x)
-        self.y_adjusted = adjuster_y*(betbox_y )
-        self.x_adjusted = int(self.x_adjusted)
-        if t_w>470:
-        
-            self.y_adjusted = int(self.y_adjusted)
-        else:
-            self.x_adjusted = 435
-            self.y_adjusted = 300
+        x_adjusted =  adjuster_x*(betbox_x)
+        y_adjusted = adjuster_y*(betbox_y )
+        x_adjusted = int(x_adjusted)
+        y_adjusted = int(y_adjusted)
+       
+      
+        return x_adjusted,y_adjusted
+    def destroy_sub_root(self):
+        self.root.attributes("-topmost",True)
+    def adjust_pos_click_betbox(self):
+        self.x_adjusted_betbox,self.y_adjusted_betbox = self.adjust_pos_click(self.betbox_x,self.betbox_y)
+    
+    ##not used
     def get_last_active_poker_table(self):
         while True:
             
@@ -163,7 +263,7 @@ class PkrWindow:
                         self.big_blind = float(s.split("/")[1])
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
-                self.adjust_click_pos()
+                self.adjust_pos_click_betbox()
             elif  "table" in win32gui.GetWindowText(win32gui.GetForegroundWindow()):
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
                 for s in self.table_name.split("-"):
@@ -176,7 +276,7 @@ class PkrWindow:
     
     def get_big_blind(self):
         self.table_name = win32gui.GetWindowText(self.hwnd)
-        if "NL Hold'em" in self.table_name:
+        if "NL Hold'em" in self.table_name or "PL Omaha" in self.table_name:
             for s in self.table_name.split("-"):
                 if "/" in s:
                     self.big_blind = float(s.split("/")[1].replace(",","."))
@@ -184,26 +284,44 @@ class PkrWindow:
             for s in self.table_name.split("-"):
                 if "/" in s:
                     self.big_blind = float(s.split(" ")[1].split("/")[1].replace(",","."))
-    
+        
+    def remove_dec_bb_size(self,in_size):
+        in_size = float(str(in_size).replace(",","."))
+        real_size = self.big_blind*in_size
+        real_size = str(real_size)
+        real_size = real_size.split(".")
+        if real_size[1] == "0":
+            real_size = real_size[0]
+        else:
+            try:
+
+                real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
+
+            except:
+                real_size =  real_size[0]+"."+real_size[1]
+        return real_size
+    def remove_dec_nums(self,in_size):
+        real_size = str(in_size)
+        real_size = real_size.split(".")
+        if real_size[1] == "0":
+            
+            real_size = real_size[0]
+        else:
+            try:
+
+                real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
+
+            except:
+                real_size =  real_size[0]+"."+real_size[1]
+        return real_size
     def write_Size(self,in_size):
         try:
             self.get_big_blind()
-            self.adjust_click_pos()
-            in_size = float(str(in_size).replace(",","."))
-            real_size = self.big_blind*in_size
-            real_size = str(real_size)
-            real_size = real_size.split(".")
-            if real_size[1] == "0":
-                real_size = real_size[0]
-            else:
-                try:
+            real_size = self.remove_dec_bb_size(in_size)
 
-                    real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
-
-                except:
-                    real_size =  real_size[0]+"."+real_size[1]
+            self.adjust_pos_click_betbox()
             
-            lParam = win32api.MAKELONG(self.x_adjusted, self.y_adjusted)
+            lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
             time.sleep(0.05)
@@ -226,7 +344,7 @@ class SizeHandler:
         self.bet_sizes = []
         self.path_saved_sizes = "saved_sizes.txt"
         self.root = tkinter.Tk()
-
+        self.root.title("SVS sizes")
         self.ca = tkinter.Canvas(self.root, width = 400, height = 300)
         self.ca.pack()
         
@@ -269,7 +387,7 @@ class SizeHandler:
         
             for s in unfiltred_sizes:
                 s = s.replace(",",".")
-                self.bet_sizes.append(float(s))
+                self.bet_sizes.append((s))
           
     def create_button(self):
         
@@ -293,7 +411,11 @@ class SizeHandler:
         for o in self.size_objs:
             
             o[1].set_reset_move(False)
-    
+    def refind_tables(self):
+        for s in self.size_objs:
+            s[1].destroy_sub_root()
+      
+
     def start_button(self):
         self.rng_yes = self.rng_yes.get()
         try:
@@ -305,7 +427,8 @@ class SizeHandler:
             self.ca.create_window(100,180,window=self.move_check)
             self.reset_move_button = tkinter.Button(text="Reset Move",command=self.reset_move)
             self.ca.create_window(100,220,window=self.reset_move_button)
-
+            self.reset_move_button = tkinter.Button(text="On top",command=self.refind_tables)
+            self.ca.create_window(100,260,window=self.reset_move_button)
         except Exception as e:
             tkinter.messagebox.showinfo("Error set sizes","U can leave this empty. To set sizes input for example 5.5,7.5 and 5.5bb and 7.5bb will be set as sizes ")
             print(e)
@@ -329,9 +452,10 @@ class SizeHandler:
                 pass
     def find_tables(self):
         while True:
+            #print(win32api.GetCursorPos())
             titles = gw.getAllTitles()
             for t in titles:
-                if ("- NL Hold'em -" in t or "table-" in t) and self.table_name_exist(t)==False : 
+                if ("- NL Hold'em -" in t or "table-" in t or "- PL Omaha -" in t) and self.table_name_exist(t)==False : 
                     t_copy = t.split("-")
                     try:
                         t_copy = t_copy[0]+"-"+t_copy[1]+"-"+t_copy[2]
