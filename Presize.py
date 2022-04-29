@@ -251,6 +251,8 @@ class PkrWindow:
         self.root.attributes("-topmost",True)
     def adjust_pos_click_betbox(self):
         self.x_adjusted_betbox,self.y_adjusted_betbox = self.adjust_pos_click(self.betbox_x,self.betbox_y)
+    
+    ##not used
     def get_last_active_poker_table(self):
         while True:
             
