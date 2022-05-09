@@ -348,7 +348,8 @@ class SizeHandler:
         self.ca = tkinter.Canvas(self.root, width = 400, height = 300)
         self.ca.pack()
         
-        self.entry1 = tkinter.Entry(self.root,width=50) 
+        self.entry1 = tkinter.Entry(self.root,width=50)
+        self.entry1.setvar() 
         self.read_config()
         self.move_yes = tkinter.BooleanVar()
         self.rng_yes = tkinter.BooleanVar()
