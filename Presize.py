@@ -198,7 +198,10 @@ class PkrWindow:
         self.be = tkinter.Button(self.root,text="CU",bg="black",fg="white",command= self.write_custom)
         self.be.pack(in_=self.top,side=LEFT)
         for size in self.bet_list:
-            if "%" not in size:
+            if "=" in size.lower():
+                size = size.split("=")[1]
+                self.entry1.insert(0,size)
+            elif "%" not in size:
                 button = tkinter.Button(self.root,text=str(size),bg="black",fg="white",command= lambda in_size = size: self.write_Size(in_size))
                 button.pack(in_=self.top,side=LEFT)
                 self.button_list.append(button)
