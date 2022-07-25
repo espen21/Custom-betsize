@@ -2,6 +2,7 @@ from ast import keyword
 import tkinter
 import threading
 from tkinter.constants import FALSE, LEFT, TRUE
+from turtle import color
 import win32gui,win32api,win32con
 import time
 import pygetwindow as gw
@@ -211,19 +212,22 @@ class PkrWindow:
                 self.button_list.append(button)
         if self.rng_yes == True:
             self.rng()
-            self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng)
-            self.rng_button.pack(in_=self.top,side=LEFT)
+            #self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng)
+            #self.rng_button.pack(in_=self.top,side=LEFT)
             self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=4)
             self.label.pack(in_=self.top,side=LEFT)
+            self.label.bind("<Button-1>",lambda e:self.rng(clicked= True))
         
-    def rng(self):
+    def rng(self,clicked =False):
         random.seed(datetime.now())
         self.rng_num= str( random.randint(0,100))
         try:
             
             self.label.configure(text = self.rng_num)
+
         except:
             pass
+        if not clicked :self.root.after(5000,self.rng) # update value every 5 sec
     def adjust_pos_click(self,x,y):
         try:
             self.table_geo =win32gui.GetWindowRect(self.hwnd)
