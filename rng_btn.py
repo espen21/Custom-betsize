@@ -10,19 +10,23 @@ class Freq:
         #self.root.overrideredirect(True)
         self.root.geometry("197x96+941+538")
         self.root.configure(background='black')
-        self.rng()
+        self.rng(ress= True)
+        
         self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=16,font=("Helvetica", 32))
         self.label.pack()
         #self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng,width=12,height=2)
         #self.rng_button.pack()
         self.root.bind("<Button-1>",lambda e:self.rng())
         self.root.mainloop()
-    def rng(self):
+    def rng(self ,ress = False):
         random.seed(str(datetime.now()))
         self.rng_num= str( random.randint(0,100))
         try:
             self.label.configure(text = self.rng_num)
         except:
             pass
+        if ress: 
+            self.root.lift()
 
+            self.root.after(5000,self.rng,True)
 Freq()
