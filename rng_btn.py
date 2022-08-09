@@ -18,13 +18,17 @@ class Freq:
         #self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng,width=12,height=2)
         #self.rng_button.pack()
         self.root.bind("<Button-1>",lambda e:self.rng())
+        self.root.bind("<Button-2>",lambda e:self.make_trans())
+
         self.root.bind("<Button-3>",lambda e:self.make_trans())
 
         self.root.mainloop()
     def make_trans(self):
-        trans = not self.is_trans
+        self.is_trans = not self.is_trans
+        
         self.root.wm_attributes("-transparentcolor", "black")
-        self.root.overrideredirect(trans)
+        self.root.overrideredirect(self.is_trans)
+        if self.is_trans == False: self.root.wm_attributes("-transparentcolor", "")
         
     def rng(self ,ress = False):
         random.seed(str(datetime.now()))
