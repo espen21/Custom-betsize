@@ -42,6 +42,7 @@ class PkrWindow:
         self.halfpot_x = 798
         self.halfpot_y = 841 #funkar inte för max size på bord
         self.reset = False
+
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -52,6 +53,8 @@ class PkrWindow:
         self.create_betbutton()
         self.thread = threading.Thread(target=self.set_button_pos,daemon=True)
         self.thread.start()
+        self.root.wm_attributes("-transparentcolor", "black")
+
         self.root.mainloop()
 
     def get_betbox_num(self):
@@ -214,7 +217,7 @@ class PkrWindow:
             self.rng()
             #self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng)
             #self.rng_button.pack(in_=self.top,side=LEFT)
-            self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=4)
+            self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="medium turquoise",width=4)
             self.label.pack(in_=self.top,side=LEFT)
             self.label.bind("<Button-1>",lambda e:self.rng(clicked= True))
         
@@ -404,15 +407,20 @@ class SizeHandler:
         #button1 = tkinter.Button(text='Set sizes', command=self.set_sizes)
         #self.ca.create_window(150, 180, window=button1)
         self.rng_check = tkinter.Checkbutton( text='RNG',variable=self.rng_yes, onvalue=True, offvalue=False)
+        self.rng_yes.set(True)
         self.ca.create_window(150,180,window=self.rng_check)
         self.ca.create_window(200,180,window=self.start_button2)
         self.ca.create_window(240,180,window=self.exit_button)
-    
+        
     def add_toolbar_to_move(self):
         move_bool = self.move_yes.get()
+        trans_color = ""
+        if move_bool == False: trans_color = "black"
         for o in self.size_objs:
             o[1].root.overrideredirect(not move_bool)
             o[1].set_move(move_bool)
+            print(trans_color,"bajs")
+            o[1].root.wm_attributes("-transparentcolor", trans_color)
     
     def reset_move(self):
         
