@@ -13,7 +13,7 @@ class Freq:
         self.root.configure(background='black')
         self.rng(ress= True)
         
-        self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=16,font=("Helvetica", 32))
+        self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="purple",width=16,font=("Helvetica", 32))
         self.label.pack()
         #self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng,width=12,height=2)
         #self.rng_button.pack()
@@ -25,10 +25,13 @@ class Freq:
         self.root.mainloop()
     def make_trans(self):
         self.is_trans = not self.is_trans
+        self.root.attributes("-topmost",True)
         
         self.root.wm_attributes("-transparentcolor", "black")
         self.root.overrideredirect(self.is_trans)
-        if self.is_trans == False: self.root.wm_attributes("-transparentcolor", "")
+        if self.is_trans == False: 
+            self.root.wm_attributes("-transparentcolor", "")
+            self.root.attributes("-topmost",False)
         
     def rng(self ,ress = False):
         random.seed(str(datetime.now()))
@@ -39,8 +42,6 @@ class Freq:
             pass
         if ress: 
 
-            self.root.attributes("-topmost",True)
             self.root.after(5000,self.rng,True)
-            self.root.attributes("-topmost",False)
 
 Freq()
