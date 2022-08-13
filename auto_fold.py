@@ -20,8 +20,7 @@ def get_big_blind(name):
 def send_raise(handle,press,name):
     big_blind = get_big_blind(name)
     win32gui.SetActiveWindow(handle)
-    if "Hold'em -" in name or "PL Omaha" in name or "table-" in name: #svs
-        pass
+    
     if press: keyboard.press("ctrl+right")
     else: keyboard.release("ctrl+right")
     print(win32gui.GetWindowText(handle),press)
@@ -74,4 +73,5 @@ while True:
                 send_raise(handle,False,name)
     except Exception as e:
         print(e)
-    time.sleep(0.1)
+
+    time.sleep(0.05)
