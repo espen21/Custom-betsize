@@ -68,7 +68,7 @@ while True:
                 send_click_fold(handle,False)
         if temp_right!= state_right:  # Button state changed
             state_right = temp_right
-            if temp_right< 0 and ("- PL Omaha -" in name or "NLH" in name or "- NL Hold" in name or "Rush & Cash" in name or "Spin & Gold" in name):
+            if temp_right< 0 and ("- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" or "Rush & Cash" in name or "Spin & Gold" in name ):
                 send_raise(handle,True,name)
             else:
                 send_raise(handle,False,name)
