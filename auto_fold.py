@@ -58,7 +58,7 @@ while True:
         handle = win32gui.WindowFromPoint(point)
         name = win32gui.GetWindowText(handle)
         name_stuff = "- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or "PLO "in name
-        if name_stuff: win32gui.SetForegroundWindow(handle)
+        #if name_stuff: win32gui.SetForegroundWindow(handle)
         temp_left= win32api.GetKeyState(0x06)
         temp_right = win32api.GetKeyState(0x05)  #
         if temp_left!= state_left:  # Button state changed
