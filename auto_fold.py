@@ -52,13 +52,16 @@ state_left = win32api.GetKeyState(0x06)  # m4 button down = 0 or 1. Button up = 
 state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up = -127 or -128
 
 print("Started autofold, mouse4 = fold, mouse5 = raise")
+lift_table_input = input("Lift table when cursor is over it? [Y] for yes")
+lift_table = False
+if lift_table_input.lower() == "y": lift_table = True   
 while True:
     try:
         point = win32gui.GetCursorPos()
         handle = win32gui.WindowFromPoint(point)
         name = win32gui.GetWindowText(handle)
         name_stuff = "- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or "PLO "in name
-        #if name_stuff: win32gui.SetForegroundWindow(handle)
+        if name_stuff and lift_table: win32gui.SetForegroundWindow(handle)
         temp_left= win32api.GetKeyState(0x06)
         temp_right = win32api.GetKeyState(0x05)  #
         if temp_left!= state_left:  # Button state changed
