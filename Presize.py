@@ -59,18 +59,18 @@ class PkrWindow:
         lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
-        time.sleep(0.05)
+        time.sleep(0.01)
         lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        time.sleep(0.05)
+        time.sleep(0.01)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        time.sleep(0.05)
+        time.sleep(0.01)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
         win32gui.SetForegroundWindow(self.hwnd)
-        time.sleep(0.05)
+        time.sleep(0.01)
 
         pyautogui.hotkey('ctrl', 'c')
         
@@ -119,18 +119,18 @@ class PkrWindow:
             lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
-            time.sleep(0.05)
+            time.sleep(0.01)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-            time.sleep(0.05)
+            time.sleep(0.01)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-            time.sleep(0.05)
+            time.sleep(0.01)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
            
             win32gui.SetForegroundWindow(self.hwnd)
-            time.sleep(0.05)
+            time.sleep(0.01)
             pyautogui.typewrite(bet_size_filtered)
         except Exception as e:
             print(e)
@@ -185,7 +185,7 @@ class PkrWindow:
                 move = move_x+move_y
                 self.root.geometry(move)
                 self.start = False
-            time.sleep(0.05)
+            time.sleep(0.01)
         
     def write_custom(self):
         
@@ -245,7 +245,7 @@ class PkrWindow:
         betbox_x = x
         betbox_y = y 
         default_w = 1359    
-        default_h = 1057
+        default_h = 1017
         t_x = self.table_geo[0]
         t_y = self.table_geo[1]
         t_w = self.table_geo[2]-t_x
@@ -287,7 +287,7 @@ class PkrWindow:
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
           
-            time.sleep(0.5)
+            time.sleep(0.01)
     
     def get_big_blind(self):
         self.table_name = win32gui.GetWindowText(self.hwnd)
@@ -339,15 +339,15 @@ class PkrWindow:
             lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-            time.sleep(0.05)
+            time.sleep(0.01)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-            time.sleep(0.05)
+            time.sleep(0.01)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
 
             win32gui.SetForegroundWindow(self.hwnd)
-            time.sleep(0.05)
+            time.sleep(0.01)
 
             pyautogui.typewrite(real_size)
         except Exception as e:
@@ -484,7 +484,7 @@ class SizeHandler:
                 #print("hello",len(self.size_objs)) debug
             self.check_table_closed(titles)
             
-            time.sleep(0.05)
+            time.sleep(0.01)
     def close(self):
         self.root.destroy()
         quit()
