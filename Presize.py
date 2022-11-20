@@ -245,7 +245,7 @@ class PkrWindow:
         betbox_x = x
         betbox_y = y 
         default_w = 1359    
-        default_h = 1017
+        default_h = 1057
         t_x = self.table_geo[0]
         t_y = self.table_geo[1]
         t_w = self.table_geo[2]-t_x
