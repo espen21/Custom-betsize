@@ -87,7 +87,15 @@ class PkrWindow:
             pot_size = 0
         return pot_size
 
-            
+    def is_table_fg(self):
+        fg_table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
+        try:
+            if fg_table_name == self.table_name:
+                self.root.attributes("-topmost",True)
+            else:
+                self.root.attributes("-topmost",False)
+        except Exception as e:
+            print(e)
     def press_half_pot(self):
         self.adjusted_half_pot_x,self.adjusted_half_pot_y = self.adjust_pos_click(self.halfpot_x,self.halfpot_y)
         print(self.adjusted_half_pot_x,self.adjusted_half_pot_y,"adjusted")
@@ -134,7 +142,7 @@ class PkrWindow:
         self.manual_toggled = bo
     def set_button_pos(self):
         while True:
-            
+            self.is_table_fg() #döljer knapparna om det inte är fokus
             try:
                 t_pos = win32gui.GetWindowRect(self.hwnd)
             except Exception as e:
@@ -177,7 +185,7 @@ class PkrWindow:
                 move = move_x+move_y
                 self.root.geometry(move)
                 self.start = False
-            time.sleep(0.2)
+            time.sleep(0.05)
         
     def write_custom(self):
         
@@ -475,11 +483,8 @@ class SizeHandler:
                     self.size_objs.append([t_copy,pkr])
                 #print("hello",len(self.size_objs)) debug
             self.check_table_closed(titles)
-            try:
-                self.is_foreground_table_poker()
-            except:
-                pass
-            time.sleep(0.2)
+            
+            time.sleep(0.05)
     def close(self):
         self.root.destroy()
         quit()
