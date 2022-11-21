@@ -89,13 +89,31 @@ class PkrWindow:
 
     def is_table_fg(self):
         fg_table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
+        """point = win32gui.GetCursorPos()
+        handle = win32gui.WindowFromPoint(point)
+        cursor_table_name = win32gui.GetWindowText(handle)"""
+        
         try:
-            if fg_table_name == self.table_name:
-                self.root.attributes("-topmost",True)
+            if "table-" in self.table_name:
+                if "table-" in fg_table_name:
+                    self.root.attributes("-topmost",True)
+                else:
+                    self.root.attributes("-topmost",False)
             else:
-                self.root.attributes("-topmost",False)
+            
+                if  fg_table_name == self.table_name:
+                    self.root.attributes("-topmost",True)
+               
+                else:
+                    self.root.attributes("-topmost",False)
         except Exception as e:
-            print(e)
+                print(e)
+
+    def is_table_under_cursor(self):
+        point = win32gui.GetCursorPos()
+        handle = win32gui.WindowFromPoint(point)
+        name = win32gui.GetWindowText(handle)
+      
     def press_half_pot(self):
         self.adjusted_half_pot_x,self.adjusted_half_pot_y = self.adjust_pos_click(self.halfpot_x,self.halfpot_y)
         print(self.adjusted_half_pot_x,self.adjusted_half_pot_y,"adjusted")
