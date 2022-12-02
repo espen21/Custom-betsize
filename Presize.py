@@ -240,7 +240,7 @@ class PkrWindow:
             self.rng()
             #self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng)
             #self.rng_button.pack(in_=self.top,side=LEFT)
-            self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="white",width=4)
+            self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="purple",width=4)
             self.label.pack(in_=self.top,side=LEFT)
             self.label.bind("<Button-1>",lambda e:self.rng(clicked= True))
         
@@ -320,32 +320,16 @@ class PkrWindow:
         
     def remove_dec_bb_size(self,in_size):
         in_size = float(str(in_size).replace(",","."))
-        real_size = self.big_blind*in_size
+        real_size = round(self.big_blind*in_size,2)
         real_size = str(real_size)
-        real_size = real_size.split(".")
-        if real_size[1] == "0":
-            real_size = real_size[0]
-        else:
-            try:
-
-                real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
-
-            except:
-                real_size =  real_size[0]+"."+real_size[1]
+      
         return real_size
     def remove_dec_nums(self,in_size):
         real_size = str(in_size)
-        real_size = real_size.split(".")
-        if real_size[1] == "0":
-            
-            real_size = real_size[0]
-        else:
-            try:
-
-                real_size = real_size[0]+"."+real_size[1][0]+real_size[1][1]
-
-            except:
-                real_size =  real_size[0]+"."+real_size[1]
+        if real_size  == "0" : return real_size
+        real_size = round(float(real_size),2)
+        real_size = str(real_size)
+        
         return real_size
     def write_Size(self,in_size):
         try:
