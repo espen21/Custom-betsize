@@ -320,9 +320,14 @@ class PkrWindow:
         
     def remove_dec_bb_size(self,in_size):
         in_size = float(str(in_size).replace(",","."))
-        real_size = round(self.big_blind*in_size,2)
+
+        if "table-" in self.table_name:
+            real_size = int(self.big_blind*in_size)
+            
+        else:  
+            real_size = round(self.big_blind*in_size,2)
         real_size = str(real_size)
-      
+        
         return real_size
     def remove_dec_nums(self,in_size):
         real_size = str(in_size)
