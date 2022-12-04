@@ -240,7 +240,7 @@ class PkrWindow:
             self.rng()
             #self.rng_button = tkinter.Button(self.root,text="RNG",bg="black",fg="white",command= self.rng)
             #self.rng_button.pack(in_=self.top,side=LEFT)
-            self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="purple",width=4)
+            self.label = tkinter.Label(self.root,text=self.rng_num,bg="black",fg="pink",width=4)
             self.label.pack(in_=self.top,side=LEFT)
             self.label.bind("<Button-1>",lambda e:self.rng(clicked= True))
         
