@@ -95,13 +95,13 @@ class PkrWindow:
         
         try:
             if "table-" in self.table_name:
-                if "table-" in fg_table_name:
+                if "table-" in fg_table_name or ""== fg_table_name:
                     self.root.attributes("-topmost",True)
                 else:
                     self.root.attributes("-topmost",False)
             else:
             
-                if  fg_table_name == self.table_name:
+                if  fg_table_name == self.table_name or "" == fg_table_name:
                     self.root.attributes("-topmost",True)
                
                 else:
