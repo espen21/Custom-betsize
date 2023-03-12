@@ -44,8 +44,8 @@ class PkrWindow:
         if self.is_Unibet:
             self.betbox_x =  387
             self.betbox_y = 310
-            self.halfpot_x = 366
-            self.halfpot_y = 437
+            self.halfpot_x = 238
+            self.halfpot_y = 312
         else: #svs
             self.betbox_x =  1223
             self.betbox_y = 862
@@ -66,18 +66,20 @@ class PkrWindow:
 
     def get_betbox_num(self):
         self.adjust_pos_click_betbox()
-        lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
-        time.sleep(0.01)
         lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        
-        time.sleep(0.01)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        time.sleep(0.01)
+
+        if self.is_Unibet == False:
+            lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
+            time.sleep(0.01)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+            
+            time.sleep(0.01)
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+            time.sleep(0.01)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
         win32gui.SetForegroundWindow(self.hwnd)
@@ -143,17 +145,19 @@ class PkrWindow:
            
 
             self.adjust_pos_click_betbox()
-            lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
             lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
-            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
-            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
-            time.sleep(0.01)
-            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-            time.sleep(0.01)
-            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-            win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-            time.sleep(0.01)
+            if self.is_Unibet == False:
+                lParam_reset = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox-40)
+                
+                win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam_reset) 
+                win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam_reset)
+                time.sleep(0.01)
+                win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+                win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+                time.sleep(0.01)
+                win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+                win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
+                time.sleep(0.01)
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
             win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
            
@@ -493,7 +497,7 @@ class SizeHandler:
     def find_tables(self):
         while True:
             titles = gw.getAllTitles()
-            #print(win32gui.GetCursorPos())
+            print(win32gui.GetCursorPos())
             for t in titles:
                 if ("- NL Hold'em -" in t or "table-" in t or "- PL Omaha -" in t or "Texas Hold'em - NL" in t) and self.table_name_exist(t)==False : 
                     t_copy = t.split("-")
