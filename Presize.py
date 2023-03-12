@@ -497,7 +497,7 @@ class SizeHandler:
     def find_tables(self):
         while True:
             titles = gw.getAllTitles()
-            print(win32gui.GetCursorPos())
+            #print(win32gui.GetCursorPos())
             for t in titles:
                 if ("- NL Hold'em -" in t or "table-" in t or "- PL Omaha -" in t or "Texas Hold'em - NL" in t) and self.table_name_exist(t)==False : 
                     t_copy = t.split("-")
