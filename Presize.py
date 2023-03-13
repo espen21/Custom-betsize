@@ -18,7 +18,6 @@ class PkrWindow:
         if "Texas Hold'em - NL" in self.table_name: self.is_Unibet = True
         self.rng_yes = rng_yes
         self.hwnd = win32gui.FindWindow(None,self.table_name)
-        print(win32gui.GetWindowRect(self.hwnd))
 
         self.table_geo =win32gui.GetWindowRect(self.hwnd)
         self.first = True
@@ -44,8 +43,8 @@ class PkrWindow:
         if self.is_Unibet:
             self.betbox_x =  387
             self.betbox_y = 310
-            self.halfpot_x = 238
-            self.halfpot_y = 312
+            self.halfpot_x = 225
+            self.halfpot_y = 310
         else: #svs
             self.betbox_x =  1223
             self.betbox_y = 862
@@ -92,7 +91,7 @@ class PkrWindow:
         
         return str_bet_box
     def get_pot_size(self):
-        #self.press_half_pot() #buggig maunelltklick på 1/2
+        self.press_half_pot() #buggig maunelltklick på 1/2
         str_bet_box = self.get_betbox_num()
         try:
             pot_size = float(str_bet_box)*2.0
@@ -128,7 +127,6 @@ class PkrWindow:
         name = win32gui.GetWindowText(handle)
     def press_half_pot(self):
         self.adjusted_half_pot_x,self.adjusted_half_pot_y = self.adjust_pos_click(self.halfpot_x,self.halfpot_y)
-        print(self.adjusted_half_pot_x,self.adjusted_half_pot_y,"adjusted")
         lParam = win32api.MAKELONG(self.adjusted_half_pot_x, self.adjusted_half_pot_y)
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
@@ -360,7 +358,6 @@ class PkrWindow:
         try:
             self.get_big_blind()
             real_size = self.remove_dec_bb_size(in_size)
-            print(self.big_blind)
             self.adjust_pos_click_betbox()
             
             lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
