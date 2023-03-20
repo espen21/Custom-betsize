@@ -7,7 +7,41 @@ def send_click_fold(handle,press):
     win32gui.SetActiveWindow(handle)
     if press: keyboard.press("ctrl+left")
     else: keyboard.release("ctrl+left")
-    print(win32gui.GetWindowText(handle),press)
+def adjust_pos_click(x,y,handle):
+        table_geo =win32gui.GetWindowRect(handle)
+        
+        betbox_x = x
+        betbox_y = y 
+       
+        default_w = 640    
+        default_h = 390
+        t_x = table_geo[0]
+        t_y = table_geo[1]
+        t_w = table_geo[2]-t_x
+        t_h = table_geo[3]-t_y
+        #if t_w>557:
+         #   betbox_y = betbox_y-18
+         #   betbox_x =  betbox_x +10
+        adjuster_x = ((t_w)/default_w) 
+        adjuster_y = ((t_h)/default_h)
+        x_adjusted =  adjuster_x*(betbox_x)
+        y_adjusted = adjuster_y*(betbox_y )
+        x_adjusted = int(x_adjusted)
+        y_adjusted = int(y_adjusted)
+        return x_adjusted,y_adjusted
+def send_unibet_fold(handle):
+   
+    win32gui.SetActiveWindow(handle)
+    halfpot_x = 225
+    fold_btn_y = 340
+    x_adjust,y_adjust = adjust_pos_click(halfpot_x,fold_btn_y,handle,)
+    lParam = win32api.MAKELONG(x_adjust, y_adjust)
+    win32gui.SendMessage(handle, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+    win32gui.SendMessage(handle, win32con.WM_LBUTTONUP, 0, lParam)
+    time.sleep(0.05)
+
+    win32gui.SetForegroundWindow(handle)
+
 def get_big_blind(name):
         if "NL Hold'em" in name or "PL Omaha" in name:
             for s in name.split("-"):
@@ -25,29 +59,7 @@ def send_raise(handle,press,name):
     else: keyboard.release("ctrl+right")
     print(win32gui.GetWindowText(handle),press)
 
-def write_Size(self,in_size):
-    try:
-        self.get_big_blind()
-        real_size = self.remove_dec_bb_size(in_size)
 
-        self.adjust_pos_click_betbox()
-        
-        lParam = win32api.MAKELONG(self.x_adjusted_betbox, self.y_adjusted_betbox)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        time.sleep(0.05)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-        time.sleep(0.05)
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
-        win32gui.SendMessage(self.hwnd, win32con.WM_LBUTTONUP, 0, lParam)
-
-        win32gui.SetForegroundWindow(self.hwnd)
-        time.sleep(0.05)
-
-        pyautogui.typewrite(real_size)
-    except Exception as e:
-        print(e)
 state_left = win32api.GetKeyState(0x06)  # m4 button down = 0 or 1. Button up = -127 or -128
 state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up = -127 or -128
 
@@ -60,16 +72,23 @@ while True:
         point = win32gui.GetCursorPos()
         handle = win32gui.WindowFromPoint(point)
         name = win32gui.GetWindowText(handle)
-        name_stuff = "- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or "PLO "in name
-        if name_stuff and lift_table: win32gui.SetForegroundWindow(handle)
+        name_stuff = "- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or "PLO "in name or "Texas Hold'em - NL" in name
+        if name_stuff  and lift_table: win32gui.SetForegroundWindow(handle)
         temp_left= win32api.GetKeyState(0x06)
         temp_right = win32api.GetKeyState(0x05)  #
         if temp_left!= state_left:  # Button state changed
             state_left = temp_left
             if temp_left< 0 and name_stuff:
-                send_click_fold(handle,True)
+                if "Texas Hold'em - NL" in name:
+                    send_unibet_fold(handle)
+                else:
+                    send_click_fold(handle,True)
             else:
-                send_click_fold(handle,False)
+                if "Texas Hold'em - NL" in name:
+                    #send_unibet_fold(handle)
+                    pass
+                else:
+                    send_click_fold(handle,False)
         if temp_right!= state_right:  # Button state changed
             state_right = temp_right
             if temp_right< 0 and name_stuff:
