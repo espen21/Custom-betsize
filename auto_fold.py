@@ -63,10 +63,9 @@ def send_raise(handle,press,name):
 state_left = win32api.GetKeyState(0x06)  # m4 button down = 0 or 1. Button up = -127 or -128
 state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up = -127 or -128
 
-print("Started autofold, mouse4 = fold, mouse5 = raise")
-lift_table_input = input("Lift table when cursor is over it? [Y] for yes ")
+print("Started autofold, mouse4 = fold, mouse5 = raise, works for Unibet and SVS")
 lift_table = False
-if lift_table_input.lower() == "y": lift_table = True   
+ 
 while True:
     try:
         point = win32gui.GetCursorPos()
