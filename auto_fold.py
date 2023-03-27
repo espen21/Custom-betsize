@@ -29,6 +29,26 @@ def adjust_pos_click(x,y,handle):
         x_adjusted = int(x_adjusted)
         y_adjusted = int(y_adjusted)
         return x_adjusted,y_adjusted
+
+def set_rfi_size(handle):
+    try:
+        rfi_size_bb = "2.25"
+        betbox_x =  387
+        betbox_y = 310
+        x_adjusted_betbox,y_adjusted_betbox= adjust_pos_click(betbox_x,betbox_y,handle)
+        
+        lParam = win32api.MAKELONG(x_adjusted_betbox, y_adjusted_betbox)
+        win32gui.SendMessage(handle, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+        win32gui.SendMessage(handle, win32con.WM_LBUTTONUP, 0, lParam)
+        time.sleep(0.01)
+       
+            
+        win32gui.SetForegroundWindow(handle)
+        time.sleep(0.01)
+
+        pyautogui.typewrite(rfi_size_bb)
+    except Exception as e:
+        print(e)
 def send_unibet_fold(handle):
    
     win32gui.SetActiveWindow(handle)
@@ -68,32 +88,45 @@ lift_table = False
  
 while True:
     try:
+        
         point = win32gui.GetCursorPos()
         handle = win32gui.WindowFromPoint(point)
         name = win32gui.GetWindowText(handle)
-        name_stuff = "- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or "PLO "in name or "Texas Hold'em - NL" in name
+        name_stuff = ("- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or 
+                      "PLO "in name or "Texas Hold'em - NL" in name or "Omaha -" in name)
         if name_stuff  and lift_table: win32gui.SetForegroundWindow(handle)
         temp_left= win32api.GetKeyState(0x06)
-        temp_right = win32api.GetKeyState(0x05)  #
+        temp_right = win32api.GetKeyState(0x05)  
         if temp_left!= state_left:  # Button state changed
             state_left = temp_left
             if temp_left< 0 and name_stuff:
-                if "Texas Hold'em - NL" in name:
+                if "Texas Hold'em - NL" in name or "Omaha -" in name:
                     send_unibet_fold(handle)
                 else:
                     send_click_fold(handle,True)
             else:
-                if "Texas Hold'em - NL" in name:
+                if "Texas Hold'em - NL" in name or "Omaha -" in name:
                     #send_unibet_fold(handle)
+
                     pass
                 else:
                     send_click_fold(handle,False)
         if temp_right!= state_right:  # Button state changed
             state_right = temp_right
             if temp_right< 0 and name_stuff:
-                send_raise(handle,True,name)
+                if "Texas Hold'em - NL" in name or "Omaha -" in name:
+                    set_rfi_size(handle)
+                else:
+                    pass
+                   # send_raise(handle,True,name)
             else:
-                send_raise(handle,False,name)
+                if "Texas Hold'em - NL" in name or "Omaha -" in name:
+                   # set_rfi_size(handle)
+                    pass                 
+                
+
+                else:
+                    send_raise(handle,True,name)
     except Exception as e:
         print(e)
 
