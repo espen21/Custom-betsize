@@ -126,7 +126,8 @@ while True:
                 
 
                 else:
-                    send_raise(handle,True,name)
+                    pass
+                    #send_raise(handle,True,name)
     except Exception as e:
         print(e)
 
