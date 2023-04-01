@@ -80,12 +80,12 @@ def send_raise(handle,press,name):
     print(win32gui.GetWindowText(handle),press)
 
 
-state_left = win32api.GetKeyState(0x06)  # m4 button down = 0 or 1. Button up = -127 or -128
-state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up = -127 or -128
+state_left = win32api.GetKeyState(0x02)  # m4 button down = 0 or 1. Button up = -127 or -128
+state_right = win32api.GetKeyState(0x04)  # m4 button down = 0 or 1. Button up = -127 or -128
 
 print("Started autofold, mouse4 = fold, mouse5 = raise, works for Unibet and SVS")
 lift_table = False
- 
+
 while True:
     try:
         
@@ -95,8 +95,8 @@ while True:
         name_stuff = ("- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or 
                       "PLO "in name or "Texas Hold'em - NL" in name or "Omaha -" in name)
         if name_stuff  and lift_table: win32gui.SetForegroundWindow(handle)
-        temp_left= win32api.GetKeyState(0x06)
-        temp_right = win32api.GetKeyState(0x05)  
+        temp_left= win32api.GetKeyState(0x02)
+        temp_right = win32api.GetKeyState(0x04)  
         if temp_left!= state_left:  # Button state changed
             state_left = temp_left
             if temp_left< 0 and name_stuff:
