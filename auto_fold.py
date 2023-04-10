@@ -84,7 +84,7 @@ state_left = win32api.GetKeyState(0x06)  # m4 button down = 0 or 1. Button up = 
 state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up = -127 or -128
 
 print("Started autofold, mouse4 = fold, mouse5 = raise, works for Unibet and SVS")
-lift_table = False
+lift_table = True # poppar upp fönstret över mouseover
  
 while True:
     try:
