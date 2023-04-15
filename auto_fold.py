@@ -32,7 +32,7 @@ def adjust_pos_click(x,y,handle):
 
 def set_rfi_size(handle):
     try:
-        rfi_size_bb = "2.25"
+        rfi_size_bb = "2.2"
         betbox_x =  387
         betbox_y = 310
         x_adjusted_betbox,y_adjusted_betbox= adjust_pos_click(betbox_x,betbox_y,handle)
