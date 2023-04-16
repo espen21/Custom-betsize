@@ -204,7 +204,7 @@ class PkrWindow:
                 if move_x >= 0:  move_x = int(t_pos[0]+width_adjust)
                 else: move_x = int(t_pos[0]-width_adjust)
                 if move_x >= 0: move_x = move_x-200
-                else: move_x = move_x -1850
+                else: move_x = move_x -1750
                 move_y = t_pos[1]
                 if move_y >= 0: move_y = t_pos[1]+5
                 else: move_y = t_pos[1]-5
