@@ -84,7 +84,7 @@ state_left = win32api.GetKeyState(0x06)  # m4 button down = 0 or 1. Button up = 
 state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up = -127 or -128
 
 print("Started autofold, mouse4 = fold, mouse5 = raise, works for Unibet and SVS")
-lift_table = True # poppar upp fönstret över mouseover
+lift_table = False  # poppar upp fönstret över mouseover
  
 while True:
     try:
@@ -100,9 +100,11 @@ while True:
         if temp_left!= state_left:  # Button state changed
             state_left = temp_left
             if temp_left< 0 and name_stuff:
-                if "Texas Hold'em - NL" in name or "Omaha -" in name:
-                    send_unibet_fold(handle)
+                if "Texas Hold'em - NL" in name or "Omaha -" in name and  "- PL Omaha -"  not in name :
+                    send_click_fold(handle,True)
+
                 else:
+                    
                     send_click_fold(handle,True)
             else:
                 if "Texas Hold'em - NL" in name or "Omaha -" in name:
