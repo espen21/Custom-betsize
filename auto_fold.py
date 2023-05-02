@@ -5,8 +5,8 @@ import keyboard
 import pyautogui
 def send_click_fold(handle,press):
     win32gui.SetActiveWindow(handle)
-    if press: keyboard.press("ctrl+left")
-    else: keyboard.release("ctrl+left")
+    keyboard.press_and_release("F1")
+    
 def adjust_pos_click(x,y,handle):
         table_geo =win32gui.GetWindowRect(handle)
         
@@ -84,7 +84,7 @@ state_left = win32api.GetKeyState(0x06)  # m4 button down = 0 or 1. Button up = 
 state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up = -127 or -128
 
 print("Started autofold, mouse4 = fold, mouse5 = raise, works for Unibet and SVS")
-lift_table = False  # poppar upp fönstret över mouseover
+lift_table = True  # poppar upp fönstret över mouseover
  
 while True:
     try:
@@ -92,7 +92,7 @@ while True:
         point = win32gui.GetCursorPos()
         handle = win32gui.WindowFromPoint(point)
         name = win32gui.GetWindowText(handle)
-        name_stuff = ("- PL Omaha -" in name or "NLH" in name or "Hold'em -" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or 
+        name_stuff = ("| PL Omaha |" in name or "NLH" in name or "| NL Hold'em |" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or 
                       "PLO "in name or "Texas Hold'em - NL" in name or "Omaha -" in name)
         if name_stuff  and lift_table: win32gui.SetForegroundWindow(handle)
         temp_left= win32api.GetKeyState(0x06)
@@ -100,19 +100,19 @@ while True:
         if temp_left!= state_left:  # Button state changed
             state_left = temp_left
             if temp_left< 0 and name_stuff:
-                if "Texas Hold'em - NL" in name or "Omaha -" in name and  "- PL Omaha -"  not in name :
+                if "| NL Hold'em |" in name or  "| PL Omaha |" in name : #svs
                     send_click_fold(handle,True)
 
                 else:
                     
-                    send_click_fold(handle,True)
-            else:
-                if "Texas Hold'em - NL" in name or "Omaha -" in name:
-                    #send_unibet_fold(handle)
-
                     pass
+            else:
+                if "Texas Hold'em - NL" in name or "Omaha -" in name: #unibet
+                    
+                    send_unibet_fold(handle)
+                    
                 else:
-                    send_click_fold(handle,False)
+                    pass
         if temp_right!= state_right:  # Button state changed
             state_right = temp_right
             if temp_right< 0 and name_stuff:
