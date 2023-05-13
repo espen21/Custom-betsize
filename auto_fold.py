@@ -103,16 +103,12 @@ while True:
                 if "| NL Hold'em |" in name or  "| PL Omaha |" in name : #svs
                     send_click_fold(handle,True)
 
-                else:
-                    
-                    pass
-            else:
-                if "Texas Hold'em - NL" in name or "Omaha -" in name: #unibet
+            
+                elif "Texas Hold'em - NL" in name or "Omaha -" in name: #unibet
                     
                     send_unibet_fold(handle)
                     
-                else:
-                    pass
+                
         if temp_right!= state_right:  # Button state changed
             state_right = temp_right
             if temp_right< 0 and name_stuff:
