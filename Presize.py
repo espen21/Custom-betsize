@@ -104,7 +104,6 @@ class PkrWindow:
         """point = win32gui.GetCursorPos()
         handle = win32gui.WindowFromPoint(point)
         cursor_table_name = win32gui.GetWindowText(handle)"""
-        
         try:
             if "table-" in self.table_name:
                 if "table-" in fg_table_name :
@@ -113,7 +112,7 @@ class PkrWindow:
                     self.root.attributes("-topmost",False)
             else:
             
-                if  fg_table_name == self.table_name :
+                if  fg_table_name == self.table_name or "tk" in fg_table_name:
                     self.root.attributes("-topmost",True)
                
                 else:
