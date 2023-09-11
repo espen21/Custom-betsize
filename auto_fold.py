@@ -3,6 +3,7 @@ import win32gui,win32api,win32con
 import time
 import keyboard
 import pyautogui
+import pygetwindow as gw
 def send_click_fold(handle,press):
     win32gui.SetActiveWindow(handle)
     keyboard.press_and_release("F1")
@@ -86,16 +87,25 @@ state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up =
 
 print("Started autofold, mouse4 = fold, mouse5 = raise, works for Unibet and SVS")
 lift_table = True  # poppar upp fönstret över mouseover
- 
+def check_svsx2(titles):
+    count=0
+    str_svs = "Svenska Spel Poker"
+    for t in titles:
+        if count >=2: return True
+        if t == str_svs:
+            count+=1 
+    return False 
 while True:
     try:
         
         point = win32gui.GetCursorPos()
         handle = win32gui.WindowFromPoint(point)
         name = win32gui.GetWindowText(handle)
+        titles = gw.getAllTitles()
+      
         name_stuff = ("| PL Omaha |" in name or "NLH" in name or "| NL Hold'em |" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or 
                       "PLO "in name or "Texas Hold'em - NL" in name or "Omaha -" in name)
-        if name_stuff  and lift_table and win32gui.GetForegroundWindow() != handle : 
+        if name_stuff  and lift_table and win32gui.GetForegroundWindow() != handle and check_svsx2(titles) is False:
             win32gui.SetForegroundWindow(handle)
             
         temp_left= win32api.GetKeyState(0x06)
