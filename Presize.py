@@ -42,11 +42,11 @@ class PkrWindow:
         self.manual_toggled = False
         if self.is_Unibet:
             self.betbox_x =  387
-            self.betbox_y = 310
+            self.betbox_y = 350
             self.halfpot_x = 225
             self.halfpot_y = 310
         else: #svs
-            self.betbox_x =  1223
+            self.betbox_x =  388
             self.betbox_y = 862
             self.halfpot_x = 798
             self.halfpot_y = 841 #funkar inte för max size på bord
@@ -268,13 +268,14 @@ class PkrWindow:
     def adjust_pos_click(self,x,y):
         try:
             self.table_geo =win32gui.GetWindowRect(self.hwnd)
+          
         except Exception as e:
             #print(e)
             self.root.destroy()
         betbox_x = x
         betbox_y = y 
-        default_w = 1359    
-        default_h = 1057
+        default_w = 557    
+        default_h = 395
         if self.is_Unibet:
             default_w = 640    
             default_h = 390
@@ -305,7 +306,7 @@ class PkrWindow:
                 self.table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
                 for s in self.table_name.split("-"):
                     if "/" in s:
-                        self.big_blind = float(s.split("/")[1])
+                        self.big_blind = float(s.split("/")[1].replace("kr"),)
                 self.label.configure(text="BB:"+str(self.big_blind)+"kr")
                 self.hwnd = win32gui.FindWindow(None,self.table_name)
                 self.adjust_pos_click_betbox()
@@ -321,14 +322,16 @@ class PkrWindow:
     
     def get_big_blind(self):
         self.table_name = win32gui.GetWindowText(self.hwnd)
-        if "NL Hold'em" in self.table_name or "PL Omaha" in self.table_name:
-            for s in self.table_name.split("-"):
-                if "/" in s:
-                    self.big_blind = float(s.split("/")[1].replace(",","."))
-        elif "table-" in self.table_name:
-            for s in self.table_name.split("-"):
-                if "/" in s:
-                    self.big_blind = float(s.split(" ")[1].split("/")[1].replace(",","."))
+        #if "NL Hold'em" in self.table_name or "PL Omaha" in self.table_name:
+        #    for s in self.table_name.split("-"):
+        #        if "/" in s:
+        #            self.big_blind = float(s.split("/")[1].replace(",","."))
+        #elif "table-" in self.table_name:
+        #    for s in self.table_name.split("-"):
+        #        if "/" in s:
+        #            self.big_blind = float(s.split(" ")[1].split("/")[1].replace(",","."))
+        if not self.is_Unibet:
+            self.big_blind = 1.0
         elif self.is_Unibet:
             #split_name = self.table_name.split(" ")
             #str_level = split_name[3].replace("NL","")
@@ -493,9 +496,8 @@ class SizeHandler:
     def find_tables(self):
         while True:
             titles = gw.getAllTitles()
-            #print(win32gui.GetCursorPos())
             for t in titles:
-                if ("- NL Hold'em -" in t or "table-" in t or "- PL Omaha -" in t or "Texas Hold'em - NL" in t) and self.table_name_exist(t)==False : 
+                if ("| NL Hold'em |" in t  or "| PL Omaha |" in t or "Texas Hold'em - NL" in t) and self.table_name_exist(t)==False : 
                     t_copy = t.split("-")
                     try:
                         t_copy = t_copy[0]+"-"+t_copy[1]+"-"+t_copy[2]
