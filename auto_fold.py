@@ -16,6 +16,9 @@ def adjust_pos_click(x,y,handle):
        
         default_w = 640    
         default_h = 390
+        if "| NL Hold'em |" in name or  "| PL Omaha |" in name:
+            default_w = 557    
+            default_h = 395
         t_x = table_geo[0]
         t_y = table_geo[1]
         t_w = table_geo[2]-t_x
@@ -37,6 +40,9 @@ def set_rfi_size(handle):
         if "Omaha" in win32gui.GetWindowText(handle): rfi_size_bb ='100' 
         betbox_x =  387
         betbox_y = 310
+        if "| NL Hold'em |" in name or  "| PL Omaha |" in name:
+            betbox_x =  388
+            betbox_y = 862
         x_adjusted_betbox,y_adjusted_betbox= adjust_pos_click(betbox_x,betbox_y,handle)
         
         lParam = win32api.MAKELONG(x_adjusted_betbox, y_adjusted_betbox)
@@ -125,8 +131,10 @@ while True:
         if temp_right!= state_right:  # Button state changed
             state_right = temp_right
             if temp_right< 0 and name_stuff:
-                if "Texas Hold'em - NL" in name or "Omaha -" in name:
+                
+                if "Texas Hold'em - NL" in name or "Omaha -" in name or "| NL Hold'em |" in name or  "| PL Omaha |" in name :
                     set_rfi_size(handle)
+                    
                 else:
                     pass
                    # send_raise(handle,True,name)
