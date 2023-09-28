@@ -8,7 +8,7 @@ def send_click_fold(handle,press):
     win32gui.SetActiveWindow(handle)
     keyboard.press_and_release("F1")
     
-def adjust_pos_click(x,y,handle):
+def adjust_pos_click(x,y,handle,name):
         table_geo =win32gui.GetWindowRect(handle)
         
         betbox_x = x
@@ -34,7 +34,7 @@ def adjust_pos_click(x,y,handle):
         y_adjusted = int(y_adjusted)
         return x_adjusted,y_adjusted
 
-def set_rfi_size(handle):
+def set_rfi_size(handle,name):
     try:
         rfi_size_bb = "2.25"
         if "Omaha" in win32gui.GetWindowText(handle): rfi_size_bb ='100' 
@@ -43,13 +43,19 @@ def set_rfi_size(handle):
         if "| NL Hold'em |" in name or  "| PL Omaha |" in name:
             betbox_x =  388
             betbox_y = 862
-        x_adjusted_betbox,y_adjusted_betbox= adjust_pos_click(betbox_x,betbox_y,handle)
+        x_adjusted_betbox,y_adjusted_betbox= adjust_pos_click(betbox_x,betbox_y,handle,name)
         
         lParam = win32api.MAKELONG(x_adjusted_betbox, y_adjusted_betbox)
         win32gui.SendMessage(handle, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
         win32gui.SendMessage(handle, win32con.WM_LBUTTONUP, 0, lParam)
         time.sleep(0.01)
-       
+        if "| NL Hold'em |" in name or  "| PL Omaha |" in name:
+            
+            win32gui.SendMessage(handle, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(handle, win32con.WM_LBUTTONUP, 0, lParam)
+            time.sleep(0.01)
+            win32gui.SendMessage(handle, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
+            win32gui.SendMessage(handle, win32con.WM_LBUTTONUP, 0, lParam)
             
         win32gui.SetForegroundWindow(handle)
         time.sleep(0.01)
@@ -62,7 +68,7 @@ def send_unibet_fold(handle):
     win32gui.SetActiveWindow(handle)
     halfpot_x = 225
     fold_btn_y = 340
-    x_adjust,y_adjust = adjust_pos_click(halfpot_x,fold_btn_y,handle,)
+    x_adjust,y_adjust = adjust_pos_click(halfpot_x,fold_btn_y,handle,name)
     lParam = win32api.MAKELONG(x_adjust, y_adjust)
     win32gui.SendMessage(handle, win32con.WM_LBUTTONDOWN, win32con.MK_LBUTTON, lParam) 
     win32gui.SendMessage(handle, win32con.WM_LBUTTONUP, 0, lParam)
@@ -133,7 +139,7 @@ while True:
             if temp_right< 0 and name_stuff:
                 
                 if "Texas Hold'em - NL" in name or "Omaha -" in name or "| NL Hold'em |" in name or  "| PL Omaha |" in name :
-                    set_rfi_size(handle)
+                    set_rfi_size(handle,name)
                     
                 else:
                     pass
