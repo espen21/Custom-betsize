@@ -174,6 +174,7 @@ class PkrWindow:
             self.is_table_fg() #döljer knapparna om det inte är fokus
             try:
                 t_pos = win32gui.GetWindowRect(self.hwnd)
+                
             except Exception as e:
                 self.root.destroy()
             if self.manual_move == True:
@@ -212,7 +213,10 @@ class PkrWindow:
                 if move_y>0: move_y = "+" + str(move_y)
                 else: move_y =str(move_y)
                 move = move_x+move_y
-                self.root.geometry(move)
+                try:
+                    self.root.geometry(move)
+                except:
+                    pass
                 self.start = False
             time.sleep(0.01)
         
@@ -268,7 +272,7 @@ class PkrWindow:
     def adjust_pos_click(self,x,y):
         try:
             self.table_geo =win32gui.GetWindowRect(self.hwnd)
-          
+            
         except Exception as e:
             #print(e)
             self.root.destroy()
@@ -498,15 +502,11 @@ class SizeHandler:
             titles = gw.getAllTitles()
             for t in titles:
                 if ("| NL Hold'em |" in t  or "| PL Omaha |" in t or "Texas Hold'em - NL" in t) and self.table_name_exist(t)==False : 
-                    t_copy = t.split("-")
-                    try:
-                        t_copy = t_copy[0]+"-"+t_copy[1]+"-"+t_copy[2]
-                    except:
-                        t_copy = t
+                 
                     pkr=PkrWindow(table_name=t,size_list=self.bet_sizes,rng_yes= self.rng_yes)
                     self.pkr_thread = threading.Thread(target=pkr.start_size,daemon=True)
                     self.pkr_thread.start()
-                    self.size_objs.append([t_copy,pkr])
+                    self.size_objs.append([t,pkr])
                 #print("hello",len(self.size_objs)) debug
             self.check_table_closed(titles)
             
