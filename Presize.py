@@ -51,6 +51,8 @@ class PkrWindow:
             self.halfpot_x = 798
             self.halfpot_y = 841 #funkar inte för max size på bord
         self.reset = False
+        self.show_btns = True
+        self.hide_btns = False
     def start_size(self):
         
         self.root = tkinter.Tk()
@@ -100,30 +102,34 @@ class PkrWindow:
         return pot_size
 
     def is_table_fg(self):
+        
         fg_table_name = win32gui.GetWindowText(win32gui.GetForegroundWindow())
+        cursor_name = self.get_table_under_cursor()
         """point = win32gui.GetCursorPos()
         handle = win32gui.WindowFromPoint(point)
         cursor_table_name = win32gui.GetWindowText(handle)"""
         try:
-            if "table-" in self.table_name:
-                if "table-" in fg_table_name :
-                    self.root.attributes("-topmost",True)
-                else:
-                    self.root.attributes("-topmost",False)
-            else:
             
-                if  fg_table_name == self.table_name or "tk" in fg_table_name:
-                    self.root.attributes("-topmost",True)
+        
+            if  (cursor_name in self.table_name or "tk" in cursor_name or len(cursor_name) == 0) and self.show_btns != True  and self.hide_btns == FALSE:
+                self.root.attributes("-topmost",True)
+                self.root.deiconify()
+                self.show_btns = True
                
-                else:
-                    self.root.attributes("-topmost",False)
+            
+            elif self.show_btns == True and ( cursor_name not in self.table_name and "tk" not in cursor_name)   :
+                self.root.attributes("-topmost",False)
+                self.root.withdraw()
+                self.show_btns = False
+                
+               
         except Exception as e:
                 print(e)
 
-    def is_table_under_cursor(self):
+    def get_table_under_cursor(self):
         point = win32gui.GetCursorPos()
         handle = win32gui.WindowFromPoint(point)
-        name = win32gui.GetWindowText(handle)
+        return  win32gui.GetWindowText(handle)
     def press_half_pot(self):
         self.adjusted_half_pot_x,self.adjusted_half_pot_y = self.adjust_pos_click(self.halfpot_x,self.halfpot_y)
         lParam = win32api.MAKELONG(self.adjusted_half_pot_x, self.adjusted_half_pot_y)
@@ -379,7 +385,7 @@ class PkrWindow:
                 
             win32gui.SetForegroundWindow(self.hwnd)
             time.sleep(0.01)
-
+            
             pyautogui.typewrite(real_size)
         except Exception as e:
             print(e)
@@ -397,14 +403,14 @@ class SizeHandler:
         self.entry1 = tkinter.Entry(self.root,width=50)
         self.entry1.setvar() 
         self.read_config()
-        self.move_yes = tkinter.BooleanVar()
+        self.Is_hide_checked = tkinter.BooleanVar()
         self.rng_yes = tkinter.BooleanVar()
         self.ca.create_window(200, 140, window=self.entry1)
         self.create_button()
         
         self.size_objs = []
         self.root.mainloop()
-    def is_foreground_table_poker(self):
+    def is_foreground_table_poker(self): #not used
         fg_table = win32gui.GetWindowText(win32gui.GetForegroundWindow())
         if "table-" in fg_table or "NL Hold'em" in fg_table or "Omaha" in fg_table or "tk" in fg_table:            
             for o in self.size_objs:
@@ -447,12 +453,18 @@ class SizeHandler:
         self.ca.create_window(200,180,window=self.start_button2)
         self.ca.create_window(240,180,window=self.exit_button)
     
-    def add_toolbar_to_move(self):
+    #used to move bet buttons
+    def add_toolbar_to_move(self): # not used 
         move_bool = self.move_yes.get()
         for o in self.size_objs:
             o[1].root.overrideredirect(not move_bool)
             o[1].set_move(move_bool)
     
+    def hide_buttons(self):
+        
+        for o in self.size_objs:
+            o[1].root.withdraw()
+            o[1].hide_btns = self.Is_hide_checked.get()
     def reset_move(self):
         
         for o in self.size_objs:
@@ -461,7 +473,7 @@ class SizeHandler:
     def refind_tables(self):
         for s in self.size_objs:
             s[1].destroy_sub_root()
-      
+            
 
     def start_button(self):
         self.rng_yes = self.rng_yes.get()
@@ -470,8 +482,9 @@ class SizeHandler:
             self.set_sizes()
             self.thread = threading.Thread(target=self.find_tables,daemon=True)
             self.thread.start()
-            self.move_check = tkinter.Checkbutton( text='Move',variable=self.move_yes, onvalue=True, offvalue=False,command=self.add_toolbar_to_move)
-            self.ca.create_window(100,180,window=self.move_check)
+          
+            self.button_hide = tkinter.Checkbutton( text='Hide',variable=self.Is_hide_checked, onvalue=True, offvalue=False,command=self.hide_buttons)
+            self.ca.create_window(100,180,window=self.button_hide)
             self.reset_move_button = tkinter.Button(text="Reset Move",command=self.reset_move)
             self.ca.create_window(100,220,window=self.reset_move_button)
             self.reset_move_button = tkinter.Button(text="On top",command=self.refind_tables)
