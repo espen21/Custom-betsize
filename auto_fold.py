@@ -97,7 +97,7 @@ def send_raise(handle,press,name):
 state_left = win32api.GetKeyState(0x06)  # m4 button down = 0 or 1. Button up = -127 or -128
 state_right = win32api.GetKeyState(0x05)  # m4 button down = 0 or 1. Button up = -127 or -128
 
-print("Started autofold, mouse4 = fold, mouse5 = raise, works for Unibet and SVS")
+print("Started autofold, mouse4 = fold, mouse5 = raise, works for Unibet and SVS,\n Press [Ctrl] +[P] to turn on/off lift table")
 lift_table = True  # poppar upp fönstret över mouseover
 def check_svsx2(titles):
     count=0
@@ -117,6 +117,10 @@ while True:
       
         name_stuff = ("| PL Omaha |" in name or "NLH" in name or "| NL Hold'em |" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or 
                       "PLO "in name or "Texas Hold'em - NL" in name or "Omaha -" in name)
+        if keyboard.is_pressed("ctrl+p"): 
+            lift_table = not lift_table
+            print("Lift table is ",lift_table)
+            time.sleep(0.5)
         if name_stuff  and lift_table and win32gui.GetForegroundWindow() != handle and check_svsx2(titles) is False:
             win32gui.SetForegroundWindow(handle)
             
