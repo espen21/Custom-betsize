@@ -116,7 +116,7 @@ while True:
         titles = gw.getAllTitles()
       
         name_stuff = ("| PL Omaha |" in name or "NLH" in name or "| NL Hold'em |" in name or "table-" in name or "Rush & Cash" in name or "Spin & Gold" in name or 
-                      "PLO "in name or "Texas Hold'em - NL" in name or "Omaha -" in name)
+                      "PLO "in name or "Texas Hold'em - NL" in name or "Omaha -" in name or "(" in name)
         if keyboard.is_pressed("ctrl+p"): 
             lift_table = not lift_table
             print("Lift table is ",lift_table)
@@ -133,7 +133,7 @@ while True:
                     send_click_fold(handle,True)
 
             
-                elif "Texas Hold'em - NL" in name or "Omaha -" in name: #unibet
+                elif "Texas Hold'em - NL" in name or "Omaha -" in name or "(" in name: #unibet
                     
                     send_unibet_fold(handle)
                     
@@ -142,7 +142,7 @@ while True:
             state_right = temp_right
             if temp_right< 0 and name_stuff:
                 
-                if "Texas Hold'em - NL" in name or "Omaha -" in name or "| NL Hold'em |" in name or  "| PL Omaha |" in name :
+                if "Texas Hold'em - NL" in name or "Omaha -" in name or "| NL Hold'em |" in name or  "| PL Omaha |" in name or "(" in name :
                     set_rfi_size(handle,name)
                     
                 else:
