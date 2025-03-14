@@ -36,7 +36,7 @@ def adjust_pos_click(x,y,handle,name):
 
 def set_rfi_size(handle,name):
     try:
-        rfi_size_bb = "2.25"
+        rfi_size_bb = "2.3"
         if "Omaha" in win32gui.GetWindowText(handle): rfi_size_bb ='100' 
         betbox_x =  387
         betbox_y = 310
@@ -75,6 +75,12 @@ def send_unibet_fold(handle):
     time.sleep(0.05)
 
     win32gui.SetForegroundWindow(handle)
+
+def unibet_fold2(handle):
+    win32gui.SetActiveWindow(handle)
+    keyboard.press_and_release("F1")
+    time.sleep(0.05)
+    keyboard.press_and_release("F2")
 
 def get_big_blind(name):
         if "NL Hold'em" in name or "PL Omaha" in name:
@@ -135,7 +141,7 @@ while True:
             
                 elif "Texas Hold'em - NL" in name or "Omaha -" in name or "(" in name: #unibet
                     
-                    send_unibet_fold(handle)
+                    unibet_fold2(handle)
                     
                 
         if temp_right!= state_right:  # Button state changed
