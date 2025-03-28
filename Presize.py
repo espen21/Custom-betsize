@@ -213,7 +213,7 @@ class PkrWindow:
                 else: move_x = move_x -1750
                 move_y = t_pos[1]
                 if move_y >= 0: move_y = t_pos[1] # adjust hero to move button in Y
-                else: move_y = t_pos[1]-5
+                else: move_y = t_pos[1]
                 if move_x>= 0 :move_x = "+"+str(move_x)
                 else :move_x =str(move_x)
                 if move_y>0: move_y = "+" + str(move_y)
