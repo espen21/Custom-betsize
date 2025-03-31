@@ -266,7 +266,7 @@ class PkrWindow:
             self.label.bind("<Button-1>",lambda e:self.rng(clicked= True))
         
     def rng(self,clicked =False):
-        random.seed(datetime.now())
+        random.seed(datetime.now().timestamp())
         self.rng_num= str( random.randint(0,100))
         try:
             

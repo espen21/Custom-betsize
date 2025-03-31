@@ -156,8 +156,7 @@ while True:
                    # send_raise(handle,True,name)
             else:
                 if "Texas Hold'em - NL" in name or "Omaha -" in name:
-                   # set_rfi_size(handle)
-                    pass                 
+                    set_rfi_size(handle)
                 
 
                 else:
