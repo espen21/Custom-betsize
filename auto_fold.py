@@ -78,9 +78,8 @@ def send_unibet_fold(handle):
 
 def unibet_fold2(handle):
     win32gui.SetActiveWindow(handle)
-    keyboard.press_and_release("F1")
-    time.sleep(0.05)
-    keyboard.press_and_release("F2")
+    
+    pyautogui.click(button='right')     
 
 def get_big_blind(name):
         if "NL Hold'em" in name or "PL Omaha" in name:
