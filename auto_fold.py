@@ -133,13 +133,12 @@ while True:
         temp_right = win32api.GetKeyState(0x05)  
         if temp_left!= state_left:  # Button state changed
             state_left = temp_left
-            if temp_left< 0 and name_stuff:
+            if  name_stuff:
                 if "| NL Hold'em |" in name or  "| PL Omaha |" in name : #svs
                     send_click_fold(handle,True)
 
             
                 elif "Texas Hold'em - NL" in name or "Omaha -" in name or "(" in name: #unibet
-                    
                     unibet_fold2(handle)
                     
                 
@@ -155,7 +154,7 @@ while True:
                    # send_raise(handle,True,name)
             else:
                 if "Texas Hold'em - NL" in name or "Omaha -" in name:
-                    set_rfi_size(handle)
+                    set_rfi_size(handle,name)
                 
 
                 else:
