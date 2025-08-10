@@ -144,7 +144,7 @@ while True:
                 
         if temp_right!= state_right:  # Button state changed
             state_right = temp_right
-            if temp_right< 0 and name_stuff:
+            if  name_stuff:
                 
                 if "Texas Hold'em - NL" in name or "Omaha -" in name or "| NL Hold'em |" in name or  "| PL Omaha |" in name or "(" in name :
                     set_rfi_size(handle,name)
