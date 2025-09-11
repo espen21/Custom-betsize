@@ -1,22 +1,59 @@
 import re
 from datetime import datetime
 import clipboard
-import time
-import keyboard
+import tkinter as tk
+from tkinter import ttk, messagebox
+import os, json, sys, subprocess
 
 VERSION_STR = "24.7.1.16"
 
-# Alltid använd detta namn som Hero om det finns i handen,
-# annars faller vi tillbaka till första "Delat ut till ..."
-PREFERRED_HERO = "JullyEggy"
+# ----- Bas-katalog: där skriptet/exen ligger -----
+if getattr(sys, 'frozen', False):  # t.ex. PyInstaller
+    BASE_DIR = os.path.dirname(sys.executable)
+else:
+    BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
-# Svenska -> Engelsk kortfärg (målsystemets bokstav först, sedan valör)
+# ----- Konfig & historik i samma mapp som programmet -----
+CONFIG_PATH = os.path.join(BASE_DIR, "unibet_hand_converter_config.json")
+HISTORY_DIR = os.path.join(BASE_DIR, "Unibet_Converter_History")
+
+# ----- Svenska -> Engelsk kortfärg -----
 # r = ruter(D), k = klöver(C), s = spader(S), h = hjärter(H)
 SUIT_MAP = {"r": "D", "k": "C", "s": "S", "h": "H"}
 
-# Hjälpfunktioner
+# ===================== Preferenser =====================
+def load_prefs() -> dict:
+    try:
+        with open(CONFIG_PATH, "r", encoding="utf-8") as f:
+            return json.load(f)
+    except Exception:
+        return {}
+
+def save_prefs(d: dict):
+    try:
+        with open(CONFIG_PATH, "w", encoding="utf-8") as f:
+            json.dump(d, f, ensure_ascii=False, indent=2)
+    except Exception:
+        pass
+
+def current_history_file() -> str:
+    """
+    Returnera dagens historikfil som 'converted_YYYY-MM-DD.txt'.
+    Migrerar ev. gammal fil utan ändelse -> .txt om den finns.
+    """
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    today = datetime.now().strftime("%Y-%m-%d")
+    new_path = os.path.join(HISTORY_DIR, f"converted_{today}.txt")
+    old_path = os.path.join(HISTORY_DIR, f"converted_{today}")  # gammalt namn utan .txt
+    try:
+        if os.path.exists(old_path) and not os.path.exists(new_path):
+            os.rename(old_path, new_path)
+    except Exception:
+        pass
+    return new_path
+
+# ===================== Hjälpfunktioner =====================
 def _rank_norm(tok: str) -> str:
-    """Normalisera valör: 10 stavas '10', annars A,K,Q,J,9..2."""
     tok = tok.upper()
     return "10" if tok in ("10", "T") else tok
 
@@ -26,15 +63,12 @@ def _card_sv_to_target(token: str) -> str:
     Tar höjd för blandade format (t.ex. '10k', 'T k').
     """
     token = token.strip().lower()
-    # Ex: '7h', 'kh', '10k', 'jk'
     m = re.match(r"^([0-9]{1,2}|[tjqka])([rksh])$", token)
     if not m:
-        # För säkerhets skull: lämna tillbaka orört om vi inte matchar
         return token.upper()
     rank, suit = m.groups()
     suit_en = SUIT_MAP.get(suit, suit.upper())
     rank_en = _rank_norm(rank)
-    # Målets stil: Suit först, sedan rank (t.ex. 'H7', 'CQ', 'S10')
     return f"{suit_en}{rank_en}"
 
 def _parse_cards_block(block: str) -> str:
@@ -48,14 +82,12 @@ def _parse_cards_block(block: str) -> str:
     conv = [_card_sv_to_target(tok) for tok in tokens]
     return "[" + " ".join(conv) + "]"
 
-def _parse_single_card(token: str) -> str:
-    return _card_sv_to_target(token)
-
 def _money(s: str) -> str:
     """Säker formatering av pengar med två decimaler."""
     return f"{float(s):.2f}"
 
-def convert(raw: str, version: str = VERSION_STR) -> str:
+# ===================== Konverterare =====================
+def convert(raw: str, version: str = VERSION_STR, preferred_hero: str = "JullyEggy") -> str:
     # --- Header ---
     m_head = re.search(
         r"Spel\s+#(?P<id>\d+):\s*Bord\s*(?P<table_name>.+?)\s*-\s*(?P<sb>\d+\.?\d*)/(?P<bb>\d+\.?\d*)\s*-\s*No Limit Hold'Em\s*-\s*(?P<time>\d{2}:\d{2}:\d{2})\s*(?P<date>\d{4}/\d{2}/\d{2})",
@@ -69,15 +101,13 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
     bb = _money(m_head.group("bb"))
     time_str = m_head.group("time")
     date_str = m_head.group("date").replace("/", "-")
-    # Lägg till /GMT enligt målets format (vi antar att given tid kan presenteras så)
     header_line = f"GAME #{hand_id} Version:{version} Uncalled:Y Texas Hold'em NL €{sb}/€{bb} {date_str} {time_str}/GMT"
 
     # --- Seats / Stacks ---
     seats = re.findall(r"Platser\s+(\d+):\s*([^\(]+)\(€([\d\.]+)\)", raw)
-    # Bestäm table size som antal listade seats (fallback 6)
     table_size = len(seats) if len(seats) > 0 else 6
 
-    # Hitta button (dealern)
+    # Button (dealern)
     m_btn = re.search(r"([^\s]+)\s+har knappen", raw, flags=re.I)
     button_name = m_btn.group(1) if m_btn else None
     button_seat = None
@@ -92,11 +122,10 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
     sb_name, sb_amt = (m_sb.group(1), _money(m_sb.group(2))) if m_sb else (None, None)
     bb_name, bb_amt = (m_bb.group(1), _money(m_bb.group(2))) if m_bb else (None, None)
 
-    # --- Hole cards (lista på alla "Delat ut till") ---
+    # --- Hole cards (alla "Delat ut till") ---
     dealt = re.findall(r"Delat ut till\s+([^\s]+)\s+\[([^\]]+)\]", raw, flags=re.I)
 
-    # --- Actions per gata ---
-    # Vi håller "current_to" per gata för att kunna räkna "raises to".
+    # --- Gata-för-gata-aktion ---
     def parse_street_actions(street_block: str, preflop: bool = False):
         out = []
         current_to = float(bb) if preflop and bb else 0.0  # preflop utgångspunkt
@@ -128,19 +157,17 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
                 name = m_call.group(1)
                 amt = float(m_call.group(2))
                 out.append(f"{name}: Call €{amt:.2f}")
-                # current_to förblir oförändrat (call påverkar inte "to"-nivån)
                 continue
-            # Raise (svenska loggen kan skriva "höjer €X med €Y")
+            # Raise ("höjer €X [med €Y]")
             m_raise = re.search(r"([^\s:]+).*höjer\s+€([\d\.]+)(?:\s+med\s+€([\d\.]+))?", line, flags=re.I)
             if m_raise:
                 name = m_raise.group(1)
                 inc = float(m_raise.group(2))
-                # Heuristik: i dessa loggar har första talet oftast varit "raise-increment".
                 new_to = current_to + inc
                 current_to = new_to
                 out.append(f"{name}: Raise (NF) €{new_to:.2f}")
                 continue
-            # All-in bet text (t.ex. "satsar €44.80, och är all-in")
+            # All-in bet
             m_allin_bet = re.search(r"([^\s:]+).*satsar\s+€([\d\.]+).*all-?in", line, flags=re.I)
             if m_allin_bet:
                 name = m_allin_bet.group(1)
@@ -148,13 +175,12 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
                 current_to = amt
                 out.append(f"{name}: Bet €{amt:.2f}")
                 continue
-            # All-in raise text (fallback)
+            # All-in raise (fallback)
             m_allin_raise = re.search(r"([^\s:]+).*höjer\s+.*all-?in", line, flags=re.I)
             if m_allin_raise:
                 name = m_allin_raise.group(1)
                 out.append(f"{name}: Raise (NF) (all-in)")
                 continue
-            # Om inget matchar, ignorera
         return out
 
     # Plocka gat-block
@@ -194,22 +220,21 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
     if bb_name and bb_amt:
         out.append(f"{bb_name}: Post BB €{bb_amt}")
 
-    # -------- HERO-logik här --------
+    # -------- HERO-logik --------
     out.append("*** HOLE CARDS ***")
     hero_name = None
     hero_cards = None
     if dealt:
-        # 1) Försök hitta "JullyEggy" (case-insensitivt)
+        # 1) Försök hitta preferred_hero
         for name, cards in dealt:
-            if name.strip().lower() == PREFERRED_HERO.lower():
+            if preferred_hero and name.strip().lower() == preferred_hero.strip().lower():
                 hero_name = name
                 hero_cards = cards
                 break
-        # 2) Fallback: ta första "Delat ut till ..."
+        # 2) Fallback: första
         if hero_name is None:
             hero_name, hero_cards = dealt[0]
 
-    # Skriv endast hero-raden
     if hero_name and hero_cards:
         cards_tok = hero_cards.strip().split()
         conv = [_card_sv_to_target(t) for t in cards_tok]
@@ -217,8 +242,7 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
 
     # Preflop actions
     if pre_block:
-        pre_actions = parse_street_actions(pre_block.group(1), preflop=True)
-        out.extend(pre_actions)
+        out.extend(parse_street_actions(pre_block.group(1), preflop=True))
 
     # FLOP
     if flop_line:
@@ -243,7 +267,7 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
     if total_pot and rake:
         out.append(f"Total pot €{total_pot} Rake €{rake}")
 
-    # Showdown lines (översätter bara kort – lämnar svensk handtext utanför)
+    # Showdown lines
     handdesc_map = {
         "kåk": "Full House",
         "färg": "Flush",
@@ -256,7 +280,6 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
     for name, cards, sv_desc in shows:
         card_tokens = cards.strip().split()
         conv_cards = " ".join(_card_sv_to_target(t) for t in card_tokens)
-        # enkel översättning av handtyp om den finns
         desc_en = ""
         if sv_desc:
             sv_l = sv_desc.strip().lower()
@@ -274,16 +297,148 @@ def convert(raw: str, version: str = VERSION_STR) -> str:
 
     return "\n".join(out)
 
+# ===================== GUI =====================
+class App(tk.Tk):
+    def __init__(self):
+        super().__init__()
+        self.title("Unibet Hand Converter")
+        self.geometry("880x660")
 
-# -------------------------------
-# Exempel: klistra in din hand här
+        # Ladda preferenser
+        prefs = load_prefs()
+        default_nick = prefs.get("nickname", "JullyEggy")
+
+        # Nickname
+        frm_top = ttk.Frame(self, padding=10)
+        frm_top.pack(fill="x")
+        ttk.Label(frm_top, text="Ditt nickname (Hero):").pack(side="left")
+        self.nick_var = tk.StringVar(value=default_nick)
+        self.nick_entry = ttk.Entry(frm_top, textvariable=self.nick_var, width=32)
+        self.nick_entry.pack(side="left", padx=8)
+
+        # Knappar
+        frm_btn = ttk.Frame(self, padding=(10, 0))
+        frm_btn.pack(fill="x")
+        self.auto_copy_var = tk.BooleanVar(value=True)
+        self.log_history_var = tk.BooleanVar(value=True)
+        ttk.Button(frm_btn, text="Konvertera från urklipp", command=self.on_convert).pack(side="left")
+        ttk.Button(frm_btn, text="Kopiera texten", command=self.copy_output).pack(side="left", padx=8)
+        ttk.Checkbutton(frm_btn, text="Kopiera automatiskt", variable=self.auto_copy_var).pack(side="left", padx=8)
+        ttk.Checkbutton(frm_btn, text="Spara till dagsfil", variable=self.log_history_var).pack(side="left", padx=8)
+        ttk.Button(frm_btn, text="Öppna dagens fil", command=self.open_today_file).pack(side="left", padx=8)
+        ttk.Button(frm_btn, text="Öppna historikmapp", command=self.open_history_folder).pack(side="left", padx=8)
+
+        # Output
+        frm_out = ttk.Frame(self, padding=10)
+        frm_out.pack(fill="both", expand=True)
+        ttk.Label(frm_out, text="Konverterad hand:").pack(anchor="w")
+        self.txt = tk.Text(frm_out, wrap="none", height=24)
+        self.txt.pack(fill="both", expand=True)
+        yscroll = ttk.Scrollbar(self.txt, orient="vertical", command=self.txt.yview)
+        self.txt.configure(yscrollcommand=yscroll.set)
+        yscroll.pack(side="right", fill="y")
+
+        # Status
+        today_file = current_history_file()
+        self.status_var = tk.StringVar(value=f"Klar. Dagens fil: {today_file}")
+        self.status = ttk.Label(self, textvariable=self.status_var, relief="sunken", anchor="w")
+        self.status.pack(fill="x")
+
+        # Spara prefs vid stängning
+        self.protocol("WM_DELETE_WINDOW", self.on_close)
+
+    def on_convert(self):
+        try:
+            raw = clipboard.paste()
+            if not raw or not raw.strip():
+                messagebox.showwarning("Tomt urklipp", "Urklippet är tomt eller saknas.")
+                self.status_var.set("Urklippet var tomt.")
+                return
+            preferred = self.nick_var.get().strip() or "JullyEggy"
+            result = convert(raw, version=VERSION_STR, preferred_hero=preferred)
+            self.txt.delete("1.0", "end")
+            self.txt.insert("1.0", result)
+
+            if self.auto_copy_var.get():
+                clipboard.copy(result)
+
+            if self.log_history_var.get():
+                self.append_to_today_file(result)
+
+            self.status_var.set(
+                f"Konverterat{' och kopierat' if self.auto_copy_var.get() else ''}. "
+                f"Sparat i: {current_history_file()}"
+            )
+            self.persist_prefs()
+        except ValueError as ve:
+            messagebox.showerror("Konverteringsfel", str(ve))
+            self.status_var.set("Fel vid konvertering.")
+        except Exception as e:
+            messagebox.showerror("Okänt fel", f"Något gick fel:\n{e}")
+            self.status_var.set("Okänt fel.")
+
+    def append_to_today_file(self, text: str):
+        try:
+            path = current_history_file()
+            os.makedirs(HISTORY_DIR, exist_ok=True)
+            stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            with open(path, "a", encoding="utf-8") as f:
+                f.write(f"--- Converted {stamp} ---\n")
+                f.write(text)
+                f.write("\n\n")
+        except Exception as e:
+            messagebox.showwarning("Kunde inte skriva historik",
+                                   f"Kunde inte skriva till:\n{current_history_file()}\n\n{e}")
+
+    def copy_output(self):
+        text = self.txt.get("1.0", "end").strip()
+        if not text:
+            self.status_var.set("Inget att kopiera.")
+            return
+        clipboard.copy(text)
+        self.status_var.set("Kopierat till urklipp.")
+
+    def open_today_file(self):
+        try:
+            path = current_history_file()
+            os.makedirs(HISTORY_DIR, exist_ok=True)
+            # Skapa om saknas så att OS kan öppna den
+            if not os.path.exists(path):
+                with open(path, "a", encoding="utf-8"):
+                    pass
+            if os.name == "nt":
+                os.startfile(path)
+            elif sys.platform == "darwin":
+                subprocess.Popen(["open", path])
+            else:
+                subprocess.Popen(["xdg-open", path])
+        except Exception as e:
+            messagebox.showwarning("Kunde inte öppna fil", f"{e}")
+
+    def open_history_folder(self):
+        try:
+            os.makedirs(HISTORY_DIR, exist_ok=True)
+            if os.name == "nt":
+                os.startfile(HISTORY_DIR)
+            elif sys.platform == "darwin":
+                subprocess.Popen(["open", HISTORY_DIR])
+            else:
+                subprocess.Popen(["xdg-open", HISTORY_DIR])
+        except Exception as e:
+            messagebox.showwarning("Kunde inte öppna mapp", f"{e}")
+
+    def persist_prefs(self):
+        nick = (self.nick_var.get() or "JullyEggy").strip()
+        save_prefs({"nickname": nick})
+
+    def on_close(self):
+        self.persist_prefs()
+        self.destroy()
+
+# ===================== Main =====================
 if __name__ == "__main__":
-    stop = False
-    while stop is False:
-        input("Will read your clipboard and convert Unibet handhistory   press [Enter] to continue or \n [S] to stop: ")
-        print(clipboard.paste())
-        clipboard.copy((convert(clipboard.paste())))
-        print("Converted hand is copied to your clipboard")
-        if (keyboard.is_pressed("S")):
-            stop = True
-            break
+    # Se till att historikmappen finns (och ev. migrera dagens filnamn)
+    os.makedirs(HISTORY_DIR, exist_ok=True)
+    _ = current_history_file()
+    app = App()
+    app.mainloop()
