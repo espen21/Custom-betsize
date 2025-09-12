@@ -1,0 +1,34 @@
+--- Converted 2025-09-11 19:34:17 ---
+GAME #2300380115 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-11 12:27:12/GMT
+Table Size 5
+Table €100 NL, 2300380115
+Seat 1: destopian (€117.98 in chips)
+Seat 2: AnyChange22 (€100.00 in chips)
+Seat 3: Nathalie1095 (€112.63 in chips)
+Seat 4: Bonkerz (€105.12 in chips)
+Seat 5: SheWulf (€128.91 in chips)   DEALER
+destopian: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DA SA]
+Nathalie1095: Fold
+Bonkerz: Fold
+SheWulf: Raise (NF) €3.50
+destopian: Fold
+AnyChange22: Raise (NF) €15.50
+SheWulf: Call €10.50
+*** FLOP *** [S6 CA D9]
+AnyChange22: Bet €7.95
+SheWulf: Call €7.95
+*** TURN *** [S10]
+AnyChange22: Check
+SheWulf: Bet €20.00
+AnyChange22: Raise (NF) €99.05
+SheWulf: Call €59.05
+*** RIVER *** [D6]
+*** SUMMARY ***
+Total pot €200.50 Rake €3.00
+AnyChange22: Shows [DA SA] Full House
+SheWulf: Shows [HA H10] Two Pair
+AnyChange22: wins €197.50
+
