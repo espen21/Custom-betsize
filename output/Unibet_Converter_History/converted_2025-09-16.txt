@@ -128,3 +128,30 @@ Skruttet21: Shows [HQ CA] One Pair
 fatguyaloneg: Shows [CJ CQ] Flush
 fatguyaloneg: wins €198.50
 
+GAME #2302275729 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-16 14:20:17/GMT
+Table Size 2
+Table €50 NL, 2302275729
+Seat 3: Skruttet21 (€106.83 in chips)   DEALER
+Seat 5: jemimmma (€51.50 in chips)
+Skruttet21: Post SB €0.25
+jemimmma: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [C10 C8]
+Skruttet21: Raise to €1.25
+jemimmma: Raise to €5.25
+Skruttet21: Call €4.00
+*** FLOP *** [DK S5 D8]
+jemimmma: Bet €3.25
+Skruttet21: Call €3.25
+*** TURN *** [C2]
+jemimmma: Bet €11.56
+Skruttet21: Call €11.56
+*** RIVER *** [CQ]
+jemimmma: Bet €31.44
+Skruttet21: Call €31.44
+*** SUMMARY ***
+Total pot €103.00 Rake €1.00
+Skruttet21: Shows [C10 C8] One Pair
+jemimmma: Shows [D4 D6]
+Skruttet21: wins €102.00
+

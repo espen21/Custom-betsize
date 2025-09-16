@@ -404,7 +404,6 @@ class App(tk.Tk):
             os.makedirs(HISTORY_DIR, exist_ok=True)
             stamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             with open(path, "a", encoding="utf-8") as f:
-                f.write(f"--- Converted {stamp} ---\n")
                 f.write(text)
                 f.write("\n\n")
         except Exception as e:
