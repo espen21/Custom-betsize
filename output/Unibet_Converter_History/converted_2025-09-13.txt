@@ -1,0 +1,826 @@
+--- Converted 2025-09-13 09:54:29 ---
+GAME #2300980115 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:19:40/GMT
+Table Size 4
+Table €100 NL, 2300980115
+Seat 1: AnyChange22 (€122.98 in chips)   DEALER
+Seat 3: ulalaltnkiko (€571.07 in chips)
+Seat 4: Here2Gamble (€169.09 in chips)
+Seat 5: Senius7 (€101.00 in chips)
+ulalaltnkiko: Post SB €0.50
+Here2Gamble: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DJ DK]
+Senius7: Fold
+AnyChange22: Raise to €2.50
+ulalaltnkiko: Raise to €11.50
+Here2Gamble: Fold
+AnyChange22: Call €9.00
+*** FLOP *** [HK H4 C4]
+ulalaltnkiko: Bet €6.00
+AnyChange22: Call €6.00
+*** TURN *** [S10]
+ulalaltnkiko: Bet €25.50
+AnyChange22: Call €25.50
+*** RIVER *** [C9]
+ulalaltnkiko: Bet €528.07
+AnyChange22: Call €79.98
+*** SUMMARY ***
+Total pot €246.96 Rake €3.00
+AnyChange22: Shows [DJ DK] Two Pair
+ulalaltnkiko: Shows [S4 S3] Three of a Kind
+ulalaltnkiko: wins €243.96
+
+--- Converted 2025-09-13 09:54:34 ---
+GAME #2300972251 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:04:46/GMT
+Table Size 5
+Table €100 NL, 2300972251
+Seat 1: AnyChange22 (€111.60 in chips)
+Seat 2: willrodders (€112.92 in chips)
+Seat 3: ulalaltnkiko (€635.91 in chips)
+Seat 4: Here2Gamble (€134.32 in chips)
+Seat 6: eDD88 (€103.73 in chips)   DEALER
+AnyChange22: Post SB €0.50
+willrodders: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DQ DA]
+ulalaltnkiko: Fold
+Here2Gamble: Fold
+eDD88: Raise to €2.20
+AnyChange22: Raise to €12.00
+willrodders: Raise to €25.50
+eDD88: Fold
+AnyChange22: Raise to €110.00
+willrodders: Raise to €112.92 (all-in)
+AnyChange22: Call €1.60
+*** FLOP *** [C5 C7 S2]
+*** TURN *** [S3]
+*** RIVER *** [D5]
+*** SUMMARY ***
+Total pot €225.40 Rake €3.00
+AnyChange22: Shows [DQ DA] One Pair
+willrodders: Shows [CK CA] One Pair
+willrodders: wins €222.40
+
+--- Converted 2025-09-13 09:54:40 ---
+GAME #2300982983 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:25:15/GMT
+Table Size 6
+Table €100 NL, 2300982983
+Seat 1: AnyChange22 (€127.85 in chips)   DEALER
+Seat 2: Here2Gamble (€100.00 in chips)
+Seat 3: Senius7 (€101.11 in chips)
+Seat 4: Kingggg (€70.82 in chips)
+Seat 5: FakaFirren (€107.53 in chips)
+Seat 6: blaaregn (€100.00 in chips)
+Here2Gamble: Post SB €0.50
+Senius7: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DK SK]
+Kingggg: Fold
+FakaFirren: Raise to €2.50
+blaaregn: Fold
+AnyChange22: Raise to €7.50
+Here2Gamble: Fold
+Senius7: Fold
+FakaFirren: Call €5.00
+*** FLOP *** [C3 H6 H2]
+FakaFirren: Check
+AnyChange22: Check
+*** TURN *** [D3]
+FakaFirren: Bet €13.20
+AnyChange22: Raise to €30.50
+FakaFirren: Raise to €92.50
+AnyChange22: Raise to €120.35 (all-in)
+FakaFirren: Call €7.53
+*** RIVER *** [H10]
+*** SUMMARY ***
+Total pot €216.56 Rake €3.00
+AnyChange22: Shows [DK SK] Two Pair
+FakaFirren: Shows [S7 S3] Three of a Kind
+FakaFirren: wins €213.56
+
+--- Converted 2025-09-13 09:54:44 ---
+GAME #2300971961 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:04:10/GMT
+Table Size 4
+Table €100 NL, 2300971961
+Seat 1: girlplaybutt (€380.05 in chips)
+Seat 2: willrodders (€135.32 in chips)
+Seat 5: Recovering (€166.15 in chips)   DEALER
+Seat 6: AnyChange22 (€103.52 in chips)
+AnyChange22: Post SB €0.50
+girlplaybutt: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [CA HQ]
+willrodders: Fold
+Recovering: Fold
+AnyChange22: Raise to €3.00
+girlplaybutt: Raise to €10.00
+AnyChange22: Call €7.00
+*** FLOP *** [HA S4 CK]
+AnyChange22: Check
+girlplaybutt: Bet €5.50
+AnyChange22: Call €5.50
+*** TURN *** [C10]
+AnyChange22: Check
+girlplaybutt: Bet €23.25
+AnyChange22: Call €23.25
+*** RIVER *** [S2]
+AnyChange22: Check
+girlplaybutt: Bet €341.30
+AnyChange22: Call €64.77
+*** SUMMARY ***
+Total pot €207.04 Rake €3.00
+girlplaybutt: Shows [DA HK] Two Pair
+AnyChange22: Shows [CA HQ] One Pair
+girlplaybutt: wins €204.04
+
+--- Converted 2025-09-13 09:54:48 ---
+GAME #2300916114 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 19:20:45/GMT
+Table Size 5
+Table €100 NL, 2300916114
+Seat 2: ulalaltnkiko (€211.87 in chips)   DEALER
+Seat 3: Drakes99 (€0.00 in chips)
+Seat 4: Vaci (€74.56 in chips)
+Seat 5: coconut911 (€193.04 in chips)
+Seat 6: AnyChange22 (€272.01 in chips)
+Vaci: Post SB €0.50
+coconut911: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [CK SK]
+AnyChange22: Raise to €2.30
+ulalaltnkiko: Fold
+Vaci: Call €1.80
+coconut911: Raise to €14.80
+AnyChange22: Call €12.50
+Vaci: Fold
+*** FLOP *** [CQ H8 D5]
+coconut911: Bet €13.50
+AnyChange22: Call €13.50
+*** TURN *** [S10]
+coconut911: Bet €14.00
+AnyChange22: Call €14.00
+*** RIVER *** [C4]
+coconut911: Bet €28.90
+AnyChange22: Call €28.90
+*** SUMMARY ***
+Total pot €144.70 Rake €3.00
+coconut911: Shows [DQ HQ] Three of a Kind
+AnyChange22: Shows [CK SK] One Pair
+coconut911: wins €141.70
+
+--- Converted 2025-09-13 09:54:57 ---
+GAME #2300974166 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:08:32/GMT
+Table Size 4
+Table €100 NL, 2300974166
+Seat 1: girlplaybutt (€482.57 in chips)
+Seat 2: willrodders (€100.00 in chips)   DEALER
+Seat 5: Recovering (€215.41 in chips)
+Seat 6: AnyChange22 (€105.50 in chips)
+Recovering: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SQ SK]
+girlplaybutt: Fold
+willrodders: Raise to €2.50
+Recovering: Call €2.00
+AnyChange22: Raise to €13.50
+willrodders: Fold
+Recovering: Call €11.00
+*** FLOP *** [HJ S9 C2]
+Recovering: Check
+AnyChange22: Bet €8.85
+Recovering: Raise to €21.50
+AnyChange22: Call €12.65
+*** TURN *** [S3]
+Recovering: Bet €35.50
+AnyChange22: Call €35.50
+*** RIVER *** [C5]
+Recovering: Check
+AnyChange22: Check
+*** SUMMARY ***
+Total pot €143.50 Rake €3.00
+Recovering: Shows [SA S5] One Pair
+AnyChange22: Shows [SQ SK]
+Recovering: wins €140.50
+
+--- Converted 2025-09-13 09:55:01 ---
+GAME #2300974166 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:08:32/GMT
+Table Size 4
+Table €100 NL, 2300974166
+Seat 1: girlplaybutt (€482.57 in chips)
+Seat 2: willrodders (€100.00 in chips)   DEALER
+Seat 5: Recovering (€215.41 in chips)
+Seat 6: AnyChange22 (€105.50 in chips)
+Recovering: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SQ SK]
+girlplaybutt: Fold
+willrodders: Raise to €2.50
+Recovering: Call €2.00
+AnyChange22: Raise to €13.50
+willrodders: Fold
+Recovering: Call €11.00
+*** FLOP *** [HJ S9 C2]
+Recovering: Check
+AnyChange22: Bet €8.85
+Recovering: Raise to €21.50
+AnyChange22: Call €12.65
+*** TURN *** [S3]
+Recovering: Bet €35.50
+AnyChange22: Call €35.50
+*** RIVER *** [C5]
+Recovering: Check
+AnyChange22: Check
+*** SUMMARY ***
+Total pot €143.50 Rake €3.00
+Recovering: Shows [SA S5] One Pair
+AnyChange22: Shows [SQ SK]
+Recovering: wins €140.50
+
+--- Converted 2025-09-13 09:55:13 ---
+GAME #2300974166 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:08:32/GMT
+Table Size 4
+Table €100 NL, 2300974166
+Seat 1: girlplaybutt (€482.57 in chips)
+Seat 2: willrodders (€100.00 in chips)   DEALER
+Seat 5: Recovering (€215.41 in chips)
+Seat 6: AnyChange22 (€105.50 in chips)
+Recovering: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SQ SK]
+girlplaybutt: Fold
+willrodders: Raise to €2.50
+Recovering: Call €2.00
+AnyChange22: Raise to €13.50
+willrodders: Fold
+Recovering: Call €11.00
+*** FLOP *** [HJ S9 C2]
+Recovering: Check
+AnyChange22: Bet €8.85
+Recovering: Raise to €21.50
+AnyChange22: Call €12.65
+*** TURN *** [S3]
+Recovering: Bet €35.50
+AnyChange22: Call €35.50
+*** RIVER *** [C5]
+Recovering: Check
+AnyChange22: Check
+*** SUMMARY ***
+Total pot €143.50 Rake €3.00
+Recovering: Shows [SA S5] One Pair
+AnyChange22: Shows [SQ SK]
+Recovering: wins €140.50
+
+--- Converted 2025-09-13 09:55:26 ---
+GAME #2300886149 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 18:21:25/GMT
+Table Size 2
+Table €100 NL, 2300886149
+Seat 1: AnyChange22 (€102.10 in chips)   DEALER
+Seat 2: ulalaltnkiko (€98.40 in chips)
+AnyChange22: Post SB €0.50
+ulalaltnkiko: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SA CK]
+AnyChange22: Raise to €2.50
+ulalaltnkiko: Raise to €12.00
+AnyChange22: Raise to €26.00
+ulalaltnkiko: Call €14.00
+*** FLOP *** [S3 HQ D2]
+ulalaltnkiko: Check
+AnyChange22: Bet €12.50
+ulalaltnkiko: Call €12.50
+*** TURN *** [C5]
+ulalaltnkiko: Check
+AnyChange22: Bet €22.50
+ulalaltnkiko: Call €22.50
+*** RIVER *** [H8]
+ulalaltnkiko: Check
+AnyChange22: Check
+*** SUMMARY ***
+Total pot €122.00 Rake €1.50
+AnyChange22: Shows [SA CK]
+ulalaltnkiko: Shows [DJ DQ] One Pair
+ulalaltnkiko: wins €120.50
+
+--- Converted 2025-09-13 09:55:34 ---
+GAME #2300968800 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 20:57:49/GMT
+Table Size 5
+Table €100 NL, 2300968800
+Seat 1: girlplaybutt (€348.25 in chips)
+Seat 2: willrodders (€116.71 in chips)
+Seat 4: Amuletrush (€108.49 in chips)
+Seat 5: Recovering (€120.40 in chips)   DEALER
+Seat 6: AnyChange22 (€155.70 in chips)
+AnyChange22: Post SB €0.50
+girlplaybutt: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [CK HQ]
+willrodders: Fold
+Amuletrush: Fold
+Recovering: Raise to €2.50
+AnyChange22: Raise to €12.00
+girlplaybutt: Fold
+Recovering: Call €9.50
+*** FLOP *** [C10 C4 DJ]
+AnyChange22: Bet €7.50
+Recovering: Raise to €15.50
+AnyChange22: Call €8.00
+*** TURN *** [HJ]
+AnyChange22: Check
+Recovering: Check
+*** RIVER *** [C3]
+AnyChange22: Bet €30.50
+Recovering: Raise to €92.90 (all-in)
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €117.00 Rake €3.00
+Recovering: wins €114.00
+
+--- Converted 2025-09-13 09:55:48 ---
+GAME #2300691581 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 07:01:46/GMT
+Table Size 4
+Table €50 NL, 2300691581
+Seat 1: AnyChange22 (€56.11 in chips)
+Seat 2: Dolly1257 (€70.05 in chips)
+Seat 3: Frestaylerr (€50.00 in chips)
+Seat 4: tahiti_ni (€77.07 in chips)   DEALER
+AnyChange22: Post SB €0.25
+Dolly1257: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DQ HQ]
+Frestaylerr: Fold
+tahiti_ni: Raise to €1.25
+AnyChange22: Raise to €6.00
+Dolly1257: Call €5.50
+tahiti_ni: Raise to €14.25
+AnyChange22: Raise to €56.11 (all-in)
+Dolly1257: Fold
+tahiti_ni: Call €41.86
+*** FLOP *** [H10 C4 D3]
+*** TURN *** [H9]
+*** RIVER *** [C10]
+*** SUMMARY ***
+Total pot €118.22 Rake €2.00
+AnyChange22: Shows [DQ HQ] Two Pair
+tahiti_ni: Shows [HA CA] Two Pair
+tahiti_ni: wins €116.22
+
+--- Converted 2025-09-13 09:55:52 ---
+GAME #2300915085 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 19:18:56/GMT
+Table Size 6
+Table €50 NL, 2300915085
+Seat 1: Rolleman23 (€25.06 in chips)
+Seat 2: CoinsFlippin (€55.22 in chips)
+Seat 3: Hamer1987 (€37.65 in chips)   DEALER
+Seat 4: AnyChange22 (€70.94 in chips)
+Seat 5: fknbum (€54.01 in chips)
+Seat 6: Verbrecher (€50.00 in chips)
+AnyChange22: Post SB €0.25
+fknbum: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [CA CQ]
+Rolleman23: Fold
+CoinsFlippin: Fold
+Hamer1987: Raise to €1.34
+AnyChange22: Raise to €6.00
+fknbum: Raise to €12.00
+Hamer1987: Fold
+AnyChange22: Call €6.00
+*** FLOP *** [S9 CK DK]
+AnyChange22: Check
+fknbum: Bet €2.50
+AnyChange22: Call €2.50
+*** TURN *** [DA]
+AnyChange22: Check
+fknbum: Bet €3.50
+AnyChange22: Call €3.50
+*** RIVER *** [H3]
+AnyChange22: Check
+fknbum: Bet €36.01
+AnyChange22: Call €36.01
+*** SUMMARY ***
+Total pot €109.36 Rake €2.00
+AnyChange22: Shows [CA CQ] Two Pair
+fknbum: Shows [SK S10] Three of a Kind
+fknbum: wins €107.36
+
+--- Converted 2025-09-13 09:56:05 ---
+GAME #2300686463 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 06:15:57/GMT
+Table Size 6
+Table €50 NL, 2300686463
+Seat 1: AnyChange22 (€50.00 in chips)   DEALER
+Seat 2: KuwaitFish (€49.50 in chips)
+Seat 3: Onhaseniinki (€49.75 in chips)
+Seat 4: lillwhoz (€54.40 in chips)
+Seat 5: Juusty (€50.00 in chips)
+Seat 6: Partycon3 (€50.00 in chips)
+KuwaitFish: Post SB €0.25
+Onhaseniinki: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [CA HQ]
+lillwhoz: Fold
+AnyChange22: Raise to €1.25
+KuwaitFish: Fold
+Onhaseniinki: Raise to €3.50
+AnyChange22: Call €2.25
+*** FLOP *** [DQ D6 CJ]
+Onhaseniinki: Bet €2.25
+AnyChange22: Raise to €7.50
+Onhaseniinki: Raise to €17.75
+AnyChange22: Raise to €46.50 (all-in)
+Onhaseniinki: Call €28.50
+*** TURN *** [D4]
+*** RIVER *** [D2]
+*** SUMMARY ***
+Total pot €99.75 Rake €2.00
+AnyChange22: Shows [CA HQ] One Pair
+Onhaseniinki: Shows [SQ CQ] Three of a Kind
+Onhaseniinki: wins €97.75
+
+--- Converted 2025-09-13 09:56:09 ---
+GAME #2300692023 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 07:05:10/GMT
+Table Size 6
+Table €50 NL, 2300692023
+Seat 1: Zaad_Piraat (€83.59 in chips)
+Seat 2: Lindsay (€49.36 in chips)
+Seat 3: AnyChange22 (€50.00 in chips)
+Seat 4: MrBirdman2 (€52.74 in chips)   DEALER
+Seat 5: gege62 (€27.27 in chips)
+Seat 6: ---Wrathof-- (€57.65 in chips)
+gege62: Post SB €0.25
+---Wrathof--: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [HK H9]
+Zaad_Piraat: Fold
+Lindsay: Raise to €1.25
+AnyChange22: Raise to €3.75
+MrBirdman2: Fold
+gege62: Fold
+---Wrathof--: Fold
+Lindsay: Call €2.50
+*** FLOP *** [S6 S2 C8]
+Lindsay: Check
+AnyChange22: Bet €4.13
+Lindsay: Call €4.13
+*** TURN *** [HQ]
+Lindsay: Check
+AnyChange22: Bet €8.26
+Lindsay: Call €8.26
+*** RIVER *** [H7]
+Lindsay: Check
+AnyChange22: Bet €33.86
+Lindsay: Call €33.22
+*** SUMMARY ***
+Total pot €99.47 Rake €2.00
+Lindsay: Shows [DQ SQ] Three of a Kind
+AnyChange22: Shows [HK H9]
+Lindsay: wins €97.47
+
+--- Converted 2025-09-13 09:56:13 ---
+GAME #2300958436 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 20:38:42/GMT
+Table Size 5
+Table €50 NL, 2300958436
+Seat 2: fa7al17y (€124.49 in chips)
+Seat 3: AnyChange22 (€128.63 in chips)
+Seat 4: Raamit (€49.16 in chips)
+Seat 5: CoinsFlippin (€57.10 in chips)   DEALER
+Seat 6: hanslanda23 (€50.00 in chips)
+hanslanda23: Post SB €0.25
+fa7al17y: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [CA CK]
+AnyChange22: Raise to €1.00
+Raamit: Raise to €3.20
+CoinsFlippin: Fold
+hanslanda23: Fold
+fa7al17y: Call €2.70
+AnyChange22: Raise to €11.25
+Raamit: Raise to €49.16 (all-in)
+fa7al17y: Fold
+AnyChange22: Call €37.91
+*** FLOP *** [D8 S9 D5]
+*** TURN *** [C2]
+*** RIVER *** [C3]
+*** SUMMARY ***
+Total pot €101.77 Rake €2.00
+AnyChange22: Shows [CA CK]
+Raamit: Shows [D10 H10] One Pair
+Raamit: wins €99.77
+
+--- Converted 2025-09-13 09:56:38 ---
+GAME #2300691369 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 06:59:43/GMT
+Table Size 6
+Table €100 NL, 2300691369
+Seat 1: AnyChange22 (€100.50 in chips)
+Seat 2: Keizerkoning (€70.25 in chips)
+Seat 3: Partycon3 (€108.67 in chips)
+Seat 4: Frestaylerr (€106.28 in chips)
+Seat 5: meamior (€94.00 in chips)
+Seat 6: Nirvana (€100.00 in chips)   DEALER
+AnyChange22: Post SB €0.50
+Partycon3: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DA C10]
+Frestaylerr: Fold
+meamior: Fold
+Nirvana: Raise to €2.50
+AnyChange22: Raise to €12.00
+Partycon3: Fold
+Nirvana: Call €9.50
+*** FLOP *** [D10 D2 HQ]
+AnyChange22: Bet €7.50
+Nirvana: Call €7.50
+*** TURN *** [D3]
+AnyChange22: Check
+Nirvana: Check
+*** RIVER *** [CA]
+AnyChange22: Bet €29.20
+Nirvana: Raise to €80.50 (all-in)
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €98.40 Rake €3.00
+Nirvana: wins €95.40
+
+--- Converted 2025-09-13 09:56:43 ---
+GAME #2300969497 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 20:59:24/GMT
+Table Size 4
+Table €100 NL, 2300969497
+Seat 1: girlplaybutt (€350.75 in chips)   DEALER
+Seat 2: willrodders (€115.71 in chips)
+Seat 5: Recovering (€176.40 in chips)
+Seat 6: AnyChange22 (€100.00 in chips)
+willrodders: Post SB €0.50
+Recovering: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SK CK]
+AnyChange22: Raise to €2.30
+girlplaybutt: Raise to €8.40
+willrodders: Fold
+Recovering: Fold
+AnyChange22: Raise to €22.30
+girlplaybutt: Call €13.90
+*** FLOP *** [HA C4 S9]
+AnyChange22: Bet €10.50
+girlplaybutt: Call €10.50
+*** TURN *** [SJ]
+AnyChange22: Check
+girlplaybutt: Bet €15.50
+AnyChange22: Call €15.50
+*** RIVER *** [CQ]
+AnyChange22: Check
+girlplaybutt: Bet €302.45
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €98.10 Rake €3.00
+girlplaybutt: wins €95.10
+
+--- Converted 2025-09-13 09:57:09 ---
+GAME #2300953308 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 20:29:36/GMT
+Table Size 4
+Table €50 NL, 2300953308
+Seat 1: Hoort-erbij (€153.68 in chips)
+Seat 2: fa7al17y (€109.48 in chips)   DEALER
+Seat 3: AnyChange22 (€163.88 in chips)
+Seat 5: CoinsFlippin (€50.75 in chips)
+AnyChange22: Post SB €0.25
+CoinsFlippin: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [C9 H9]
+Hoort-erbij: Raise to €1.50
+fa7al17y: Call €1.50
+AnyChange22: Raise to €7.75
+CoinsFlippin: Fold
+Hoort-erbij: Raise to €18.46
+fa7al17y: Fold
+AnyChange22: Call €10.71
+*** FLOP *** [H6 C5 S7]
+AnyChange22: Check
+Hoort-erbij: Bet €15.44
+AnyChange22: Call €15.44
+*** TURN *** [HK]
+AnyChange22: Check
+Hoort-erbij: Check
+*** RIVER *** [D3]
+AnyChange22: Check
+Hoort-erbij: Check
+*** SUMMARY ***
+Total pot €69.80 Rake €2.00
+Hoort-erbij: Shows [S10 C10] One Pair
+AnyChange22: Shows [C9 H9] One Pair
+Hoort-erbij: wins €67.80
+
+--- Converted 2025-09-13 09:57:12 ---
+GAME #2300879132 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 18:08:14/GMT
+Table Size 5
+Table €100 NL, 2300879132
+Seat 1: AnyChange22 (€102.64 in chips)
+Seat 2: Jugaad (€108.54 in chips)
+Seat 3: ulalaltnkiko (€496.03 in chips)
+Seat 5: coconut911 (€98.50 in chips)   DEALER
+Seat 6: Dewus (€90.59 in chips)
+Dewus: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [S6 S8]
+Jugaad: Fold
+ulalaltnkiko: Fold
+coconut911: Raise to €2.50
+Dewus: Call €2.00
+AnyChange22: Call €1.50
+*** FLOP *** [C7 C8 D8]
+Dewus: Check
+AnyChange22: Check
+coconut911: Bet €3.50
+Dewus: Call €3.50
+AnyChange22: Call €3.50
+*** TURN *** [HQ]
+Dewus: Check
+AnyChange22: Check
+coconut911: Check
+*** RIVER *** [H3]
+Dewus: Bet €9.00
+AnyChange22: Raise to €27.00
+coconut911: Raise to €92.50 (all-in)
+Dewus: Fold
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €81.00 Rake €3.00
+coconut911: wins €78.00
+
+--- Converted 2025-09-13 09:57:17 ---
+GAME #2300690908 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 06:55:12/GMT
+Table Size 6
+Table €100 NL, 2300690908
+Seat 1: Jamppa420 (€94.92 in chips)
+Seat 2: AnyChange22 (€106.17 in chips)
+Seat 3: BRoeKieVoL (€107.71 in chips)
+Seat 4: Jj166 (€42.04 in chips)
+Seat 5: noteethNoglo (€103.59 in chips)   DEALER
+Seat 6: Partycon3 (€102.55 in chips)
+Partycon3: Post SB €0.50
+Jamppa420: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SA S8]
+AnyChange22: Raise to €2.00
+BRoeKieVoL: Fold
+Jj166: Fold
+noteethNoglo: Fold
+Partycon3: Fold
+Jamppa420: Call €1.00
+*** FLOP *** [S7 H3 S6]
+Jamppa420: Check
+AnyChange22: Check
+*** TURN *** [D9]
+Jamppa420: Bet €2.25
+AnyChange22: Raise to €10.50
+Jamppa420: Raise to €30.71
+AnyChange22: Call €20.21
+*** RIVER *** [DJ]
+Jamppa420: Bet €62.21
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €65.92 Rake €3.00
+Jamppa420: wins €62.92
+
+--- Converted 2025-09-13 09:57:21 ---
+GAME #2300953470 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 20:29:52/GMT
+Table Size 5
+Table €100 NL, 2300953470
+Seat 1: Here2Gamble (€104.93 in chips)
+Seat 2: AnyChange22 (€100.00 in chips)   DEALER
+Seat 3: Recovering (€193.60 in chips)
+Seat 4: UFOBIG (€100.00 in chips)
+Seat 5: Risto17 (€126.05 in chips)
+Recovering: Post SB €0.50
+UFOBIG: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [CQ SA]
+Risto17: Call €1.00
+Here2Gamble: Raise to €4.00
+AnyChange22: Raise to €11.00
+Recovering: Fold
+UFOBIG: Fold
+Risto17: Call €10.00
+Here2Gamble: Fold
+*** FLOP *** [SJ S2 D3]
+Risto17: Check
+AnyChange22: Bet €8.25
+Risto17: Call €8.25
+*** TURN *** [S8]
+Risto17: Check
+AnyChange22: Bet €13.20
+Risto17: Raise to €106.80 (all-in)
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €70.40 Rake €3.00
+Risto17: wins €67.40
+
+--- Converted 2025-09-13 09:57:27 ---
+GAME #2300911238 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 19:12:02/GMT
+Table Size 5
+Table €50 NL, 2300911238
+Seat 1: UNKKKKNIOW (€58.83 in chips)
+Seat 2: jackofking (€50.00 in chips)
+Seat 4: AnyChange22 (€75.92 in chips)
+Seat 5: Notbreath010 (€50.00 in chips)   DEALER
+Seat 6: classiccream (€98.60 in chips)
+classiccream: Post SB €0.25
+UNKKKKNIOW: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SA HQ]
+jackofking: Fold
+AnyChange22: Raise to €1.15
+Notbreath010: Fold
+classiccream: Raise to €5.35
+UNKKKKNIOW: Fold
+AnyChange22: Raise to €12.40
+classiccream: Call €7.05
+*** FLOP *** [H3 DK D3]
+classiccream: Check
+AnyChange22: Bet €6.75
+classiccream: Call €6.75
+*** TURN *** [C9]
+classiccream: Check
+AnyChange22: Bet €12.75
+classiccream: Call €12.75
+*** RIVER *** [D9]
+classiccream: Check
+AnyChange22: Check
+*** SUMMARY ***
+Total pot €64.30 Rake €2.00
+AnyChange22: Shows [SA HQ] Two Pair
+classiccream: Shows [HA CK] Two Pair
+classiccream: wins €62.30
+
+--- Converted 2025-09-13 14:17:44 ---
+GAME #2301157833 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-13 12:16:06/GMT
+Table Size 5
+Table €50 NL, 2301157833
+Seat 1: AnyChange22 (€118.15 in chips)
+Seat 2: PerplexCity (€59.53 in chips)
+Seat 4: usetobegreat (€52.02 in chips)
+Seat 5: bolivartom (€49.00 in chips)   DEALER
+Seat 6: OJLimpson010 (€60.55 in chips)
+OJLimpson010: Post SB €0.25
+AnyChange22: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DQ DK]
+PerplexCity: Fold
+usetobegreat: Fold
+bolivartom: Raise to €1.25
+OJLimpson010: Raise to €3.65
+AnyChange22: Raise to €9.00
+bolivartom: Fold
+OJLimpson010: Call €5.35
+*** FLOP *** [CK S7 C10]
+OJLimpson010: Check
+AnyChange22: Bet €5.78
+OJLimpson010: Call €5.78
+*** TURN *** [H9]
+OJLimpson010: Bet €7.70
+AnyChange22: Call €7.70
+*** RIVER *** [S10]
+OJLimpson010: Bet €38.07
+AnyChange22: Call €38.07
+*** SUMMARY ***
+Total pot €122.35 Rake €2.00
+AnyChange22: Shows [DQ DK] Two Pair
+OJLimpson010: Shows [SA CQ] One Pair
+AnyChange22: wins €120.35
+
+--- Converted 2025-09-13 16:04:16 ---
+GAME #2301186087 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-13 13:59:39/GMT
+Table Size 6
+Table €100 NL, 2301186087
+Seat 1: K0ala3 (€100.00 in chips)
+Seat 2: Gamebino (€142.59 in chips)
+Seat 3: christmas202 (€334.42 in chips)
+Seat 4: coconut911 (€100.70 in chips)   DEALER
+Seat 5: Here2Gamble (€126.57 in chips)
+Seat 6: AnyChange22 (€103.14 in chips)
+Here2Gamble: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [HQ CK]
+Gamebino: Fold
+christmas202: Raise to €2.10
+coconut911: Fold
+Here2Gamble: Fold
+AnyChange22: Call €1.10
+*** FLOP *** [H7 S3 SJ]
+AnyChange22: Check
+christmas202: Check
+*** TURN *** [D10]
+AnyChange22: Bet €6.67
+christmas202: Call €6.67
+*** RIVER *** [DK]
+AnyChange22: Check
+christmas202: Bet €18.04
+AnyChange22: Call €18.04
+*** SUMMARY ***
+Total pot €54.12 Rake €3.00
+christmas202: Shows [SK C10] Two Pair
+AnyChange22: Shows [HQ CK] One Pair
+christmas202: wins €51.12
+

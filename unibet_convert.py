@@ -129,45 +129,70 @@ def convert(raw: str, version: str = VERSION_STR, preferred_hero: str = "JullyEg
     def parse_street_actions(street_block: str, preflop: bool = False):
         out = []
         current_to = float(bb) if preflop and bb else 0.0  # preflop utgångspunkt
+
         for line in street_block.strip().splitlines():
             line = line.strip()
             if not line:
                 continue
+
             # Fold
             if re.search(r"lägger sig", line, flags=re.I):
                 name = line.split()[0].rstrip(":")
                 out.append(f"{name}: Fold")
                 continue
+
             # Check
             if re.search(r"passar", line, flags=re.I):
                 name = line.split()[0].rstrip(":")
                 out.append(f"{name}: Check")
                 continue
+
             # Bet
             m_bet = re.search(r"([^\s:]+).*satsar\s+€([\d\.]+)", line, flags=re.I)
             if m_bet:
                 name = m_bet.group(1)
                 amt = float(m_bet.group(2))
-                current_to = amt
+                current_to = amt  # ny bet-nivå
                 out.append(f"{name}: Bet €{amt:.2f}")
                 continue
-            # Call
+
+            # Call (beloppet är vad spelaren lägger in nu)
             m_call = re.search(r"([^\s:]+).*synar\s+€([\d\.]+)", line, flags=re.I)
             if m_call:
                 name = m_call.group(1)
                 amt = float(m_call.group(2))
                 out.append(f"{name}: Call €{amt:.2f}")
                 continue
-            # Raise ("höjer €X [med €Y]")
-            m_raise = re.search(r"([^\s:]+).*höjer\s+€([\d\.]+)(?:\s+med\s+€([\d\.]+))?", line, flags=re.I)
+
+            # Raise all-in: "höjer €X med €Y, och är all-in" eller "höjer till €Y ... all-in"
+            m_allin_raise = re.search(
+                r"([^\s:]+).*höjer(?:\s+till)?\s+€([\d\.]+)(?:\s+med\s+€([\d\.]+))?.*all-?in",
+                line, flags=re.I
+            )
+            if m_allin_raise:
+                name = m_allin_raise.group(1)
+                first_amt = m_allin_raise.group(2)
+                with_amt = m_allin_raise.group(3)
+                new_to = float(with_amt) if with_amt else float(first_amt)
+                current_to = new_to
+                out.append(f"{name}: Raise to €{new_to:.2f} (all-in)")
+                continue
+
+            # Vanlig raise: "höjer €X med €Y" (Y = nytt 'to'), eller "höjer till €Y"
+            m_raise = re.search(
+                r"([^\s:]+).*höjer(?:\s+till)?\s+€([\d\.]+)(?:\s+med\s+€([\d\.]+))?",
+                line, flags=re.I
+            )
             if m_raise:
                 name = m_raise.group(1)
-                inc = float(m_raise.group(2))
-                new_to = current_to + inc
+                first_amt = m_raise.group(2)   # vad spelaren lägger in nu, om "med" följer
+                with_amt = m_raise.group(3)    # nytt 'to'-belopp när "med" finns
+                new_to = float(with_amt) if with_amt else float(first_amt)
                 current_to = new_to
-                out.append(f"{name}: Raise (NF) €{new_to:.2f}")
+                out.append(f"{name}: Raise to €{new_to:.2f}")
                 continue
-            # All-in bet
+
+            # All-in bet (utan explicit "raise")
             m_allin_bet = re.search(r"([^\s:]+).*satsar\s+€([\d\.]+).*all-?in", line, flags=re.I)
             if m_allin_bet:
                 name = m_allin_bet.group(1)
@@ -175,12 +200,8 @@ def convert(raw: str, version: str = VERSION_STR, preferred_hero: str = "JullyEg
                 current_to = amt
                 out.append(f"{name}: Bet €{amt:.2f}")
                 continue
-            # All-in raise (fallback)
-            m_allin_raise = re.search(r"([^\s:]+).*höjer\s+.*all-?in", line, flags=re.I)
-            if m_allin_raise:
-                name = m_allin_raise.group(1)
-                out.append(f"{name}: Raise (NF) (all-in)")
-                continue
+
+            # Om inget matchar, ignorera
         return out
 
     # Plocka gat-block

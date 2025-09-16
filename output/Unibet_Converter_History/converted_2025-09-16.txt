@@ -1,0 +1,130 @@
+GAME #2302264962 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-16 13:49:04/GMT
+Table Size 5
+Table €100 NL, 2302264962
+Seat 2: Here2Gamble (€100.00 in chips)
+Seat 3: Skruttet21 (€130.60 in chips)
+Seat 4: fatguyaloneg (€161.03 in chips)   DEALER
+Seat 5: gocompareeee (€102.00 in chips)
+Seat 6: JAZZIIIIIIII (€100.00 in chips)
+gocompareeee: Post SB €0.50
+JAZZIIIIIIII: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SK SA]
+Here2Gamble: Fold
+Skruttet21: Raise to €2.30
+fatguyaloneg: Fold
+gocompareeee: Raise to €11.00
+JAZZIIIIIIII: Fold
+Skruttet21: Raise to €24.80
+gocompareeee: Call €13.80
+*** FLOP *** [D9 D10 CQ]
+gocompareeee: Check
+Skruttet21: Check
+*** TURN *** [C4]
+gocompareeee: Check
+Skruttet21: Bet €36.94
+gocompareeee: Raise to €77.20 (all-in)
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €124.48 Rake €3.00
+gocompareeee: wins €121.48
+
+GAME #2302264187 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-16 13:46:59/GMT
+Table Size 4
+Table €100 NL, 2302264187
+Seat 2: JAZZIIIIIIII (€110.18 in chips)
+Seat 3: Here2Gamble (€101.00 in chips)
+Seat 4: Skruttet21 (€131.93 in chips)   DEALER
+Seat 6: gocompareeee (€107.97 in chips)
+gocompareeee: Post SB €0.50
+JAZZIIIIIIII: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [HJ HK]
+Here2Gamble: Raise to €2.20
+Skruttet21: Raise to €7.50
+gocompareeee: Fold
+JAZZIIIIIIII: Fold
+Here2Gamble: Raise to €20.00
+Skruttet21: Call €12.50
+*** FLOP *** [D2 DA S3]
+Here2Gamble: Check
+Skruttet21: Bet €10.38
+Here2Gamble: Call €10.38
+*** TURN *** [S2]
+Here2Gamble: Check
+Skruttet21: Check
+*** RIVER *** [S10]
+Here2Gamble: Bet €15.57
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €62.26 Rake €3.00
+Here2Gamble: wins €59.26
+
+GAME #2302266487 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-16 13:53:29/GMT
+Table Size 5
+Table €100 NL, 2302266487
+Seat 2: Here2Gamble (€102.50 in chips)
+Seat 3: Skruttet21 (€101.00 in chips)   DEALER
+Seat 4: fatguyaloneg (€167.03 in chips)
+Seat 5: gocompareeee (€157.74 in chips)
+Seat 6: JAZZIIIIIIII (€100.00 in chips)
+fatguyaloneg: Post SB €0.50
+gocompareeee: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [H10 HK]
+JAZZIIIIIIII: Fold
+Here2Gamble: Fold
+Skruttet21: Raise to €2.50
+fatguyaloneg: Raise to €9.50
+gocompareeee: Fold
+Skruttet21: Call €7.00
+*** FLOP *** [C10 SA S5]
+fatguyaloneg: Check
+Skruttet21: Check
+*** TURN *** [SK]
+fatguyaloneg: Check
+Skruttet21: Check
+*** RIVER *** [CK]
+fatguyaloneg: Check
+Skruttet21: Bet €28.40
+fatguyaloneg: Raise to €157.53 (all-in)
+Skruttet21: Call €63.10
+*** SUMMARY ***
+Total pot €203.00 Rake €3.00
+Skruttet21: Shows [H10 HK] Full House
+fatguyaloneg: Shows [CA C7] Two Pair
+Skruttet21: wins €200.00
+
+GAME #2302270741 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-16 14:06:37/GMT
+Table Size 6
+Table €100 NL, 2302270741
+Seat 1: Plnka (€119.53 in chips)
+Seat 2: JAZZIIIIIIII (€103.00 in chips)
+Seat 3: gocompareeee (€222.71 in chips)
+Seat 4: Here2Gamble (€300.98 in chips)
+Seat 5: Skruttet21 (€100.00 in chips)
+Seat 6: fatguyaloneg (€118.98 in chips)   DEALER
+Plnka: Post SB €0.50
+JAZZIIIIIIII: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [HQ CA]
+gocompareeee: Fold
+Here2Gamble: Fold
+Skruttet21: Raise to €2.30
+fatguyaloneg: Raise to €8.00
+Plnka: Fold
+JAZZIIIIIIII: Fold
+Skruttet21: Raise to €21.30
+fatguyaloneg: Call €13.30
+*** FLOP *** [C10 C8 C6]
+Skruttet21: Bet €9.50
+fatguyaloneg: Raise to €97.68 (all-in)
+Skruttet21: Call €69.20
+*** TURN *** [S10]
+*** RIVER *** [D7]
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+Skruttet21: Shows [HQ CA] One Pair
+fatguyaloneg: Shows [CJ CQ] Flush
+fatguyaloneg: wins €198.50
+

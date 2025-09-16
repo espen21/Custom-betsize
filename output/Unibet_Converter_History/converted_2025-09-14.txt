@@ -1,0 +1,127 @@
+--- Converted 2025-09-14 11:49:55 ---
+GAME #2301483162 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 09:47:33/GMT
+Table Size 3
+Table €100 NL, 2301483162
+Seat 1: myheart (€113.26 in chips)   DEALER
+Seat 2: luckycat8 (€99.00 in chips)
+Seat 4: AnyChange22 (€102.50 in chips)
+luckycat8: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [D5 C5]
+myheart: Fold
+luckycat8: Raise to €2.96
+AnyChange22: Call €1.96
+*** FLOP *** [D7 H5 D4]
+luckycat8: Bet €2.96
+AnyChange22: Raise to €9.50
+luckycat8: Call €6.54
+*** TURN *** [DK]
+luckycat8: Check
+AnyChange22: Bet €12.46
+luckycat8: Call €12.46
+*** RIVER *** [H2]
+luckycat8: Check
+AnyChange22: Check
+*** SUMMARY ***
+Total pot €49.84 Rake €1.50
+luckycat8: Shows [D6 S7] One Pair
+AnyChange22: Shows [D5 C5] Three of a Kind
+AnyChange22: wins €48.34
+
+--- Converted 2025-09-14 12:31:51 ---
+GAME #2301491811 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 10:29:33/GMT
+Table Size 5
+Table €100 NL, 2301491811
+Seat 1: Freestaylerr (€100.00 in chips)
+Seat 2: alwaysbe (€111.86 in chips)   DEALER
+Seat 3: girlplaybutt (€123.40 in chips)
+Seat 4: AnyChange22 (€106.89 in chips)
+Seat 5: luckycat8 (€97.90 in chips)
+girlplaybutt: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [HA CA]
+luckycat8: Raise to €2.49
+Freestaylerr: Raise to €8.00
+alwaysbe: Fold
+girlplaybutt: Fold
+AnyChange22: Raise to €20.50
+luckycat8: Fold
+Freestaylerr: Call €12.50
+*** FLOP *** [S5 D5 HQ]
+AnyChange22: Bet €11.50
+Freestaylerr: Call €11.50
+*** TURN *** [H10]
+AnyChange22: Bet €20.10
+Freestaylerr: Call €20.10
+*** RIVER *** [C4]
+AnyChange22: Bet €54.79
+Freestaylerr: Call €47.90
+*** SUMMARY ***
+Total pot €202.99 Rake €3.00
+Freestaylerr: Shows [H4 H5] Full House
+AnyChange22: Shows [HA CA] Two Pair
+Freestaylerr: wins €199.99
+
+--- Converted 2025-09-14 12:49:55 ---
+GAME #2301496006 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 10:48:32/GMT
+Table Size 4
+Table €100 NL, 2301496006
+Seat 1: skinwalker (€164.10 in chips)
+Seat 3: AnyChange22 (€100.00 in chips)
+Seat 4: girlplaybutt (€109.56 in chips)
+Seat 6: 23FrNaq (€204.02 in chips)   DEALER
+skinwalker: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [C10 CK]
+girlplaybutt: Fold
+23FrNaq: Raise to €3.00
+skinwalker: Fold
+AnyChange22: Raise to €13.00
+23FrNaq: Call €10.00
+*** FLOP *** [H6 SK H2]
+AnyChange22: Check
+23FrNaq: Bet €9.02
+AnyChange22: Call €9.02
+*** TURN *** [C5]
+AnyChange22: Check
+23FrNaq: Bet €25.72
+AnyChange22: Raise to €77.98 (all-in)
+23FrNaq: Fold
+*** SUMMARY ***
+Total pot €95.98 Rake €3.00
+AnyChange22: wins €92.98
+
+--- Converted 2025-09-14 12:57:50 ---
+GAME #2301497222 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 10:53:42/GMT
+Table Size 3
+Table €100 NL, 2301497222
+Seat 3: AnyChange22 (€303.14 in chips)
+Seat 5: skinwalker (€100.00 in chips)
+Seat 6: ulalaltnkiko (€99.50 in chips)   DEALER
+AnyChange22: Post SB €0.50
+skinwalker: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [CA D10]
+ulalaltnkiko: Fold
+AnyChange22: Raise to €3.00
+skinwalker: Call €2.00
+*** FLOP *** [C9 S4 SA]
+AnyChange22: Bet €1.50
+skinwalker: Call €1.50
+*** TURN *** [D6]
+AnyChange22: Check
+skinwalker: Bet €10.50
+AnyChange22: Call €10.50
+*** RIVER *** [H9]
+AnyChange22: Check
+skinwalker: Bet €37.00
+AnyChange22: Call €37.00
+*** SUMMARY ***
+Total pot €104.00 Rake €1.50
+AnyChange22: Shows [CA D10] Two Pair
+skinwalker: Shows [H6 C6] Full House
+skinwalker: wins €102.50
+

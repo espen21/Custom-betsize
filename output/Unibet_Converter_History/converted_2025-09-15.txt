@@ -1,0 +1,508 @@
+--- Converted 2025-09-15 00:13:27 ---
+GAME #2301746208 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 22:10:36/GMT
+Table Size 5
+Table €100 NL, 2301746208
+Seat 1: Skruttet21 (€114.58 in chips)
+Seat 2: AAgain (€118.00 in chips)
+Seat 3: Snuedue (€99.08 in chips)
+Seat 4: FarmerJ0e (€108.50 in chips)   DEALER
+Seat 6: Praeses99 (€46.85 in chips)
+Praeses99: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DA H10]
+AAgain: Fold
+Snuedue: Fold
+FarmerJ0e: Raise to €2.50
+Praeses99: Call €2.00
+Skruttet21: Call €1.50
+*** FLOP *** [S4 C4 C10]
+Praeses99: Check
+Skruttet21: Check
+FarmerJ0e: Bet €2.48
+Praeses99: Fold
+Skruttet21: Call €2.48
+*** TURN *** [D2]
+Skruttet21: Check
+FarmerJ0e: Bet €9.35
+Skruttet21: Call €9.35
+*** RIVER *** [S6]
+Skruttet21: Check
+FarmerJ0e: Bet €45.00
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €31.16 Rake €1.87
+FarmerJ0e: wins €29.29
+
+--- Converted 2025-09-15 00:23:30 ---
+GAME #2301749986 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 22:22:03/GMT
+Table Size 5
+Table €100 NL, 2301749986
+Seat 1: Skruttet21 (€100.00 in chips)
+Seat 2: AAgain (€111.40 in chips)   DEALER
+Seat 3: Snuedue (€131.30 in chips)
+Seat 4: FarmerJ0e (€141.43 in chips)
+Seat 6: Praeses99 (€0.00 in chips)
+Snuedue: Post SB €0.50
+FarmerJ0e: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [H10 C10]
+Skruttet21: Raise to €2.30
+AAgain: Fold
+Snuedue: Fold
+FarmerJ0e: Raise to €11.00
+Skruttet21: Call €8.70
+*** FLOP *** [S9 CA C8]
+FarmerJ0e: Check
+Skruttet21: Check
+*** TURN *** [S2]
+FarmerJ0e: Check
+Skruttet21: Check
+*** RIVER *** [H3]
+FarmerJ0e: Bet €15.50
+Skruttet21: Call €15.50
+*** SUMMARY ***
+Total pot €53.50 Rake €3.00
+Skruttet21: Shows [H10 C10] One Pair
+FarmerJ0e: Shows [CQ HQ] One Pair
+FarmerJ0e: wins €50.50
+
+--- Converted 2025-09-15 01:17:45 ---
+GAME #2301764888 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 23:15:40/GMT
+Table Size 4
+Table €100 NL, 2301764888
+Seat 1: Switcher4 (€100.50 in chips)
+Seat 2: Skruttet21 (€125.57 in chips)
+Seat 4: Snuedue (€35.33 in chips)   DEALER
+Seat 6: Sundays (€69.16 in chips)
+Switcher4: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [S10 CQ]
+Snuedue: Fold
+Switcher4: Raise to €3.00
+Skruttet21: Call €2.00
+*** FLOP *** [CJ CK C6]
+Switcher4: Bet €2.50
+Skruttet21: Call €2.50
+*** TURN *** [H4]
+Switcher4: Bet €7.00
+Skruttet21: Call €7.00
+*** RIVER *** [H9]
+Switcher4: Bet €15.50
+Skruttet21: Call €15.50
+*** SUMMARY ***
+Total pot €56.00 Rake €1.50
+Switcher4: Shows [S6 D6] Three of a Kind
+Skruttet21: Shows [S10 CQ] Straight
+Skruttet21: wins €54.50
+
+--- Converted 2025-09-15 01:35:18 ---
+GAME #2301767470 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 23:27:50/GMT
+Table Size 4
+Table €100 NL, 2301767470
+Seat 1: kasinpulli (€238.12 in chips)
+Seat 2: ulalaltnkiko (€196.25 in chips)   DEALER
+Seat 3: Dewow (€0.00 in chips)
+Seat 5: Skruttet21 (€100.00 in chips)
+Skruttet21: Post SB €0.50
+kasinpulli: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA HA]
+ulalaltnkiko: Fold
+Skruttet21: Raise to €3.00
+kasinpulli: Raise to €9.00
+Skruttet21: Raise to €21.00
+kasinpulli: Call €12.00
+*** FLOP *** [C2 HJ SA]
+Skruttet21: Bet €10.00
+kasinpulli: Call €10.00
+*** TURN *** [H10]
+Skruttet21: Check
+kasinpulli: Check
+*** RIVER *** [S6]
+Skruttet21: Bet €18.60
+kasinpulli: Raise to €207.12 (all-in)
+Skruttet21: Call €50.40
+*** SUMMARY ***
+Total pot €200.00 Rake €1.50
+kasinpulli: Shows [HK CQ] Straight
+Skruttet21: Shows [CA HA] Three of a Kind
+kasinpulli: wins €198.50
+
+--- Converted 2025-09-15 01:36:19 ---
+GAME #2301767470 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 23:27:50/GMT
+Table Size 4
+Table €100 NL, 2301767470
+Seat 1: kasinpulli (€238.12 in chips)
+Seat 2: ulalaltnkiko (€196.25 in chips)   DEALER
+Seat 3: Dewow (€0.00 in chips)
+Seat 5: Skruttet21 (€100.00 in chips)
+Skruttet21: Post SB €0.50
+kasinpulli: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA HA]
+ulalaltnkiko: Fold
+Skruttet21: Raise to €3.00
+kasinpulli: Raise to €9.00
+Skruttet21: Raise to €21.00
+kasinpulli: Call €12.00
+*** FLOP *** [C2 HJ SA]
+Skruttet21: Bet €10.00
+kasinpulli: Call €10.00
+*** TURN *** [H10]
+Skruttet21: Check
+kasinpulli: Check
+*** RIVER *** [S6]
+Skruttet21: Bet €18.60
+kasinpulli: Raise to €207.12 (all-in)
+Skruttet21: Call €50.40
+*** SUMMARY ***
+Total pot €200.00 Rake €1.50
+kasinpulli: Shows [HK CQ] Straight
+Skruttet21: Shows [CA HA] Three of a Kind
+kasinpulli: wins €198.50
+
+--- Converted 2025-09-15 09:30:45 ---
+GAME #2301803016 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 07:28:24/GMT
+Table Size 6
+Table €50 NL, 2301803016
+Seat 1: Ticu88 (€145.66 in chips)
+Seat 2: PROAMATEUR4 (€95.50 in chips)
+Seat 3: Skruttet21 (€54.59 in chips)
+Seat 4: Johno1401 (€50.00 in chips)   DEALER
+Seat 5: TanShuan (€52.00 in chips)
+Seat 6: ROYCOO (€54.50 in chips)
+TanShuan: Post SB €0.25
+ROYCOO: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [S10 SA]
+PROAMATEUR4: Fold
+Skruttet21: Raise to €1.15
+Johno1401: Fold
+TanShuan: Fold
+ROYCOO: Raise to €5.75
+Skruttet21: Call €4.60
+*** FLOP *** [C5 C10 H8]
+ROYCOO: Check
+Skruttet21: Check
+*** TURN *** [H2]
+ROYCOO: Bet €14.50
+Skruttet21: Raise to €48.84 (all-in)
+ROYCOO: Call €34.25
+*** RIVER *** [D5]
+*** SUMMARY ***
+Total pot €109.25 Rake €2.00
+Skruttet21: Shows [S10 SA] Two Pair
+ROYCOO: Shows [CQ SQ] Two Pair
+ROYCOO: wins €107.25
+
+--- Converted 2025-09-15 09:41:39 ---
+GAME #2301761921 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 23:03:25/GMT
+Table Size 5
+Table €100 NL, 2301761921
+Seat 1: Skruttet21 (€181.17 in chips)
+Seat 2: Foka_korv (€237.13 in chips)
+Seat 3: 1Isildur (€131.12 in chips)
+Seat 4: Jugaad (€109.35 in chips)
+Seat 6: kingneor7924 (€29.95 in chips)   DEALER
+Skruttet21: Post SB €0.50
+Foka_korv: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DJ HJ]
+1Isildur: Fold
+Jugaad: Fold
+kingneor7924: Raise to €29.95 (all-in)
+Skruttet21: Call €29.45
+Foka_korv: Fold
+*** FLOP *** [SA C6 D7]
+*** TURN *** [D4]
+*** RIVER *** [S8]
+*** SUMMARY ***
+Total pot €60.90 Rake €3.00
+Skruttet21: Shows [DJ HJ] One Pair
+kingneor7924: Shows [CA H7] Two Pair
+kingneor7924: wins €57.90
+
+--- Converted 2025-09-15 09:46:46 ---
+GAME #2301804311 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 07:38:29/GMT
+Table Size 6
+Table €50 NL, 2301804311
+Seat 1: Skruttet21 (€56.42 in chips)
+Seat 2: skinwalker (€52.77 in chips)
+Seat 3: Erikssond (€86.54 in chips)
+Seat 4: TanShuan (€50.00 in chips)   DEALER
+Seat 5: F-my-beard (€52.51 in chips)
+Seat 6: Ticu88 (€50.00 in chips)
+F-my-beard: Post SB €0.25
+Ticu88: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SJ HJ]
+Skruttet21: Raise to €1.00
+skinwalker: Fold
+Erikssond: Fold
+TanShuan: Raise to €4.25
+F-my-beard: Fold
+Ticu88: Fold
+Skruttet21: Raise to €10.75
+TanShuan: Call €6.50
+*** FLOP *** [H9 S3 CA]
+Skruttet21: Bet €5.00
+TanShuan: Call €5.00
+*** TURN *** [S6]
+Skruttet21: Check
+TanShuan: Check
+*** RIVER *** [C5]
+Skruttet21: Bet €3.00
+TanShuan: Raise to €23.75
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €38.25 Rake €2.00
+TanShuan: wins €36.25
+
+--- Converted 2025-09-15 09:47:50 ---
+GAME #2301804311 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 07:38:29/GMT
+Table Size 6
+Table €50 NL, 2301804311
+Seat 1: Skruttet21 (€56.42 in chips)
+Seat 2: skinwalker (€52.77 in chips)
+Seat 3: Erikssond (€86.54 in chips)
+Seat 4: TanShuan (€50.00 in chips)   DEALER
+Seat 5: F-my-beard (€52.51 in chips)
+Seat 6: Ticu88 (€50.00 in chips)
+F-my-beard: Post SB €0.25
+Ticu88: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SJ HJ]
+Skruttet21: Raise to €1.00
+skinwalker: Fold
+Erikssond: Fold
+TanShuan: Raise to €4.25
+F-my-beard: Fold
+Ticu88: Fold
+Skruttet21: Raise to €10.75
+TanShuan: Call €6.50
+*** FLOP *** [H9 S3 CA]
+Skruttet21: Bet €5.00
+TanShuan: Call €5.00
+*** TURN *** [S6]
+Skruttet21: Check
+TanShuan: Check
+*** RIVER *** [C5]
+Skruttet21: Bet €3.00
+TanShuan: Raise to €23.75
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €38.25 Rake €2.00
+TanShuan: wins €36.25
+
+--- Converted 2025-09-15 09:48:40 ---
+GAME #2301804770 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 07:41:40/GMT
+Table Size 6
+Table €50 NL, 2301804770
+Seat 1: TanShuan (€57.75 in chips)
+Seat 2: Ticu88 (€50.00 in chips)
+Seat 3: goodluck1113 (€51.22 in chips)
+Seat 4: ROYCOO (€75.70 in chips)
+Seat 5: Skruttet21 (€102.42 in chips)   DEALER
+Seat 6: skinwalker (€51.65 in chips)
+skinwalker: Post SB €0.25
+TanShuan: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CJ HJ]
+Ticu88: Fold
+goodluck1113: Fold
+ROYCOO: Raise to €1.00
+Skruttet21: Raise to €3.25
+skinwalker: Fold
+TanShuan: Fold
+ROYCOO: Raise to €10.50
+Skruttet21: Call €7.25
+*** FLOP *** [C8 DK HA]
+ROYCOO: Bet €2.06
+Skruttet21: Call €2.06
+*** TURN *** [D2]
+ROYCOO: Check
+Skruttet21: Check
+*** RIVER *** [D4]
+ROYCOO: Check
+Skruttet21: Check
+*** SUMMARY ***
+Total pot €25.87 Rake €1.42
+ROYCOO: Shows [SA S4] Two Pair
+Skruttet21: Shows [CJ HJ] One Pair
+ROYCOO: wins €24.45
+
+--- Converted 2025-09-15 19:55:09 ---
+GAME #2301977844 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-15 17:53:13/GMT
+Table Size 6
+Table €100 NL, 2301977844
+Seat 1: Recovering (€103.28 in chips)
+Seat 2: Here2Gamble (€105.67 in chips)
+Seat 3: Hornette (€294.42 in chips)
+Seat 4: Skruttet21 (€100.00 in chips)
+Seat 5: Freestaylerr (€101.40 in chips)
+Seat 6: pumpkinhead6 (€102.50 in chips)   DEALER
+Recovering: Post SB €0.50
+Here2Gamble: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DA D10]
+Hornette: Fold
+Skruttet21: Raise to €2.00
+Freestaylerr: Raise to €7.00
+pumpkinhead6: Fold
+Recovering: Fold
+Here2Gamble: Fold
+Skruttet21: Call €5.00
+*** FLOP *** [C9 C7 CJ]
+Skruttet21: Check
+Freestaylerr: Bet €4.81
+Skruttet21: Raise to €12.50
+Freestaylerr: Call €7.69
+*** TURN *** [C6]
+Skruttet21: Check
+Freestaylerr: Check
+*** RIVER *** [DQ]
+Skruttet21: Bet €10.13
+Freestaylerr: Raise to €25.00
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €60.76 Rake €3.00
+Freestaylerr: wins €57.76
+
+--- Converted 2025-09-15 20:07:11 ---
+GAME #2301980847 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 18:01:08/GMT
+Table Size 6
+Table €50 NL, 2301980847
+Seat 1: TanShuan (€106.63 in chips)   DEALER
+Seat 2: pjb (€52.50 in chips)
+Seat 3: LawyerAtWork (€55.49 in chips)
+Seat 4: Skruttet21 (€60.65 in chips)
+Seat 5: ugugviupg (€63.96 in chips)
+Seat 6: NVCasino (€67.29 in chips)
+pjb: Post SB €0.25
+LawyerAtWork: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SK S10]
+Skruttet21: Raise to €1.00
+ugugviupg: Fold
+TanShuan: Raise to €4.25
+pjb: Fold
+LawyerAtWork: Fold
+Skruttet21: Raise to €10.75
+TanShuan: Call €6.50
+*** FLOP *** [HK DQ HA]
+Skruttet21: Bet €5.56
+TanShuan: Call €5.56
+*** TURN *** [S4]
+Skruttet21: Bet €8.75
+TanShuan: Call €8.75
+*** RIVER *** [S6]
+Skruttet21: Bet €35.59
+TanShuan: Call €35.59
+*** SUMMARY ***
+Total pot €122.05 Rake €2.00
+TanShuan: Shows [CA DA] Three of a Kind
+Skruttet21: Shows [SK S10] One Pair
+TanShuan: wins €120.05
+
+--- Converted 2025-09-15 20:24:05 ---
+GAME #2301990685 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-15 18:20:15/GMT
+Table Size 5
+Table €100 NL, 2301990685
+Seat 1: Hornette (€105.00 in chips)
+Seat 2: TanShuan (€98.50 in chips)
+Seat 3: reacntoonz66 (€119.90 in chips)   DEALER
+Seat 4: Skruttet21 (€277.51 in chips)
+Seat 6: Here2Gamble (€123.67 in chips)
+Skruttet21: Post SB €0.50
+Here2Gamble: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [H7 C7]
+Hornette: Raise to €2.00
+TanShuan: Fold
+reacntoonz66: Fold
+Skruttet21: Raise to €10.00
+Here2Gamble: Fold
+Hornette: Call €8.00
+*** FLOP *** [H4 H3 HJ]
+Skruttet21: Bet €5.25
+Hornette: Raise to €17.00
+Skruttet21: Call €11.75
+*** TURN *** [D4]
+Skruttet21: Check
+Hornette: Bet €13.50
+Skruttet21: Call €13.50
+*** RIVER *** [D10]
+Skruttet21: Check
+Hornette: Bet €64.50
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €82.00 Rake €3.00
+Hornette: wins €79.00
+
+--- Converted 2025-09-15 20:27:20 ---
+GAME #2301992779 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-15 18:23:57/GMT
+Table Size 6
+Table €100 NL, 2301992779
+Seat 1: Recovering (€118.80 in chips)
+Seat 2: Here2Gamble (€105.00 in chips)
+Seat 3: Hornette (€378.57 in chips)   DEALER
+Seat 4: Skruttet21 (€100.00 in chips)
+Seat 5: Freestaylerr (€100.00 in chips)
+Seat 6: pumpkinhead6 (€236.17 in chips)
+Skruttet21: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SA SJ]
+pumpkinhead6: Fold
+Recovering: Fold
+Here2Gamble: Fold
+Hornette: Fold
+Skruttet21: Raise to €3.00
+Freestaylerr: Raise to €9.00
+Skruttet21: Call €6.00
+*** FLOP *** [H7 HJ DK]
+Skruttet21: Check
+Freestaylerr: Bet €5.58
+Skruttet21: Call €5.58
+*** TURN *** [C5]
+Skruttet21: Check
+Freestaylerr: Bet €20.41
+Skruttet21: Call €20.41
+*** RIVER *** [HK]
+Skruttet21: Check
+Freestaylerr: Bet €65.01
+Skruttet21: Call €65.01
+*** SUMMARY ***
+Total pot €200.00 Rake €3.00
+Skruttet21: Shows [SA SJ] Two Pair
+Freestaylerr: Shows [SK DQ] Three of a Kind
+Freestaylerr: wins €197.00
+
+--- Converted 2025-09-15 20:41:54 ---
+GAME #2302002057 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-15 18:40:00/GMT
+Table Size 5
+Table €100 NL, 2302002057
+Seat 1: Here2Gamble (€107.13 in chips)
+Seat 2: Skruttet21 (€111.14 in chips)
+Seat 3: reacntoonz66 (€183.65 in chips)   DEALER
+Seat 4: Mora_ik (€89.06 in chips)
+Seat 5: Freestaylerr (€100.00 in chips)
+Mora_ik: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SQ HK]
+Here2Gamble: Fold
+Skruttet21: Raise to €2.30
+reacntoonz66: Fold
+Mora_ik: Call €1.80
+Freestaylerr: Raise to €13.50
+Skruttet21: Raise to €26.80
+Mora_ik: Fold
+Freestaylerr: Raise to €100.00 (all-in)
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €129.10 Rake €0.00
+Freestaylerr: wins €129.10
+
