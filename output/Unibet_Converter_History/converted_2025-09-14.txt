@@ -1,4 +1,4 @@
---- Converted 2025-09-14 11:49:55 ---
+
 GAME #2301483162 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 09:47:33/GMT
 Table Size 3
 Table €100 NL, 2301483162
@@ -29,7 +29,7 @@ luckycat8: Shows [D6 S7] One Pair
 AnyChange22: Shows [D5 C5] Three of a Kind
 AnyChange22: wins €48.34
 
---- Converted 2025-09-14 12:31:51 ---
+
 GAME #2301491811 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 10:29:33/GMT
 Table Size 5
 Table €100 NL, 2301491811
@@ -64,7 +64,7 @@ Freestaylerr: Shows [H4 H5] Full House
 AnyChange22: Shows [HA CA] Two Pair
 Freestaylerr: wins €199.99
 
---- Converted 2025-09-14 12:49:55 ---
+
 GAME #2301496006 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 10:48:32/GMT
 Table Size 4
 Table €100 NL, 2301496006
@@ -94,7 +94,7 @@ AnyChange22: Raise to €77.98 (all-in)
 Total pot €95.98 Rake €3.00
 AnyChange22: wins €92.98
 
---- Converted 2025-09-14 12:57:50 ---
+
 GAME #2301497222 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 10:53:42/GMT
 Table Size 3
 Table €100 NL, 2301497222

@@ -1,4 +1,3 @@
---- Converted 2025-09-15 00:13:27 ---
 GAME #2301746208 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 22:10:36/GMT
 Table Size 5
 Table €100 NL, 2301746208
@@ -34,7 +33,6 @@ Skruttet21: Fold
 Total pot €31.16 Rake €1.87
 FarmerJ0e: wins €29.29
 
---- Converted 2025-09-15 00:23:30 ---
 GAME #2301749986 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 22:22:03/GMT
 Table Size 5
 Table €100 NL, 2301749986
@@ -67,7 +65,6 @@ Skruttet21: Shows [H10 C10] One Pair
 FarmerJ0e: Shows [CQ HQ] One Pair
 FarmerJ0e: wins €50.50
 
---- Converted 2025-09-15 01:17:45 ---
 GAME #2301764888 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 23:15:40/GMT
 Table Size 4
 Table €100 NL, 2301764888
@@ -97,7 +94,6 @@ Switcher4: Shows [S6 D6] Three of a Kind
 Skruttet21: Shows [S10 CQ] Straight
 Skruttet21: wins €54.50
 
---- Converted 2025-09-15 01:35:18 ---
 GAME #2301767470 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 23:27:50/GMT
 Table Size 4
 Table €100 NL, 2301767470
@@ -130,7 +126,6 @@ kasinpulli: Shows [HK CQ] Straight
 Skruttet21: Shows [CA HA] Three of a Kind
 kasinpulli: wins €198.50
 
---- Converted 2025-09-15 01:36:19 ---
 GAME #2301767470 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 23:27:50/GMT
 Table Size 4
 Table €100 NL, 2301767470
@@ -163,7 +158,6 @@ kasinpulli: Shows [HK CQ] Straight
 Skruttet21: Shows [CA HA] Three of a Kind
 kasinpulli: wins €198.50
 
---- Converted 2025-09-15 09:30:45 ---
 GAME #2301803016 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 07:28:24/GMT
 Table Size 6
 Table €50 NL, 2301803016
@@ -197,7 +191,6 @@ Skruttet21: Shows [S10 SA] Two Pair
 ROYCOO: Shows [CQ SQ] Two Pair
 ROYCOO: wins €107.25
 
---- Converted 2025-09-15 09:41:39 ---
 GAME #2301761921 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-14 23:03:25/GMT
 Table Size 5
 Table €100 NL, 2301761921
@@ -224,7 +217,6 @@ Skruttet21: Shows [DJ HJ] One Pair
 kingneor7924: Shows [CA H7] Two Pair
 kingneor7924: wins €57.90
 
---- Converted 2025-09-15 09:46:46 ---
 GAME #2301804311 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 07:38:29/GMT
 Table Size 6
 Table €50 NL, 2301804311
@@ -260,7 +252,6 @@ Skruttet21: Fold
 Total pot €38.25 Rake €2.00
 TanShuan: wins €36.25
 
---- Converted 2025-09-15 09:47:50 ---
 GAME #2301804311 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 07:38:29/GMT
 Table Size 6
 Table €50 NL, 2301804311
@@ -296,7 +287,6 @@ Skruttet21: Fold
 Total pot €38.25 Rake €2.00
 TanShuan: wins €36.25
 
---- Converted 2025-09-15 09:48:40 ---
 GAME #2301804770 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 07:41:40/GMT
 Table Size 6
 Table €50 NL, 2301804770
@@ -333,7 +323,6 @@ ROYCOO: Shows [SA S4] Two Pair
 Skruttet21: Shows [CJ HJ] One Pair
 ROYCOO: wins €24.45
 
---- Converted 2025-09-15 19:55:09 ---
 GAME #2301977844 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-15 17:53:13/GMT
 Table Size 6
 Table €100 NL, 2301977844
@@ -370,7 +359,6 @@ Skruttet21: Fold
 Total pot €60.76 Rake €3.00
 Freestaylerr: wins €57.76
 
---- Converted 2025-09-15 20:07:11 ---
 GAME #2301980847 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-15 18:01:08/GMT
 Table Size 6
 Table €50 NL, 2301980847
@@ -406,7 +394,6 @@ TanShuan: Shows [CA DA] Three of a Kind
 Skruttet21: Shows [SK S10] One Pair
 TanShuan: wins €120.05
 
---- Converted 2025-09-15 20:24:05 ---
 GAME #2301990685 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-15 18:20:15/GMT
 Table Size 5
 Table €100 NL, 2301990685
@@ -441,7 +428,6 @@ Skruttet21: Fold
 Total pot €82.00 Rake €3.00
 Hornette: wins €79.00
 
---- Converted 2025-09-15 20:27:20 ---
 GAME #2301992779 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-15 18:23:57/GMT
 Table Size 6
 Table €100 NL, 2301992779
@@ -480,7 +466,6 @@ Skruttet21: Shows [SA SJ] Two Pair
 Freestaylerr: Shows [SK DQ] Three of a Kind
 Freestaylerr: wins €197.00
 
---- Converted 2025-09-15 20:41:54 ---
 GAME #2302002057 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-15 18:40:00/GMT
 Table Size 5
 Table €100 NL, 2302002057

@@ -1,4 +1,3 @@
---- Converted 2025-09-13 09:54:29 ---
 GAME #2300980115 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:19:40/GMT
 Table Size 4
 Table €100 NL, 2300980115
@@ -30,7 +29,6 @@ AnyChange22: Shows [DJ DK] Two Pair
 ulalaltnkiko: Shows [S4 S3] Three of a Kind
 ulalaltnkiko: wins €243.96
 
---- Converted 2025-09-13 09:54:34 ---
 GAME #2300972251 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:04:46/GMT
 Table Size 5
 Table €100 NL, 2300972251
@@ -61,7 +59,6 @@ AnyChange22: Shows [DQ DA] One Pair
 willrodders: Shows [CK CA] One Pair
 willrodders: wins €222.40
 
---- Converted 2025-09-13 09:54:40 ---
 GAME #2300982983 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:25:15/GMT
 Table Size 6
 Table €100 NL, 2300982983
@@ -98,7 +95,6 @@ AnyChange22: Shows [DK SK] Two Pair
 FakaFirren: Shows [S7 S3] Three of a Kind
 FakaFirren: wins €213.56
 
---- Converted 2025-09-13 09:54:44 ---
 GAME #2300971961 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:04:10/GMT
 Table Size 4
 Table €100 NL, 2300971961
@@ -133,7 +129,6 @@ girlplaybutt: Shows [DA HK] Two Pair
 AnyChange22: Shows [CA HQ] One Pair
 girlplaybutt: wins €204.04
 
---- Converted 2025-09-13 09:54:48 ---
 GAME #2300916114 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 19:20:45/GMT
 Table Size 5
 Table €100 NL, 2300916114
@@ -167,7 +162,6 @@ coconut911: Shows [DQ HQ] Three of a Kind
 AnyChange22: Shows [CK SK] One Pair
 coconut911: wins €141.70
 
---- Converted 2025-09-13 09:54:57 ---
 GAME #2300974166 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:08:32/GMT
 Table Size 4
 Table €100 NL, 2300974166
@@ -202,7 +196,6 @@ Recovering: Shows [SA S5] One Pair
 AnyChange22: Shows [SQ SK]
 Recovering: wins €140.50
 
---- Converted 2025-09-13 09:55:01 ---
 GAME #2300974166 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:08:32/GMT
 Table Size 4
 Table €100 NL, 2300974166
@@ -237,7 +230,6 @@ Recovering: Shows [SA S5] One Pair
 AnyChange22: Shows [SQ SK]
 Recovering: wins €140.50
 
---- Converted 2025-09-13 09:55:13 ---
 GAME #2300974166 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:08:32/GMT
 Table Size 4
 Table €100 NL, 2300974166
@@ -272,7 +264,6 @@ Recovering: Shows [SA S5] One Pair
 AnyChange22: Shows [SQ SK]
 Recovering: wins €140.50
 
---- Converted 2025-09-13 09:55:26 ---
 GAME #2300886149 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 18:21:25/GMT
 Table Size 2
 Table €100 NL, 2300886149
@@ -303,7 +294,6 @@ AnyChange22: Shows [SA CK]
 ulalaltnkiko: Shows [DJ DQ] One Pair
 ulalaltnkiko: wins €120.50
 
---- Converted 2025-09-13 09:55:34 ---
 GAME #2300968800 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 20:57:49/GMT
 Table Size 5
 Table €100 NL, 2300968800
@@ -337,7 +327,6 @@ AnyChange22: Fold
 Total pot €117.00 Rake €3.00
 Recovering: wins €114.00
 
---- Converted 2025-09-13 09:55:48 ---
 GAME #2300691581 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 07:01:46/GMT
 Table Size 4
 Table €50 NL, 2300691581
@@ -366,7 +355,6 @@ AnyChange22: Shows [DQ HQ] Two Pair
 tahiti_ni: Shows [HA CA] Two Pair
 tahiti_ni: wins €116.22
 
---- Converted 2025-09-13 09:55:52 ---
 GAME #2300915085 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 19:18:56/GMT
 Table Size 6
 Table €50 NL, 2300915085
@@ -405,7 +393,6 @@ AnyChange22: Shows [CA CQ] Two Pair
 fknbum: Shows [SK S10] Three of a Kind
 fknbum: wins €107.36
 
---- Converted 2025-09-13 09:56:05 ---
 GAME #2300686463 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 06:15:57/GMT
 Table Size 6
 Table €50 NL, 2300686463
@@ -438,7 +425,6 @@ AnyChange22: Shows [CA HQ] One Pair
 Onhaseniinki: Shows [SQ CQ] Three of a Kind
 Onhaseniinki: wins €97.75
 
---- Converted 2025-09-13 09:56:09 ---
 GAME #2300692023 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 07:05:10/GMT
 Table Size 6
 Table €50 NL, 2300692023
@@ -477,7 +463,6 @@ Lindsay: Shows [DQ SQ] Three of a Kind
 AnyChange22: Shows [HK H9]
 Lindsay: wins €97.47
 
---- Converted 2025-09-13 09:56:13 ---
 GAME #2300958436 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 20:38:42/GMT
 Table Size 5
 Table €50 NL, 2300958436
@@ -508,7 +493,6 @@ AnyChange22: Shows [CA CK]
 Raamit: Shows [D10 H10] One Pair
 Raamit: wins €99.77
 
---- Converted 2025-09-13 09:56:38 ---
 GAME #2300691369 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 06:59:43/GMT
 Table Size 6
 Table €100 NL, 2300691369
@@ -542,7 +526,6 @@ AnyChange22: Fold
 Total pot €98.40 Rake €3.00
 Nirvana: wins €95.40
 
---- Converted 2025-09-13 09:56:43 ---
 GAME #2300969497 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 20:59:24/GMT
 Table Size 4
 Table €100 NL, 2300969497
@@ -575,7 +558,6 @@ AnyChange22: Fold
 Total pot €98.10 Rake €3.00
 girlplaybutt: wins €95.10
 
---- Converted 2025-09-13 09:57:09 ---
 GAME #2300953308 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 20:29:36/GMT
 Table Size 4
 Table €50 NL, 2300953308
@@ -610,7 +592,6 @@ Hoort-erbij: Shows [S10 C10] One Pair
 AnyChange22: Shows [C9 H9] One Pair
 Hoort-erbij: wins €67.80
 
---- Converted 2025-09-13 09:57:12 ---
 GAME #2300879132 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 18:08:14/GMT
 Table Size 5
 Table €100 NL, 2300879132
@@ -648,7 +629,6 @@ AnyChange22: Fold
 Total pot €81.00 Rake €3.00
 coconut911: wins €78.00
 
---- Converted 2025-09-13 09:57:17 ---
 GAME #2300690908 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 06:55:12/GMT
 Table Size 6
 Table €100 NL, 2300690908
@@ -683,7 +663,6 @@ AnyChange22: Fold
 Total pot €65.92 Rake €3.00
 Jamppa420: wins €62.92
 
---- Converted 2025-09-13 09:57:21 ---
 GAME #2300953470 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 20:29:52/GMT
 Table Size 5
 Table €100 NL, 2300953470
@@ -716,7 +695,6 @@ AnyChange22: Fold
 Total pot €70.40 Rake €3.00
 Risto17: wins €67.40
 
---- Converted 2025-09-13 09:57:27 ---
 GAME #2300911238 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-12 19:12:02/GMT
 Table Size 5
 Table €50 NL, 2300911238
@@ -753,7 +731,6 @@ AnyChange22: Shows [SA HQ] Two Pair
 classiccream: Shows [HA CK] Two Pair
 classiccream: wins €62.30
 
---- Converted 2025-09-13 14:17:44 ---
 GAME #2301157833 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-13 12:16:06/GMT
 Table Size 5
 Table €50 NL, 2301157833
@@ -789,7 +766,6 @@ AnyChange22: Shows [DQ DK] Two Pair
 OJLimpson010: Shows [SA CQ] One Pair
 AnyChange22: wins €120.35
 
---- Converted 2025-09-13 16:04:16 ---
 GAME #2301186087 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-13 13:59:39/GMT
 Table Size 6
 Table €100 NL, 2301186087

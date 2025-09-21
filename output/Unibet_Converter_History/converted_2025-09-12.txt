@@ -1,4 +1,3 @@
---- Converted 2025-09-12 08:20:17 ---
 GAME #2300380115 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-11 12:27:12/GMT
 Table Size 5
 Table €100 NL, 2300380115
@@ -32,7 +31,6 @@ AnyChange22: Shows [DA SA] Full House
 SheWulf: Shows [HA H10] Two Pair
 AnyChange22: wins €197.50
 
---- Converted 2025-09-12 08:35:04 ---
 GAME #2300688349 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 06:33:07/GMT
 Table Size 4
 Table €100 NL, 2300688349
@@ -63,7 +61,6 @@ AnyChange22: Shows [CA S10] One Pair
 Phaedrus: Shows [C4 H7] Two Pair
 Phaedrus: wins €33.33
 
---- Converted 2025-09-12 09:04:19 ---
 GAME #2300691369 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 06:59:43/GMT
 Table Size 6
 Table €100 NL, 2300691369
@@ -97,7 +94,6 @@ AnyChange22: Fold
 Total pot €98.40 Rake €3.00
 Nirvana: wins €95.40
 
---- Converted 2025-09-12 09:09:47 ---
 GAME #2300692038 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 07:05:16/GMT
 Table Size 6
 Table €100 NL, 2300692038
@@ -129,7 +125,6 @@ AnyChange22: Fold
 Total pot €14.40 Rake €0.86
 Partycon3: wins €13.54
 
---- Converted 2025-09-12 19:32:32 ---
 GAME #2300863198 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 17:31:40/GMT
 Table Size 5
 Table €100 NL, 2300863198
@@ -152,7 +147,6 @@ Zaka3: Fold
 Total pot €19.10 Rake €0.00
 Jugaad: wins €19.10
 
---- Converted 2025-09-12 20:05:09 ---
 GAME #2300876159 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 18:01:54/GMT
 Table Size 5
 Table €100 NL, 2300876159
@@ -185,7 +179,6 @@ AnyChange22: Shows [DA DJ] One Pair
 ulalaltnkiko: Shows [S10 S9] Two Pair
 ulalaltnkiko: wins €217.86
 
---- Converted 2025-09-12 22:24:39 ---
 GAME #2300938286 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 20:02:55/GMT
 Table Size 6
 Table €100 NL, 2300938286
@@ -221,7 +214,6 @@ girlplaybutt: Shows [SK HA] Two Pair
 AnyChange22: Shows [HK H10] Two Pair
 girlplaybutt: wins €40.48
 
---- Converted 2025-09-12 23:07:12 ---
 GAME #2300971961 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:04:10/GMT
 Table Size 4
 Table €100 NL, 2300971961
@@ -256,7 +248,6 @@ girlplaybutt: Shows [DA HK] Two Pair
 AnyChange22: Shows [CA HQ] One Pair
 girlplaybutt: wins €204.04
 
---- Converted 2025-09-12 23:22:44 ---
 GAME #2300980115 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-12 21:19:40/GMT
 Table Size 4
 Table €100 NL, 2300980115
