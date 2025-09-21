@@ -1,0 +1,190 @@
+GAME #2303617276 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-20 00:04:32/GMT
+Table Size 3
+Table €100 NL, 2303617276
+Seat 1: benarous (€100.00 in chips)
+Seat 3: ontherun3 (€149.05 in chips)
+Seat 5: JullyEggy (€134.42 in chips)   DEALER
+benarous: Post SB €0.50
+ontherun3: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [SJ SA]
+JullyEggy: Raise to €2.50
+benarous: Raise to €10.00
+ontherun3: Fold
+JullyEggy: Call €7.50
+*** FLOP *** [S6 CJ S10]
+benarous: Bet €9.00
+JullyEggy: Call €9.00
+*** TURN *** [DA]
+benarous: Bet €24.50
+JullyEggy: Raise to €115.42 (all-in)
+benarous: Call €56.50
+*** RIVER *** [DK]
+*** SUMMARY ***
+Total pot €201.00 Rake €1.50
+benarous: Shows [D10 C10] Three of a Kind
+JullyEggy: Shows [SJ SA] Two Pair
+benarous: wins €199.50
+
+GAME #2303627054 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-20 00:50:42/GMT
+Table Size 4
+Table €100 NL, 2303627054
+Seat 1: JullyEggy (€100.00 in chips)   DEALER
+Seat 3: benarous (€217.34 in chips)
+Seat 4: bonthego (€128.57 in chips)
+Seat 5: TaXbiex (€128.07 in chips)
+benarous: Post SB €0.50
+bonthego: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [DA DQ]
+TaXbiex: Fold
+JullyEggy: Raise to €2.50
+benarous: Fold
+bonthego: Raise to €11.00
+JullyEggy: Call €8.50
+*** FLOP *** [D3 HQ S6]
+bonthego: Bet €7.00
+JullyEggy: Call €7.00
+*** TURN *** [S10]
+bonthego: Bet €26.00
+JullyEggy: Raise to €82.00 (all-in)
+bonthego: Call €56.00
+*** RIVER *** [H5]
+*** SUMMARY ***
+Total pot €200.50 Rake €3.00
+JullyEggy: Shows [DA DQ] One Pair
+bonthego: Shows [HK DK] One Pair
+bonthego: wins €197.50
+
+GAME #2303708375 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-20 11:16:54/GMT
+Table Size 4
+Table €100 NL, 2303708375
+Seat 1: Grinnin (€187.87 in chips)
+Seat 2: JullyEggy (€108.80 in chips)
+Seat 3: HMMM26 (€37.43 in chips)
+Seat 6: fishysharkie (€110.21 in chips)   DEALER
+Grinnin: Post SB €0.50
+JullyEggy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [S10 C10]
+HMMM26: Fold
+fishysharkie: Fold
+Grinnin: Raise to €3.00
+JullyEggy: Raise to €10.00
+Grinnin: Call €7.00
+*** FLOP *** [D6 D7 H9]
+Grinnin: Check
+JullyEggy: Check
+*** TURN *** [S2]
+Grinnin: Bet €12.50
+JullyEggy: Call €12.50
+*** RIVER *** [H5]
+Grinnin: Bet €36.00
+JullyEggy: Call €36.00
+*** SUMMARY ***
+Total pot €117.00 Rake €3.00
+Grinnin: Shows [S9 C9] Three of a Kind
+JullyEggy: Shows [S10 C10] One Pair
+Grinnin: wins €114.00
+
+GAME #2303721462 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-20 12:08:25/GMT
+Table Size 4
+Table €100 NL, 2303721462
+Seat 1: Grinnin (€100.00 in chips)
+Seat 3: fasfaf (€98.50 in chips)   DEALER
+Seat 4: LongJohn4 (€114.27 in chips)
+Seat 5: JullyEggy (€254.09 in chips)
+LongJohn4: Post SB €0.50
+JullyEggy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [CQ DK]
+Grinnin: Raise to €2.50
+fasfaf: Fold
+LongJohn4: Fold
+JullyEggy: Call €1.50
+*** FLOP *** [HJ H10 DA]
+JullyEggy: Check
+Grinnin: Bet €4.40
+JullyEggy: Call €4.40
+*** TURN *** [D9]
+JullyEggy: Check
+Grinnin: Bet €18.50
+JullyEggy: Raise to €247.19 (all-in)
+Grinnin: Call €74.60
+*** RIVER *** [HA]
+*** SUMMARY ***
+Total pot €200.50 Rake €3.00
+Grinnin: Shows [CJ DJ] Full House
+JullyEggy: Shows [CQ DK] Straight
+Grinnin: wins €197.50
+
+GAME #2303797564 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-20 16:30:12/GMT
+Table Size 6
+Table €100 NL, 2303797564
+Seat 1: Sardeaua (€133.65 in chips)
+Seat 2: chen7 (€204.91 in chips)
+Seat 3: DosCervezas (€142.93 in chips)   DEALER
+Seat 4: WLJ2 (€61.17 in chips)
+Seat 5: 72oo (€219.57 in chips)
+Seat 6: JullyEggy (€100.00 in chips)
+WLJ2: Post SB €0.50
+72oo: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [SQ SA]
+JullyEggy: Raise to €2.00
+Sardeaua: Fold
+chen7: Raise to €6.50
+DosCervezas: Fold
+WLJ2: Fold
+72oo: Fold
+JullyEggy: Raise to €18.00
+chen7: Call €11.50
+*** FLOP *** [HK HQ H8]
+JullyEggy: Bet €7.50
+chen7: Raise to €16.50
+JullyEggy: Call €9.00
+*** TURN *** [D8]
+JullyEggy: Check
+chen7: Check
+*** RIVER *** [DQ]
+JullyEggy: Check
+chen7: Bet €170.41
+JullyEggy: Call €65.50
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+chen7: Shows [C9 C10] Two Pair
+JullyEggy: Shows [SQ SA] Full House
+JullyEggy: wins €198.50
+
+GAME #2303910095 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-20 20:52:39/GMT
+Table Size 6
+Table €100 NL, 2303910095
+Seat 1: TaXbiex (€109.40 in chips)   DEALER
+Seat 2: oppie4 (€184.42 in chips)
+Seat 3: Brimmed (€224.50 in chips)
+Seat 4: JullyEggy (€108.81 in chips)
+Seat 5: Selegeline (€264.91 in chips)
+Seat 6: badposture (€105.75 in chips)
+oppie4: Post SB €0.50
+Brimmed: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [H10 HK]
+JullyEggy: Raise to €2.00
+Selegeline: Fold
+badposture: Raise to €6.50
+TaXbiex: Fold
+oppie4: Fold
+Brimmed: Fold
+JullyEggy: Raise to €18.00
+badposture: Call €11.50
+*** FLOP *** [H6 C7 S9]
+JullyEggy: Bet €18.75
+badposture: Call €18.75
+*** TURN *** [D6]
+JullyEggy: Bet €22.50
+badposture: Raise to €69.00 (all-in)
+JullyEggy: Fold
+*** SUMMARY ***
+Total pot €120.00 Rake €3.00
+badposture: wins €117.00
+

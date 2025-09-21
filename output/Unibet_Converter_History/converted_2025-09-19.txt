@@ -1,0 +1,35 @@
+GAME #2303457537 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-19 18:13:45/GMT
+Table Size 5
+Table €100 NL, 2303457537
+Seat 1: MisterrCash (€76.74 in chips)
+Seat 2: SNAP123 (€102.80 in chips)
+Seat 3: SteelWind (€109.68 in chips)   DEALER
+Seat 4: JullyEggy (€100.00 in chips)
+Seat 5: sven4213 (€130.17 in chips)
+JullyEggy: Post SB €0.50
+sven4213: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [DA SK]
+MisterrCash: Fold
+SNAP123: Raise to €2.50
+SteelWind: Fold
+JullyEggy: Raise to €12.00
+sven4213: Fold
+SNAP123: Call €9.50
+*** FLOP *** [H9 CJ D9]
+JullyEggy: Bet €6.25
+SNAP123: Raise to €15.63
+JullyEggy: Call €9.38
+*** TURN *** [H2]
+JullyEggy: Check
+SNAP123: Bet €17.50
+JullyEggy: Call €17.50
+*** RIVER *** [D3]
+JullyEggy: Check
+SNAP123: Check
+*** SUMMARY ***
+Total pot €91.26 Rake €3.00
+SNAP123: Shows [HJ HA] Two Pair
+JullyEggy: Shows [DA SK] One Pair
+SNAP123: wins €88.26
+
