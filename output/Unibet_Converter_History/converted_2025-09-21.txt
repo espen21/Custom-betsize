@@ -239,3 +239,342 @@ JullyEggy: Shows [HK HJ] Two Pair
 ApeLikeNigo: Shows [S8 C8] Four of a Kind
 ApeLikeNigo: wins €228.54
 
+GAME #2303997654 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 02:12:11/GMT
+Table Size 6
+Table €100 NL, 2303997654
+Seat 1: RegButcher (€69.08 in chips)   DEALER
+Seat 2: clarke23 (€134.16 in chips)
+Seat 3: Crickets29 (€100.00 in chips)
+Seat 4: JullyEggy (€474.50 in chips)
+Seat 5: Sh28 (€103.50 in chips)
+Seat 6: Oldraider (€111.13 in chips)
+clarke23: Post SB €0.50
+Crickets29: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [SK S10]
+JullyEggy: Raise to €2.00
+Sh28: Raise to €8.50
+Oldraider: Fold
+RegButcher: Fold
+clarke23: Fold
+Crickets29: Fold
+JullyEggy: Call €6.50
+*** FLOP *** [CJ DQ H4]
+JullyEggy: Check
+Sh28: Check
+*** TURN *** [C2]
+JullyEggy: Bet €17.50
+Sh28: Call €17.50
+*** RIVER *** [S7]
+JullyEggy: Bet €78.00
+Sh28: Call €77.50
+*** SUMMARY ***
+Total pot €208.50 Rake €3.00
+JullyEggy: Shows [SK S10]
+Sh28: Shows [SJ S9] One Pair
+Sh28: wins €205.50
+
+GAME #2303997757 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 02:13:28/GMT
+Table Size 6
+Table €100 NL, 2303997757
+Seat 1: JullyEggy (€348.42 in chips)
+Seat 2: danyboy2023 (€90.41 in chips)   DEALER
+Seat 3: RegButcher (€55.94 in chips)
+Seat 4: clarke23 (€111.05 in chips)
+Seat 5: CocaBonita (€107.41 in chips)
+Seat 6: Hablamo (€100.00 in chips)
+RegButcher: Post SB €0.50
+clarke23: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [HQ SK]
+CocaBonita: Fold
+Hablamo: Fold
+JullyEggy: Raise to €2.30
+danyboy2023: Fold
+RegButcher: Fold
+clarke23: Call €1.30
+*** FLOP *** [CK SJ S7]
+clarke23: Check
+JullyEggy: Bet €1.28
+clarke23: Raise to €7.50
+JullyEggy: Call €6.22
+*** TURN *** [DQ]
+clarke23: Bet €22.50
+JullyEggy: Raise to €238.00
+clarke23: Call €78.75
+*** RIVER *** [D3]
+*** SUMMARY ***
+Total pot €222.60 Rake €3.00
+JullyEggy: Shows [HQ SK] Two Pair
+clarke23: Shows [H10 D9] Straight
+clarke23: wins €219.60
+
+GAME #2303995276 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 01:44:46/GMT
+Table Size 6
+Table €100 NL, 2303995276
+Seat 1: JullyEggy (€217.84 in chips)
+Seat 2: jammin244 (€90.78 in chips)
+Seat 3: BattleArmor (€100.00 in chips)
+Seat 4: Sinbati (€55.70 in chips)
+Seat 5: catreteibvew (€98.78 in chips)   DEALER
+Seat 6: clarke23 (€258.10 in chips)
+clarke23: Post SB €0.50
+JullyEggy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [CJ CK]
+jammin244: Raise to €2.50
+BattleArmor: Fold
+Sinbati: Call €2.50
+catreteibvew: Fold
+clarke23: Raise to €12.50
+JullyEggy: Raise to €27.50
+jammin244: Fold
+Sinbati: Fold
+clarke23: Call €15.00
+*** FLOP *** [S3 C9 H8]
+clarke23: Check
+JullyEggy: Bet €26.50
+clarke23: Call €26.50
+*** TURN *** [D3]
+clarke23: Check
+JullyEggy: Bet €56.50
+clarke23: Raise to €204.10 (all-in)
+JullyEggy: Fold
+*** SUMMARY ***
+Total pot €226.00 Rake €3.00
+clarke23: wins €223.00
+
+GAME #2304006066 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 04:12:34/GMT
+Table Size 6
+Table €100 NL, 2304006066
+Seat 1: JullyEggy (€134.21 in chips)
+Seat 2: DrGualtieri3 (€125.63 in chips)
+Seat 3: streetslap (€50.17 in chips)
+Seat 4: ApeLikeNigo (€115.27 in chips)
+Seat 5: CocaBonita (€162.11 in chips)
+Seat 6: rotundjere (€100.00 in chips)   DEALER
+JullyEggy: Post SB €0.50
+DrGualtieri3: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [HK HJ]
+streetslap: Fold
+ApeLikeNigo: Raise to €2.00
+CocaBonita: Fold
+rotundjere: Fold
+JullyEggy: Raise to €10.50
+DrGualtieri3: Fold
+ApeLikeNigo: Call €8.50
+*** FLOP *** [S7 H5 S5]
+JullyEggy: Bet €15.50
+ApeLikeNigo: Call €15.50
+*** TURN *** [H8]
+JullyEggy: Bet €108.21
+ApeLikeNigo: Call €89.27
+*** RIVER *** [D8]
+*** SUMMARY ***
+Total pot €231.54 Rake €3.00
+JullyEggy: Shows [HK HJ] Two Pair
+ApeLikeNigo: Shows [S8 C8] Four of a Kind
+ApeLikeNigo: wins €228.54
+
+GAME #2304003659 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 03:35:51/GMT
+Table Size 6
+Table €100 NL, 2304003659
+Seat 1: JullyEggy (€146.93 in chips)
+Seat 2: DrGualtieri3 (€100.00 in chips)
+Seat 3: BattleArmor (€158.94 in chips)
+Seat 4: Sinbati (€53.89 in chips)
+Seat 5: MingQi (€101.50 in chips)   DEALER
+Seat 6: Hablamo (€220.29 in chips)
+Hablamo: Post SB €0.50
+JullyEggy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [DQ CQ]
+DrGualtieri3: Fold
+BattleArmor: Raise to €2.00
+Sinbati: Fold
+MingQi: Fold
+Hablamo: Fold
+JullyEggy: Raise to €11.00
+BattleArmor: Call €9.00
+*** FLOP *** [S10 H3 SQ]
+JullyEggy: Bet €11.25
+BattleArmor: Call €11.25
+*** TURN *** [H5]
+JullyEggy: Bet €32.85
+BattleArmor: Call €32.85
+*** RIVER *** [S9]
+JullyEggy: Check
+BattleArmor: Bet €103.84
+JullyEggy: Call €91.83
+*** SUMMARY ***
+Total pot €294.36 Rake €3.00
+JullyEggy: Shows [DQ CQ] Three of a Kind
+BattleArmor: Shows [DK CA]
+JullyEggy: wins €291.36
+
+GAME #2304170150 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 17:13:12/GMT
+Table Size 4
+Table €100 NL, 2304170150
+Seat 1: chen7 (€140.62 in chips)   DEALER
+Seat 2: AnyChange22 (€100.00 in chips)
+Seat 4: iamIvar (€203.19 in chips)
+Seat 5: allezla (€101.50 in chips)
+AnyChange22: Post SB €0.50
+iamIvar: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DQ DA]
+allezla: Fold
+chen7: Fold
+AnyChange22: Raise to €3.00
+iamIvar: Raise to €9.00
+AnyChange22: Raise to €21.00
+iamIvar: Call €12.00
+*** FLOP *** [H8 HJ D10]
+AnyChange22: Bet €21.00
+iamIvar: Call €21.00
+*** TURN *** [HA]
+AnyChange22: Check
+iamIvar: Check
+*** RIVER *** [D4]
+AnyChange22: Check
+iamIvar: Bet €161.19
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €84.00 Rake €3.00
+iamIvar: wins €81.00
+
+GAME #2304185255 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 17:45:48/GMT
+Table Size 4
+Table €100 NL, 2304185255
+Seat 1: K-POP (€277.57 in chips)
+Seat 2: AnyChange22 (€160.01 in chips)
+Seat 3: BENJAMIN7 (€383.40 in chips)
+Seat 4: allezla (€101.00 in chips)   DEALER
+K-POP: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SJ SK]
+BENJAMIN7: Fold
+allezla: Raise to €2.50
+K-POP: Fold
+AnyChange22: Call €1.50
+*** FLOP *** [C7 S9 S10]
+AnyChange22: Check
+allezla: Bet €4.40
+AnyChange22: Raise to €14.84
+allezla: Call €10.44
+*** TURN *** [H7]
+AnyChange22: Check
+allezla: Bet €21.00
+AnyChange22: Raise to €142.67 (all-in)
+allezla: Call €62.66
+*** RIVER *** [C4]
+*** SUMMARY ***
+Total pot €202.50 Rake €3.00
+AnyChange22: Shows [SJ SK] One Pair
+allezla: Shows [SA HA] Two Pair
+allezla: wins €199.50
+
+GAME #2304194185 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 18:07:01/GMT
+Table Size 6
+Table €100 NL, 2304194185
+Seat 1: iamIvar (€100.00 in chips)
+Seat 2: AnyChange22 (€100.00 in chips)
+Seat 3: VAMOS2 (€156.50 in chips)
+Seat 4: Cab_Driver (€167.20 in chips)
+Seat 5: Lana-92 (€205.22 in chips)
+Seat 6: allezla (€212.75 in chips)   DEALER
+iamIvar: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [S7 SJ]
+VAMOS2: Fold
+Cab_Driver: Fold
+Lana-92: Fold
+allezla: Raise to €2.50
+iamIvar: Fold
+AnyChange22: Call €1.50
+*** FLOP *** [S10 D5 S2]
+AnyChange22: Check
+allezla: Bet €2.75
+AnyChange22: Call €2.75
+*** TURN *** [D7]
+AnyChange22: Check
+allezla: Bet €15.00
+AnyChange22: Call €15.00
+*** RIVER *** [D4]
+AnyChange22: Check
+allezla: Bet €192.50
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €41.00 Rake €2.46
+allezla: wins €38.54
+
+GAME #2304205313 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 18:27:12/GMT
+Table Size 4
+Table €100 NL, 2304205313
+Seat 1: AnyChange22 (€181.87 in chips)
+Seat 2: allezla (€131.86 in chips)
+Seat 4: IceViking (€108.20 in chips)
+Seat 6: VAMOS2 (€100.00 in chips)   DEALER
+AnyChange22: Post SB €0.50
+allezla: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [H5 HA]
+IceViking: Fold
+VAMOS2: Fold
+AnyChange22: Raise to €3.00
+allezla: Raise to €10.00
+AnyChange22: Raise to €21.00
+allezla: Call €11.00
+*** FLOP *** [HQ D8 D5]
+AnyChange22: Bet €11.34
+allezla: Call €11.34
+*** TURN *** [H8]
+AnyChange22: Check
+allezla: Bet €20.50
+AnyChange22: Raise to €149.53 (all-in)
+allezla: Call €79.02
+*** RIVER *** [DK]
+*** SUMMARY ***
+Total pot €263.72 Rake €3.00
+AnyChange22: Shows [H5 HA] Two Pair
+allezla: Shows [CK CQ] Two Pair
+allezla: wins €260.72
+
+GAME #2304296988 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-21 21:21:58/GMT
+Table Size 6
+Table €100 NL, 2304296988
+Seat 1: bacvari (€69.14 in chips)   DEALER
+Seat 2: AnyChange22 (€200.59 in chips)
+Seat 3: pieface23 (€104.28 in chips)
+Seat 4: reasonrhyme (€161.04 in chips)
+Seat 5: 4Diamonds (€426.28 in chips)
+Seat 6: fishNchipz3 (€100.00 in chips)
+AnyChange22: Post SB €0.50
+pieface23: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SQ SJ]
+reasonrhyme: Fold
+4Diamonds: Raise to €3.00
+fishNchipz3: Fold
+bacvari: Fold
+AnyChange22: Raise to €12.00
+pieface23: Fold
+4Diamonds: Call €9.00
+*** FLOP *** [DK H9 D5]
+AnyChange22: Bet €12.50
+4Diamonds: Call €12.50
+*** TURN *** [H4]
+AnyChange22: Bet €47.00
+4Diamonds: Call €47.00
+*** RIVER *** [S3]
+AnyChange22: Bet €129.09
+4Diamonds: Call €129.09
+*** SUMMARY ***
+Total pot €402.18 Rake €3.00
+AnyChange22: Shows [SQ SJ]
+4Diamonds: Shows [HJ SK] One Pair
+4Diamonds: wins €399.18
+
