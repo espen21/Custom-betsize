@@ -1,0 +1,67 @@
+GAME #2327700401 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-24 12:48:52/GMT
+Table Size 3
+Table €100 NL, 2327700401
+Seat 1: Freestaylerr (€113.46 in chips)
+Seat 2: blockblast (€103.14 in chips)   DEALER
+Seat 3: JullyEggy (€101.12 in chips)
+JullyEggy: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [C9 CQ]
+blockblast: Fold
+JullyEggy: Raise to €3.00
+Freestaylerr: Raise to €9.00
+JullyEggy: Call €6.00
+*** FLOP *** [D10 CJ D7]
+JullyEggy: Check
+Freestaylerr: Bet €5.58
+JullyEggy: Call €5.58
+*** TURN *** [H8]
+JullyEggy: Bet €10.50
+Freestaylerr: Call €10.50
+*** RIVER *** [D3]
+JullyEggy: Bet €15.50
+Freestaylerr: Raise to €88.38 (all-in)
+JullyEggy: Call €60.54
+*** SUMMARY ***
+Total pot €202.24 Rake €1.50
+Freestaylerr: Shows [HA DK]
+JullyEggy: Shows [C9 CQ] Straight
+JullyEggy: wins €200.74
+
+GAME #2327914058 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-24 21:36:10/GMT
+Table Size 6
+Table €100 NL, 2327914058
+Seat 1: JullyEggy (€104.63 in chips)
+Seat 2: jassoL (€100.00 in chips)   DEALER
+Seat 3: taco47 (€150.09 in chips)
+Seat 4: Freestaylerr (€159.98 in chips)
+Seat 5: FGHJK10 (€61.84 in chips)
+Seat 6: Card_Dead72o (€134.55 in chips)
+taco47: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [S10 C10]
+FGHJK10: Fold
+Card_Dead72o: Fold
+JullyEggy: Raise to €2.30
+jassoL: Raise to €6.88
+taco47: Fold
+Freestaylerr: Fold
+JullyEggy: Call €4.58
+*** FLOP *** [H6 D7 SQ]
+JullyEggy: Check
+jassoL: Bet €5.04
+JullyEggy: Call €5.04
+*** TURN *** [S5]
+JullyEggy: Check
+jassoL: Check
+*** RIVER *** [SK]
+JullyEggy: Check
+jassoL: Bet €19.01
+JullyEggy: Raise to €92.71 (all-in)
+jassoL: Fold
+*** SUMMARY ***
+Total pot €63.36 Rake €3.00
+JullyEggy: wins €60.36
+

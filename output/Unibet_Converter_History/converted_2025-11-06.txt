@@ -1,0 +1,74 @@
+GAME #2321415555 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-06 18:24:20/GMT
+Table Size 6
+Table €100 NL, 2321415555
+Seat 1: BowingRiver (€100.90 in chips)
+Seat 2: Italiionni (€100.00 in chips)
+Seat 3: buuuuooo (€120.07 in chips)
+Seat 4: zerosum (€107.35 in chips)
+Seat 5: NAMNAMMA (€103.00 in chips)   DEALER
+Seat 6: Noppelstrom (€100.00 in chips)
+Noppelstrom: Post SB €0.50
+BowingRiver: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [H3 C3]
+Italiionni: Fold
+buuuuooo: Fold
+zerosum: Fold
+NAMNAMMA: Raise to €2.50
+Noppelstrom: Fold
+BowingRiver: Raise to €12.00
+NAMNAMMA: Call €9.50
+*** FLOP *** [CK S9 S10]
+BowingRiver: Check
+NAMNAMMA: Bet €12.25
+BowingRiver: Call €12.25
+*** TURN *** [C7]
+BowingRiver: Check
+NAMNAMMA: Bet €24.50
+BowingRiver: Call €24.50
+*** RIVER *** [H6]
+BowingRiver: Check
+NAMNAMMA: Bet €54.25
+BowingRiver: Call €52.15
+*** SUMMARY ***
+Total pot €202.30 Rake €3.00
+BowingRiver: Shows [SJ DJ] One Pair
+NAMNAMMA: Shows [H3 C3] One Pair
+BowingRiver: wins €199.30
+
+GAME #2321437898 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-06 19:15:51/GMT
+Table Size 6
+Table €100 NL, 2321437898
+Seat 1: damagedbrain (€101.99 in chips)
+Seat 2: Wheeltof (€75.27 in chips)   DEALER
+Seat 3: alldayallni (€108.36 in chips)
+Seat 4: NAMNAMMA (€113.84 in chips)
+Seat 5: lUCKYYY4 (€215.97 in chips)
+Seat 6: Riggatisinne (€50.54 in chips)
+alldayallni: Post SB €0.50
+NAMNAMMA: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [D10 S10]
+lUCKYYY4: Fold
+Riggatisinne: Fold
+damagedbrain: Fold
+Wheeltof: Raise to €2.78
+alldayallni: Raise to €11.00
+NAMNAMMA: Raise to €20.50
+Wheeltof: Fold
+alldayallni: Call €9.50
+*** FLOP *** [H6 H3 D5]
+alldayallni: Check
+NAMNAMMA: Bet €21.89
+alldayallni: Call €21.89
+*** TURN *** [C3]
+alldayallni: Check
+NAMNAMMA: Bet €71.45
+alldayallni: Call €65.97
+*** RIVER *** [D6]
+*** SUMMARY ***
+Total pot €219.50 Rake €3.00
+alldayallni: Shows [C9 D9] Two Pair
+NAMNAMMA: Shows [D10 S10] Two Pair
+NAMNAMMA: wins €216.50
+

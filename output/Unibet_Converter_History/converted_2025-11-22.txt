@@ -1,0 +1,36 @@
+GAME #2327189852 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-22 21:52:11/GMT
+Table Size 6
+Table €100 NL, 2327189852
+Seat 1: bfdbf (€100.00 in chips)
+Seat 2: Oiutrerrti65 (€86.24 in chips)   DEALER
+Seat 3: amdatamluat (€119.02 in chips)
+Seat 4: Mega80 (€176.70 in chips)
+Seat 5: shin3 (€110.41 in chips)
+Seat 6: JullyEggy (€116.08 in chips)
+Mega80: Post SB €0.50
+shin3: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [DK D10]
+JullyEggy: Raise to €2.00
+bfdbf: Raise to €6.50
+Oiutrerrti65: Fold
+Mega80: Fold
+shin3: Fold
+JullyEggy: Raise to €18.50
+bfdbf: Call €12.00
+*** FLOP *** [SJ D8 C10]
+JullyEggy: Bet €11.50
+bfdbf: Call €11.50
+*** TURN *** [CJ]
+JullyEggy: Check
+bfdbf: Check
+*** RIVER *** [S4]
+JullyEggy: Check
+bfdbf: Bet €70.00
+JullyEggy: Call €70.00
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+bfdbf: Shows [CQ CA] One Pair
+JullyEggy: Shows [DK D10] Two Pair
+JullyEggy: wins €198.50
+

@@ -1,0 +1,33 @@
+GAME #2325257083 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-11-17 12:11:26/GMT
+Table Size 6
+Table €50 NL, 2325257083
+Seat 1: Ahjupera (€50.00 in chips)
+Seat 2: Smorfi (€83.11 in chips)
+Seat 3: BringHim1Mil (€54.47 in chips)
+Seat 4: HilfeDICH (€50.00 in chips)
+Seat 5: Freestaylerr (€215.10 in chips)   DEALER
+Seat 6: Oled3 (€0.00 in chips)
+Ahjupera: Post SB €0.25
+Smorfi: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to HilfeDICH [D10 S10]
+BringHim1Mil: Raise to €1.25
+HilfeDICH: Raise to €3.75
+Freestaylerr: Fold
+Ahjupera: Fold
+Smorfi: Fold
+BringHim1Mil: Call €2.50
+*** FLOP *** [H2 D9 D2]
+BringHim1Mil: Check
+HilfeDICH: Bet €4.13
+BringHim1Mil: Raise to €12.39
+HilfeDICH: Raise to €46.25 (all-in)
+BringHim1Mil: Call €33.86
+*** TURN *** [D7]
+*** RIVER *** [SA]
+*** SUMMARY ***
+Total pot €100.75 Rake €2.00
+BringHim1Mil: Shows [CQ HQ] Two Pair
+HilfeDICH: Shows [D10 S10] Two Pair
+BringHim1Mil: wins €98.75
+

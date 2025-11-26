@@ -1,0 +1,123 @@
+GAME #2319721622 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €1.00/€2.00 2025-11-02 00:56:22/GMT
+Table Size 6
+Table €200 NL, 2319721622
+Seat 1: colt45 (€307.66 in chips)
+Seat 2: Plaknagel (€391.23 in chips)
+Seat 3: JullyEggy (€500.63 in chips)   DEALER
+Seat 4: kloker (€0.00 in chips)
+Seat 5: aceacek (€200.00 in chips)
+Seat 6: BLABLABLA2 (€192.55 in chips)
+aceacek: Post SB €1.00
+BLABLABLA2: Post BB €2.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [HQ DA]
+colt45: Fold
+Plaknagel: Fold
+JullyEggy: Raise to €5.00
+aceacek: Raise to €22.00
+BLABLABLA2: Fold
+JullyEggy: Call €17.00
+*** FLOP *** [D7 C3 H4]
+aceacek: Bet €22.00
+JullyEggy: Call €22.00
+*** TURN *** [C4]
+aceacek: Check
+JullyEggy: Check
+*** RIVER *** [DK]
+aceacek: Bet €63.90
+JullyEggy: Fold
+*** SUMMARY ***
+Total pot €90.00 Rake €3.00
+aceacek: wins €87.00
+
+GAME #2319725919 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-02 01:17:20/GMT
+Table Size 6
+Table €100 NL, 2319725919
+Seat 1: Here2Gamble (€100.00 in chips)
+Seat 2: Brixtol (€88.10 in chips)
+Seat 3: Gangsta (€96.00 in chips)
+Seat 4: Rec-X (€140.10 in chips)
+Seat 5: JullyEggy (€105.99 in chips)
+Seat 6: dameunnnGrrr (€100.00 in chips)   DEALER
+Here2Gamble: Post SB €0.50
+Brixtol: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [CA HK]
+Gangsta: Fold
+Rec-X: Fold
+JullyEggy: Raise to €2.30
+dameunnnGrrr: Fold
+Here2Gamble: Raise to €10.50
+Brixtol: Fold
+JullyEggy: Call €8.20
+*** FLOP *** [HJ SA D8]
+Here2Gamble: Bet €7.26
+JullyEggy: Call €7.26
+*** TURN *** [DQ]
+Here2Gamble: Bet €25.50
+JullyEggy: Call €25.50
+*** RIVER *** [C5]
+Here2Gamble: Bet €56.74
+JullyEggy: Fold
+*** SUMMARY ***
+Total pot €87.52 Rake €3.00
+Here2Gamble: wins €84.52
+
+GAME #2320015857 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-02 20:44:06/GMT
+Table Size 4
+Table €100 NL, 2320015857
+Seat 2: wakuwaku (€380.02 in chips)
+Seat 3: Pechvoorje (€113.80 in chips)
+Seat 4: JullyEggy (€146.13 in chips)
+Seat 5: cantdraw1-1 (€100.00 in chips)   DEALER
+wakuwaku: Post SB €0.50
+Pechvoorje: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [C7 C8]
+JullyEggy: Raise to €2.30
+cantdraw1-1: Fold
+wakuwaku: Raise to €10.14
+Pechvoorje: Fold
+JullyEggy: Call €7.84
+*** FLOP *** [D7 CK C4]
+wakuwaku: Bet €5.32
+JullyEggy: Call €5.32
+*** TURN *** [D9]
+wakuwaku: Bet €21.07
+JullyEggy: Raise to €130.67 (all-in)
+wakuwaku: Fold
+*** SUMMARY ***
+Total pot €74.06 Rake €3.00
+JullyEggy: wins €71.06
+
+GAME #2320047688 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-02 21:47:55/GMT
+Table Size 5
+Table €100 NL, 2320047688
+Seat 1: JullyEggy (€180.04 in chips)   DEALER
+Seat 2: ResuOriented (€116.52 in chips)
+Seat 3: GymmyJymmy (€101.50 in chips)
+Seat 4: gotitnow (€134.54 in chips)
+Seat 5: Une222 (€142.67 in chips)
+ResuOriented: Post SB €0.50
+GymmyJymmy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [D10 S10]
+gotitnow: Fold
+JullyEggy: Raise to €2.50
+ResuOriented: Raise to €10.00
+GymmyJymmy: Fold
+JullyEggy: Call €7.50
+*** FLOP *** [D7 S3 D4]
+ResuOriented: Check
+JullyEggy: Bet €5.88
+ResuOriented: Raise to €25.50
+JullyEggy: Raise to €170.04 (all-in)
+ResuOriented: Call €81.02
+*** TURN *** [D6]
+*** RIVER *** [SK]
+*** SUMMARY ***
+Total pot €234.04 Rake €3.00
+JullyEggy: Shows [D10 S10] One Pair
+ResuOriented: Shows [HA H5] Straight
+ResuOriented: wins €231.04
+

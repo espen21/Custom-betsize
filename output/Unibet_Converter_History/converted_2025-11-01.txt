@@ -1,0 +1,30 @@
+GAME #2319113529 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-31 16:00:45/GMT
+Table Size 4
+Table €100 NL, 2319113529
+Seat 1: Skruttet21 (€176.20 in chips)   DEALER
+Seat 3: VoaiajVoaiaj (€113.85 in chips)
+Seat 4: Freestaylerr (€102.50 in chips)
+Seat 6: 60k_kubik (€100.00 in chips)
+VoaiajVoaiaj: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Freestaylerr [CJ CK]
+60k_kubik: Fold
+Skruttet21: Raise to €2.50
+VoaiajVoaiaj: Fold
+Freestaylerr: Raise to €11.00
+Skruttet21: Call €8.50
+*** FLOP *** [H2 S9 D10]
+Freestaylerr: Bet €6.98
+Skruttet21: Call €6.98
+*** TURN *** [SJ]
+Freestaylerr: Bet €17.14
+Skruttet21: Raise to €117.59
+Freestaylerr: Call €67.38
+*** RIVER *** [HJ]
+*** SUMMARY ***
+Total pot €205.50 Rake €3.00
+Skruttet21: Shows [C9 H9] Full House
+Freestaylerr: Shows [CJ CK] Three of a Kind
+Skruttet21: wins €202.50
+

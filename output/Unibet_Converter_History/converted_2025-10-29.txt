@@ -1,0 +1,142 @@
+GAME #2318306080 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-29 08:51:34/GMT
+Table Size 3
+Table €100 NL, 2318306080
+Seat 3: flurtle (€101.16 in chips)
+Seat 4: Storm70 (€196.28 in chips)
+Seat 5: Skruttet21 (€106.20 in chips)   DEALER
+flurtle: Post SB €0.50
+Storm70: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [D10 D9]
+Skruttet21: Raise to €2.50
+flurtle: Raise to €12.00
+Storm70: Fold
+Skruttet21: Call €9.50
+*** FLOP *** [D6 S10 C8]
+flurtle: Bet €10.00
+Skruttet21: Call €10.00
+*** TURN *** [HJ]
+flurtle: Bet €30.50
+Skruttet21: Call €30.50
+*** RIVER *** [D4]
+flurtle: Bet €48.66
+Skruttet21: Call €48.66
+*** SUMMARY ***
+Total pot €203.32 Rake €1.50
+flurtle: Shows [D8 H8] Three of a Kind
+Skruttet21: Shows [D10 D9] One Pair
+flurtle: wins €201.82
+
+GAME #2318309786 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €1.00/€2.00 2025-10-29 09:15:52/GMT
+Table Size 2
+Table €200 NL, 2318309786
+Seat 1: girlspam (€198.00 in chips)   DEALER
+Seat 4: Skruttet21 (€202.00 in chips)
+girlspam: Post SB €1.00
+Skruttet21: Post BB €2.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CQ CA]
+girlspam: Raise to €5.00
+Skruttet21: Raise to €21.00
+girlspam: Call €16.00
+*** FLOP *** [C3 C8 S5]
+Skruttet21: Bet €29.00
+girlspam: Call €29.00
+*** TURN *** [HJ]
+Skruttet21: Bet €152.00
+girlspam: Call €148.00
+*** RIVER *** [S7]
+*** SUMMARY ***
+Total pot €396.00 Rake €1.50
+girlspam: Shows [CJ CK] One Pair
+Skruttet21: Shows [CQ CA]
+girlspam: wins €394.50
+
+GAME #2318312314 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €1.00/€2.00 2025-10-29 09:30:27/GMT
+Table Size 4
+Table €200 NL, 2318312314
+Seat 1: coolglasses (€200.00 in chips)   DEALER
+Seat 3: Skruttet21 (€223.54 in chips)
+Seat 4: girlspam (€241.92 in chips)
+Seat 5: Rac00n0 (€200.00 in chips)
+Skruttet21: Post SB €1.00
+girlspam: Post BB €2.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DQ SQ]
+coolglasses: Raise to €5.00
+Skruttet21: Raise to €24.00
+girlspam: Fold
+coolglasses: Call €19.00
+*** FLOP *** [D8 CJ S5]
+Skruttet21: Bet €14.00
+coolglasses: Raise to €37.00
+Skruttet21: Call €23.00
+*** TURN *** [C2]
+Skruttet21: Check
+coolglasses: Bet €37.00
+Skruttet21: Raise to €162.54 (all-in)
+coolglasses: Call €102.00
+*** RIVER *** [D9]
+*** SUMMARY ***
+Total pot €402.00 Rake €1.50
+coolglasses: Shows [HA CA] One Pair
+Skruttet21: Shows [DQ SQ] One Pair
+coolglasses: wins €400.50
+
+GAME #2318312524 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €1.00/€2.00 2025-10-29 09:31:37/GMT
+Table Size 3
+Table €200 NL, 2318312524
+Seat 1: girlspam (€197.00 in chips)   DEALER
+Seat 2: 43639790 (€201.00 in chips)
+Seat 4: Skruttet21 (€212.84 in chips)
+43639790: Post SB €1.00
+Skruttet21: Post BB €2.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DJ SJ]
+girlspam: Raise to €5.00
+43639790: Fold
+Skruttet21: Raise to €26.00
+girlspam: Call €21.00
+*** FLOP *** [C4 D2 H2]
+Skruttet21: Bet €37.00
+girlspam: Call €37.00
+*** TURN *** [C8]
+Skruttet21: Bet €149.84
+girlspam: Call €134.00
+*** RIVER *** [SK]
+*** SUMMARY ***
+Total pot €395.00 Rake €1.50
+girlspam: Shows [HJ DA] One Pair
+Skruttet21: Shows [DJ SJ] Two Pair
+Skruttet21: wins €393.50
+
+GAME #2318317781 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-29 10:03:31/GMT
+Table Size 4
+Table €100 NL, 2318317781
+Seat 1: Skruttet21 (€161.05 in chips)
+Seat 2: POLOPLAYER3 (€214.47 in chips)
+Seat 3: Nirvana (€100.00 in chips)   DEALER
+Seat 4: skinwalker (€100.37 in chips)
+skinwalker: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA CQ]
+POLOPLAYER3: Raise to €2.00
+Nirvana: Raise to €6.00
+skinwalker: Fold
+Skruttet21: Raise to €18.00
+POLOPLAYER3: Fold
+Nirvana: Call €12.00
+*** FLOP *** [C10 H3 C6]
+Skruttet21: Bet €18.50
+Nirvana: Call €18.50
+*** TURN *** [H5]
+Skruttet21: Bet €107.21
+Nirvana: Call €63.50
+*** RIVER *** [SK]
+*** SUMMARY ***
+Total pot €202.50 Rake €3.00
+Skruttet21: Shows [CA CQ]
+Nirvana: Shows [H6 D6] Three of a Kind
+Nirvana: wins €199.50
+
