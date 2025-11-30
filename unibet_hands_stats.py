@@ -393,7 +393,25 @@ def main():
                 "BB/100": round(info["bb100"], 2),
             })
         st.subheader("Per stake")
-        st.table(pd.DataFrame(rows))
+        df_stakes = pd.DataFrame(rows)
+        st.table(df_stakes)
+
+        # Toggle + stakeval för grafer
+        if not df_stakes.empty and st.checkbox("Visa grafer per stake (detta datum)"):
+            stakes_list = df_stakes["Stake"].tolist()
+            selected = st.multiselect(
+                "Välj stakes för grafer",
+                stakes_list,
+                default=stakes_list,
+            )
+            plot_df = df_stakes[df_stakes["Stake"].isin(selected)].set_index("Stake")
+
+            if not plot_df.empty:
+                st.subheader("Result (€) per stake")
+                st.bar_chart(plot_df["Result (€)"])
+
+                st.subheader("BB/100 per stake")
+                st.bar_chart(plot_df["BB/100"])
 
     # ---------------- PER MÅNAD ----------------
     elif view == "Per månad":
@@ -417,7 +435,26 @@ def main():
                 "BB/100": round(info["bb100"], 2),
             })
         st.subheader("Per stake")
-        st.table(pd.DataFrame(rows))
+        df_stakes = pd.DataFrame(rows)
+        st.table(df_stakes)
+
+        # Toggle + stakeval för grafer
+        if not df_stakes.empty and st.checkbox("Visa grafer per stake (denna månad)"):
+            stakes_list = df_stakes["Stake"].tolist()
+            selected = st.multiselect(
+                "Välj stakes för grafer",
+                stakes_list,
+                default=stakes_list,
+                key="month_stakes_select",
+            )
+            plot_df = df_stakes[df_stakes["Stake"].isin(selected)].set_index("Stake")
+
+            if not plot_df.empty:
+                st.subheader("Result (€) per stake")
+                st.bar_chart(plot_df["Result (€)"])
+
+                st.subheader("BB/100 per stake")
+                st.bar_chart(plot_df["BB/100"])
 
     # ---------------- ALLA DAGAR (TABELL + GRAF) ----------------
     elif view == "Alla dagar (tabell + grafer)":
@@ -476,30 +513,56 @@ def main():
         html_table = df.to_html(escape=False, index=False)
         st.markdown(html_table, unsafe_allow_html=True)
 
-    # ---------------- KUMULATIV RESULTATKURVA ----------------
+    # ---------------- KUMULATIV RESULTATKURVA (med stake-filter) ----------------
     elif view == "Graf – kumulativ resultatkurva":
-        st.header("Kumulativ resultatkurva (alla händer i ordning)")
+        st.header("Kumulativ resultatkurva – med stake-filter")
 
         df = pd.DataFrame(all_hands)
-        df["Datum"] = pd.to_datetime(df["date"], errors="coerce")
-        df = df.sort_values(["Datum", "hand_id"])
+        if df.empty:
+            st.info("Inga händer att visa.")
+        else:
+            df["Datum"] = pd.to_datetime(df["date"], errors="coerce")
 
-        df["eur"] = df["result_eur"]
-        df["bb"] = df.apply(
-            lambda r: r["result_eur"] / (parse_big_blind_eur(r["stake"]) or 1.0),
-            axis=1,
-        )
-        df["cum_eur"] = df["eur"].cumsum()
-        df["cum_bb"] = df["bb"].cumsum()
-        df["hand_index"] = range(1, len(df) + 1)
+            # Lista stakes för filter
+            stakes_all = sorted({fix_encoding(s) for s in df["stake"].unique()})
+            # mappa original stake -> fixed label
+            df["stake_label"] = df["stake"].apply(fix_encoding)
 
-        df_idx = df.set_index("hand_index")
+            selected_stakes = st.multiselect(
+                "Välj vilka stakes som ska ingå i grafen",
+                stakes_all,
+                default=stakes_all,
+            )
 
-        st.subheader("Kumulativt resultat (€)")
-        st.line_chart(df_idx["cum_eur"])
+            if not selected_stakes:
+                st.info("Välj minst en stake för att se grafen.")
+            else:
+                # filtrera på valda stakes
+                df_sel = df[df["stake_label"].isin(selected_stakes)].copy()
+                if df_sel.empty:
+                    st.info("Inga händer för de valda stakesen.")
+                else:
+                    # sortera i tidsordning
+                    df_sel = df_sel.sort_values(["Datum", "hand_id"])
 
-        st.subheader("Kumulativt resultat (BB)")
-        st.line_chart(df_idx["cum_bb"])
+                    # kumulativ € för de valda stakesen
+                    df_sel["cum_eur"] = df_sel["result_eur"].cumsum()
+
+                    # räkna BB per hand (vectoriserat)
+                    df_sel["bb_size"] = df_sel["stake"].apply(
+                        lambda s: parse_big_blind_eur(s) or 1.0
+                    )
+                    df_sel["bb"] = df_sel["result_eur"] / df_sel["bb_size"]
+                    df_sel["cum_bb"] = df_sel["bb"].cumsum()
+
+                    df_sel["hand_index"] = range(1, len(df_sel) + 1)
+                    df_idx = df_sel.set_index("hand_index")
+
+                    st.subheader("Kumulativt resultat (€) – valda stakes")
+                    st.line_chart(df_idx["cum_eur"])
+
+                    st.subheader("Kumulativt resultat (BB) – valda stakes")
+                    st.line_chart(df_idx["cum_bb"])
 
     # ---------------- TOTAL ----------------
     else:  # "Total (alla händer)"
@@ -521,7 +584,26 @@ def main():
                 "BB/100": round(info["bb100"], 2),
             })
         st.subheader("Per stake")
-        st.table(pd.DataFrame(rows))
+        df_stakes = pd.DataFrame(rows)
+        st.table(df_stakes)
+
+        # Toggle + stakeval för grafer
+        if not df_stakes.empty and st.checkbox("Visa grafer per stake (total)"):
+            stakes_list = df_stakes["Stake"].tolist()
+            selected = st.multiselect(
+                "Välj stakes för grafer",
+                stakes_list,
+                default=stakes_list,
+                key="total_stakes_select",
+            )
+            plot_df = df_stakes[df_stakes["Stake"].isin(selected)].set_index("Stake")
+
+            if not plot_df.empty:
+                st.subheader("Total Result (€) per stake")
+                st.bar_chart(plot_df["Result (€)"])
+
+                st.subheader("Total BB/100 per stake")
+                st.bar_chart(plot_df["BB/100"])
 
 
 if __name__ == "__main__":
