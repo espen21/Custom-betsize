@@ -381,7 +381,7 @@ def main():
     # --- PER DAG ---
     if view == "Per dag":
         per_date = aggregate_by_date(all_hands)
-        dates = sorted(per_date.keys())
+        dates = sorted(per_date.keys(), reverse=True) # Senaste först
         chosen = st.selectbox("Datum", dates)
         agg = per_date[chosen]
         st.header(f"Datum: {chosen}")
