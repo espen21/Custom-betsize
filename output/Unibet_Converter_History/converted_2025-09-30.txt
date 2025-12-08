@@ -1,0 +1,339 @@
+GAME #2307281356 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-29 22:12:40/GMT
+Table Size 6
+Table €100 NL, 2307281356
+Seat 1: TedKGB (€103.00 in chips)
+Seat 2: 5dof (€273.31 in chips)
+Seat 3: Jullys11 (€100.00 in chips)   DEALER
+Seat 4: Adamsszz (€64.55 in chips)
+Seat 5: Nicky2002 (€130.98 in chips)
+Seat 6: Scofield23 (€127.47 in chips)
+Adamsszz: Post SB €0.50
+Nicky2002: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [DJ CK]
+Scofield23: Fold
+TedKGB: Fold
+5dof: Fold
+Jullys11: Raise to €2.50
+Adamsszz: Fold
+Nicky2002: Raise to €13.00
+Jullys11: Raise to €27.50
+Nicky2002: Call €14.50
+*** FLOP *** [C8 D2 SJ]
+Nicky2002: Check
+Jullys11: Bet €12.50
+Nicky2002: Call €12.50
+*** TURN *** [S9]
+Nicky2002: Bet €90.98
+Jullys11: Fold
+*** SUMMARY ***
+Total pot €80.50 Rake €3.00
+Nicky2002: wins €77.50
+
+GAME #2307286684 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-29 22:27:38/GMT
+Table Size 4
+Table €100 NL, 2307286684
+Seat 2: Nicky2002 (€103.14 in chips)
+Seat 4: Zubbo (€48.06 in chips)   DEALER
+Seat 5: pocketEmko (€211.69 in chips)
+Seat 6: Jullys11 (€165.63 in chips)
+pocketEmko: Post SB €0.50
+Jullys11: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [C9 D9]
+Nicky2002: Raise to €2.30
+Zubbo: Fold
+pocketEmko: Fold
+Jullys11: Call €1.30
+*** FLOP *** [D6 D3 H6]
+Jullys11: Check
+Nicky2002: Bet €1.50
+Jullys11: Raise to €5.55
+Nicky2002: Call €4.05
+*** TURN *** [H2]
+Jullys11: Check
+Nicky2002: Check
+*** RIVER *** [DK]
+Jullys11: Check
+Nicky2002: Bet €11.00
+Jullys11: Call €11.00
+*** SUMMARY ***
+Total pot €38.20 Rake €2.29
+Nicky2002: Shows [CK HK] Full House
+Jullys11: Shows [C9 D9] Two Pair
+Nicky2002: wins €35.91
+
+GAME #2307303004 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-29 23:29:19/GMT
+Table Size 6
+Table €50 NL, 2307303004
+Seat 1: gltoyou (€100.06 in chips)   DEALER
+Seat 2: Jullys11 (€85.40 in chips)
+Seat 3: railgun (€52.94 in chips)
+Seat 4: binladen95 (€70.18 in chips)
+Seat 5: feehugswyl (€52.81 in chips)
+Seat 6: Bf3 (€48.35 in chips)
+Jullys11: Post SB €0.25
+railgun: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Jullys11 [CQ HK]
+binladen95: Fold
+feehugswyl: Fold
+Bf3: Fold
+gltoyou: Fold
+Jullys11: Raise to €1.50
+railgun: Call €1.00
+*** FLOP *** [D3 CK S2]
+Jullys11: Check
+railgun: Bet €2.04
+Jullys11: Call €2.04
+*** TURN *** [S7]
+Jullys11: Check
+railgun: Bet €4.81
+Jullys11: Call €4.81
+*** RIVER *** [C6]
+Jullys11: Check
+railgun: Bet €16.70
+Jullys11: Call €16.70
+*** SUMMARY ***
+Total pot €50.10 Rake €2.00
+Jullys11: Shows [CQ HK] One Pair
+railgun: Shows [C3 CA] One Pair
+Jullys11: wins €48.10
+
+GAME #2307307366 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-29 23:51:57/GMT
+Table Size 4
+Table €100 NL, 2307307366
+Seat 1: Chubu (€95.97 in chips)   DEALER
+Seat 3: Jullys11 (€114.15 in chips)
+Seat 5: railgun (€102.18 in chips)
+Seat 6: Jugaad (€134.18 in chips)
+Jullys11: Post SB €0.50
+railgun: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [D6 D5]
+Jugaad: Raise to €2.50
+Chubu: Fold
+Jullys11: Raise to €12.00
+railgun: Fold
+Jugaad: Raise to €24.00
+Jullys11: Call €12.00
+*** FLOP *** [S6 S4 CJ]
+Jullys11: Check
+Jugaad: Bet €11.50
+Jullys11: Call €11.50
+*** TURN *** [H8]
+Jullys11: Check
+Jugaad: Bet €17.50
+Jullys11: Call €17.50
+*** RIVER *** [S7]
+Jullys11: Bet €61.15
+Jugaad: Call €61.15
+*** SUMMARY ***
+Total pot €229.30 Rake €3.00
+Jullys11: Shows [D6 D5] Straight
+Jugaad: Shows [SA DA] One Pair
+Jullys11: wins €226.30
+
+GAME #2307308217 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-29 23:57:06/GMT
+Table Size 5
+Table €100 NL, 2307308217
+Seat 1: Sh28 (€101.98 in chips)
+Seat 2: railgun (€105.77 in chips)
+Seat 3: Jullys11 (€117.30 in chips)
+Seat 4: lolo15 (€317.93 in chips)
+Seat 6: Jugaad (€109.87 in chips)   DEALER
+Sh28: Post SB €0.50
+railgun: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [CK SK]
+Jullys11: Raise to €2.00
+lolo15: Call €2.00
+Jugaad: Raise to €8.00
+Sh28: Call €7.50
+railgun: Fold
+Jullys11: Raise to €23.50
+lolo15: Fold
+Jugaad: Call €15.50
+Sh28: Call €15.50
+*** FLOP *** [HJ H3 H6]
+Sh28: Check
+Jullys11: Bet €93.80
+Jugaad: Call €86.37
+Sh28: Call €78.48
+*** TURN *** [H10]
+*** RIVER *** [CQ]
+*** SUMMARY ***
+Total pot €324.72 Rake €3.00
+Sh28: Shows [C3 S3] Three of a Kind
+Jullys11: Shows [CK SK] One Pair
+Jugaad: Shows [DA HA] Flush
+och: wins €0.00
+
+GAME #2307319431 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-30 01:39:06/GMT
+Table Size 6
+Table €50 NL, 2307319431
+Seat 1: Jugaad (€50.00 in chips)
+Seat 2: JoHnThEfRoG (€152.50 in chips)
+Seat 3: Skruttet21 (€50.56 in chips)   DEALER
+Seat 4: Mmasdaska (€52.53 in chips)
+Seat 5: Bendo3 (€50.00 in chips)
+Seat 6: ponyp (€85.82 in chips)
+Mmasdaska: Post SB €0.25
+Bendo3: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SQ CA]
+ponyp: Fold
+Jugaad: Raise to €1.25
+JoHnThEfRoG: Fold
+Skruttet21: Raise to €3.75
+Mmasdaska: Fold
+Bendo3: Fold
+Jugaad: Call €2.50
+*** FLOP *** [HQ C10 H10]
+Jugaad: Check
+Skruttet21: Bet €2.23
+Jugaad: Raise to €8.00
+Skruttet21: Call €5.77
+*** TURN *** [H3]
+Jugaad: Bet €8.50
+Skruttet21: Call €8.50
+*** RIVER *** [S6]
+Jugaad: Bet €29.75
+Skruttet21: Call €29.75
+*** SUMMARY ***
+Total pot €100.75 Rake €2.00
+Jugaad: Shows [HK HJ] Flush
+Skruttet21: Shows [SQ CA] Two Pair
+Jugaad: wins €98.75
+
+GAME #2307320178 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-30 01:51:02/GMT
+Table Size 4
+Table €50 NL, 2307320178
+Seat 3: feehugswyl (€81.43 in chips)
+Seat 4: Skruttet21 (€50.00 in chips)   DEALER
+Seat 5: Jugaad (€71.33 in chips)
+Seat 6: Bendo3 (€61.59 in chips)
+Jugaad: Post SB €0.25
+Bendo3: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [H9 C9]
+feehugswyl: Fold
+Skruttet21: Raise to €1.25
+Jugaad: Raise to €5.00
+Bendo3: Fold
+Skruttet21: Call €3.75
+*** FLOP *** [DQ C6 C4]
+Jugaad: Check
+Skruttet21: Check
+*** TURN *** [HQ]
+Jugaad: Bet €7.50
+Skruttet21: Call €7.50
+*** RIVER *** [D2]
+Jugaad: Bet €58.83
+Skruttet21: Call €37.50
+*** SUMMARY ***
+Total pot €100.50 Rake €2.00
+Skruttet21: Shows [H9 C9] Two Pair
+Jugaad: Shows [CJ DK] One Pair
+Skruttet21: wins €98.50
+
+GAME #2307405061 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-30 11:57:51/GMT
+Table Size 3
+Table €50 NL, 2307405061
+Seat 1: hihihi-nobo (€50.00 in chips)
+Seat 4: Ycuhiiguf (€50.65 in chips)   DEALER
+Seat 5: KennyPark (€61.79 in chips)
+KennyPark: Post SB €0.25
+hihihi-nobo: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to hihihi-nobo [DK SK]
+Ycuhiiguf: Fold
+KennyPark: Raise to €1.50
+hihihi-nobo: Raise to €5.00
+KennyPark: Call €3.50
+*** FLOP *** [CJ D7 S5]
+KennyPark: Check
+hihihi-nobo: Bet €2.70
+KennyPark: Raise to €15.02
+hihihi-nobo: Raise to €45.00 (all-in)
+KennyPark: Call €29.98
+*** TURN *** [S2]
+*** RIVER *** [S6]
+*** SUMMARY ***
+Total pot €100.00 Rake €1.00
+hihihi-nobo: Shows [DK SK] One Pair
+KennyPark: Shows [H8 H9] Straight
+KennyPark: wins €99.00
+
+GAME #2307394973 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-30 11:27:30/GMT
+Table Size 6
+Table €50 NL, 2307394973
+Seat 1: Ticu88 (€52.27 in chips)
+Seat 2: hihihi-nobo (€99.51 in chips)
+Seat 3: Lonaldo (€62.66 in chips)   DEALER
+Seat 4: lohjanman11 (€50.00 in chips)
+Seat 5: railgun (€79.82 in chips)
+Seat 6: brazziiilia (€73.09 in chips)
+lohjanman11: Post SB €0.25
+railgun: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to hihihi-nobo [CJ CA]
+brazziiilia: Fold
+Ticu88: Fold
+hihihi-nobo: Raise to €1.15
+Lonaldo: Raise to €3.59
+lohjanman11: Fold
+railgun: Fold
+hihihi-nobo: Call €2.44
+*** FLOP *** [D8 H9 SQ]
+hihihi-nobo: Check
+Lonaldo: Bet €2.75
+hihihi-nobo: Raise to €9.47
+Lonaldo: Call €6.72
+*** TURN *** [S4]
+hihihi-nobo: Bet €13.44
+Lonaldo: Call €13.44
+*** RIVER *** [C8]
+hihihi-nobo: Bet €73.01
+Lonaldo: Call €36.16
+*** SUMMARY ***
+Total pot €126.07 Rake €2.00
+hihihi-nobo: Shows [CJ CA] One Pair
+Lonaldo: Shows [D10 DJ] Straight
+Lonaldo: wins €124.07
+
+GAME #2307390591 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-30 11:11:29/GMT
+Table Size 5
+Table €50 NL, 2307390591
+Seat 1: Salahadin28 (€50.00 in chips)
+Seat 2: brazziiilia (€100.82 in chips)   DEALER
+Seat 3: BSpotter (€54.49 in chips)
+Seat 5: ILO31231 (€54.05 in chips)
+Seat 6: hihihi-nobo (€81.83 in chips)
+BSpotter: Post SB €0.25
+ILO31231: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to hihihi-nobo [DQ DA]
+hihihi-nobo: Raise to €1.00
+Salahadin28: Fold
+brazziiilia: Fold
+BSpotter: Raise to €4.75
+ILO31231: Fold
+hihihi-nobo: Call €3.75
+*** FLOP *** [D6 S8 HA]
+BSpotter: Bet €2.70
+hihihi-nobo: Call €2.70
+*** TURN *** [C9]
+BSpotter: Check
+hihihi-nobo: Bet €7.70
+BSpotter: Raise to €15.75
+hihihi-nobo: Call €8.05
+*** RIVER *** [D2]
+BSpotter: Bet €31.29
+hihihi-nobo: Call €31.29
+*** SUMMARY ***
+Total pot €109.48 Rake €2.00
+BSpotter: Shows [CK SA] One Pair
+hihihi-nobo: Shows [DQ DA] One Pair
+BSpotter: wins €107.48
+

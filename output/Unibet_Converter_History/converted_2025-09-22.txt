@@ -366,3 +366,90 @@ ApeLikeNigo: Shows [D6 D8] Straight
 AnyChange22: Shows [SJ HJ] Three of a Kind
 ApeLikeNigo: wins €136.36
 
+GAME #2304492327 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 15:48:15/GMT
+Table Size 6
+Table €100 NL, 2304492327
+Seat 1: memantina (€102.64 in chips)
+Seat 2: AnyChange22 (€137.36 in chips)
+Seat 3: PiraPiraMid3 (€103.91 in chips)
+Seat 4: siberianu (€105.14 in chips)
+Seat 5: trete (€108.58 in chips)
+Seat 6: Freestaylerr (€100.00 in chips)   DEALER
+memantina: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [HA H6]
+PiraPiraMid3: Fold
+siberianu: Raise to €2.50
+trete: Fold
+Freestaylerr: Fold
+memantina: Fold
+AnyChange22: Call €1.50
+*** FLOP *** [CA S10 C8]
+AnyChange22: Check
+siberianu: Bet €4.13
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €5.50 Rake €0.33
+siberianu: wins €5.17
+
+GAME #2304613826 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 20:01:36/GMT
+Table Size 2
+Table €100 NL, 2304613826
+Seat 1: AnyChange22 (€168.40 in chips)
+Seat 2: trete (€101.70 in chips)   DEALER
+trete: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DK SQ]
+trete: Raise to €2.50
+AnyChange22: Raise to €10.50
+trete: Call €8.00
+*** FLOP *** [C3 H10 C8]
+AnyChange22: Check
+trete: Check
+*** TURN *** [S9]
+AnyChange22: Bet €15.33
+trete: Call €15.33
+*** RIVER *** [C5]
+AnyChange22: Bet €76.50
+trete: Call €75.87
+*** SUMMARY ***
+Total pot €203.40 Rake €1.50
+AnyChange22: Shows [DK SQ]
+trete: Shows [CK CJ] Flush
+trete: wins €201.90
+
+GAME #2304632245 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 20:34:24/GMT
+Table Size 5
+Table €100 NL, 2304632245
+Seat 1: Nicky2002 (€102.49 in chips)
+Seat 2: Mocro12 (€90.70 in chips)
+Seat 4: AnyChange22 (€120.31 in chips)
+Seat 5: trete (€96.00 in chips)
+Seat 6: fklsfdklskf (€159.93 in chips)   DEALER
+Nicky2002: Post SB €0.50
+Mocro12: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DA HK]
+AnyChange22: Raise to €2.00
+trete: Raise to €6.50
+fklsfdklskf: Fold
+Nicky2002: Fold
+Mocro12: Fold
+AnyChange22: Raise to €18.00
+trete: Call €11.50
+*** FLOP *** [H6 S5 CQ]
+AnyChange22: Bet €12.50
+trete: Call €12.50
+*** TURN *** [S10]
+AnyChange22: Check
+trete: Check
+*** RIVER *** [C10]
+AnyChange22: Check
+trete: Bet €24.50
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €62.50 Rake €3.00
+trete: wins €59.50
+
