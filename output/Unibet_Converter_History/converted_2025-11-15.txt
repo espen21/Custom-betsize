@@ -1,0 +1,104 @@
+GAME #2324523369 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-15 08:43:40/GMT
+Table Size 6
+Table €100 NL, 2324523369
+Seat 1: BananSpieler (€100.00 in chips)
+Seat 2: PLZPLZPLZ (€109.82 in chips)
+Seat 3: andyep34 (€113.64 in chips)
+Seat 4: Granpriz (€172.05 in chips)
+Seat 5: Freestaylerr (€100.00 in chips)
+Seat 6: snowmaaaan (€100.00 in chips)   DEALER
+BananSpieler: Post SB €0.50
+PLZPLZPLZ: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to PLZPLZPLZ [CJ SQ]
+andyep34: Fold
+Freestaylerr: Raise to €2.20
+snowmaaaan: Fold
+BananSpieler: Fold
+PLZPLZPLZ: Raise to €13.00
+Freestaylerr: Call €10.80
+*** FLOP *** [C9 C7 S8]
+PLZPLZPLZ: Check
+Freestaylerr: Check
+*** TURN *** [CK]
+PLZPLZPLZ: Bet €18.50
+Freestaylerr: Call €18.50
+*** RIVER *** [D6]
+PLZPLZPLZ: Bet €78.32
+Freestaylerr: Fold
+*** SUMMARY ***
+Total pot €63.50 Rake €3.00
+PLZPLZPLZ: wins €60.50
+
+GAME #2324701081 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-11-15 19:21:44/GMT
+Table Size 5
+Table €50 NL, 2324701081
+Seat 1: pesumies99 (€92.57 in chips)
+Seat 2: Ticu88 (€135.11 in chips)
+Seat 3: BringHim1Mil (€52.68 in chips)
+Seat 4: kekskd (€80.97 in chips)
+Seat 5: PLZPLZPLZ (€54.73 in chips)   DEALER
+pesumies99: Post SB €0.25
+Ticu88: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to kekskd [SK H10]
+BringHim1Mil: Fold
+kekskd: Raise to €1.25
+PLZPLZPLZ: Raise to €3.75
+pesumies99: Fold
+Ticu88: Fold
+kekskd: Call €2.50
+*** FLOP *** [C7 D10 D2]
+kekskd: Check
+PLZPLZPLZ: Bet €4.13
+kekskd: Call €4.13
+*** TURN *** [S5]
+kekskd: Check
+PLZPLZPLZ: Bet €12.05
+kekskd: Call €12.05
+*** RIVER *** [D7]
+kekskd: Check
+PLZPLZPLZ: Bet €34.80
+kekskd: Call €34.80
+*** SUMMARY ***
+Total pot €110.21 Rake €2.00
+kekskd: Shows [SK H10] Two Pair
+PLZPLZPLZ: Shows [HK DQ] One Pair
+kekskd: wins €108.21
+
+GAME #2324701081 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-11-15 19:21:44/GMT
+Table Size 5
+Table €50 NL, 2324701081
+Seat 1: pesumies99 (€92.57 in chips)
+Seat 2: Ticu88 (€135.11 in chips)
+Seat 3: BringHim1Mil (€52.68 in chips)
+Seat 4: kekskd (€80.97 in chips)
+Seat 5: PLZPLZPLZ (€54.73 in chips)   DEALER
+pesumies99: Post SB €0.25
+Ticu88: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to PLZPLZPLZ [HK DQ]
+BringHim1Mil: Fold
+kekskd: Raise to €1.25
+PLZPLZPLZ: Raise to €3.75
+pesumies99: Fold
+Ticu88: Fold
+kekskd: Call €2.50
+*** FLOP *** [C7 D10 D2]
+kekskd: Check
+PLZPLZPLZ: Bet €4.13
+kekskd: Call €4.13
+*** TURN *** [S5]
+kekskd: Check
+PLZPLZPLZ: Bet €12.05
+kekskd: Call €12.05
+*** RIVER *** [D7]
+kekskd: Check
+PLZPLZPLZ: Bet €34.80
+kekskd: Call €34.80
+*** SUMMARY ***
+Total pot €110.21 Rake €2.00
+kekskd: Shows [SK H10] Two Pair
+PLZPLZPLZ: Shows [HK DQ] One Pair
+kekskd: wins €108.21
+

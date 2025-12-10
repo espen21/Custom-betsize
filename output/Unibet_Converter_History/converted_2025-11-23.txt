@@ -1,0 +1,76 @@
+GAME #2326528059 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-20 23:13:34/GMT
+Table Size 6
+Table €100 NL, 2326528059
+Seat 1: NAMNAMMA (€113.17 in chips)
+Seat 2: svetlana123 (€166.91 in chips)   DEALER
+Seat 3: rollslower (€100.00 in chips)
+Seat 4: gr8gatsby2 (€142.78 in chips)
+Seat 5: Dee1102 (€71.20 in chips)
+Seat 6: Card_Dead72o (€109.46 in chips)
+rollslower: Post SB €0.50
+gr8gatsby2: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Dee1102 [HA SJ]
+Dee1102: Raise to €2.50
+Card_Dead72o: Fold
+NAMNAMMA: Raise to €7.50
+svetlana123: Fold
+rollslower: Fold
+gr8gatsby2: Fold
+Dee1102: Call €5.00
+*** FLOP *** [D6 CK H4]
+Dee1102: Check
+NAMNAMMA: Bet €3.63
+Dee1102: Call €3.63
+*** TURN *** [CA]
+Dee1102: Check
+NAMNAMMA: Bet €11.88
+Dee1102: Call €11.88
+*** RIVER *** [H9]
+Dee1102: Check
+NAMNAMMA: Bet €67.48
+Dee1102: Call €48.19
+*** SUMMARY ***
+Total pot €143.90 Rake €3.00
+NAMNAMMA: Shows [DQ DJ]
+Dee1102: Shows [HA SJ] One Pair
+Dee1102: wins €140.90
+
+GAME #2326528059 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-20 23:13:34/GMT
+Table Size 6
+Table €100 NL, 2326528059
+Seat 1: NAMNAMMA (€113.17 in chips)
+Seat 2: svetlana123 (€166.91 in chips)   DEALER
+Seat 3: rollslower (€100.00 in chips)
+Seat 4: gr8gatsby2 (€142.78 in chips)
+Seat 5: Dee1102 (€71.20 in chips)
+Seat 6: Card_Dead72o (€109.46 in chips)
+rollslower: Post SB €0.50
+gr8gatsby2: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [DQ DJ]
+Dee1102: Raise to €2.50
+Card_Dead72o: Fold
+NAMNAMMA: Raise to €7.50
+svetlana123: Fold
+rollslower: Fold
+gr8gatsby2: Fold
+Dee1102: Call €5.00
+*** FLOP *** [D6 CK H4]
+Dee1102: Check
+NAMNAMMA: Bet €3.63
+Dee1102: Call €3.63
+*** TURN *** [CA]
+Dee1102: Check
+NAMNAMMA: Bet €11.88
+Dee1102: Call €11.88
+*** RIVER *** [H9]
+Dee1102: Check
+NAMNAMMA: Bet €67.48
+Dee1102: Call €48.19
+*** SUMMARY ***
+Total pot €143.90 Rake €3.00
+NAMNAMMA: Shows [DQ DJ]
+Dee1102: Shows [HA SJ] One Pair
+Dee1102: wins €140.90
+

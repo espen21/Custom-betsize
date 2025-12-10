@@ -1,0 +1,68 @@
+GAME #2322734440 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-10 10:18:09/GMT
+Table Size 4
+Table €100 NL, 2322734440
+Seat 1: Freestaylerr (€111.45 in chips)
+Seat 2: Patjed (€172.59 in chips)
+Seat 3: whatyousay (€0.00 in chips)
+Seat 4: Skruttet21 (€110.78 in chips)   DEALER
+Freestaylerr: Post SB €0.50
+Patjed: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [S9 C9]
+Skruttet21: Raise to €2.50
+Freestaylerr: Raise to €10.96
+Patjed: Fold
+Skruttet21: Call €8.46
+*** FLOP *** [H5 C6 H9]
+Freestaylerr: Bet €16.04
+Skruttet21: Raise to €34.50
+Freestaylerr: Call €18.46
+*** TURN *** [C7]
+Freestaylerr: Check
+Skruttet21: Bet €10.00
+Freestaylerr: Raise to €65.99 (all-in)
+Skruttet21: Call €55.32
+*** RIVER *** [S4]
+*** SUMMARY ***
+Total pot €222.56 Rake €1.50
+Freestaylerr: Shows [S8 D8] Straight
+Skruttet21: Shows [S9 C9] Three of a Kind
+Freestaylerr: wins €221.06
+
+GAME #2322888315 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-10 18:31:44/GMT
+Table Size 6
+Table €100 NL, 2322888315
+Seat 1: 21-savage (€103.50 in chips)
+Seat 2: Skruttet21 (€100.00 in chips)   DEALER
+Seat 3: StepChad (€100.00 in chips)
+Seat 4: pesumies99 (€101.50 in chips)
+Seat 5: ddeepp (€307.59 in chips)
+Seat 6: Freestaylerr (€161.57 in chips)
+StepChad: Post SB €0.50
+pesumies99: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SJ SK]
+ddeepp: Fold
+Freestaylerr: Fold
+21-savage: Fold
+Skruttet21: Raise to €2.50
+StepChad: Raise to €12.50
+pesumies99: Fold
+Skruttet21: Call €10.00
+*** FLOP *** [DA S5 H6]
+StepChad: Bet €5.00
+Skruttet21: Call €5.00
+*** TURN *** [C7]
+StepChad: Check
+Skruttet21: Bet €10.08
+StepChad: Call €10.08
+*** RIVER *** [S2]
+StepChad: Check
+Skruttet21: Bet €72.42
+StepChad: Call €72.42
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+Skruttet21: Shows [SJ SK]
+StepChad: Shows [CA HQ] One Pair
+StepChad: wins €198.00
+

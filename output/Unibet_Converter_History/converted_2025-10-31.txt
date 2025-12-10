@@ -1,0 +1,30 @@
+GAME #2319115131 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-31 16:06:03/GMT
+Table Size 3
+Table €100 NL, 2319115131
+Seat 1: BLUEWHALEy (€100.65 in chips)   DEALER
+Seat 2: m-amsuparat (€101.12 in chips)
+Seat 4: nananah12 (€102.54 in chips)
+m-amsuparat: Post SB €0.50
+nananah12: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [S6 C6]
+BLUEWHALEy: Raise to €2.50
+m-amsuparat: Fold
+nananah12: Call €1.50
+*** FLOP *** [H4 H5 C3]
+nananah12: Check
+BLUEWHALEy: Bet €1.54
+nananah12: Raise to €5.83
+BLUEWHALEy: Call €4.29
+*** TURN *** [D9]
+nananah12: Bet €19.27
+BLUEWHALEy: Call €19.27
+*** RIVER *** [C5]
+nananah12: Bet €74.94
+BLUEWHALEy: Call €73.05
+*** SUMMARY ***
+Total pot €201.80 Rake €1.50
+BLUEWHALEy: Shows [S6 C6] Two Pair
+nananah12: Shows [CA S2] Straight
+nananah12: wins €200.30
+

@@ -1,0 +1,105 @@
+GAME #2324802742 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-15 23:32:17/GMT
+Table Size 6
+Table €100 NL, 2324802742
+Seat 1: HilfeDICH (€108.15 in chips)
+Seat 2: Marknopfler (€109.05 in chips)
+Seat 3: Ismackdead (€100.00 in chips)
+Seat 4: FGHJK10 (€102.44 in chips)
+Seat 5: Bravito (€106.74 in chips)
+Seat 6: OliviaSmith (€201.73 in chips)   DEALER
+HilfeDICH: Post SB €0.50
+Ismackdead: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [H10 S10]
+FGHJK10: Fold
+Bravito: Fold
+OliviaSmith: Raise to €2.00
+HilfeDICH: Raise to €10.50
+Ismackdead: Fold
+OliviaSmith: Raise to €22.50
+HilfeDICH: Call €12.00
+*** FLOP *** [D4 H4 S9]
+HilfeDICH: Check
+OliviaSmith: Bet €11.00
+HilfeDICH: Call €11.00
+*** TURN *** [H6]
+HilfeDICH: Check
+OliviaSmith: Bet €20.00
+HilfeDICH: Raise to €74.65 (all-in)
+OliviaSmith: Fold
+*** SUMMARY ***
+Total pot €108.00 Rake €3.00
+HilfeDICH: wins €105.00
+
+GAME #2324805430 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-15 23:40:27/GMT
+Table Size 6
+Table €100 NL, 2324805430
+Seat 1: itsaTARP (€115.20 in chips)
+Seat 2: HilfeDICH (€118.79 in chips)
+Seat 3: Bravito (€183.70 in chips)
+Seat 4: ek23tr (€129.06 in chips)
+Seat 5: Marknopfler (€98.50 in chips)   DEALER
+Seat 6: OliviaSmith (€108.05 in chips)
+OliviaSmith: Post SB €0.50
+itsaTARP: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [CK CQ]
+HilfeDICH: Raise to €2.00
+Bravito: Raise to €7.00
+ek23tr: Fold
+Marknopfler: Fold
+OliviaSmith: Fold
+itsaTARP: Fold
+HilfeDICH: Raise to €19.50
+Bravito: Call €12.50
+*** FLOP *** [D2 S8 C6]
+HilfeDICH: Bet €13.43
+Bravito: Call €13.43
+*** TURN *** [C8]
+HilfeDICH: Bet €28.50
+Bravito: Call €28.50
+*** RIVER *** [S2]
+HilfeDICH: Check
+Bravito: Check
+*** SUMMARY ***
+Total pot €124.36 Rake €3.00
+HilfeDICH: Shows [CK CQ] Two Pair
+Bravito: Shows [HQ DQ] Two Pair
+Bravito: wins €121.36
+
+GAME #2324806646 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-15 23:44:03/GMT
+Table Size 6
+Table €100 NL, 2324806646
+Seat 1: HilfeDICH (€179.48 in chips)
+Seat 2: Marknopfler (€100.00 in chips)
+Seat 3: UAintGTO (€100.00 in chips)
+Seat 4: FGHJK10 (€95.14 in chips)
+Seat 5: Bravito (€102.74 in chips)
+Seat 6: OliviaSmith (€144.78 in chips)   DEALER
+HilfeDICH: Post SB €0.50
+Marknopfler: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [S10 H10]
+FGHJK10: Fold
+Bravito: Fold
+OliviaSmith: Fold
+HilfeDICH: Raise to €3.00
+Marknopfler: Raise to €8.30
+HilfeDICH: Call €5.30
+*** FLOP *** [D8 S2 S8]
+HilfeDICH: Check
+Marknopfler: Bet €7.07
+HilfeDICH: Raise to €19.50
+Marknopfler: Call €12.43
+*** TURN *** [C4]
+HilfeDICH: Bet €27.80
+Marknopfler: Call €27.80
+*** RIVER *** [H6]
+HilfeDICH: Bet €123.88
+Marknopfler: Call €44.40
+*** SUMMARY ***
+Total pot €200.00 Rake €3.00
+HilfeDICH: Shows [S10 H10] Two Pair
+Marknopfler: Shows [DJ HJ] Two Pair
+Marknopfler: wins €197.00
+

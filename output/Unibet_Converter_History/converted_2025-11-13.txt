@@ -1,0 +1,68 @@
+GAME #2323958468 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-13 18:41:04/GMT
+Table Size 5
+Table €100 NL, 2323958468
+Seat 1: wakuwaku (€193.89 in chips)   DEALER
+Seat 2: pesumies99 (€100.50 in chips)
+Seat 3: donot04 (€153.81 in chips)
+Seat 4: NAMNAMMA (€145.57 in chips)
+Seat 5: pokepo (€100.00 in chips)
+pesumies99: Post SB €0.50
+donot04: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to donot04 [D7 S7]
+NAMNAMMA: Raise to €2.00
+pokepo: Fold
+wakuwaku: Fold
+pesumies99: Fold
+donot04: Call €1.00
+*** FLOP *** [HQ C7 C9]
+donot04: Check
+NAMNAMMA: Bet €3.29
+donot04: Raise to €14.40
+NAMNAMMA: Call €11.11
+*** TURN *** [S3]
+donot04: Bet €35.00
+NAMNAMMA: Call €35.00
+*** RIVER *** [HA]
+donot04: Bet €102.41
+NAMNAMMA: Call €94.17
+*** SUMMARY ***
+Total pot €291.64 Rake €3.00
+donot04: Shows [D7 S7] Three of a Kind
+NAMNAMMA: Shows [CA C4] One Pair
+donot04: wins €288.64
+
+GAME #2323958468 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-13 18:41:04/GMT
+Table Size 5
+Table €100 NL, 2323958468
+Seat 1: wakuwaku (€193.89 in chips)   DEALER
+Seat 2: pesumies99 (€100.50 in chips)
+Seat 3: donot04 (€153.81 in chips)
+Seat 4: NAMNAMMA (€145.57 in chips)
+Seat 5: pokepo (€100.00 in chips)
+pesumies99: Post SB €0.50
+donot04: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [CA C4]
+NAMNAMMA: Raise to €2.00
+pokepo: Fold
+wakuwaku: Fold
+pesumies99: Fold
+donot04: Call €1.00
+*** FLOP *** [HQ C7 C9]
+donot04: Check
+NAMNAMMA: Bet €3.29
+donot04: Raise to €14.40
+NAMNAMMA: Call €11.11
+*** TURN *** [S3]
+donot04: Bet €35.00
+NAMNAMMA: Call €35.00
+*** RIVER *** [HA]
+donot04: Bet €102.41
+NAMNAMMA: Call €94.17
+*** SUMMARY ***
+Total pot €291.64 Rake €3.00
+donot04: Shows [D7 S7] Three of a Kind
+NAMNAMMA: Shows [CA C4] One Pair
+donot04: wins €288.64
+

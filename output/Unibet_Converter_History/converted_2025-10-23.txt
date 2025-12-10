@@ -1,0 +1,134 @@
+GAME #2316218596 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-23 15:34:51/GMT
+Table Size 6
+Table €100 NL, 2316218596
+Seat 1: SmoothCall (€115.35 in chips)
+Seat 2: BLUEWHALEy (€100.00 in chips)
+Seat 3: s98al2 (€73.13 in chips)
+Seat 4: LilBark (€118.60 in chips)
+Seat 5: Haluttu-sint (€37.62 in chips)   DEALER
+Seat 6: Ejaleeee (€100.00 in chips)
+Ejaleeee: Post SB €0.50
+SmoothCall: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [SA SQ]
+BLUEWHALEy: Raise to €2.00
+s98al2: Fold
+LilBark: Fold
+Haluttu-sint: Fold
+Ejaleeee: Raise to €11.00
+SmoothCall: Fold
+BLUEWHALEy: Call €9.00
+*** FLOP *** [S10 D9 S3]
+Ejaleeee: Bet €23.00
+BLUEWHALEy: Raise to €89.00 (all-in)
+Ejaleeee: Call €66.00
+*** TURN *** [H3]
+*** RIVER *** [S5]
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+BLUEWHALEy: Shows [SA SQ] Flush
+Ejaleeee: Shows [HK SK] Two Pair
+BLUEWHALEy: wins €198.00
+
+GAME #2316218905 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-23 15:35:45/GMT
+Table Size 5
+Table €100 NL, 2316218905
+Seat 1: SmoothCall (€104.84 in chips)
+Seat 2: BLUEWHALEy (€145.71 in chips)
+Seat 3: 2muchcheese (€100.00 in chips)   DEALER
+Seat 5: LilBark (€100.00 in chips)
+Seat 6: vine-politia (€100.00 in chips)
+LilBark: Post SB €0.50
+vine-politia: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [SQ HA]
+SmoothCall: Fold
+BLUEWHALEy: Raise to €2.30
+2muchcheese: Raise to €7.50
+LilBark: Fold
+vine-politia: Fold
+BLUEWHALEy: Raise to €20.80
+2muchcheese: Call €13.30
+*** FLOP *** [H3 S4 C9]
+BLUEWHALEy: Bet €12.07
+2muchcheese: Call €12.07
+*** TURN *** [C5]
+BLUEWHALEy: Check
+2muchcheese: Bet €8.50
+BLUEWHALEy: Raise to €112.84 (all-in)
+2muchcheese: Call €58.63
+*** RIVER *** [S9]
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+BLUEWHALEy: Shows [SQ HA] One Pair
+2muchcheese: Shows [C8 D8] Two Pair
+2muchcheese: wins €198.50
+
+GAME #2316221239 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-23 15:42:30/GMT
+Table Size 6
+Table €100 NL, 2316221239
+Seat 1: SmoothCall (€118.98 in chips)
+Seat 2: BLUEWHALEy (€100.00 in chips)
+Seat 3: 2muchcheese (€195.50 in chips)   DEALER
+Seat 4: CelTeribil (€100.00 in chips)
+Seat 5: LilBark (€101.72 in chips)
+Seat 6: vine-politia (€100.00 in chips)
+CelTeribil: Post SB €0.50
+LilBark: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [HQ HJ]
+vine-politia: Fold
+SmoothCall: Fold
+BLUEWHALEy: Raise to €2.30
+2muchcheese: Raise to €7.50
+CelTeribil: Fold
+LilBark: Fold
+BLUEWHALEy: Raise to €21.30
+2muchcheese: Call €13.80
+*** FLOP *** [D4 S8 CJ]
+BLUEWHALEy: Bet €12.35
+2muchcheese: Call €12.35
+*** TURN *** [CQ]
+BLUEWHALEy: Bet €66.35
+2muchcheese: Call €66.35
+*** RIVER *** [C5]
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+BLUEWHALEy: Shows [HQ HJ] Two Pair
+2muchcheese: Shows [CA DA] One Pair
+BLUEWHALEy: wins €198.50
+
+GAME #2316222627 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-23 15:46:04/GMT
+Table Size 6
+Table €100 NL, 2316222627
+Seat 1: SmoothCall (€117.55 in chips)
+Seat 2: BLUEWHALEy (€195.42 in chips)
+Seat 3: s98al2 (€75.09 in chips)
+Seat 4: LilBark (€100.00 in chips)
+Seat 5: Haluttu-sint (€87.91 in chips)
+Seat 6: Ejaleeee (€113.99 in chips)   DEALER
+SmoothCall: Post SB €0.50
+BLUEWHALEy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [HA CK]
+s98al2: Fold
+LilBark: Fold
+Haluttu-sint: Fold
+Ejaleeee: Fold
+SmoothCall: Raise to €3.00
+BLUEWHALEy: Raise to €10.00
+SmoothCall: Call €7.00
+*** FLOP *** [S6 C8 C5]
+SmoothCall: Check
+BLUEWHALEy: Check
+*** TURN *** [SA]
+SmoothCall: Bet €24.00
+BLUEWHALEy: Raise to €176.50
+SmoothCall: Call €83.55
+*** RIVER *** [C9]
+*** SUMMARY ***
+Total pot €235.10 Rake €3.00
+SmoothCall: Shows [H6 D6] Three of a Kind
+BLUEWHALEy: Shows [HA CK] One Pair
+SmoothCall: wins €232.10
+

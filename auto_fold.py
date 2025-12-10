@@ -77,8 +77,7 @@ def send_unibet_fold(handle):
     win32gui.SetForegroundWindow(handle)
 
 def unibet_fold2(handle):
-    win32gui.SetActiveWindow(handle)
-    
+    print("FOLD pressed")
     pyautogui.click(button='right')     
 
 def get_big_blind(name):
@@ -163,4 +162,4 @@ while True:
     except Exception as e:
         print(e)
 
-    time.sleep(0.05)
+    time.sleep(0.01)

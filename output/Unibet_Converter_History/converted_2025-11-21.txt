@@ -1,0 +1,183 @@
+GAME #2326522274 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-20 22:55:48/GMT
+Table Size 6
+Table €100 NL, 2326522274
+Seat 1: Incognito15 (€105.61 in chips)
+Seat 2: Equaliser (€119.74 in chips)
+Seat 3: ZABATA22 (€50.00 in chips)
+Seat 4: Marknopfler (€102.12 in chips)
+Seat 5: rollslower (€100.00 in chips)   DEALER
+Seat 6: NAMNAMMA (€100.50 in chips)
+NAMNAMMA: Post SB €0.50
+Incognito15: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [SA S9]
+Equaliser: Fold
+ZABATA22: Fold
+Marknopfler: Fold
+rollslower: Raise to €2.50
+NAMNAMMA: Raise to €12.00
+Incognito15: Fold
+rollslower: Call €9.50
+*** FLOP *** [H8 C10 H9]
+NAMNAMMA: Check
+rollslower: Bet €8.25
+NAMNAMMA: Call €8.25
+*** TURN *** [S7]
+NAMNAMMA: Check
+rollslower: Bet €13.70
+NAMNAMMA: Call €13.70
+*** RIVER *** [S3]
+NAMNAMMA: Check
+rollslower: Bet €66.05
+NAMNAMMA: Call €66.05
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+rollslower: Shows [DQ DJ] Straight
+NAMNAMMA: Shows [SA S9] One Pair
+rollslower: wins €198.00
+
+GAME #2326522274 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-20 22:55:48/GMT
+Table Size 6
+Table €100 NL, 2326522274
+Seat 1: Incognito15 (€105.61 in chips)
+Seat 2: Equaliser (€119.74 in chips)
+Seat 3: ZABATA22 (€50.00 in chips)
+Seat 4: Marknopfler (€102.12 in chips)
+Seat 5: rollslower (€100.00 in chips)   DEALER
+Seat 6: NAMNAMMA (€100.50 in chips)
+NAMNAMMA: Post SB €0.50
+Incognito15: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [SA S9]
+Equaliser: Fold
+ZABATA22: Fold
+Marknopfler: Fold
+rollslower: Raise to €2.50
+NAMNAMMA: Raise to €12.00
+Incognito15: Fold
+rollslower: Call €9.50
+*** FLOP *** [H8 C10 H9]
+NAMNAMMA: Check
+rollslower: Bet €8.25
+NAMNAMMA: Call €8.25
+*** TURN *** [S7]
+NAMNAMMA: Check
+rollslower: Bet €13.70
+NAMNAMMA: Call €13.70
+*** RIVER *** [S3]
+NAMNAMMA: Check
+rollslower: Bet €66.05
+NAMNAMMA: Call €66.05
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+rollslower: Shows [DQ DJ] Straight
+NAMNAMMA: Shows [SA S9] One Pair
+rollslower: wins €198.00
+
+GAME #2326522274 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-20 22:55:48/GMT
+Table Size 6
+Table €100 NL, 2326522274
+Seat 1: Incognito15 (€105.61 in chips)
+Seat 2: Equaliser (€119.74 in chips)
+Seat 3: ZABATA22 (€50.00 in chips)
+Seat 4: Marknopfler (€102.12 in chips)
+Seat 5: rollslower (€100.00 in chips)   DEALER
+Seat 6: NAMNAMMA (€100.50 in chips)
+NAMNAMMA: Post SB €0.50
+Incognito15: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [SA S9]
+Equaliser: Fold
+ZABATA22: Fold
+Marknopfler: Fold
+rollslower: Raise to €2.50
+NAMNAMMA: Raise to €12.00
+Incognito15: Fold
+rollslower: Call €9.50
+*** FLOP *** [H8 C10 H9]
+NAMNAMMA: Check
+rollslower: Bet €8.25
+NAMNAMMA: Call €8.25
+*** TURN *** [S7]
+NAMNAMMA: Check
+rollslower: Bet €13.70
+NAMNAMMA: Call €13.70
+*** RIVER *** [S3]
+NAMNAMMA: Check
+rollslower: Bet €66.05
+NAMNAMMA: Call €66.05
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+rollslower: Shows [DQ DJ] Straight
+NAMNAMMA: Shows [SA S9] One Pair
+rollslower: wins €198.00
+
+GAME #2326541290 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-20 23:59:33/GMT
+Table Size 6
+Table €100 NL, 2326541290
+Seat 1: Incognito15 (€173.81 in chips)
+Seat 2: Card_Dead72o (€100.00 in chips)   DEALER
+Seat 3: NAMNAMMA (€126.06 in chips)
+Seat 4: tobytza (€44.34 in chips)
+Seat 5: Ninjpingu (€100.00 in chips)
+Seat 6: ZABATA22 (€40.87 in chips)
+NAMNAMMA: Post SB €0.50
+tobytza: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [HA SQ]
+Ninjpingu: Fold
+Incognito15: Fold
+Card_Dead72o: Raise to €2.50
+NAMNAMMA: Raise to €12.00
+tobytza: Fold
+Card_Dead72o: Raise to €25.50
+NAMNAMMA: Call €13.50
+*** FLOP *** [S5 HJ CJ]
+NAMNAMMA: Check
+Card_Dead72o: Bet €12.50
+NAMNAMMA: Call €12.50
+*** TURN *** [S6]
+NAMNAMMA: Check
+Card_Dead72o: Check
+*** RIVER *** [C5]
+NAMNAMMA: Bet €88.06
+Card_Dead72o: Call €62.00
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+Card_Dead72o: Shows [HK DJ] Full House
+NAMNAMMA: Shows [HA SQ] Two Pair
+Card_Dead72o: wins €198.00
+
+GAME #2326731467 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €1.00/€2.00 2025-11-21 17:58:18/GMT
+Table Size 5
+Table €200 NL, 2326731467
+Seat 1: HilfeDICH (€201.44 in chips)
+Seat 3: Vittangi (€275.61 in chips)
+Seat 4: loudkult (€200.00 in chips)
+Seat 5: Card_Dead72o (€204.81 in chips)
+Seat 6: heavnslam9 (€190.56 in chips)   DEALER
+HilfeDICH: Post SB €1.00
+Vittangi: Post BB €2.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [CK CJ]
+Card_Dead72o: Fold
+heavnslam9: Fold
+HilfeDICH: Raise to €6.00
+Vittangi: Raise to €18.00
+HilfeDICH: Call €12.00
+*** FLOP *** [C6 SA H10]
+HilfeDICH: Check
+Vittangi: Bet €18.00
+HilfeDICH: Call €18.00
+*** TURN *** [S10]
+HilfeDICH: Check
+Vittangi: Check
+*** RIVER *** [H2]
+HilfeDICH: Bet €89.00
+Vittangi: Call €89.00
+*** SUMMARY ***
+Total pot €250.00 Rake €3.00
+HilfeDICH: Shows [CK CJ] One Pair
+Vittangi: Shows [DK DA] Two Pair
+Vittangi: wins €247.00
+

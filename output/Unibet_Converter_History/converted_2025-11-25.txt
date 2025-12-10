@@ -1,0 +1,26 @@
+GAME #2328044240 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €1.00/€2.00 2025-11-25 12:14:59/GMT
+Table Size 2
+Table €200 NL, 2328044240
+Seat 2: BetLimit (€200.00 in chips)   DEALER
+Seat 4: BLUEWHALEy (€202.00 in chips)
+BetLimit: Post SB €1.00
+BLUEWHALEy: Post BB €2.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [S7 S8]
+BetLimit: Raise to €4.00
+BLUEWHALEy: Raise to €20.00
+BetLimit: Raise to €45.00
+BLUEWHALEy: Call €25.00
+*** FLOP *** [H7 D3 S2]
+BLUEWHALEy: Check
+BetLimit: Bet €23.00
+BLUEWHALEy: Raise to €157.00 (all-in)
+BetLimit: Call €132.00
+*** TURN *** [S3]
+*** RIVER *** [S9]
+*** SUMMARY ***
+Total pot €400.00 Rake €1.50
+BetLimit: Shows [CJ HJ] Two Pair
+BLUEWHALEy: Shows [S7 S8] Flush
+BLUEWHALEy: wins €398.50
+
