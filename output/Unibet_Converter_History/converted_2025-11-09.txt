@@ -1,0 +1,68 @@
+GAME #2322295304 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-08 23:15:48/GMT
+Table Size 5
+Table €100 NL, 2322295304
+Seat 1: Anapoliciz12 (€221.86 in chips)
+Seat 2: Gamebino (€99.50 in chips)
+Seat 3: OliviaSmith (€102.92 in chips)
+Seat 4: NAMNAMMA (€100.00 in chips)   DEALER
+Seat 5: PuMilan221 (€244.35 in chips)
+PuMilan221: Post SB €0.50
+Anapoliciz12: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to OliviaSmith [H10 H9]
+Gamebino: Fold
+OliviaSmith: Raise to €2.00
+NAMNAMMA: Raise to €7.00
+PuMilan221: Fold
+Anapoliciz12: Fold
+OliviaSmith: Call €5.00
+*** FLOP *** [H6 DJ S3]
+OliviaSmith: Check
+NAMNAMMA: Bet €4.19
+OliviaSmith: Call €4.19
+*** TURN *** [DQ]
+OliviaSmith: Check
+NAMNAMMA: Bet €17.43
+OliviaSmith: Raise to €91.73 (all-in)
+NAMNAMMA: Call €71.38
+*** RIVER *** [SK]
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+OliviaSmith: Shows [H10 H9] Straight
+NAMNAMMA: Shows [CA HA] One Pair
+OliviaSmith: wins €198.50
+
+GAME #2322295304 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-11-08 23:15:48/GMT
+Table Size 5
+Table €100 NL, 2322295304
+Seat 1: Anapoliciz12 (€221.86 in chips)
+Seat 2: Gamebino (€99.50 in chips)
+Seat 3: OliviaSmith (€102.92 in chips)
+Seat 4: NAMNAMMA (€100.00 in chips)   DEALER
+Seat 5: PuMilan221 (€244.35 in chips)
+PuMilan221: Post SB €0.50
+Anapoliciz12: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to NAMNAMMA [CA HA]
+Gamebino: Fold
+OliviaSmith: Raise to €2.00
+NAMNAMMA: Raise to €7.00
+PuMilan221: Fold
+Anapoliciz12: Fold
+OliviaSmith: Call €5.00
+*** FLOP *** [H6 DJ S3]
+OliviaSmith: Check
+NAMNAMMA: Bet €4.19
+OliviaSmith: Call €4.19
+*** TURN *** [DQ]
+OliviaSmith: Check
+NAMNAMMA: Bet €17.43
+OliviaSmith: Raise to €91.73 (all-in)
+NAMNAMMA: Call €71.38
+*** RIVER *** [SK]
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+OliviaSmith: Shows [H10 H9] Straight
+NAMNAMMA: Shows [CA HA] One Pair
+OliviaSmith: wins €198.50
+

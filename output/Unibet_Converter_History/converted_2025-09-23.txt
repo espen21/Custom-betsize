@@ -1,0 +1,2171 @@
+GAME #2304699089 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:08:50/GMT
+Table Size 5
+Table €100 NL, 2304699089
+Seat 2: Mozart440 (€121.00 in chips)
+Seat 3: h00t (€102.17 in chips)
+Seat 4: Here2Gamble (€197.29 in chips)   DEALER
+Seat 5: MevsUall (€98.52 in chips)
+Seat 6: AnyChange22 (€103.70 in chips)
+MevsUall: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [H2 HA]
+Mozart440: Fold
+h00t: Fold
+Here2Gamble: Raise to €2.50
+MevsUall: Fold
+AnyChange22: Call €1.50
+*** FLOP *** [C2 C7 S4]
+AnyChange22: Check
+Here2Gamble: Bet €2.75
+AnyChange22: Call €2.75
+*** TURN *** [D2]
+AnyChange22: Check
+Here2Gamble: Bet €15.50
+AnyChange22: Call €15.50
+*** RIVER *** [S6]
+AnyChange22: Check
+Here2Gamble: Bet €31.50
+AnyChange22: Call €31.50
+*** SUMMARY ***
+Total pot €105.00 Rake €3.00
+Here2Gamble: Shows [D8 D9] One Pair
+AnyChange22: Shows [H2 HA] Three of a Kind
+AnyChange22: wins €102.00
+
+GAME #2304700492 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:14:12/GMT
+Table Size 5
+Table €100 NL, 2304700492
+Seat 1: AnyChange22 (€175.55 in chips)   DEALER
+Seat 3: h00t (€157.33 in chips)
+Seat 4: bwahahahaha (€184.69 in chips)
+Seat 5: Mozart440 (€102.08 in chips)
+Seat 6: Here2Gamble (€117.05 in chips)
+h00t: Post SB €0.50
+bwahahahaha: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [D5 D4]
+Mozart440: Raise to €2.50
+Here2Gamble: Fold
+AnyChange22: Call €2.50
+h00t: Fold
+bwahahahaha: Raise to €14.00
+Mozart440: Fold
+AnyChange22: Call €11.50
+*** FLOP *** [H3 H2 S2]
+bwahahahaha: Bet €14.50
+AnyChange22: Call €14.50
+*** TURN *** [C4]
+bwahahahaha: Bet €37.50
+AnyChange22: Call €37.50
+*** RIVER *** [HQ]
+bwahahahaha: Bet €118.69
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €135.00 Rake €3.00
+bwahahahaha: wins €132.00
+
+GAME #2304701814 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:19:38/GMT
+Table Size 6
+Table €100 NL, 2304701814
+Seat 1: AnyChange22 (€109.55 in chips)
+Seat 2: Foka_korv (€100.00 in chips)
+Seat 3: h00t (€137.33 in chips)
+Seat 4: bwahahahaha (€250.19 in chips)
+Seat 5: Mozart440 (€101.50 in chips)   DEALER
+Seat 6: Here2Gamble (€134.62 in chips)
+Here2Gamble: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [S10 S9]
+Foka_korv: Fold
+h00t: Fold
+bwahahahaha: Fold
+Mozart440: Raise to €2.50
+Here2Gamble: Fold
+AnyChange22: Raise to €13.00
+Mozart440: Call €10.50
+*** FLOP *** [CJ C6 HJ]
+AnyChange22: Bet €7.16
+Mozart440: Call €7.16
+*** TURN *** [C8]
+AnyChange22: Check
+Mozart440: Check
+*** RIVER *** [D6]
+AnyChange22: Check
+Mozart440: Bet €81.34
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €40.82 Rake €2.45
+Mozart440: wins €38.37
+
+GAME #2304704210 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:30:49/GMT
+Table Size 5
+Table €100 NL, 2304704210
+Seat 1: h00t (€103.46 in chips)
+Seat 2: sweed1 (€96.12 in chips)
+Seat 3: Here2Gamble (€183.41 in chips)   DEALER
+Seat 5: AnyChange22 (€112.11 in chips)
+Seat 6: Mozart440 (€154.43 in chips)
+AnyChange22: Post SB €0.50
+Mozart440: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DA DK]
+h00t: Fold
+sweed1: Fold
+Here2Gamble: Fold
+AnyChange22: Raise to €3.00
+Mozart440: Raise to €10.00
+AnyChange22: Raise to €21.00
+Mozart440: Call €11.00
+*** FLOP *** [C2 D2 S8]
+AnyChange22: Bet €11.34
+Mozart440: Call €11.34
+*** TURN *** [HQ]
+AnyChange22: Bet €17.46
+Mozart440: Call €17.46
+*** RIVER *** [S2]
+AnyChange22: Check
+Mozart440: Bet €104.63
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €99.60 Rake €3.00
+Mozart440: wins €96.60
+
+GAME #2304705301 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:36:05/GMT
+Table Size 6
+Table €100 NL, 2304705301
+Seat 1: PatsyCline (€103.70 in chips)
+Seat 2: Mozart440 (€169.87 in chips)   DEALER
+Seat 3: h00t (€100.50 in chips)
+Seat 4: Here2Gamble (€111.84 in chips)
+Seat 5: MevsUall (€98.83 in chips)
+Seat 6: AnyChange22 (€148.82 in chips)
+h00t: Post SB €0.50
+Here2Gamble: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [D9 H9]
+MevsUall: Fold
+AnyChange22: Raise to €2.00
+PatsyCline: Fold
+Mozart440: Raise to €7.50
+h00t: Fold
+Here2Gamble: Fold
+AnyChange22: Call €5.50
+*** FLOP *** [S2 H6 S7]
+AnyChange22: Check
+Mozart440: Bet €14.50
+AnyChange22: Call €14.50
+*** TURN *** [D10]
+AnyChange22: Check
+Mozart440: Check
+*** RIVER *** [D2]
+AnyChange22: Bet €15.50
+Mozart440: Raise to €147.87 (all-in)
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €76.50 Rake €3.00
+Mozart440: wins €73.50
+
+GAME #2304705947 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:39:07/GMT
+Table Size 6
+Table €100 NL, 2304705947
+Seat 1: AnyChange22 (€293.57 in chips)
+Seat 2: PatsyCline (€241.53 in chips)
+Seat 3: Here2Gamble (€278.22 in chips)
+Seat 4: Mozart440 (€106.20 in chips)
+Seat 5: bwahahahaha (€115.56 in chips)
+Seat 6: h00t (€101.50 in chips)   DEALER
+AnyChange22: Post SB €0.50
+PatsyCline: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DQ CA]
+Here2Gamble: Fold
+Mozart440: Fold
+bwahahahaha: Raise to €3.50
+h00t: Fold
+AnyChange22: Raise to €12.50
+PatsyCline: Fold
+bwahahahaha: Call €9.00
+*** FLOP *** [S7 SA D5]
+AnyChange22: Bet €7.02
+bwahahahaha: Call €7.02
+*** TURN *** [C7]
+AnyChange22: Check
+bwahahahaha: Check
+*** RIVER *** [SQ]
+AnyChange22: Bet €10.81
+bwahahahaha: Raise to €96.04 (all-in)
+AnyChange22: Call €85.23
+*** SUMMARY ***
+Total pot €232.12 Rake €3.00
+AnyChange22: Shows [DQ CA] Two Pair
+bwahahahaha: Shows [SK S9] Flush
+bwahahahaha: wins €229.12
+
+GAME #2304713918 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 00:29:54/GMT
+Table Size 6
+Table €50 NL, 2304713918
+Seat 1: x-x-x-x-x (€18.06 in chips)
+Seat 2: jajai (€55.14 in chips)   DEALER
+Seat 3: NVCasino (€49.50 in chips)
+Seat 4: psicopato (€164.67 in chips)
+Seat 5: AnyChange22 (€51.25 in chips)
+Seat 6: feehugswyl (€60.15 in chips)
+NVCasino: Post SB €0.25
+psicopato: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [HA DQ]
+AnyChange22: Raise to €1.00
+feehugswyl: Raise to €3.00
+x-x-x-x-x: Fold
+jajai: Fold
+NVCasino: Fold
+psicopato: Fold
+AnyChange22: Call €2.00
+*** FLOP *** [DJ S8 D5]
+AnyChange22: Check
+feehugswyl: Bet €2.70
+AnyChange22: Call €2.70
+*** TURN *** [D7]
+AnyChange22: Check
+feehugswyl: Check
+*** RIVER *** [HK]
+AnyChange22: Bet €17.37
+feehugswyl: Call €17.37
+*** SUMMARY ***
+Total pot €46.89 Rake €2.00
+AnyChange22: Shows [HA DQ]
+feehugswyl: Shows [CJ HJ] Three of a Kind
+feehugswyl: wins €44.89
+
+GAME #2304768902 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:05:20/GMT
+Table Size 5
+Table €100 NL, 2304768902
+Seat 2: HenSolo (€100.00 in chips)
+Seat 3: Mozart440 (€100.50 in chips)
+Seat 4: overdriver (€107.00 in chips)
+Seat 5: Skruttet21 (€107.73 in chips)
+Seat 6: Nirvana (€157.50 in chips)   DEALER
+Mozart440: Post SB €0.50
+overdriver: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [HK SA]
+Skruttet21: Raise to €2.30
+Nirvana: Raise to €7.50
+Mozart440: Fold
+overdriver: Fold
+Skruttet21: Raise to €21.30
+Nirvana: Call €13.80
+*** FLOP *** [H5 H4 C4]
+Skruttet21: Bet €12.50
+Nirvana: Call €12.50
+*** TURN *** [C2]
+Skruttet21: Bet €73.93
+Nirvana: Call €73.93
+*** RIVER *** [C6]
+*** SUMMARY ***
+Total pot €216.96 Rake €3.00
+Skruttet21: Shows [HK SA] One Pair
+Nirvana: Shows [DA CA] Two Pair
+Nirvana: wins €213.96
+
+GAME #2304782258 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 11:03:35/GMT
+Table Size 5
+Table €50 NL, 2304782258
+Seat 1: Skruttet21 (€50.00 in chips)
+Seat 2: magista1 (€141.01 in chips)
+Seat 3: bwahahahaha (€62.74 in chips)
+Seat 4: feehugswyl (€67.25 in chips)   DEALER
+Seat 5: NotADuck (€86.13 in chips)
+Skruttet21: Post SB €0.25
+magista1: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SA S5]
+bwahahahaha: Raise to €1.50
+feehugswyl: Fold
+Skruttet21: Raise to €6.25
+magista1: Fold
+bwahahahaha: Call €4.75
+*** FLOP *** [H2 H9 S8]
+Skruttet21: Bet €8.25
+bwahahahaha: Call €8.25
+*** TURN *** [SQ]
+Skruttet21: Check
+bwahahahaha: Check
+*** RIVER *** [D4]
+Skruttet21: Bet €35.50
+bwahahahaha: Call €35.50
+*** SUMMARY ***
+Total pot €100.50 Rake €2.00
+Skruttet21: Shows [SA S5]
+bwahahahaha: Shows [H3 H4] One Pair
+bwahahahaha: wins €98.50
+
+GAME #2304780661 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:55:23/GMT
+Table Size 5
+Table €100 NL, 2304780661
+Seat 1: Rage66Wave (€114.20 in chips)
+Seat 2: Skruttet21 (€118.11 in chips)
+Seat 3: PiraPiraMid3 (€101.50 in chips)
+Seat 4: bwahahahaha (€110.72 in chips)   DEALER
+Seat 5: Hoort-erbij (€100.00 in chips)
+Hoort-erbij: Post SB €0.50
+Rage66Wave: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [H7 H6]
+Skruttet21: Raise to €2.00
+PiraPiraMid3: Fold
+bwahahahaha: Raise to €8.00
+Hoort-erbij: Fold
+Rage66Wave: Fold
+Skruttet21: Call €6.00
+*** FLOP *** [D10 SK C4]
+Skruttet21: Check
+bwahahahaha: Bet €7.50
+Skruttet21: Raise to €20.50
+bwahahahaha: Call €13.00
+*** TURN *** [S9]
+Skruttet21: Bet €29.25
+bwahahahaha: Call €29.25
+*** RIVER *** [H9]
+Skruttet21: Check
+bwahahahaha: Check
+*** SUMMARY ***
+Total pot €117.00 Rake €3.00
+Skruttet21: Shows [H7 H6] One Pair
+bwahahahaha: Shows [S4 SQ] Two Pair
+bwahahahaha: wins €114.00
+
+GAME #2304827643 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:35:56/GMT
+Table Size 6
+Table €100 NL, 2304827643
+Seat 1: Skruttet21 (€102.58 in chips)   DEALER
+Seat 2: 3betcall (€127.53 in chips)
+Seat 3: italyyyyy (€100.00 in chips)
+Seat 4: tiiiiilt14 (€100.00 in chips)
+Seat 5: deffer (€111.90 in chips)
+Seat 6: nutshot9 (€231.89 in chips)
+3betcall: Post SB €0.50
+italyyyyy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DK DA]
+tiiiiilt14: Fold
+deffer: Fold
+nutshot9: Fold
+Skruttet21: Raise to €2.50
+3betcall: Raise to €11.00
+italyyyyy: Fold
+Skruttet21: Raise to €23.50
+3betcall: Call €12.50
+*** FLOP *** [DQ H8 CK]
+3betcall: Check
+Skruttet21: Bet €12.96
+3betcall: Call €12.96
+*** TURN *** [H9]
+3betcall: Check
+Skruttet21: Bet €19.96
+3betcall: Call €19.96
+*** RIVER *** [HK]
+3betcall: Check
+Skruttet21: Bet €46.16
+3betcall: Call €46.16
+*** SUMMARY ***
+Total pot €206.16 Rake €3.00
+Skruttet21: Shows [DK DA] Three of a Kind
+3betcall: Shows [HQ H10] Flush
+3betcall: wins €203.16
+
+GAME #2304830910 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:47:56/GMT
+Table Size 6
+Table €100 NL, 2304830910
+Seat 1: Joker3443 (€100.17 in chips)
+Seat 2: siberianu (€102.70 in chips)   DEALER
+Seat 3: nutshot9 (€105.17 in chips)
+Seat 4: Skruttet21 (€100.00 in chips)
+Seat 5: italyyyyy (€148.17 in chips)
+Seat 6: Freestaylerr (€111.76 in chips)
+nutshot9: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [H7 HQ]
+italyyyyy: Fold
+Freestaylerr: Raise to €2.20
+Joker3443: Fold
+siberianu: Fold
+nutshot9: Fold
+Skruttet21: Call €1.20
+*** FLOP *** [HA SJ H10]
+Skruttet21: Check
+Freestaylerr: Bet €5.00
+Skruttet21: Call €5.00
+*** TURN *** [C2]
+Skruttet21: Check
+Freestaylerr: Bet €21.01
+Skruttet21: Raise to €92.80 (all-in)
+Freestaylerr: Fold
+*** SUMMARY ***
+Total pot €56.92 Rake €3.00
+Skruttet21: wins €53.92
+
+GAME #2304847921 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 14:40:43/GMT
+Table Size 6
+Table €50 NL, 2304847921
+Seat 1: magista1 (€154.42 in chips)
+Seat 2: stacycruz (€63.11 in chips)   DEALER
+Seat 3: Hera981 (€62.38 in chips)
+Seat 4: Skruttet21 (€124.50 in chips)
+Seat 5: no-se-puede (€50.00 in chips)
+Seat 6: Incognito15 (€52.22 in chips)
+Hera981: Post SB €0.25
+Skruttet21: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA HQ]
+no-se-puede: Fold
+Incognito15: Fold
+magista1: Raise to €1.10
+stacycruz: Raise to €3.75
+Hera981: Fold
+Skruttet21: Raise to €9.75
+magista1: Fold
+stacycruz: Call €6.00
+*** FLOP *** [D3 S4 H6]
+Skruttet21: Bet €5.63
+stacycruz: Call €5.63
+*** TURN *** [D2]
+Skruttet21: Bet €16.06
+stacycruz: Call €16.06
+*** RIVER *** [C7]
+Skruttet21: Bet €91.85
+stacycruz: Call €31.67
+*** SUMMARY ***
+Total pot €127.57 Rake €2.00
+stacycruz: Shows [H3 S3] Three of a Kind
+Skruttet21: Shows [CA HQ]
+stacycruz: wins €125.57
+
+GAME #2304851866 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:50:43/GMT
+Table Size 6
+Table €100 NL, 2304851866
+Seat 1: Hera981 (€196.00 in chips)
+Seat 2: nutshot9 (€115.00 in chips)
+Seat 3: 789456 (€100.00 in chips)
+Seat 4: lauty (€112.97 in chips)
+Seat 5: psicopato (€100.00 in chips)   DEALER
+Seat 6: Skruttet21 (€106.90 in chips)
+Skruttet21: Post SB €0.50
+Hera981: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA DK]
+nutshot9: Fold
+789456: Raise to €2.00
+lauty: Fold
+psicopato: Fold
+Skruttet21: Raise to €10.50
+Hera981: Fold
+789456: Call €8.50
+*** FLOP *** [DJ S2 SJ]
+Skruttet21: Bet €5.94
+789456: Call €5.94
+*** TURN *** [D4]
+Skruttet21: Bet €18.50
+789456: Call €18.50
+*** RIVER *** [H4]
+Skruttet21: Check
+789456: Bet €65.06
+Skruttet21: Call €65.06
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+789456: Shows [HJ HK] Full House
+Skruttet21: Shows [CA DK] Two Pair
+789456: wins €198.00
+
+GAME #2304851866 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:50:43/GMT
+Table Size 6
+Table €100 NL, 2304851866
+Seat 1: Hera981 (€196.00 in chips)
+Seat 2: nutshot9 (€115.00 in chips)
+Seat 3: 789456 (€100.00 in chips)
+Seat 4: lauty (€112.97 in chips)
+Seat 5: psicopato (€100.00 in chips)   DEALER
+Seat 6: Skruttet21 (€106.90 in chips)
+Skruttet21: Post SB €0.50
+Hera981: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA DK]
+nutshot9: Fold
+789456: Raise to €2.00
+lauty: Fold
+psicopato: Fold
+Skruttet21: Raise to €10.50
+Hera981: Fold
+789456: Call €8.50
+*** FLOP *** [DJ S2 SJ]
+Skruttet21: Bet €5.94
+789456: Call €5.94
+*** TURN *** [D4]
+Skruttet21: Bet €18.50
+789456: Call €18.50
+*** RIVER *** [H4]
+Skruttet21: Check
+789456: Bet €65.06
+Skruttet21: Call €65.06
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+789456: Shows [HJ HK] Full House
+Skruttet21: Shows [CA DK] Two Pair
+789456: wins €198.00
+
+GAME #2304705947 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:39:07/GMT
+Table Size 6
+Table €100 NL, 2304705947
+Seat 1: AnyChange22 (€293.57 in chips)
+Seat 2: PatsyCline (€241.53 in chips)
+Seat 3: Here2Gamble (€278.22 in chips)
+Seat 4: Mozart440 (€106.20 in chips)
+Seat 5: bwahahahaha (€115.56 in chips)
+Seat 6: h00t (€101.50 in chips)   DEALER
+AnyChange22: Post SB €0.50
+PatsyCline: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DQ CA]
+Here2Gamble: Fold
+Mozart440: Fold
+bwahahahaha: Raise to €3.50
+h00t: Fold
+AnyChange22: Raise to €12.50
+PatsyCline: Fold
+bwahahahaha: Call €9.00
+*** FLOP *** [S7 SA D5]
+AnyChange22: Bet €7.02
+bwahahahaha: Call €7.02
+*** TURN *** [C7]
+AnyChange22: Check
+bwahahahaha: Check
+*** RIVER *** [SQ]
+AnyChange22: Bet €10.81
+bwahahahaha: Raise to €96.04 (all-in)
+AnyChange22: Call €85.23
+*** SUMMARY ***
+Total pot €232.12 Rake €3.00
+AnyChange22: Shows [DQ CA] Two Pair
+bwahahahaha: Shows [SK S9] Flush
+bwahahahaha: wins €229.12
+
+GAME #2304768902 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:05:20/GMT
+Table Size 5
+Table €100 NL, 2304768902
+Seat 2: HenSolo (€100.00 in chips)
+Seat 3: Mozart440 (€100.50 in chips)
+Seat 4: overdriver (€107.00 in chips)
+Seat 5: Skruttet21 (€107.73 in chips)
+Seat 6: Nirvana (€157.50 in chips)   DEALER
+Mozart440: Post SB €0.50
+overdriver: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [HK SA]
+Skruttet21: Raise to €2.30
+Nirvana: Raise to €7.50
+Mozart440: Fold
+overdriver: Fold
+Skruttet21: Raise to €21.30
+Nirvana: Call €13.80
+*** FLOP *** [H5 H4 C4]
+Skruttet21: Bet €12.50
+Nirvana: Call €12.50
+*** TURN *** [C2]
+Skruttet21: Bet €73.93
+Nirvana: Call €73.93
+*** RIVER *** [C6]
+*** SUMMARY ***
+Total pot €216.96 Rake €3.00
+Skruttet21: Shows [HK SA] One Pair
+Nirvana: Shows [DA CA] Two Pair
+Nirvana: wins €213.96
+
+GAME #2304827643 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:35:56/GMT
+Table Size 6
+Table €100 NL, 2304827643
+Seat 1: Skruttet21 (€102.58 in chips)   DEALER
+Seat 2: 3betcall (€127.53 in chips)
+Seat 3: italyyyyy (€100.00 in chips)
+Seat 4: tiiiiilt14 (€100.00 in chips)
+Seat 5: deffer (€111.90 in chips)
+Seat 6: nutshot9 (€231.89 in chips)
+3betcall: Post SB €0.50
+italyyyyy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DK DA]
+tiiiiilt14: Fold
+deffer: Fold
+nutshot9: Fold
+Skruttet21: Raise to €2.50
+3betcall: Raise to €11.00
+italyyyyy: Fold
+Skruttet21: Raise to €23.50
+3betcall: Call €12.50
+*** FLOP *** [DQ H8 CK]
+3betcall: Check
+Skruttet21: Bet €12.96
+3betcall: Call €12.96
+*** TURN *** [H9]
+3betcall: Check
+Skruttet21: Bet €19.96
+3betcall: Call €19.96
+*** RIVER *** [HK]
+3betcall: Check
+Skruttet21: Bet €46.16
+3betcall: Call €46.16
+*** SUMMARY ***
+Total pot €206.16 Rake €3.00
+Skruttet21: Shows [DK DA] Three of a Kind
+3betcall: Shows [HQ H10] Flush
+3betcall: wins €203.16
+
+GAME #2304869922 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 15:41:32/GMT
+Table Size 6
+Table €100 NL, 2304869922
+Seat 1: Here2Gamble (€100.00 in chips)
+Seat 2: elifonok (€90.41 in chips)
+Seat 3: 21nightofSEP (€100.00 in chips)
+Seat 4: TulaiDoamne (€153.98 in chips)
+Seat 5: psicopato (€100.00 in chips)
+Seat 6: Skruttet21 (€158.99 in chips)   DEALER
+Here2Gamble: Post SB €0.50
+elifonok: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [D6 C6]
+21nightofSEP: Raise to €2.00
+TulaiDoamne: Fold
+psicopato: Fold
+Skruttet21: Call €2.00
+Here2Gamble: Fold
+elifonok: Call €1.00
+*** FLOP *** [HA S10 H6]
+elifonok: Check
+21nightofSEP: Bet €2.00
+Skruttet21: Call €2.00
+elifonok: Call €2.00
+*** TURN *** [SA]
+elifonok: Check
+21nightofSEP: Bet €15.63
+Skruttet21: Raise to €154.99 (all-in)
+elifonok: Fold
+21nightofSEP: Call €80.37
+*** RIVER *** [H10]
+*** SUMMARY ***
+Total pot €204.50 Rake €3.00
+21nightofSEP: Shows [DQ CA] Full House
+Skruttet21: Shows [D6 C6] Full House
+21nightofSEP: wins €201.50
+
+GAME #2304855568 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 15:01:54/GMT
+Table Size 6
+Table €100 NL, 2304855568
+Seat 1: Jan1995 (€59.11 in chips)
+Seat 2: ReanuKeeves (€216.34 in chips)   DEALER
+Seat 3: memantina (€156.07 in chips)
+Seat 4: Skruttet21 (€100.00 in chips)
+Seat 5: Teju4 (€68.77 in chips)
+Seat 6: burtas (€138.97 in chips)
+memantina: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CK DK]
+Teju4: Fold
+burtas: Raise to €2.20
+Jan1995: Call €2.20
+ReanuKeeves: Call €2.20
+memantina: Fold
+Skruttet21: Raise to €14.50
+burtas: Raise to €34.70
+Jan1995: Fold
+ReanuKeeves: Fold
+Skruttet21: Raise to €100.00 (all-in)
+burtas: Call €65.30
+*** FLOP *** [CQ S10 H7]
+*** TURN *** [D7]
+*** RIVER *** [CA]
+*** SUMMARY ***
+Total pot €204.90 Rake €3.00
+Skruttet21: Shows [CK DK] Two Pair
+burtas: Shows [SA SK] Two Pair
+burtas: wins €201.90
+
+GAME #2304837708 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:12:08/GMT
+Table Size 6
+Table €100 NL, 2304837708
+Seat 1: Skruttet21 (€100.50 in chips)   DEALER
+Seat 2: psicopato (€104.50 in chips)
+Seat 3: lauty (€128.00 in chips)
+Seat 4: tiiiiilt14 (€100.00 in chips)
+Seat 5: namer22 (€104.30 in chips)
+Seat 6: nutshot9 (€265.68 in chips)
+psicopato: Post SB €0.50
+lauty: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DK CQ]
+tiiiiilt14: Fold
+namer22: Fold
+nutshot9: Fold
+Skruttet21: Raise to €2.50
+psicopato: Raise to €10.12
+lauty: Fold
+Skruttet21: Raise to €23.50
+psicopato: Call €13.38
+*** FLOP *** [C6 H6 CK]
+psicopato: Check
+Skruttet21: Bet €12.96
+psicopato: Call €12.96
+*** TURN *** [H10]
+psicopato: Check
+Skruttet21: Check
+*** RIVER *** [H2]
+psicopato: Bet €68.04
+Skruttet21: Call €64.04
+*** SUMMARY ***
+Total pot €202.00 Rake €3.00
+Skruttet21: Shows [DK CQ] Two Pair
+psicopato: Shows [CA HA] Two Pair
+psicopato: wins €199.00
+
+GAME #2304820614 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:14:41/GMT
+Table Size 6
+Table €100 NL, 2304820614
+Seat 1: Skruttet21 (€101.50 in chips)
+Seat 2: DBUngar (€100.00 in chips)
+Seat 3: cofeeeee1414 (€102.10 in chips)
+Seat 4: pancakes5 (€100.00 in chips)   DEALER
+Seat 5: Freestaylerr (€102.67 in chips)
+Seat 6: nutshot9 (€100.00 in chips)
+Freestaylerr: Post SB €0.50
+nutshot9: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DA HK]
+Skruttet21: Raise to €2.00
+DBUngar: Fold
+cofeeeee1414: Raise to €7.00
+pancakes5: Fold
+Freestaylerr: Fold
+nutshot9: Fold
+Skruttet21: Raise to €21.00
+cofeeeee1414: Raise to €102.10 (all-in)
+Skruttet21: Call €80.50
+*** FLOP *** [SK DJ C4]
+*** TURN *** [CJ]
+*** RIVER *** [C5]
+*** SUMMARY ***
+Total pot €204.50 Rake €3.00
+Skruttet21: Shows [DA HK] Two Pair
+cofeeeee1414: Shows [CK DK] Full House
+cofeeeee1414: wins €201.50
+
+GAME #2304820536 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:14:27/GMT
+Table Size 4
+Table €100 NL, 2304820536
+Seat 1: Skruttet21 (€100.00 in chips)   DEALER
+Seat 2: nutshot9 (€100.50 in chips)
+Seat 3: Freestaylerr (€104.00 in chips)
+Seat 4: NotADuck (€100.00 in chips)
+nutshot9: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [D10 DJ]
+NotADuck: Fold
+Skruttet21: Raise to €2.50
+nutshot9: Raise to €11.00
+Freestaylerr: Fold
+Skruttet21: Call €8.50
+*** FLOP *** [HK D7 D5]
+nutshot9: Bet €7.00
+Skruttet21: Call €7.00
+*** TURN *** [H3]
+nutshot9: Bet €29.60
+Skruttet21: Call €29.60
+*** RIVER *** [CQ]
+nutshot9: Check
+Skruttet21: Bet €52.40
+nutshot9: Call €52.40
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+Skruttet21: Shows [D10 DJ]
+nutshot9: Shows [CK SJ] One Pair
+nutshot9: wins €198.00
+
+GAME #2304851866 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:50:43/GMT
+Table Size 6
+Table €100 NL, 2304851866
+Seat 1: Hera981 (€196.00 in chips)
+Seat 2: nutshot9 (€115.00 in chips)
+Seat 3: 789456 (€100.00 in chips)
+Seat 4: lauty (€112.97 in chips)
+Seat 5: psicopato (€100.00 in chips)   DEALER
+Seat 6: Skruttet21 (€106.90 in chips)
+Skruttet21: Post SB €0.50
+Hera981: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA DK]
+nutshot9: Fold
+789456: Raise to €2.00
+lauty: Fold
+psicopato: Fold
+Skruttet21: Raise to €10.50
+Hera981: Fold
+789456: Call €8.50
+*** FLOP *** [DJ S2 SJ]
+Skruttet21: Bet €5.94
+789456: Call €5.94
+*** TURN *** [D4]
+Skruttet21: Bet €18.50
+789456: Call €18.50
+*** RIVER *** [H4]
+Skruttet21: Check
+789456: Bet €65.06
+Skruttet21: Call €65.06
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+789456: Shows [HJ HK] Full House
+Skruttet21: Shows [CA DK] Two Pair
+789456: wins €198.00
+
+GAME #2304851866 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:50:43/GMT
+Table Size 6
+Table €100 NL, 2304851866
+Seat 1: Hera981 (€196.00 in chips)
+Seat 2: nutshot9 (€115.00 in chips)
+Seat 3: 789456 (€100.00 in chips)
+Seat 4: lauty (€112.97 in chips)
+Seat 5: psicopato (€100.00 in chips)   DEALER
+Seat 6: Skruttet21 (€106.90 in chips)
+Skruttet21: Post SB €0.50
+Hera981: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA DK]
+nutshot9: Fold
+789456: Raise to €2.00
+lauty: Fold
+psicopato: Fold
+Skruttet21: Raise to €10.50
+Hera981: Fold
+789456: Call €8.50
+*** FLOP *** [DJ S2 SJ]
+Skruttet21: Bet €5.94
+789456: Call €5.94
+*** TURN *** [D4]
+Skruttet21: Bet €18.50
+789456: Call €18.50
+*** RIVER *** [H4]
+Skruttet21: Check
+789456: Bet €65.06
+Skruttet21: Call €65.06
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+789456: Shows [HJ HK] Full House
+Skruttet21: Shows [CA DK] Two Pair
+789456: wins €198.00
+
+GAME #2304785954 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 11:19:45/GMT
+Table Size 6
+Table €50 NL, 2304785954
+Seat 1: feehugswyl (€62.05 in chips)
+Seat 2: magista1 (€112.03 in chips)
+Seat 3: bwahahahaha (€69.36 in chips)   DEALER
+Seat 4: Hera981 (€51.27 in chips)
+Seat 5: OldEnge01 (€50.75 in chips)
+Seat 6: Skruttet21 (€62.65 in chips)
+Hera981: Post SB €0.25
+OldEnge01: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [HA DK]
+Skruttet21: Raise to €1.00
+feehugswyl: Fold
+magista1: Raise to €3.20
+bwahahahaha: Fold
+Hera981: Fold
+OldEnge01: Call €2.70
+Skruttet21: Raise to €62.65 (all-in)
+magista1: Call €59.45
+OldEnge01: Fold
+*** FLOP *** [S2 DJ H2]
+*** TURN *** [H9]
+*** RIVER *** [S3]
+*** SUMMARY ***
+Total pot €128.75 Rake €2.00
+magista1: Shows [HQ DQ] Two Pair
+Skruttet21: Shows [HA DK] One Pair
+magista1: wins €126.75
+
+GAME #2304769289 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:07:10/GMT
+Table Size 3
+Table €100 NL, 2304769289
+Seat 1: Mozart440 (€103.49 in chips)
+Seat 3: 789456 (€128.19 in chips)   DEALER
+Seat 6: Skruttet21 (€242.51 in chips)
+Skruttet21: Post SB €0.50
+Mozart440: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [S8 SK]
+789456: Fold
+Skruttet21: Raise to €3.00
+Mozart440: Raise to €10.00
+Skruttet21: Raise to €21.00
+Mozart440: Call €11.00
+*** FLOP *** [D2 HJ HA]
+Skruttet21: Bet €11.34
+Mozart440: Call €11.34
+*** TURN *** [SQ]
+Skruttet21: Bet €27.50
+Mozart440: Raise to €71.15 (all-in)
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €119.68 Rake €1.50
+Mozart440: wins €118.18
+
+GAME #2304780661 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:55:23/GMT
+Table Size 5
+Table €100 NL, 2304780661
+Seat 1: Rage66Wave (€114.20 in chips)
+Seat 2: Skruttet21 (€118.11 in chips)
+Seat 3: PiraPiraMid3 (€101.50 in chips)
+Seat 4: bwahahahaha (€110.72 in chips)   DEALER
+Seat 5: Hoort-erbij (€100.00 in chips)
+Hoort-erbij: Post SB €0.50
+Rage66Wave: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [H7 H6]
+Skruttet21: Raise to €2.00
+PiraPiraMid3: Fold
+bwahahahaha: Raise to €8.00
+Hoort-erbij: Fold
+Rage66Wave: Fold
+Skruttet21: Call €6.00
+*** FLOP *** [D10 SK C4]
+Skruttet21: Check
+bwahahahaha: Bet €7.50
+Skruttet21: Raise to €20.50
+bwahahahaha: Call €13.00
+*** TURN *** [S9]
+Skruttet21: Bet €29.25
+bwahahahaha: Call €29.25
+*** RIVER *** [H9]
+Skruttet21: Check
+bwahahahaha: Check
+*** SUMMARY ***
+Total pot €117.00 Rake €3.00
+Skruttet21: Shows [H7 H6] One Pair
+bwahahahaha: Shows [S4 SQ] Two Pair
+bwahahahaha: wins €114.00
+
+GAME #2304822622 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:20:40/GMT
+Table Size 6
+Table €100 NL, 2304822622
+Seat 1: psicopato (€100.00 in chips)
+Seat 2: NoNameNow (€138.96 in chips)
+Seat 3: dimatte (€104.78 in chips)
+Seat 4: NotADuck (€138.14 in chips)   DEALER
+Seat 5: Albinutabzbz (€100.00 in chips)
+Seat 6: Skruttet21 (€111.75 in chips)
+Albinutabzbz: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [S10 SA]
+NoNameNow: Fold
+dimatte: Fold
+NotADuck: Fold
+Albinutabzbz: Raise to €3.00
+Skruttet21: Raise to €10.00
+Albinutabzbz: Raise to €22.50
+Skruttet21: Call €12.50
+*** FLOP *** [C8 HQ SQ]
+Albinutabzbz: Bet €11.25
+Skruttet21: Call €11.25
+*** TURN *** [S3]
+Albinutabzbz: Bet €24.00
+Skruttet21: Call €24.00
+*** RIVER *** [DJ]
+Albinutabzbz: Bet €42.25
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €115.50 Rake €3.00
+Albinutabzbz: wins €112.50
+
+GAME #2304711493 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 00:13:06/GMT
+Table Size 4
+Table €50 NL, 2304711493
+Seat 1: psicopato (€80.50 in chips)   DEALER
+Seat 3: feehugswyl (€51.00 in chips)
+Seat 4: AnyChange22 (€111.42 in chips)
+Seat 5: jajai (€104.25 in chips)
+feehugswyl: Post SB €0.25
+AnyChange22: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SQ DQ]
+jajai: Raise to €1.25
+psicopato: Fold
+feehugswyl: Fold
+AnyChange22: Raise to €6.25
+jajai: Call €5.00
+*** FLOP *** [HJ D8 H4]
+AnyChange22: Bet €6.38
+jajai: Call €6.38
+*** TURN *** [CJ]
+AnyChange22: Check
+jajai: Bet €12.76
+AnyChange22: Call €12.76
+*** RIVER *** [C9]
+AnyChange22: Check
+jajai: Bet €25.52
+AnyChange22: Call €25.52
+*** SUMMARY ***
+Total pot €102.07 Rake €2.00
+AnyChange22: Shows [SQ DQ] Two Pair
+jajai: Shows [SJ SK] Three of a Kind
+jajai: wins €100.07
+
+GAME #2304697395 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-22 23:03:18/GMT
+Table Size 6
+Table €50 NL, 2304697395
+Seat 1: chillllg (€54.27 in chips)
+Seat 2: hygshygs (€68.10 in chips)
+Seat 3: Ttoni71 (€25.32 in chips)
+Seat 4: psicopato (€50.50 in chips)
+Seat 5: jajai (€50.00 in chips)   DEALER
+Seat 6: AnyChange22 (€113.70 in chips)
+AnyChange22: Post SB €0.25
+chillllg: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SA HK]
+hygshygs: Fold
+Ttoni71: Fold
+psicopato: Fold
+jajai: Raise to €1.25
+AnyChange22: Raise to €6.00
+chillllg: Fold
+jajai: Raise to €13.00
+AnyChange22: Raise to €113.70 (all-in)
+jajai: Call €37.00
+*** FLOP *** [S4 S10 S3]
+*** TURN *** [CK]
+*** RIVER *** [HJ]
+*** SUMMARY ***
+Total pot €100.50 Rake €2.00
+jajai: Shows [CJ SJ] Three of a Kind
+AnyChange22: Shows [SA HK] One Pair
+jajai: wins €98.50
+
+GAME #2304782258 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 11:03:35/GMT
+Table Size 5
+Table €50 NL, 2304782258
+Seat 1: Skruttet21 (€50.00 in chips)
+Seat 2: magista1 (€141.01 in chips)
+Seat 3: bwahahahaha (€62.74 in chips)
+Seat 4: feehugswyl (€67.25 in chips)   DEALER
+Seat 5: NotADuck (€86.13 in chips)
+Skruttet21: Post SB €0.25
+magista1: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SA S5]
+bwahahahaha: Raise to €1.50
+feehugswyl: Fold
+Skruttet21: Raise to €6.25
+magista1: Fold
+bwahahahaha: Call €4.75
+*** FLOP *** [H2 H9 S8]
+Skruttet21: Bet €8.25
+bwahahahaha: Call €8.25
+*** TURN *** [SQ]
+Skruttet21: Check
+bwahahahaha: Check
+*** RIVER *** [D4]
+Skruttet21: Bet €35.50
+bwahahahaha: Call €35.50
+*** SUMMARY ***
+Total pot €100.50 Rake €2.00
+Skruttet21: Shows [SA S5]
+bwahahahaha: Shows [H3 H4] One Pair
+bwahahahaha: wins €98.50
+
+GAME #2304704210 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:30:49/GMT
+Table Size 5
+Table €100 NL, 2304704210
+Seat 1: h00t (€103.46 in chips)
+Seat 2: sweed1 (€96.12 in chips)
+Seat 3: Here2Gamble (€183.41 in chips)   DEALER
+Seat 5: AnyChange22 (€112.11 in chips)
+Seat 6: Mozart440 (€154.43 in chips)
+AnyChange22: Post SB €0.50
+Mozart440: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DA DK]
+h00t: Fold
+sweed1: Fold
+Here2Gamble: Fold
+AnyChange22: Raise to €3.00
+Mozart440: Raise to €10.00
+AnyChange22: Raise to €21.00
+Mozart440: Call €11.00
+*** FLOP *** [C2 D2 S8]
+AnyChange22: Bet €11.34
+Mozart440: Call €11.34
+*** TURN *** [HQ]
+AnyChange22: Bet €17.46
+Mozart440: Call €17.46
+*** RIVER *** [S2]
+AnyChange22: Check
+Mozart440: Bet €104.63
+AnyChange22: Fold
+*** SUMMARY ***
+Total pot €99.60 Rake €3.00
+Mozart440: wins €96.60
+
+GAME #2304824897 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 13:27:19/GMT
+Table Size 2
+Table €50 NL, 2304824897
+Seat 1: magista1 (€115.20 in chips)
+Seat 4: Skruttet21 (€50.00 in chips)   DEALER
+Skruttet21: Post SB €0.25
+magista1: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [S9 H9]
+Skruttet21: Raise to €1.25
+magista1: Raise to €5.25
+Skruttet21: Raise to €12.25
+magista1: Raise to €115.20 (all-in)
+Skruttet21: Call €37.75
+*** FLOP *** [D7 D5 DK]
+*** TURN *** [H10]
+*** RIVER *** [S8]
+*** SUMMARY ***
+Total pot €100.00 Rake €1.00
+magista1: Shows [SQ DQ] One Pair
+Skruttet21: Shows [S9 H9] One Pair
+magista1: wins €99.00
+
+GAME #2304845049 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:32:59/GMT
+Table Size 4
+Table €100 NL, 2304845049
+Seat 2: Skruttet21 (€101.00 in chips)   DEALER
+Seat 4: 535353533 (€100.50 in chips)
+Seat 5: nutshot9 (€104.56 in chips)
+Seat 6: Freestaylerr (€150.55 in chips)
+535353533: Post SB €0.50
+nutshot9: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SQ CA]
+Freestaylerr: Fold
+Skruttet21: Raise to €2.50
+535353533: Raise to €11.00
+nutshot9: Fold
+Skruttet21: Call €8.50
+*** FLOP *** [H10 S7 C3]
+535353533: Bet €7.59
+Skruttet21: Raise to €19.50
+535353533: Call €11.91
+*** TURN *** [C6]
+535353533: Check
+Skruttet21: Bet €18.50
+535353533: Raise to €70.00 (all-in)
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €99.00 Rake €3.00
+535353533: wins €96.00
+
+GAME #2304780768 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:55:56/GMT
+Table Size 6
+Table €100 NL, 2304780768
+Seat 1: GoldWolf5 (€155.60 in chips)   DEALER
+Seat 2: EjBunkarStiu (€100.00 in chips)
+Seat 3: Mozart440 (€205.58 in chips)
+Seat 4: bwahahahaha (€122.35 in chips)
+Seat 5: Skruttet21 (€103.33 in chips)
+Seat 6: 21nightofSEP (€111.42 in chips)
+EjBunkarStiu: Post SB €0.50
+Mozart440: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CK HQ]
+bwahahahaha: Fold
+Skruttet21: Raise to €2.00
+21nightofSEP: Fold
+GoldWolf5: Raise to €5.00
+EjBunkarStiu: Fold
+Mozart440: Fold
+Skruttet21: Call €3.00
+*** FLOP *** [H5 H8 D10]
+Skruttet21: Check
+GoldWolf5: Bet €6.33
+Skruttet21: Raise to €18.41
+GoldWolf5: Call €12.08
+*** TURN *** [SJ]
+Skruttet21: Bet €24.16
+GoldWolf5: Raise to €132.19 (all-in)
+Skruttet21: Fold
+*** SUMMARY ***
+Total pot €96.64 Rake €3.00
+GoldWolf5: wins €93.64
+
+GAME #2304772715 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:21:50/GMT
+Table Size 6
+Table €100 NL, 2304772715
+Seat 1: Mozart440 (€124.52 in chips)
+Seat 2: 32523t (€174.18 in chips)
+Seat 3: feehugswyl (€110.32 in chips)
+Seat 4: Ballymena00 (€96.63 in chips)   DEALER
+Seat 5: coolglasses (€105.28 in chips)
+Seat 6: Skruttet21 (€115.06 in chips)
+coolglasses: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SK HK]
+Mozart440: Raise to €2.50
+32523t: Fold
+feehugswyl: Fold
+Ballymena00: Call €2.50
+coolglasses: Fold
+Skruttet21: Raise to €14.50
+Mozart440: Call €12.00
+Ballymena00: Call €12.00
+*** FLOP *** [S2 H10 DA]
+Skruttet21: Check
+Mozart440: Check
+Ballymena00: Check
+*** TURN *** [D8]
+Skruttet21: Bet €11.88
+Mozart440: Call €11.88
+Ballymena00: Fold
+*** RIVER *** [C9]
+Skruttet21: Check
+Mozart440: Bet €16.94
+Skruttet21: Call €16.94
+*** SUMMARY ***
+Total pot €101.64 Rake €3.00
+Mozart440: Shows [HA CQ] One Pair
+Skruttet21: Shows [SK HK] One Pair
+Mozart440: wins €98.64
+
+GAME #2304710919 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 00:08:52/GMT
+Table Size 6
+Table €100 NL, 2304710919
+Seat 1: AnyChange22 (€223.18 in chips)
+Seat 2: Foka_korv (€119.69 in chips)
+Seat 3: h00t (€125.65 in chips)
+Seat 4: bwahahahaha (€426.38 in chips)   DEALER
+Seat 5: PatsyCline (€100.00 in chips)
+Seat 6: Here2Gamble (€100.00 in chips)
+Here2Gamble: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SJ HJ]
+Foka_korv: Fold
+h00t: Fold
+bwahahahaha: Raise to €3.00
+Here2Gamble: Fold
+AnyChange22: Raise to €13.00
+bwahahahaha: Call €10.00
+*** FLOP *** [S4 D10 C3]
+AnyChange22: Check
+bwahahahaha: Check
+*** TURN *** [H8]
+AnyChange22: Check
+bwahahahaha: Bet €15.50
+AnyChange22: Raise to €35.50
+bwahahahaha: Call €20.00
+*** RIVER *** [SA]
+AnyChange22: Bet €26.33
+bwahahahaha: Raise to €121.50
+AnyChange22: Call €95.17
+*** SUMMARY ***
+Total pot €340.50 Rake €3.00
+AnyChange22: Shows [SJ HJ] One Pair
+bwahahahaha: Shows [S6 S7]
+AnyChange22: wins €337.50
+
+GAME #2304831480 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:50:06/GMT
+Table Size 5
+Table €100 NL, 2304831480
+Seat 1: Freestaylerr (€100.00 in chips)
+Seat 2: junamjii (€113.23 in chips)
+Seat 3: cofeeeee1414 (€109.00 in chips)
+Seat 4: Skruttet21 (€206.57 in chips)   DEALER
+Seat 5: EjBunkarStiu (€125.52 in chips)
+EjBunkarStiu: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DK DQ]
+junamjii: Fold
+cofeeeee1414: Raise to €2.50
+Skruttet21: Raise to €7.50
+EjBunkarStiu: Raise to €20.50
+Freestaylerr: Fold
+cofeeeee1414: Fold
+Skruttet21: Call €13.00
+*** FLOP *** [DA DJ S5]
+EjBunkarStiu: Bet €11.13
+Skruttet21: Call €11.13
+*** TURN *** [D9]
+EjBunkarStiu: Bet €16.69
+Skruttet21: Call €16.69
+*** RIVER *** [H3]
+EjBunkarStiu: Bet €77.20
+Skruttet21: Call €77.20
+*** SUMMARY ***
+Total pot €254.54 Rake €3.00
+Skruttet21: Shows [DK DQ] Flush
+EjBunkarStiu: Shows [CJ SJ] Three of a Kind
+Skruttet21: wins €251.54
+
+GAME #2304767656 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 09:59:10/GMT
+Table Size 6
+Table €100 NL, 2304767656
+Seat 1: Freestaylerr (€115.85 in chips)
+Seat 2: HenSolo (€131.63 in chips)
+Seat 3: 789456 (€117.16 in chips)
+Seat 4: 32523t (€96.20 in chips)
+Seat 5: T333T (€168.42 in chips)   DEALER
+Seat 6: Skruttet21 (€139.70 in chips)
+Skruttet21: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [HJ CJ]
+HenSolo: Fold
+789456: Fold
+32523t: Fold
+T333T: Fold
+Skruttet21: Raise to €3.00
+Freestaylerr: Raise to €9.00
+Skruttet21: Raise to €22.50
+Freestaylerr: Raise to €115.85 (all-in)
+Skruttet21: Call €93.35
+*** FLOP *** [DQ D9 S3]
+*** TURN *** [S6]
+*** RIVER *** [C2]
+*** SUMMARY ***
+Total pot €231.70 Rake €3.00
+Freestaylerr: Shows [SK SA]
+Skruttet21: Shows [HJ CJ] One Pair
+Skruttet21: wins €228.70
+
+GAME #2304843055 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:27:30/GMT
+Table Size 6
+Table €100 NL, 2304843055
+Seat 1: psicopato (€113.65 in chips)
+Seat 2: destopian (€129.13 in chips)
+Seat 3: nutshot9 (€109.15 in chips)
+Seat 4: Skruttet21 (€155.89 in chips)
+Seat 5: jorn68 (€105.46 in chips)
+Seat 6: Freestaylerr (€100.00 in chips)   DEALER
+destopian: Post SB €0.50
+nutshot9: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SJ DJ]
+Skruttet21: Raise to €2.00
+jorn68: Raise to €6.50
+Freestaylerr: Fold
+destopian: Fold
+nutshot9: Fold
+Skruttet21: Call €4.50
+*** FLOP *** [HJ CQ S3]
+Skruttet21: Check
+jorn68: Bet €10.88
+Skruttet21: Call €10.88
+*** TURN *** [S10]
+Skruttet21: Check
+jorn68: Bet €18.13
+Skruttet21: Call €18.13
+*** RIVER *** [S6]
+Skruttet21: Check
+jorn68: Bet €69.95
+Skruttet21: Call €69.95
+*** SUMMARY ***
+Total pot €212.42 Rake €3.00
+Skruttet21: Shows [SJ DJ] Three of a Kind
+jorn68: Shows [D3 DA] One Pair
+Skruttet21: wins €209.42
+
+GAME #2304853100 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:54:01/GMT
+Table Size 6
+Table €100 NL, 2304853100
+Seat 1: tibike7602 (€61.82 in chips)   DEALER
+Seat 2: Seagal21 (€147.62 in chips)
+Seat 3: nutshot9 (€100.00 in chips)
+Seat 4: Skruttet21 (€355.13 in chips)
+Seat 5: Here2Gamble (€100.00 in chips)
+Seat 6: SNAP123 (€105.17 in chips)
+Seagal21: Post SB €0.50
+nutshot9: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [D8 S8]
+Skruttet21: Raise to €2.00
+Here2Gamble: Fold
+SNAP123: Raise to €7.50
+tibike7602: Fold
+Seagal21: Fold
+nutshot9: Fold
+Skruttet21: Call €5.50
+*** FLOP *** [H8 SK H3]
+Skruttet21: Check
+SNAP123: Bet €4.13
+Skruttet21: Call €4.13
+*** TURN *** [C3]
+Skruttet21: Check
+SNAP123: Bet €24.76
+Skruttet21: Call €24.76
+*** RIVER *** [H7]
+Skruttet21: Check
+SNAP123: Bet €19.57
+Skruttet21: Raise to €181.76
+SNAP123: Call €49.21
+*** SUMMARY ***
+Total pot €211.84 Rake €3.00
+Skruttet21: Shows [D8 S8] Full House
+SNAP123: Shows [HA HQ] Flush
+Skruttet21: wins €208.84
+
+GAME #2304767525 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 09:58:24/GMT
+Table Size 5
+Table €100 NL, 2304767525
+Seat 1: HenSolo (€127.85 in chips)
+Seat 2: Ysaau (€108.01 in chips)
+Seat 3: Mozart440 (€101.64 in chips)   DEALER
+Seat 4: Skruttet21 (€104.06 in chips)
+Seat 6: Freestaylerr (€116.67 in chips)
+Skruttet21: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA HQ]
+HenSolo: Fold
+Ysaau: Fold
+Mozart440: Raise to €2.50
+Skruttet21: Raise to €12.00
+Freestaylerr: Fold
+Mozart440: Raise to €25.50
+Skruttet21: Call €13.50
+*** FLOP *** [CK C3 DA]
+Skruttet21: Check
+Mozart440: Check
+*** TURN *** [C7]
+Skruttet21: Bet €14.04
+Mozart440: Call €14.04
+*** RIVER *** [S5]
+Skruttet21: Bet €64.52
+Mozart440: Call €62.10
+*** SUMMARY ***
+Total pot €204.28 Rake €3.00
+Mozart440: Shows [HA C10] One Pair
+Skruttet21: Shows [CA HQ] One Pair
+Skruttet21: wins €201.28
+
+GAME #2304770646 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:12:59/GMT
+Table Size 3
+Table €100 NL, 2304770646
+Seat 4: Mozart440 (€100.00 in chips)   DEALER
+Seat 5: overdriver (€100.50 in chips)
+Seat 6: Skruttet21 (€161.37 in chips)
+overdriver: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DJ D8]
+Mozart440: Raise to €2.50
+overdriver: Fold
+Skruttet21: Raise to €13.00
+Mozart440: Call €10.50
+*** FLOP *** [HJ C8 H3]
+Skruttet21: Bet €13.25
+Mozart440: Call €13.25
+*** TURN *** [D3]
+Skruttet21: Bet €75.79
+Mozart440: Call €73.75
+*** RIVER *** [SQ]
+*** SUMMARY ***
+Total pot €200.50 Rake €1.50
+Mozart440: Shows [CA CJ] Two Pair
+Skruttet21: Shows [DJ D8] Two Pair
+Skruttet21: wins €199.00
+
+GAME #2304770646 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:12:59/GMT
+Table Size 3
+Table €100 NL, 2304770646
+Seat 4: Mozart440 (€100.00 in chips)   DEALER
+Seat 5: overdriver (€100.50 in chips)
+Seat 6: Skruttet21 (€161.37 in chips)
+overdriver: Post SB €0.50
+Skruttet21: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DJ D8]
+Mozart440: Raise to €2.50
+overdriver: Fold
+Skruttet21: Raise to €13.00
+Mozart440: Call €10.50
+*** FLOP *** [HJ C8 H3]
+Skruttet21: Bet €13.25
+Mozart440: Call €13.25
+*** TURN *** [D3]
+Skruttet21: Bet €75.79
+Mozart440: Call €73.75
+*** RIVER *** [SQ]
+*** SUMMARY ***
+Total pot €200.50 Rake €1.50
+Mozart440: Shows [CA CJ] Two Pair
+Skruttet21: Shows [DJ D8] Two Pair
+Skruttet21: wins €199.00
+
+GAME #2304709757 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 00:01:06/GMT
+Table Size 5
+Table €100 NL, 2304709757
+Seat 1: AnyChange22 (€100.00 in chips)   DEALER
+Seat 2: Foka_korv (€102.00 in chips)
+Seat 3: h00t (€125.15 in chips)
+Seat 4: bwahahahaha (€441.54 in chips)
+Seat 6: Here2Gamble (€131.85 in chips)
+Foka_korv: Post SB €0.50
+h00t: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Here2Gamble [DQ CQ]
+bwahahahaha: Fold
+Here2Gamble: Raise to €2.20
+AnyChange22: Raise to €7.50
+Foka_korv: Fold
+h00t: Fold
+Here2Gamble: Raise to €20.00
+AnyChange22: Raise to €100.00 (all-in)
+Here2Gamble: Call €80.00
+*** FLOP *** [SJ D4 SK]
+*** TURN *** [D10]
+*** RIVER *** [C4]
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+AnyChange22: Shows [HK DK] Full House
+Here2Gamble: Shows [DQ CQ] Two Pair
+AnyChange22: wins €198.50
+
+GAME #2304715359 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 00:39:25/GMT
+Table Size 4
+Table €100 NL, 2304715359
+Seat 1: AnyChange22 (€247.79 in chips)
+Seat 2: PatsyCline (€231.98 in chips)
+Seat 4: Foka_korv (€104.79 in chips)   DEALER
+Seat 5: bwahahahaha (€101.09 in chips)
+bwahahahaha: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to bwahahahaha [CA DK]
+PatsyCline: Fold
+Foka_korv: Fold
+bwahahahaha: Raise to €3.00
+AnyChange22: Raise to €10.00
+bwahahahaha: Raise to €25.00
+AnyChange22: Raise to €247.79 (all-in)
+bwahahahaha: Call €76.09
+*** FLOP *** [H4 C2 S3]
+*** TURN *** [S4]
+*** RIVER *** [H7]
+*** SUMMARY ***
+Total pot €202.18 Rake €3.00
+AnyChange22: Shows [HJ DJ] Two Pair
+bwahahahaha: Shows [CA DK] One Pair
+AnyChange22: wins €199.18
+
+GAME #2304834543 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 14:02:26/GMT
+Table Size 6
+Table €100 NL, 2304834543
+Seat 1: Skruttet21 (€169.56 in chips)
+Seat 2: jorn68 (€100.00 in chips)
+Seat 3: cofeeeee1414 (€318.16 in chips)
+Seat 4: no-se-puede (€100.00 in chips)
+Seat 5: Freestaylerr (€118.17 in chips)
+Seat 6: nutshot9 (€100.00 in chips)   DEALER
+Skruttet21: Post SB €0.50
+jorn68: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [HA HK]
+cofeeeee1414: Fold
+no-se-puede: Fold
+Freestaylerr: Fold
+nutshot9: Raise to €2.50
+Skruttet21: Raise to €12.00
+jorn68: Fold
+nutshot9: Call €9.50
+*** FLOP *** [H3 S9 H9]
+Skruttet21: Bet €6.75
+nutshot9: Call €6.75
+*** TURN *** [D8]
+Skruttet21: Check
+nutshot9: Bet €19.25
+Skruttet21: Raise to €129.36
+nutshot9: Call €62.00
+*** RIVER *** [H4]
+*** SUMMARY ***
+Total pot €201.00 Rake €3.00
+Skruttet21: Shows [HA HK] Flush
+nutshot9: Shows [DK D9] Three of a Kind
+Skruttet21: wins €198.00
+
+GAME #2304824284 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:25:34/GMT
+Table Size 4
+Table €100 NL, 2304824284
+Seat 1: Freestaylerr (€109.00 in chips)
+Seat 2: Recovering (€96.00 in chips)
+Seat 4: Skruttet21 (€100.00 in chips)   DEALER
+Seat 5: EjBunkarStiu (€105.91 in chips)
+EjBunkarStiu: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [D10 C10]
+Recovering: Raise to €2.50
+Skruttet21: Raise to €7.50
+EjBunkarStiu: Fold
+Freestaylerr: Fold
+Recovering: Raise to €21.50
+Skruttet21: Raise to €100.00 (all-in)
+Recovering: Call €74.50
+*** FLOP *** [DQ D9 S2]
+*** TURN *** [S9]
+*** RIVER *** [H5]
+*** SUMMARY ***
+Total pot €193.50 Rake €3.00
+Recovering: Shows [CK HA] One Pair
+Skruttet21: Shows [D10 C10] Two Pair
+Skruttet21: wins €190.50
+
+GAME #2304706368 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:41:09/GMT
+Table Size 6
+Table €100 NL, 2304706368
+Seat 1: AnyChange22 (€178.01 in chips)
+Seat 2: PatsyCline (€244.03 in chips)   DEALER
+Seat 3: Here2Gamble (€277.22 in chips)
+Seat 4: Mozart440 (€106.20 in chips)
+Seat 5: bwahahahaha (€229.12 in chips)
+Seat 6: h00t (€100.00 in chips)
+Here2Gamble: Post SB €0.50
+Mozart440: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to bwahahahaha [D5 DA]
+bwahahahaha: Raise to €3.00
+h00t: Fold
+AnyChange22: Raise to €9.50
+PatsyCline: Fold
+Here2Gamble: Fold
+Mozart440: Fold
+bwahahahaha: Raise to €24.50
+AnyChange22: Call €15.00
+*** FLOP *** [D9 C5 CQ]
+bwahahahaha: Bet €16.50
+AnyChange22: Call €16.50
+*** TURN *** [H6]
+bwahahahaha: Bet €49.50
+AnyChange22: Call €49.50
+*** RIVER *** [S3]
+bwahahahaha: Check
+AnyChange22: Check
+*** SUMMARY ***
+Total pot €182.50 Rake €3.00
+AnyChange22: Shows [SQ SK] One Pair
+bwahahahaha: Shows [D5 DA] One Pair
+AnyChange22: wins €179.50
+
+GAME #2304781201 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 10:58:23/GMT
+Table Size 6
+Table €100 NL, 2304781201
+Seat 1: khIry (€85.16 in chips)   DEALER
+Seat 2: Skruttet21 (€109.50 in chips)
+Seat 3: Mozart440 (€135.50 in chips)
+Seat 4: RoyalDemon (€254.72 in chips)
+Seat 5: bwahahahaha (€103.58 in chips)
+Seat 6: PiraPiraMid3 (€100.00 in chips)
+Skruttet21: Post SB €0.50
+Mozart440: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SK CK]
+RoyalDemon: Fold
+bwahahahaha: Fold
+PiraPiraMid3: Raise to €2.20
+khIry: Call €2.20
+Skruttet21: Raise to €13.50
+Mozart440: Fold
+PiraPiraMid3: Fold
+khIry: Call €11.30
+*** FLOP *** [S10 C5 H10]
+Skruttet21: Bet €8.15
+khIry: Call €8.15
+*** TURN *** [S2]
+Skruttet21: Check
+khIry: Bet €23.25
+Skruttet21: Raise to €87.85 (all-in)
+khIry: Call €40.26
+*** RIVER *** [C7]
+*** SUMMARY ***
+Total pot €173.52 Rake €3.00
+khIry: Shows [CA HQ] One Pair
+Skruttet21: Shows [SK CK] Two Pair
+Skruttet21: wins €170.52
+
+GAME #2304845966 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 14:35:28/GMT
+Table Size 6
+Table €50 NL, 2304845966
+Seat 1: magista1 (€100.40 in chips)
+Seat 2: Pelle113 (€52.22 in chips)
+Seat 3: Ysaau (€50.00 in chips)
+Seat 4: vivahllandia (€57.43 in chips)
+Seat 5: LaReina59 (€81.03 in chips)
+Seat 6: Skruttet21 (€64.63 in chips)   DEALER
+magista1: Post SB €0.25
+Pelle113: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SA HA]
+Ysaau: Fold
+vivahllandia: Raise to €1.50
+LaReina59: Fold
+Skruttet21: Raise to €4.50
+magista1: Fold
+Pelle113: Call €4.00
+vivahllandia: Call €3.00
+*** FLOP *** [D4 S8 S7]
+Pelle113: Bet €11.00
+vivahllandia: Fold
+Skruttet21: Raise to €60.13 (all-in)
+Pelle113: Call €36.72
+*** TURN *** [C6]
+*** RIVER *** [D2]
+*** SUMMARY ***
+Total pot €109.19 Rake €2.00
+Pelle113: Shows [D3 D7] One Pair
+Skruttet21: Shows [SA HA] One Pair
+Skruttet21: wins €107.19
+
+GAME #2304786519 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 11:22:10/GMT
+Table Size 6
+Table €100 NL, 2304786519
+Seat 1: khIry (€99.81 in chips)
+Seat 2: Skruttet21 (€177.86 in chips)   DEALER
+Seat 3: nutshot9 (€100.00 in chips)
+Seat 4: RoyalDemon (€443.77 in chips)
+Seat 5: bwahahahaha (€100.00 in chips)
+Seat 6: PiraPiraMid3 (€182.32 in chips)
+nutshot9: Post SB €0.50
+RoyalDemon: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [HJ HK]
+bwahahahaha: Fold
+PiraPiraMid3: Fold
+khIry: Raise to €2.00
+Skruttet21: Raise to €6.50
+nutshot9: Fold
+RoyalDemon: Fold
+khIry: Call €4.50
+*** FLOP *** [DJ D10 C10]
+khIry: Check
+Skruttet21: Bet €4.05
+khIry: Call €4.05
+*** TURN *** [H8]
+khIry: Check
+Skruttet21: Bet €16.86
+khIry: Call €16.86
+*** RIVER *** [S10]
+khIry: Check
+Skruttet21: Bet €28.41
+khIry: Call €28.41
+*** SUMMARY ***
+Total pot €113.64 Rake €3.00
+khIry: Shows [C2 S2] Full House
+Skruttet21: Shows [HJ HK] Full House
+Skruttet21: wins €110.64
+
+GAME #2304820967 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:15:45/GMT
+Table Size 6
+Table €100 NL, 2304820967
+Seat 1: Skruttet21 (€100.00 in chips)
+Seat 2: DBUngar (€100.00 in chips)
+Seat 3: cofeeeee1414 (€202.10 in chips)
+Seat 4: pancakes5 (€100.00 in chips)
+Seat 5: Freestaylerr (€102.17 in chips)
+Seat 6: nutshot9 (€101.00 in chips)   DEALER
+Skruttet21: Post SB €0.50
+DBUngar: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SQ HA]
+cofeeeee1414: Fold
+pancakes5: Fold
+Freestaylerr: Raise to €2.20
+nutshot9: Raise to €7.50
+Skruttet21: Raise to €20.00
+DBUngar: Fold
+Freestaylerr: Fold
+nutshot9: Call €12.50
+*** FLOP *** [HQ SK S8]
+Skruttet21: Bet €11.00
+nutshot9: Call €11.00
+*** TURN *** [D4]
+Skruttet21: Check
+nutshot9: Bet €21.50
+Skruttet21: Call €21.50
+*** RIVER *** [C6]
+Skruttet21: Check
+nutshot9: Check
+*** SUMMARY ***
+Total pot €108.20 Rake €3.00
+Skruttet21: Shows [SQ HA] One Pair
+nutshot9: Shows [C10 C9]
+Skruttet21: wins €105.20
+
+GAME #2304820967 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 13:15:45/GMT
+Table Size 6
+Table €100 NL, 2304820967
+Seat 1: Skruttet21 (€100.00 in chips)
+Seat 2: DBUngar (€100.00 in chips)
+Seat 3: cofeeeee1414 (€202.10 in chips)
+Seat 4: pancakes5 (€100.00 in chips)
+Seat 5: Freestaylerr (€102.17 in chips)
+Seat 6: nutshot9 (€101.00 in chips)   DEALER
+Skruttet21: Post SB €0.50
+DBUngar: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [SQ HA]
+cofeeeee1414: Fold
+pancakes5: Fold
+Freestaylerr: Raise to €2.20
+nutshot9: Raise to €7.50
+Skruttet21: Raise to €20.00
+DBUngar: Fold
+Freestaylerr: Fold
+nutshot9: Call €12.50
+*** FLOP *** [HQ SK S8]
+Skruttet21: Bet €11.00
+nutshot9: Call €11.00
+*** TURN *** [D4]
+Skruttet21: Check
+nutshot9: Bet €21.50
+Skruttet21: Call €21.50
+*** RIVER *** [C6]
+Skruttet21: Check
+nutshot9: Check
+*** SUMMARY ***
+Total pot €108.20 Rake €3.00
+Skruttet21: Shows [SQ HA] One Pair
+nutshot9: Shows [C10 C9]
+Skruttet21: wins €105.20
+
+GAME #2304684172 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-22 22:22:36/GMT
+Table Size 6
+Table €50 NL, 2304684172
+Seat 1: madeline321 (€76.06 in chips)   DEALER
+Seat 2: Hellllo222 (€13.19 in chips)
+Seat 3: Ttoni71 (€33.90 in chips)
+Seat 4: psicopato (€50.00 in chips)
+Seat 5: nanatooko (€71.37 in chips)
+Seat 6: AnyChange22 (€55.12 in chips)
+Hellllo222: Post SB €0.25
+Ttoni71: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to psicopato [DA HA]
+psicopato: Raise to €1.10
+nanatooko: Fold
+AnyChange22: Raise to €3.75
+madeline321: Fold
+Hellllo222: Call €3.50
+Ttoni71: Fold
+psicopato: Raise to €12.10
+AnyChange22: Raise to €55.12 (all-in)
+Hellllo222: Fold
+psicopato: Call €37.90
+*** FLOP *** [D9 H10 S4]
+*** TURN *** [HK]
+*** RIVER *** [H9]
+*** SUMMARY ***
+Total pot €104.25 Rake €2.00
+psicopato: Shows [DA HA] Two Pair
+AnyChange22: Shows [CK SK] Full House
+AnyChange22: wins €102.25
+
+GAME #2304710185 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 00:03:54/GMT
+Table Size 5
+Table €50 NL, 2304710185
+Seat 1: psicopato (€75.75 in chips)
+Seat 3: feehugswyl (€55.15 in chips)
+Seat 4: AnyChange22 (€52.79 in chips)   DEALER
+Seat 5: jajai (€102.33 in chips)
+Seat 6: IanFR (€74.57 in chips)
+jajai: Post SB €0.25
+IanFR: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to IanFR [HA DA]
+psicopato: Fold
+feehugswyl: Fold
+AnyChange22: Raise to €1.25
+jajai: Fold
+IanFR: Raise to €3.45
+AnyChange22: Raise to €9.50
+IanFR: Raise to €74.57 (all-in)
+AnyChange22: Call €43.29
+*** FLOP *** [DK H8 SQ]
+*** TURN *** [S9]
+*** RIVER *** [S3]
+*** SUMMARY ***
+Total pot €105.83 Rake €2.00
+AnyChange22: Shows [SK HK] Three of a Kind
+IanFR: Shows [HA DA] One Pair
+AnyChange22: wins €103.83
+
+GAME #2304682759 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-22 22:18:58/GMT
+Table Size 5
+Table €50 NL, 2304682759
+Seat 1: longhorn (€51.58 in chips)
+Seat 3: AnyChange22 (€152.48 in chips)
+Seat 4: psicopato (€55.19 in chips)
+Seat 5: magista1 (€70.32 in chips)
+Seat 6: NwTH4ever (€46.88 in chips)   DEALER
+longhorn: Post SB €0.25
+AnyChange22: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to longhorn [CJ HJ]
+psicopato: Fold
+magista1: Fold
+NwTH4ever: Call €0.50
+longhorn: Raise to €2.75
+AnyChange22: Raise to €7.75
+NwTH4ever: Fold
+longhorn: Raise to €51.58 (all-in)
+AnyChange22: Call €43.83
+*** FLOP *** [C10 SQ S8]
+*** TURN *** [HA]
+*** RIVER *** [S2]
+*** SUMMARY ***
+Total pot €103.66 Rake €2.00
+longhorn: Shows [CJ HJ] One Pair
+AnyChange22: Shows [DK SK] One Pair
+AnyChange22: wins €101.66
+
+GAME #2304835000 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-23 14:03:54/GMT
+Table Size 5
+Table €50 NL, 2304835000
+Seat 1: magista1 (€158.61 in chips)   DEALER
+Seat 2: zorro11 (€53.75 in chips)
+Seat 3: Hera981 (€50.00 in chips)
+Seat 4: Skruttet21 (€88.24 in chips)
+Seat 5: GiveMeASmile (€50.00 in chips)
+Hera981: Post SB €0.25
+Skruttet21: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CA HA]
+GiveMeASmile: Raise to €1.50
+magista1: Call €1.50
+Hera981: Fold
+Skruttet21: Raise to €7.75
+GiveMeASmile: Call €6.25
+magista1: Fold
+*** FLOP *** [D9 HJ H8]
+Skruttet21: Check
+GiveMeASmile: Check
+*** TURN *** [SA]
+Skruttet21: Check
+GiveMeASmile: Bet €6.62
+Skruttet21: Call €6.62
+*** RIVER *** [D4]
+Skruttet21: Check
+GiveMeASmile: Bet €7.62
+Skruttet21: Raise to €73.01
+GiveMeASmile: Call €28.01
+*** SUMMARY ***
+Total pot €101.75 Rake €2.00
+Skruttet21: Shows [CA HA] Three of a Kind
+GiveMeASmile: Shows [S10 DA] One Pair
+Skruttet21: wins €99.75
+
+GAME #2304699089 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-22 23:08:50/GMT
+Table Size 5
+Table €100 NL, 2304699089
+Seat 2: Mozart440 (€121.00 in chips)
+Seat 3: h00t (€102.17 in chips)
+Seat 4: Here2Gamble (€197.29 in chips)   DEALER
+Seat 5: MevsUall (€98.52 in chips)
+Seat 6: AnyChange22 (€103.70 in chips)
+MevsUall: Post SB €0.50
+AnyChange22: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [H2 HA]
+Mozart440: Fold
+h00t: Fold
+Here2Gamble: Raise to €2.50
+MevsUall: Fold
+AnyChange22: Call €1.50
+*** FLOP *** [C2 C7 S4]
+AnyChange22: Check
+Here2Gamble: Bet €2.75
+AnyChange22: Call €2.75
+*** TURN *** [D2]
+AnyChange22: Check
+Here2Gamble: Bet €15.50
+AnyChange22: Call €15.50
+*** RIVER *** [S6]
+AnyChange22: Check
+Here2Gamble: Bet €31.50
+AnyChange22: Call €31.50
+*** SUMMARY ***
+Total pot €105.00 Rake €3.00
+Here2Gamble: Shows [D8 D9] One Pair
+AnyChange22: Shows [H2 HA] Three of a Kind
+AnyChange22: wins €102.00
+
+GAME #2304695818 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-09-22 22:57:33/GMT
+Table Size 6
+Table €50 NL, 2304695818
+Seat 1: longhorn (€50.00 in chips)
+Seat 2: ROROROYALE (€60.70 in chips)
+Seat 3: AnyChange22 (€183.88 in chips)   DEALER
+Seat 4: psicopato (€118.58 in chips)
+Seat 5: magista1 (€65.53 in chips)
+Seat 6: NwTH4ever (€44.37 in chips)
+psicopato: Post SB €0.25
+magista1: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to longhorn [DK SA]
+NwTH4ever: Call €0.50
+longhorn: Raise to €2.00
+ROROROYALE: Fold
+AnyChange22: Raise to €6.25
+psicopato: Fold
+magista1: Fold
+NwTH4ever: Fold
+longhorn: Raise to €50.00 (all-in)
+AnyChange22: Call €43.75
+*** FLOP *** [SJ H9 D7]
+*** TURN *** [H2]
+*** RIVER *** [C2]
+*** SUMMARY ***
+Total pot €101.25 Rake €2.00
+longhorn: Shows [DK SA] One Pair
+AnyChange22: Shows [CQ DQ] Two Pair
+AnyChange22: wins €99.25
+
+GAME #2304715890 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 00:43:21/GMT
+Table Size 5
+Table €100 NL, 2304715890
+Seat 1: Foka_korv (€100.00 in chips)
+Seat 2: TimWang (€138.24 in chips)   DEALER
+Seat 3: Meaaan (€93.50 in chips)
+Seat 4: PatsyCline (€180.35 in chips)
+Seat 5: AnyChange22 (€123.33 in chips)
+Meaaan: Post SB €0.50
+PatsyCline: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [DK HQ]
+AnyChange22: Raise to €2.00
+Foka_korv: Raise to €4.75
+TimWang: Fold
+Meaaan: Fold
+PatsyCline: Fold
+AnyChange22: Call €2.75
+*** FLOP *** [D6 S5 D4]
+AnyChange22: Check
+Foka_korv: Bet €3.95
+AnyChange22: Call €3.95
+*** TURN *** [CQ]
+AnyChange22: Check
+Foka_korv: Bet €11.78
+AnyChange22: Call €11.78
+*** RIVER *** [C10]
+AnyChange22: Check
+Foka_korv: Bet €28.76
+AnyChange22: Call €28.76
+*** SUMMARY ***
+Total pot €99.98 Rake €3.00
+Foka_korv: Shows [HJ DQ] One Pair
+AnyChange22: Shows [DK HQ] One Pair
+AnyChange22: wins €96.98
+
+GAME #2304860099 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 15:14:36/GMT
+Table Size 5
+Table €100 NL, 2304860099
+Seat 1: Here2Gamble (€101.00 in chips)
+Seat 2: elifonok (€83.06 in chips)
+Seat 4: Ticu889 (€48.50 in chips)
+Seat 5: psicopato (€117.23 in chips)
+Seat 6: Skruttet21 (€104.61 in chips)   DEALER
+Here2Gamble: Post SB €0.50
+elifonok: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [DQ SQ]
+Ticu889: Raise to €3.00
+psicopato: Fold
+Skruttet21: Raise to €8.48
+Here2Gamble: Fold
+elifonok: Fold
+Ticu889: Raise to €21.25
+Skruttet21: Raise to €34.02
+Ticu889: Call €12.77
+*** FLOP *** [S6 S9 H8]
+Ticu889: Check
+Skruttet21: Bet €70.59
+Ticu889: Call €14.48
+*** TURN *** [C8]
+*** RIVER *** [SJ]
+*** SUMMARY ***
+Total pot €98.50 Rake €3.00
+Ticu889: Shows [D10 DA] One Pair
+Skruttet21: Shows [DQ SQ] Two Pair
+Skruttet21: wins €95.50
+
+GAME #2304860897 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 15:16:53/GMT
+Table Size 6
+Table €100 NL, 2304860897
+Seat 1: Skruttet21 (€103.00 in chips)
+Seat 2: Here2Gamble (€125.39 in chips)
+Seat 3: Hera981 (€102.45 in chips)
+Seat 4: EjBunkarStiu (€109.97 in chips)   DEALER
+Seat 5: psicopato (€117.20 in chips)
+Seat 6: nutshot9 (€217.77 in chips)
+psicopato: Post SB €0.50
+nutshot9: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Skruttet21 [CK CQ]
+Skruttet21: Raise to €2.00
+Here2Gamble: Fold
+Hera981: Fold
+EjBunkarStiu: Fold
+psicopato: Raise to €10.00
+nutshot9: Fold
+Skruttet21: Call €8.00
+*** FLOP *** [C9 H3 D6]
+psicopato: Bet €10.08
+Skruttet21: Call €10.08
+*** TURN *** [SK]
+psicopato: Bet €11.11
+Skruttet21: Call €11.11
+*** RIVER *** [D5]
+psicopato: Bet €17.11
+Skruttet21: Call €17.11
+*** SUMMARY ***
+Total pot €97.60 Rake €3.00
+Skruttet21: Shows [CK CQ] One Pair
+psicopato: Shows [DK DJ] One Pair
+Skruttet21: wins €94.60
+
+GAME #2304715556 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-23 00:40:55/GMT
+Table Size 4
+Table €100 NL, 2304715556
+Seat 1: AnyChange22 (€342.88 in chips)
+Seat 2: PatsyCline (€234.48 in chips)   DEALER
+Seat 4: Foka_korv (€105.29 in chips)
+Seat 5: bwahahahaha (€100.00 in chips)
+Foka_korv: Post SB €0.50
+bwahahahaha: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to AnyChange22 [SA HQ]
+AnyChange22: Raise to €2.30
+PatsyCline: Fold
+Foka_korv: Fold
+bwahahahaha: Raise to €10.50
+AnyChange22: Call €8.20
+*** FLOP *** [CK C10 S7]
+bwahahahaha: Bet €13.50
+AnyChange22: Call €13.50
+*** TURN *** [S2]
+bwahahahaha: Check
+AnyChange22: Bet €24.25
+bwahahahaha: Call €24.25
+*** RIVER *** [S8]
+bwahahahaha: Check
+AnyChange22: Bet €138.71
+bwahahahaha: Fold
+*** SUMMARY ***
+Total pot €97.00 Rake €3.00
+AnyChange22: wins €94.00
+

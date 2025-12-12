@@ -1,0 +1,218 @@
+GAME #2313342866 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-15 13:46:10/GMT
+Table Size 6
+Table €100 NL, 2313342866
+Seat 1: ResuOriented (€100.00 in chips)   DEALER
+Seat 2: Wiegraf (€102.23 in chips)
+Seat 3: tritonicc (€100.00 in chips)
+Seat 4: Jullys11 (€103.00 in chips)
+Seat 5: deezynutsy (€150.87 in chips)
+Seat 6: dinasourbro2 (€328.44 in chips)
+Wiegraf: Post SB €0.50
+tritonicc: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [C8 D8]
+Jullys11: Raise to €2.00
+deezynutsy: Fold
+dinasourbro2: Fold
+ResuOriented: Fold
+Wiegraf: Fold
+tritonicc: Call €1.00
+*** FLOP *** [D3 CJ S8]
+tritonicc: Check
+Jullys11: Bet €2.25
+tritonicc: Call €2.25
+*** TURN *** [HQ]
+tritonicc: Check
+Jullys11: Bet €6.57
+tritonicc: Raise to €23.40
+Jullys11: Call €16.83
+*** RIVER *** [H3]
+tritonicc: Check
+Jullys11: Bet €75.35
+tritonicc: Call €72.35
+*** SUMMARY ***
+Total pot €200.50 Rake €3.00
+tritonicc: Shows [D9 H9] Two Pair
+Jullys11: Shows [C8 D8] Full House
+Jullys11: wins €197.50
+
+GAME #2313393626 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-15 16:14:07/GMT
+Table Size 6
+Table €100 NL, 2313393626
+Seat 1: Freestaylerr (€100.00 in chips)
+Seat 2: Anyma (€101.50 in chips)
+Seat 3: BabyShark23 (€109.47 in chips)
+Seat 4: Jullys11 (€100.00 in chips)
+Seat 5: Heisenberg34 (€91.08 in chips)   DEALER
+Seat 6: DonGar (€98.67 in chips)
+DonGar: Post SB €0.50
+Freestaylerr: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [S5 H5]
+Anyma: Fold
+BabyShark23: Fold
+Jullys11: Raise to €2.30
+Heisenberg34: Fold
+DonGar: Fold
+Freestaylerr: Raise to €10.50
+Jullys11: Call €8.20
+*** FLOP *** [DQ D7 C7]
+Freestaylerr: Bet €6.67
+Jullys11: Call €6.67
+*** TURN *** [D10]
+Freestaylerr: Check
+Jullys11: Bet €14.50
+Freestaylerr: Call €14.50
+*** RIVER *** [C8]
+Freestaylerr: Check
+Jullys11: Bet €68.33
+Freestaylerr: Call €68.33
+*** SUMMARY ***
+Total pot €200.50 Rake €3.00
+Freestaylerr: Shows [SJ DJ] Two Pair
+Jullys11: Shows [S5 H5] Two Pair
+Freestaylerr: wins €197.50
+
+GAME #2313396575 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-15 16:21:54/GMT
+Table Size 6
+Table €100 NL, 2313396575
+Seat 1: WStokes (€175.79 in chips)   DEALER
+Seat 2: tesoses (€115.61 in chips)
+Seat 3: dagr8lockin (€130.91 in chips)
+Seat 4: Jullys11 (€102.30 in chips)
+Seat 5: BabyShark23 (€165.24 in chips)
+Seat 6: Blizzer (€49.38 in chips)
+tesoses: Post SB €0.50
+dagr8lockin: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [CA CK]
+Jullys11: Raise to €2.00
+BabyShark23: Fold
+Blizzer: Fold
+WStokes: Fold
+tesoses: Raise to €10.00
+dagr8lockin: Fold
+Jullys11: Call €8.00
+*** FLOP *** [HQ S5 C2]
+tesoses: Check
+Jullys11: Check
+*** TURN *** [D5]
+tesoses: Bet €21.00
+Jullys11: Call €21.00
+*** RIVER *** [S7]
+tesoses: Bet €84.61
+Jullys11: Call €71.30
+*** SUMMARY ***
+Total pot €205.60 Rake €3.00
+tesoses: Shows [HA SA] Two Pair
+Jullys11: Shows [CA CK] One Pair
+tesoses: wins €202.60
+
+GAME #2313415522 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-15 17:11:08/GMT
+Table Size 6
+Table €100 NL, 2313415522
+Seat 1: do_not (€341.49 in chips)
+Seat 2: Donate_me (€100.00 in chips)
+Seat 3: taggsy505 (€102.77 in chips)
+Seat 4: Jullys11 (€204.25 in chips)
+Seat 5: fifanerd14 (€105.50 in chips)   DEALER
+Seat 6: Justus8 (€66.85 in chips)
+do_not: Post SB €0.50
+Donate_me: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [D9 C9]
+taggsy505: Fold
+Jullys11: Raise to €2.30
+fifanerd14: Raise to €8.00
+do_not: Fold
+Donate_me: Fold
+Jullys11: Call €5.70
+*** FLOP *** [H3 H8 D4]
+Jullys11: Check
+fifanerd14: Bet €9.50
+Jullys11: Call €9.50
+*** TURN *** [D6]
+Jullys11: Check
+fifanerd14: Bet €26.00
+Jullys11: Raise to €152.55
+fifanerd14: Call €62.00
+*** RIVER *** [DQ]
+*** SUMMARY ***
+Total pot €212.50 Rake €3.00
+Jullys11: Shows [D9 C9] One Pair
+fifanerd14: Shows [D8 DJ] Flush
+fifanerd14: wins €209.50
+
+GAME #2313429439 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-15 17:40:24/GMT
+Table Size 5
+Table €100 NL, 2313429439
+Seat 1: WStokes (€270.47 in chips)
+Seat 2: dracfl0w (€166.53 in chips)
+Seat 3: sinnevaan (€119.07 in chips)
+Seat 4: Jullys11 (€123.05 in chips)
+Seat 6: 40sixdave (€100.00 in chips)   DEALER
+WStokes: Post SB €0.50
+dracfl0w: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [HA DK]
+sinnevaan: Raise to €2.50
+Jullys11: Raise to €7.50
+40sixdave: Fold
+WStokes: Fold
+dracfl0w: Fold
+sinnevaan: Call €5.00
+*** FLOP *** [SA D3 C9]
+sinnevaan: Check
+Jullys11: Bet €5.56
+sinnevaan: Call €5.56
+*** TURN *** [D5]
+sinnevaan: Check
+Jullys11: Bet €21.24
+sinnevaan: Call €21.24
+*** RIVER *** [C7]
+sinnevaan: Check
+Jullys11: Bet €88.75
+sinnevaan: Call €84.77
+*** SUMMARY ***
+Total pot €239.64 Rake €3.00
+sinnevaan: Shows [S9 H9] Three of a Kind
+Jullys11: Shows [HA DK] One Pair
+sinnevaan: wins €236.64
+
+GAME #2313433529 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-10-15 17:48:47/GMT
+Table Size 6
+Table €100 NL, 2313433529
+Seat 1: MarryWhiz (€99.00 in chips)
+Seat 2: 40sixdave (€239.42 in chips)
+Seat 3: Lynnemcdo (€28.25 in chips)
+Seat 4: Freestaylerr (€211.90 in chips)
+Seat 5: Jullys11 (€245.02 in chips)   DEALER
+Seat 6: wakuwaku (€100.00 in chips)
+MarryWhiz: Post SB €0.50
+40sixdave: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [H10 S9]
+Lynnemcdo: Fold
+Freestaylerr: Fold
+Jullys11: Raise to €2.50
+MarryWhiz: Fold
+40sixdave: Call €1.50
+*** FLOP *** [S10 H3 HQ]
+40sixdave: Check
+Jullys11: Bet €1.49
+40sixdave: Raise to €7.00
+Jullys11: Raise to €24.49
+40sixdave: Call €17.49
+*** TURN *** [CJ]
+40sixdave: Check
+Jullys11: Bet €39.77
+40sixdave: Call €39.77
+*** RIVER *** [SA]
+40sixdave: Check
+Jullys11: Check
+*** SUMMARY ***
+Total pot €134.02 Rake €3.00
+40sixdave: Shows [DA C10] Two Pair
+Jullys11: Shows [H10 S9] One Pair
+40sixdave: wins €131.02
+

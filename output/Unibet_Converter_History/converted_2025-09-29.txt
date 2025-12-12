@@ -1,0 +1,34 @@
+GAME #2307269163 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-09-29 21:39:14/GMT
+Table Size 6
+Table €100 NL, 2307269163
+Seat 1: cleverlelele (€110.58 in chips)   DEALER
+Seat 2: Jullys11 (€103.88 in chips)
+Seat 3: blurrrrr4 (€106.36 in chips)
+Seat 4: offside (€104.00 in chips)
+Seat 5: JohnnyG (€0.00 in chips)
+Seat 6: Jugaad (€193.22 in chips)
+Jullys11: Post SB €0.50
+blurrrrr4: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [CK SA]
+offside: Fold
+Jugaad: Raise to €2.50
+cleverlelele: Raise to €7.50
+Jullys11: Raise to €20.00
+blurrrrr4: Fold
+Jugaad: Fold
+cleverlelele: Call €12.50
+*** FLOP *** [S4 HJ C2]
+Jullys11: Bet €10.50
+cleverlelele: Call €10.50
+*** TURN *** [H4]
+Jullys11: Check
+cleverlelele: Check
+*** RIVER *** [D10]
+Jullys11: Check
+cleverlelele: Bet €80.08
+Jullys11: Fold
+*** SUMMARY ***
+Total pot €64.50 Rake €3.00
+cleverlelele: wins €61.50
+
