@@ -1,0 +1,72 @@
+GAME #2341321203 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-12-29 00:21:32/GMT
+Table Size 4
+Table €50 NL, 2341321203
+Seat 1: ICALLURBLUFX (€29.68 in chips)
+Seat 4: CanSom1Bluff (€50.00 in chips)
+Seat 5: Mortician (€50.00 in chips)
+Seat 6: TheSpetsnaz (€77.28 in chips)  DEALER
+ICALLURBLUFX: Post SB €0.25
+CanSom1Bluff: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to CanSom1Bluff [CK C3]
+Mortician: Fold
+TheSpetsnaz: Raise to €1.00
+ICALLURBLUFX: Fold
+CanSom1Bluff: Call €0.50
+*** FLOP *** [C2 D7 C8]
+CanSom1Bluff: Check
+TheSpetsnaz: Bet €1.13
+CanSom1Bluff: Raise to €4.25
+TheSpetsnaz: Call €3.12
+*** TURN *** [C6]
+CanSom1Bluff: Check
+TheSpetsnaz: Bet €5.38
+CanSom1Bluff: Call €5.38
+*** RIVER *** [HA]
+CanSom1Bluff: Check
+TheSpetsnaz: Bet €10.76
+CanSom1Bluff: Raise to €39.37 (all-in)
+TheSpetsnaz: Call €28.61
+*** SHOWDOWN ***
+CanSom1Bluff: Shows [CK C3] Flush
+TheSpetsnaz: Shows [CQ C10] Flush
+*** SUMMARY ***
+Total pot €100.25 Rake €2.00
+CanSom1Bluff: wins €98.25
+
+GAME #2341319593 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-12-29 00:15:51/GMT
+Table Size 6
+Table €100 NL, 2341319593
+Seat 1: WichOrchestr (€192.37 in chips)
+Seat 2: Nua225 (€100.00 in chips)  DEALER
+Seat 3: stewieG4 (€105.57 in chips)
+Seat 4: CanSom1Bluff (€198.95 in chips)
+Seat 5: s98al2 (€139.13 in chips)
+Seat 6: ____11_____ (€99.50 in chips)
+stewieG4: Post SB €0.50
+CanSom1Bluff: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to CanSom1Bluff [S10 SA]
+s98al2: Fold
+____11_____: Fold
+WichOrchestr: Fold
+Nua225: Raise to €2.40
+stewieG4: Fold
+CanSom1Bluff: Raise to €13.00
+Nua225: Raise to €27.40
+CanSom1Bluff: Call €14.40
+*** FLOP *** [S2 S9 C9]
+CanSom1Bluff: Check
+Nua225: Bet €15.50
+CanSom1Bluff: Raise to €138.05
+Nua225: Call €57.10
+Uncalled bet (€65.45) returned to CanSom1Bluff
+*** TURN *** [CA]
+*** RIVER *** [D2]
+*** SHOWDOWN ***
+Nua225: Shows [DA SK] Two Pair
+CanSom1Bluff: Shows [S10 SA] Two Pair
+*** SUMMARY ***
+Total pot €200.50 Rake €3.00
+Nua225: wins €197.50
+

@@ -1,0 +1,107 @@
+GAME #2341259138 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-12-28 21:53:35/GMT
+Table Size 5
+Table €50 NL, 2341259138
+Seat 1: CanSom1Bluff (€75.97 in chips)
+Seat 3: manydromond (€150.84 in chips)
+Seat 4: lartegha (€57.92 in chips)  DEALER
+Seat 5: sesamstraat (€33.61 in chips)
+Seat 6: isildur0077 (€50.00 in chips)
+sesamstraat: Post SB €0.25
+isildur0077: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to CanSom1Bluff [CJ DJ]
+CanSom1Bluff: Raise to €1.00
+manydromond: Raise to €3.50
+lartegha: Call €3.50
+sesamstraat: Raise to €33.61 (all-in)
+isildur0077: Fold
+CanSom1Bluff: Raise to €75.97 (all-in)
+manydromond: Fold
+lartegha: Fold
+Uncalled bet (€42.36) returned to CanSom1Bluff
+*** FLOP *** [S7 C8 CK]
+*** TURN *** [C7]
+*** RIVER *** [D4]
+*** SHOWDOWN ***
+CanSom1Bluff: Shows [CJ DJ] Two Pair
+sesamstraat: Shows [HK DK] Full House
+*** SUMMARY ***
+Total pot €74.72 Rake €2.00
+sesamstraat: wins €72.72
+
+GAME #2340897225 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-12-27 23:42:31/GMT
+Table Size 6
+Table €100 NL, 2340897225
+Seat 1: RiggedBet (€196.00 in chips)
+Seat 2: Blankriver (€65.39 in chips)  DEALER
+Seat 3: Max1milian (€203.77 in chips)
+Seat 4: HilfeDICH (€177.42 in chips)
+Seat 5: stopandgo (€109.98 in chips)
+Seat 6: ICALLURBLUFX (€111.21 in chips)
+Max1milian: Post SB €0.50
+HilfeDICH: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [D6 DQ]
+stopandgo: Fold
+ICALLURBLUFX: Raise to €3.00
+RiggedBet: Fold
+Blankriver: Fold
+Max1milian: Fold
+HilfeDICH: Call €2.00
+*** FLOP *** [S7 H4 D8]
+HilfeDICH: Check
+ICALLURBLUFX: Bet €3.25
+HilfeDICH: Raise to €10.50
+ICALLURBLUFX: Call €7.25
+*** TURN *** [H9]
+HilfeDICH: Bet €20.08
+ICALLURBLUFX: Call €20.08
+*** RIVER *** [CK]
+HilfeDICH: Bet €96.08
+ICALLURBLUFX: Call €77.63
+Uncalled bet (€18.45) returned to HilfeDICH
+*** SHOWDOWN ***
+HilfeDICH: Shows [D6 DQ] High Card
+ICALLURBLUFX: Shows [S10 D10] One Pair
+*** SUMMARY ***
+Total pot €222.92 Rake €3.00
+ICALLURBLUFX: wins €219.92
+
+GAME #2340897225 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2025-12-27 23:42:31/GMT
+Table Size 6
+Table €100 NL, 2340897225
+Seat 1: RiggedBet (€196.00 in chips)
+Seat 2: Blankriver (€65.39 in chips)  DEALER
+Seat 3: Max1milian (€203.77 in chips)
+Seat 4: HilfeDICH (€177.42 in chips)
+Seat 5: stopandgo (€109.98 in chips)
+Seat 6: ICALLURBLUFX (€111.21 in chips)
+Max1milian: Post SB €0.50
+HilfeDICH: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [D6 DQ]
+stopandgo: Fold
+ICALLURBLUFX: Raise to €3.00
+RiggedBet: Fold
+Blankriver: Fold
+Max1milian: Fold
+HilfeDICH: Call €2.00
+*** FLOP *** [S7 H4 D8]
+HilfeDICH: Check
+ICALLURBLUFX: Bet €3.25
+HilfeDICH: Raise to €10.50
+ICALLURBLUFX: Call €7.25
+*** TURN *** [H9]
+HilfeDICH: Bet €20.08
+ICALLURBLUFX: Call €20.08
+*** RIVER *** [CK]
+HilfeDICH: Bet €96.08
+ICALLURBLUFX: Call €77.63
+Uncalled bet (€18.45) returned to HilfeDICH
+*** SHOWDOWN ***
+HilfeDICH: Shows [D6 DQ] High Card
+ICALLURBLUFX: Shows [S10 D10] One Pair
+*** SUMMARY ***
+Total pot €222.92 Rake €3.00
+ICALLURBLUFX: wins €219.92
+
