@@ -1,0 +1,38 @@
+GAME #2341849184 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2025-12-30 13:07:51/GMT
+Table Size 6
+Table €50 NL, 2341849184
+Seat 1: CanSom1Bluff (€50.00 in chips)
+Seat 2: Freestyller (€69.76 in chips)  DEALER
+Seat 3: FruitSlize69 (€53.22 in chips)
+Seat 4: TheSpetsnaz (€50.64 in chips)
+Seat 5: Kaboinks (€50.00 in chips)
+Seat 6: AMG (€25.00 in chips)
+FruitSlize69: Post SB €0.25
+TheSpetsnaz: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to CanSom1Bluff [SQ CQ]
+Kaboinks: Fold
+CanSom1Bluff: Raise to €1.15
+Freestyller: Raise to €4.00
+FruitSlize69: Fold
+TheSpetsnaz: Fold
+CanSom1Bluff: Raise to €10.65
+Freestyller: Call €6.65
+*** FLOP *** [DK D2 S8]
+CanSom1Bluff: Bet €5.00
+Freestyller: Call €5.00
+*** TURN *** [C3]
+CanSom1Bluff: Check
+Freestyller: Check
+*** RIVER *** [H8]
+CanSom1Bluff: Check
+Freestyller: Bet €45.51
+CanSom1Bluff: Call €34.35
+Uncalled bet (€11.16) returned to Freestyller
+*** SHOWDOWN ***
+CanSom1Bluff: Shows [SQ CQ] Two Pair
+Freestyller: Shows [DQ DJ] One Pair
+*** SUMMARY ***
+Total pot €100.75 Rake €2.00
+CanSom1Bluff: wins €98.75
+
