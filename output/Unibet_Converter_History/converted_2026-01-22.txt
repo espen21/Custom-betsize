@@ -1,0 +1,63 @@
+GAME #2351348844 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-22 17:27:08/GMT
+Table Size 2
+Table €100 NL, 2351348844
+Seat 1: AlasPaVolar (€100.00 in chips)
+Seat 2: Lailo (€108.80 in chips)  DEALER
+Lailo: Post SB €0.50
+AlasPaVolar: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Lailo [HQ HJ]
+Lailo: Raise to €2.50
+AlasPaVolar: Raise to €10.50
+Lailo: Call €8.00
+*** FLOP *** [DJ H10 S4]
+AlasPaVolar: Bet €8.40
+Lailo: Call €8.40
+*** TURN *** [H2]
+AlasPaVolar: Bet €81.10
+Lailo: Call €81.10
+*** RIVER *** [S9]
+*** SHOWDOWN ***
+AlasPaVolar: Shows [CQ DQ] One Pair
+Lailo: Shows [HQ HJ] One Pair
+*** SUMMARY ***
+Total pot €200.00 Rake €1.50
+AlasPaVolar: wins €198.50
+
+GAME #2351391154 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-22 19:08:31/GMT
+Table Size 6
+Table €100 NL, 2351391154
+Seat 1: Lailo (€191.69 in chips)
+Seat 2: loc0_ (€134.79 in chips)  DEALER
+Seat 3: dd8675 (€100.00 in chips)
+Seat 4: NuMaiFurati (€109.00 in chips)
+Seat 5: PLA (€105.39 in chips)
+Seat 6: Mootje0162 (€114.42 in chips)
+dd8675: Post SB €0.50
+NuMaiFurati: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Lailo [SK DK]
+PLA: Fold
+Mootje0162: Raise to €3.00
+Lailo: Raise to €9.50
+loc0_: Fold
+dd8675: Fold
+NuMaiFurati: Fold
+Mootje0162: Call €6.50
+*** FLOP *** [C7 H5 H7]
+Mootje0162: Check
+Lailo: Bet €10.25
+Mootje0162: Call €10.25
+*** TURN *** [S6]
+Mootje0162: Check
+Lailo: Bet €28.50
+Mootje0162: Raise to €94.67 (all-in)
+Lailo: Call €66.17
+*** RIVER *** [C5]
+*** SHOWDOWN ***
+Lailo: Shows [SK DK] Two Pair
+Mootje0162: Shows [HA D7] Full House
+*** SUMMARY ***
+Total pot €230.34 Rake €3.00
+Mootje0162: wins €227.34
+

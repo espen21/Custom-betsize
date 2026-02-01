@@ -1,0 +1,71 @@
+GAME #2347419661 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-12 18:51:01/GMT
+Table Size 4
+Table €100 NL, 2347419661
+Seat 1: iamninja (€222.19 in chips)
+Seat 2: RunlikeFish (€102.50 in chips)
+Seat 4: BetterME (€158.48 in chips)  DEALER
+Seat 5: Wolfy66 (€100.42 in chips)
+Wolfy66: Post SB €0.50
+iamninja: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to RunlikeFish [S6 C6]
+RunlikeFish: Raise to €2.30
+BetterME: Raise to €7.06
+Wolfy66: Fold
+iamninja: Fold
+RunlikeFish: Call €4.76
+*** FLOP *** [S9 SJ SA]
+RunlikeFish: Check
+BetterME: Bet €5.15
+RunlikeFish: Raise to €14.50
+BetterME: Call €9.35
+*** TURN *** [C2]
+RunlikeFish: Bet €22.31
+BetterME: Call €22.31
+*** RIVER *** [HJ]
+RunlikeFish: Bet €58.63
+BetterME: Call €58.63
+*** SHOWDOWN ***
+RunlikeFish: Shows [S6 C6] Two Pair
+BetterME: Shows [H9 C9] Full House
+*** SUMMARY ***
+Total pot €206.50 Rake €3.00
+BetterME: wins €203.50
+
+GAME #2347488227 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-12 20:47:23/GMT
+Table Size 6
+Table €100 NL, 2347488227
+Seat 1: binebalaaaa (€129.01 in chips)
+Seat 2: ayahuascAA_ (€102.14 in chips)
+Seat 3: RunlikeFish (€119.17 in chips)
+Seat 4: HeH3He (€390.54 in chips)  DEALER
+Seat 5: lmPolice (€100.50 in chips)
+Seat 6: Mr_concrete (€282.75 in chips)
+lmPolice: Post SB €0.50
+binebalaaaa: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to RunlikeFish [D5 DA]
+ayahuascAA_: Fold
+RunlikeFish: Raise to €2.30
+HeH3He: Raise to €7.06
+lmPolice: Fold
+binebalaaaa: Fold
+RunlikeFish: Call €4.76
+*** FLOP *** [HJ DJ D9]
+RunlikeFish: Check
+HeH3He: Bet €5.15
+RunlikeFish: Raise to €17.50
+HeH3He: Call €12.35
+*** TURN *** [C9]
+RunlikeFish: Bet €15.50
+HeH3He: Call €15.50
+*** RIVER *** [D8]
+RunlikeFish: Bet €79.11
+HeH3He: Call €79.11
+*** SHOWDOWN ***
+RunlikeFish: Shows [D5 DA] Flush
+HeH3He: Shows [CQ CJ] Full House
+*** SUMMARY ***
+Total pot €239.84 Rake €3.00
+HeH3He: wins €236.84
+

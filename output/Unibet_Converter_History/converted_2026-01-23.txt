@@ -1,0 +1,37 @@
+GAME #2351692531 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-23 15:15:27/GMT
+Table Size 6
+Table €100 NL, 2351692531
+Seat 1: Colest3rol (€100.00 in chips)
+Seat 2: srslyy (€134.29 in chips)  DEALER
+Seat 3: MalcolmInDaH (€108.00 in chips)
+Seat 4: JullyEggy (€179.15 in chips)
+Seat 5: 5623357 (€158.18 in chips)
+Seat 6: leftsideye (€101.50 in chips)
+MalcolmInDaH: Post SB €0.50
+JullyEggy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [SQ HQ]
+5623357: Raise to €2.00
+leftsideye: Fold
+srslyy: Fold
+MalcolmInDaH: Fold
+JullyEggy: Raise to €10.00
+5623357: Raise to €23.50
+JullyEggy: Call €13.50
+*** FLOP *** [H2 S4 S8]
+JullyEggy: Check
+5623357: Bet €15.50
+JullyEggy: Call €15.50
+*** TURN *** [CJ]
+JullyEggy: Check
+5623357: Bet €39.50
+JullyEggy: Call €39.50
+*** RIVER *** [D3]
+JullyEggy: Check
+5623357: Bet €79.68
+JullyEggy: Fold
+Uncalled bet (€79.68) returned to 5623357
+*** SUMMARY ***
+Total pot €157.50 Rake €3.00
+5623357: wins €154.50
+

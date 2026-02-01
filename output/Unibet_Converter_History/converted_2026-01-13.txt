@@ -1,0 +1,149 @@
+GAME #2347564472 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-12 23:08:52/GMT
+Table Size 6
+Table €100 NL, 2347564472
+Seat 1: emakelder (€100.00 in chips)
+Seat 2: itsOVERbaby (€103.50 in chips)  DEALER
+Seat 3: Elvenbow (€133.68 in chips)
+Seat 4: n0pr0bl3m (€126.18 in chips)
+Seat 5: Wesjuh1991 (€117.32 in chips)
+Seat 6: RunlikeFish (€153.64 in chips)
+Elvenbow: Post SB €0.50
+n0pr0bl3m: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to n0pr0bl3m [DQ SA]
+Wesjuh1991: Raise to €2.43
+RunlikeFish: Raise to €7.50
+itsOVERbaby: Fold
+Elvenbow: Fold
+n0pr0bl3m: Raise to €20.95
+Wesjuh1991: Fold
+RunlikeFish: Call €13.45
+*** FLOP *** [H7 C3 D9]
+n0pr0bl3m: Bet €15.00
+RunlikeFish: Raise to €30.00
+n0pr0bl3m: Call €15.00
+*** TURN *** [H2]
+n0pr0bl3m: Check
+RunlikeFish: Check
+*** RIVER *** [H6]
+n0pr0bl3m: Bet €75.23
+RunlikeFish: Call €75.23
+*** SHOWDOWN ***
+n0pr0bl3m: Shows [DQ SA] High Card
+RunlikeFish: Shows [HK HQ] Flush
+*** SUMMARY ***
+Total pot €255.29 Rake €3.00
+RunlikeFish: wins €252.29
+
+GAME #2347839877 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-13 19:29:23/GMT
+Table Size 6
+Table €100 NL, 2347839877
+Seat 1: yandhi (€142.58 in chips)
+Seat 2: Kristeredbon (€62.42 in chips)
+Seat 3: EvertonFan (€105.17 in chips)
+Seat 4: Cyclist (€161.22 in chips)  DEALER
+Seat 5: riskfreebet (€144.48 in chips)
+Seat 6: -UpayIplay- (€198.22 in chips)
+riskfreebet: Post SB €0.50
+-UpayIplay-: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [CA HK]
+yandhi: Raise to €2.00
+Kristeredbon: Call €2.00
+EvertonFan: Fold
+Cyclist: Raise to €8.50
+riskfreebet: Fold
+-UpayIplay-: Fold
+yandhi: Raise to €27.50
+Kristeredbon: Fold
+Cyclist: Call €19.00
+*** FLOP *** [DQ D10 DA]
+yandhi: Bet €5.50
+Cyclist: Call €5.50
+*** TURN *** [C6]
+yandhi: Bet €18.50
+Cyclist: Raise to €128.22 (all-in)
+yandhi: Call €91.08
+Uncalled bet (€18.64) returned to Cyclist
+*** RIVER *** [S2]
+*** SHOWDOWN ***
+yandhi: Shows [DJ DK] Flush
+Cyclist: Shows [CA HK] One Pair
+*** SUMMARY ***
+Total pot €288.66 Rake €3.00
+yandhi: wins €285.66
+
+GAME #2347854324 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-13 19:52:24/GMT
+Table Size 6
+Table €100 NL, 2347854324
+Seat 1: UrDailyFuqer (€181.42 in chips)
+Seat 2: hayaaa (€114.72 in chips)
+Seat 3: SamLee007 (€69.40 in chips)  DEALER
+Seat 4: Cyclist (€138.96 in chips)
+Seat 5: PirateK1ng (€265.87 in chips)
+Seat 6: 3b4lls (€100.00 in chips)
+Cyclist: Post SB €0.50
+PirateK1ng: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [CK SA]
+3b4lls: Fold
+UrDailyFuqer: Raise to €2.50
+hayaaa: Fold
+SamLee007: Fold
+Cyclist: Raise to €12.00
+PirateK1ng: Fold
+UrDailyFuqer: Call €9.50
+*** FLOP *** [DA SQ SJ]
+Cyclist: Check
+UrDailyFuqer: Bet €7.75
+Cyclist: Call €7.75
+*** TURN *** [C9]
+Cyclist: Check
+UrDailyFuqer: Bet €28.50
+Cyclist: Call €28.50
+*** RIVER *** [S6]
+Cyclist: Bet €90.71
+UrDailyFuqer: Fold
+Uncalled bet (€90.71) returned to Cyclist
+*** SUMMARY ***
+Total pot €97.50 Rake €3.00
+Cyclist: wins €94.50
+
+GAME #2347833212 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-13 19:17:39/GMT
+Table Size 6
+Table €100 NL, 2347833212
+Seat 1: Cyclist (€102.00 in chips)
+Seat 2: EvertonFan (€129.13 in chips)
+Seat 3: binebalaaaa (€109.80 in chips)  DEALER
+Seat 4: sauna11 (€121.09 in chips)
+Seat 5: MaxBatang (€127.81 in chips)
+Seat 6: charmyy (€100.00 in chips)
+sauna11: Post SB €0.50
+MaxBatang: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [HA HJ]
+charmyy: Raise to €2.50
+Cyclist: Raise to €7.50
+EvertonFan: Fold
+binebalaaaa: Fold
+sauna11: Fold
+MaxBatang: Fold
+charmyy: Call €5.00
+*** FLOP *** [D2 HQ H7]
+charmyy: Check
+Cyclist: Bet €4.46
+charmyy: Raise to €15.00
+Cyclist: Call €10.54
+*** TURN *** [SK]
+charmyy: Check
+Cyclist: Check
+*** RIVER *** [CK]
+charmyy: Check
+Cyclist: Check
+*** SHOWDOWN ***
+Cyclist: Shows [HA HJ] One Pair
+charmyy: Shows [CJ DJ] Two Pair
+*** SUMMARY ***
+Total pot €46.50 Rake €2.79
+charmyy: wins €43.71
+

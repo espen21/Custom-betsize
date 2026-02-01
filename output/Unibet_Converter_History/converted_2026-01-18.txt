@@ -1,0 +1,61 @@
+GAME #2349673741 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €1.00/€2.00 2026-01-18 11:38:51/GMT
+Table Size 4
+Table €200 NL, 2349673741
+Seat 1: ColdSauna (€204.40 in chips)
+Seat 2: SognoItalo (€204.40 in chips)
+Seat 3: Cyclist (€200.00 in chips)
+Seat 4: iamninja (€200.00 in chips)  DEALER
+SognoItalo: Post SB €1.00
+Cyclist: Post BB €2.00
+*** HOLE CARDS ***
+Dealt to Cyclist [C7 CA]
+iamninja: Raise to €5.00
+SognoItalo: Fold
+Cyclist: Raise to €26.00
+iamninja: Call €21.00
+*** FLOP *** [SA H4 C10]
+Cyclist: Check
+iamninja: Check
+*** TURN *** [S5]
+Cyclist: Check
+iamninja: Bet €35.51
+Cyclist: Call €35.51
+*** RIVER *** [D8]
+Cyclist: Check
+iamninja: Bet €138.49
+Cyclist: Call €138.49
+*** SHOWDOWN ***
+Cyclist: Shows [C7 CA] One Pair
+iamninja: Shows [H5 C5] Three of a Kind
+*** SUMMARY ***
+Total pot €401.00 Rake €1.50
+iamninja: wins €399.50
+
+GAME #2349682354 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-18 12:17:19/GMT
+Table Size 2
+Table €100 NL, 2349682354
+Seat 1: cesasiam (€161.28 in chips)  DEALER
+Seat 2: Cyclist (€110.60 in chips)
+cesasiam: Post SB €0.50
+Cyclist: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [S8 H7]
+cesasiam: Raise to €2.20
+Cyclist: Raise to €10.00
+cesasiam: Call €7.80
+*** FLOP *** [HJ C5 D6]
+Cyclist: Bet €10.00
+cesasiam: Call €10.00
+*** TURN *** [C8]
+Cyclist: Check
+cesasiam: Bet €16.00
+Cyclist: Raise to €90.60 (all-in)
+cesasiam: Call €74.60
+*** RIVER *** [C6]
+*** SHOWDOWN ***
+cesasiam: Shows [H5 S5] Full House
+Cyclist: Shows [S8 H7] Two Pair
+*** SUMMARY ***
+Total pot €221.20 Rake €1.50
+cesasiam: wins €219.70
+

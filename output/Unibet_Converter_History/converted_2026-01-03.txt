@@ -1,0 +1,36 @@
+GAME #2343576720 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-03 17:54:47/GMT
+Table Size 5
+Table €100 NL, 2343576720
+Seat 1: ABCmongs (€106.02 in chips)
+Seat 2: Jullys11 (€100.00 in chips)  DEALER
+Seat 3: PiddeP (€82.55 in chips)
+Seat 4: 14235 (€115.23 in chips)
+Seat 5: LUCKER88 (€113.30 in chips)
+PiddeP: Post SB €0.50
+14235: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Jullys11 [D10 DK]
+LUCKER88: Fold
+ABCmongs: Raise to €2.20
+Jullys11: Raise to €7.50
+PiddeP: Fold
+14235: Fold
+ABCmongs: Raise to €20.00
+Jullys11: Call €12.50
+*** FLOP *** [D9 HA DA]
+ABCmongs: Bet €4.00
+Jullys11: Call €4.00
+*** TURN *** [C3]
+ABCmongs: Bet €9.00
+Jullys11: Call €9.00
+*** RIVER *** [H5]
+ABCmongs: Bet €12.50
+Jullys11: Raise to €67.00 (all-in)
+ABCmongs: Call €54.50
+*** SHOWDOWN ***
+ABCmongs: Shows [CJ SA] Three of a Kind
+Jullys11: Shows [D10 DK] One Pair
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+ABCmongs: wins €198.50
+

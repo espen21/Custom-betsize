@@ -1,0 +1,108 @@
+GAME #2348056871 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-14 11:13:23/GMT
+Table Size 6
+Table €100 NL, 2348056871
+Seat 1: whothefook (€101.14 in chips)
+Seat 2: hayaaa (€153.27 in chips)
+Seat 3: Cyclist (€104.48 in chips)
+Seat 4: Snoop (€81.25 in chips)
+Seat 5: streeeety (€102.71 in chips)
+Seat 6: nnnnnnnnny (€130.82 in chips)  DEALER
+whothefook: Post SB €0.50
+hayaaa: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [C10 H10]
+Cyclist: Raise to €2.00
+Snoop: Call €2.00
+streeeety: Fold
+nnnnnnnnny: Call €2.00
+whothefook: Fold
+hayaaa: Fold
+*** FLOP *** [C2 S5 H7]
+Cyclist: Check
+Snoop: Check
+nnnnnnnnny: Bet €2.50
+Cyclist: Call €2.50
+Snoop: Call €2.50
+*** TURN *** [DA]
+Cyclist: Check
+Snoop: Bet €2.50
+nnnnnnnnny: Fold
+Cyclist: Raise to €8.50
+Snoop: Call €6.00
+*** RIVER *** [HQ]
+Cyclist: Check
+Snoop: Bet €19.50
+Cyclist: Call €19.50
+*** SHOWDOWN ***
+Cyclist: Shows [C10 H10] One Pair
+Snoop: Shows [H6 S7] One Pair
+*** SUMMARY ***
+Total pot €71.00 Rake €3.00
+Cyclist: wins €68.00
+
+GAME #2348062022 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-14 11:33:33/GMT
+Table Size 6
+Table €100 NL, 2348062022
+Seat 1: whothefook (€107.54 in chips)
+Seat 2: hayaaa (€138.46 in chips)
+Seat 3: Cyclist (€124.56 in chips)
+Seat 4: Snoop (€31.56 in chips)
+Seat 5: streeeety (€100.00 in chips)  DEALER
+Seat 6: nnnnnnnnny (€182.53 in chips)
+nnnnnnnnny: Post SB €0.50
+whothefook: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [H10 D10]
+Cyclist: Raise to €2.00
+Snoop: Fold
+streeeety: Fold
+nnnnnnnnny: Fold
+whothefook: Raise to €9.50
+Cyclist: Call €7.50
+*** FLOP *** [D5 C8 D2]
+whothefook: Bet €14.50
+Cyclist: Call €14.50
+*** TURN *** [S4]
+whothefook: Check
+Cyclist: Check
+*** RIVER *** [S9]
+whothefook: Check
+Cyclist: Bet €24.25
+whothefook: Fold
+Uncalled bet (€24.25) returned to Cyclist
+*** SUMMARY ***
+Total pot €48.50 Rake €2.91
+Cyclist: wins €45.59
+
+GAME #2348103632 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-14 13:54:52/GMT
+Table Size 4
+Table €100 NL, 2348103632
+Seat 1: pamplemouss2 (€100.00 in chips)
+Seat 3: BigInEgypt (€107.14 in chips)
+Seat 5: Party4nimal (€141.09 in chips)
+Seat 6: Cyclist (€105.82 in chips)  DEALER
+BigInEgypt: Post SB €0.50
+Party4nimal: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [SK SQ]
+Cyclist: Raise to €2.50
+BigInEgypt: Raise to €11.00
+Party4nimal: Fold
+Cyclist: Call €8.50
+*** FLOP *** [S3 D7 DQ]
+BigInEgypt: Bet €5.50
+Cyclist: Call €5.50
+*** TURN *** [S7]
+BigInEgypt: Bet €23.50
+Cyclist: Call €23.50
+*** RIVER *** [H2]
+BigInEgypt: Bet €67.14
+Cyclist: Call €65.82
+Uncalled bet (€1.32) returned to BigInEgypt
+*** SHOWDOWN ***
+BigInEgypt: Shows [CQ DA] Two Pair
+Cyclist: Shows [SK SQ] Two Pair
+*** SUMMARY ***
+Total pot €212.64 Rake €1.50
+BigInEgypt: wins €211.14
+

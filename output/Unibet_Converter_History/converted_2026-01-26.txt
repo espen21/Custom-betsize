@@ -1,0 +1,108 @@
+GAME #2352949072 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-26 18:10:03/GMT
+Table Size 5
+Table €100 NL, 2352949072
+Seat 1: ReiseReise (€145.95 in chips)
+Seat 2: 212192021 (€113.36 in chips)  DEALER
+Seat 3: Snoeperke (€282.19 in chips)
+Seat 5: HilfeDICH (€120.62 in chips)
+Seat 6: verminsky (€114.03 in chips)
+Snoeperke: Post SB €0.50
+HilfeDICH: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [H7 H4]
+verminsky: Fold
+ReiseReise: Fold
+212192021: Raise to €2.50
+Snoeperke: Fold
+HilfeDICH: Call €1.50
+*** FLOP *** [S7 C4 S2]
+HilfeDICH: Check
+212192021: Bet €2.75
+HilfeDICH: Raise to €9.50
+212192021: Call €6.75
+*** TURN *** [C9]
+HilfeDICH: Bet €28.50
+212192021: Call €28.50
+*** RIVER *** [H9]
+HilfeDICH: Check
+212192021: Bet €72.86
+HilfeDICH: Call €72.86
+*** SHOWDOWN ***
+212192021: Shows [CA DA] Two Pair
+HilfeDICH: Shows [H7 H4] Two Pair
+*** SUMMARY ***
+Total pot €227.22 Rake €3.00
+212192021: wins €224.22
+
+GAME #2352964920 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-26 18:41:34/GMT
+Table Size 6
+Table €100 NL, 2352964920
+Seat 1: ReiseReise (€170.39 in chips)
+Seat 2: nyyrikki (€100.00 in chips)
+Seat 3: NewM3 (€166.77 in chips)
+Seat 4: Snoeperke (€103.26 in chips)  DEALER
+Seat 5: HilfeDICH (€102.64 in chips)
+Seat 6: 76549876007 (€100.00 in chips)
+HilfeDICH: Post SB €0.50
+76549876007: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [C8 H8]
+ReiseReise: Fold
+NewM3: Fold
+Snoeperke: Raise to €2.50
+HilfeDICH: Raise to €12.00
+76549876007: Fold
+Snoeperke: Call €9.50
+*** FLOP *** [SA S5 D6]
+HilfeDICH: Bet €7.25
+Snoeperke: Call €7.25
+*** TURN *** [S3]
+HilfeDICH: Check
+Snoeperke: Check
+*** RIVER *** [CK]
+HilfeDICH: Bet €19.75
+Snoeperke: Fold
+Uncalled bet (€19.75) returned to HilfeDICH
+*** SUMMARY ***
+Total pot €39.50 Rake €2.37
+HilfeDICH: wins €37.13
+
+GAME #2353111957 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-26 22:44:34/GMT
+Table Size 6
+Table €100 NL, 2353111957
+Seat 1: NewM3 (€107.50 in chips)  DEALER
+Seat 2: HilfeDICH (€175.04 in chips)
+Seat 3: Jolene (€200.52 in chips)
+Seat 4: kerzon (€107.00 in chips)
+Seat 5: Capoxxo (€114.93 in chips)
+Seat 6: Loylymies (€135.80 in chips)
+HilfeDICH: Post SB €0.50
+Jolene: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [H9 S9]
+kerzon: Fold
+Capoxxo: Fold
+Loylymies: Fold
+NewM3: Raise to €2.50
+HilfeDICH: Raise to €12.00
+Jolene: Fold
+NewM3: Call €9.50
+*** FLOP *** [CQ C8 D5]
+HilfeDICH: Check
+NewM3: Bet €6.25
+HilfeDICH: Call €6.25
+*** TURN *** [HQ]
+HilfeDICH: Check
+NewM3: Bet €20.00
+HilfeDICH: Call €20.00
+*** RIVER *** [S7]
+HilfeDICH: Check
+NewM3: Bet €69.25
+HilfeDICH: Call €69.25
+*** SHOWDOWN ***
+NewM3: Shows [D8 S8] Full House
+HilfeDICH: Shows [H9 S9] Two Pair
+*** SUMMARY ***
+Total pot €216.00 Rake €3.00
+NewM3: wins €213.00
+

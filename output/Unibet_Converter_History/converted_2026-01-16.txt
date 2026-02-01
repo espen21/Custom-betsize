@@ -1,0 +1,103 @@
+GAME #2348761724 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-15 23:59:33/GMT
+Table Size 6
+Table €100 NL, 2348761724
+Seat 1: allahuakba3 (€196.00 in chips)  DEALER
+Seat 2: 2897133 (€244.08 in chips)
+Seat 3: Cyclist (€244.76 in chips)
+Seat 4: ontrader (€167.26 in chips)
+Seat 5: nussshii (€101.50 in chips)
+Seat 6: GT0B0T (€100.00 in chips)
+Cyclist: Post SB €0.50
+ontrader: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [HJ H9]
+nussshii: Fold
+GT0B0T: Fold
+allahuakba3: Fold
+Cyclist: Raise to €3.00
+ontrader: Call €2.00
+*** FLOP *** [H8 D10 S10]
+Cyclist: Bet €1.62
+ontrader: Raise to €6.24
+Cyclist: Call €4.62
+*** TURN *** [S7]
+Cyclist: Check
+ontrader: Bet €13.86
+Cyclist: Call €13.86
+*** RIVER *** [C2]
+Cyclist: Check
+ontrader: Bet €34.65
+Cyclist: Raise to €198.66
+ontrader: Call €109.51
+Uncalled bet (€54.50) returned to Cyclist
+*** SHOWDOWN ***
+Cyclist: Shows [HJ H9] Straight
+ontrader: Shows [D8 S8] Full House
+*** SUMMARY ***
+Total pot €334.52 Rake €3.00
+ontrader: wins €331.52
+
+GAME #2348767512 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-16 00:17:25/GMT
+Table Size 6
+Table €100 NL, 2348767512
+Seat 1: Be7 (€72.18 in chips)
+Seat 2: GT0B0T (€350.52 in chips)
+Seat 3: ontrader (€122.51 in chips)
+Seat 4: allahuakba3 (€100.00 in chips)
+Seat 5: viscaBarcaaa (€229.91 in chips)  DEALER
+Seat 6: Cyclist (€100.50 in chips)
+Cyclist: Post SB €0.50
+Be7: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [S8 S7]
+ontrader: Fold
+allahuakba3: Fold
+viscaBarcaaa: Raise to €2.50
+Cyclist: Raise to €12.00
+Be7: Fold
+viscaBarcaaa: Raise to €24.50
+Cyclist: Call €12.50
+*** FLOP *** [C6 S5 C3]
+Cyclist: Check
+viscaBarcaaa: Bet €15.00
+Cyclist: Raise to €76.00 (all-in)
+viscaBarcaaa: Call €61.00
+*** TURN *** [S9]
+*** RIVER *** [S2]
+*** SHOWDOWN ***
+viscaBarcaaa: Shows [HJ SJ] One Pair
+Cyclist: Shows [S8 S7] Flush
+*** SUMMARY ***
+Total pot €202.00 Rake €3.00
+Cyclist: wins €199.00
+
+GAME #2348888903 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-16 13:52:33/GMT
+Table Size 3
+Table €100 NL, 2348888903
+Seat 1: Cyclist (€100.00 in chips)
+Seat 2: Cr4zyBerry (€127.10 in chips)
+Seat 3: Traveler7 (€239.77 in chips)  DEALER
+Cyclist: Post SB €0.50
+Cr4zyBerry: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to Cyclist [DK DQ]
+Traveler7: Fold
+Cyclist: Raise to €3.00
+Cr4zyBerry: Raise to €10.00
+Cyclist: Call €7.00
+*** FLOP *** [S8 S3 H9]
+Cyclist: Check
+Cr4zyBerry: Check
+*** TURN *** [CJ]
+Cyclist: Bet €14.60
+Cr4zyBerry: Call €14.60
+*** RIVER *** [HA]
+Cyclist: Bet €75.40
+Cr4zyBerry: Call €75.40
+*** SHOWDOWN ***
+Cyclist: Shows [DK DQ] High Card
+Cr4zyBerry: Shows [C9 D9] Three of a Kind
+*** SUMMARY ***
+Total pot €200.00 Rake €1.50
+Cr4zyBerry: wins €198.50
+

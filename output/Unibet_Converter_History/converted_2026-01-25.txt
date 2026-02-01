@@ -1,0 +1,37 @@
+GAME #2352508897 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-01-25 15:35:53/GMT
+Table Size 6
+Table €100 NL, 2352508897
+Seat 1: cinnimini (€124.00 in chips)  DEALER
+Seat 2: Ahmad25 (€59.91 in chips)
+Seat 3: copiun4U (€106.11 in chips)
+Seat 4: JullyEggy (€108.22 in chips)
+Seat 5: Eiffel65 (€100.00 in chips)
+Seat 6: Blind30 (€110.97 in chips)
+Ahmad25: Post SB €0.50
+copiun4U: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [SA HK]
+JullyEggy: Raise to €2.00
+Eiffel65: Raise to €7.00
+Blind30: Fold
+cinnimini: Fold
+Ahmad25: Fold
+copiun4U: Fold
+JullyEggy: Call €5.00
+*** FLOP *** [D7 S4 S6]
+JullyEggy: Bet €4.49
+Eiffel65: Call €4.49
+*** TURN *** [D3]
+JullyEggy: Bet €12.24
+Eiffel65: Call €12.24
+*** RIVER *** [S5]
+JullyEggy: Bet €84.49
+Eiffel65: Call €76.27
+Uncalled bet (€8.22) returned to JullyEggy
+*** SHOWDOWN ***
+JullyEggy: Shows [SA HK] Straight
+Eiffel65: Shows [S8 C8] Straight
+*** SUMMARY ***
+Total pot €201.50 Rake €3.00
+Eiffel65: wins €198.50
+
