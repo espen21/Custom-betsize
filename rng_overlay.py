@@ -27,8 +27,8 @@ class RNGOverlay:
         self.running = True
 
         # Var overlayn hamnar relativt bordets övre vänstra hörn
-        self.offset_x = 20
-        self.offset_y = 20
+        self.offset_x = 270
+        self.offset_y = 0
 
         self.visible = True
 
