@@ -1,0 +1,67 @@
+GAME #2356632118 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-02-04 18:13:18/GMT
+Table Size 5
+Table €100 NL, 2356632118
+Seat 1: johnnycork (€100.00 in chips)
+Seat 2: AH36 (€88.50 in chips)  DEALER
+Seat 3: PaistingReal (€100.00 in chips)
+Seat 4: verminsky (€110.12 in chips)
+Seat 5: BLUEWHALEy (€100.00 in chips)
+verminsky: Post SB €0.50
+BLUEWHALEy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [S10 SJ]
+AH36: Fold
+verminsky: Raise to €3.00
+BLUEWHALEy: Raise to €10.00
+verminsky: Call €7.00
+*** FLOP *** [H3 H7 D3]
+verminsky: Check
+BLUEWHALEy: Bet €14.50
+verminsky: Call €14.50
+*** TURN *** [D4]
+verminsky: Check
+BLUEWHALEy: Bet €36.75
+verminsky: Raise to €85.62 (all-in)
+BLUEWHALEy: Fold
+Uncalled bet (€48.87) returned to verminsky
+*** SUMMARY ***
+Total pot €122.50 Rake €1.50
+verminsky: wins €121.00
+
+GAME #2356643798 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-02-04 18:35:53/GMT
+Table Size 6
+Table €100 NL, 2356643798
+Seat 1: OliviaSmith (€106.25 in chips)  DEALER
+Seat 2: BLUEWHALEy (€108.19 in chips)
+Seat 3: verminsky (€101.50 in chips)
+Seat 4: kardashia (€104.50 in chips)
+Seat 5: InnInn (€71.78 in chips)
+Seat 6: CaptainSS (€116.74 in chips)
+BLUEWHALEy: Post SB €0.50
+verminsky: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [S10 H10]
+kardashia: Fold
+CaptainSS: Fold
+OliviaSmith: Raise to €2.50
+BLUEWHALEy: Raise to €12.00
+verminsky: Fold
+OliviaSmith: Call €9.50
+*** FLOP *** [H9 S3 HA]
+BLUEWHALEy: Bet €7.25
+OliviaSmith: Call €7.25
+*** TURN *** [S6]
+BLUEWHALEy: Check
+OliviaSmith: Bet €12.50
+BLUEWHALEy: Call €12.50
+*** RIVER *** [HQ]
+BLUEWHALEy: Bet €76.44
+OliviaSmith: Call €74.50
+Uncalled bet (€1.94) returned to BLUEWHALEy
+*** SHOWDOWN ***
+OliviaSmith: Shows [HK H8] Flush
+BLUEWHALEy: Shows [S10 H10] One Pair
+*** SUMMARY ***
+Total pot €213.50 Rake €3.00
+OliviaSmith: wins €210.50
+
