@@ -1,0 +1,105 @@
+GAME #2361140320 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-02-15 19:40:38/GMT
+Table Size 6
+Table €100 NL, 2361140320
+Seat 1: lordiz (€216.74 in chips)
+Seat 2: StubastianPk (€101.50 in chips)
+Seat 3: M4ricaYg4y (€113.15 in chips)
+Seat 4: makeitmakess (€103.30 in chips)  DEALER
+Seat 5: greendoho2 (€146.01 in chips)
+Seat 6: Connor (€128.46 in chips)
+greendoho2: Post SB €0.50
+lordiz: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to lordiz [C10 H10]
+StubastianPk: Fold
+M4ricaYg4y: Raise to €2.50
+makeitmakess: Fold
+greendoho2: Fold
+lordiz: Raise to €13.00
+M4ricaYg4y: Call €10.50
+*** FLOP *** [S4 S7 H6]
+lordiz: Bet €18.50
+M4ricaYg4y: Call €18.50
+*** TURN *** [C7]
+lordiz: Check
+M4ricaYg4y: Bet €15.50
+lordiz: Raise to €157.25
+M4ricaYg4y: Call €66.15
+Uncalled bet (€75.60) returned to lordiz
+*** RIVER *** [CA]
+*** SHOWDOWN ***
+lordiz: Shows [C10 H10] Two Pair
+M4ricaYg4y: Shows [D8 D7] Three of a Kind
+*** SUMMARY ***
+Total pot €226.80 Rake €3.00
+M4ricaYg4y: wins €223.80
+
+GAME #2360631353 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-02-14 14:54:53/GMT
+Table Size 6
+Table €100 NL, 2360631353
+Seat 1: Dikkesnor (€268.04 in chips)
+Seat 2: Mzungu9 (€100.00 in chips)
+Seat 3: HilfeDICH (€101.50 in chips)
+Seat 4: stopplayHUid (€120.32 in chips)
+Seat 5: sub5 (€203.87 in chips)
+Seat 6: greendoho2 (€174.40 in chips)  DEALER
+Dikkesnor: Post SB €0.50
+Mzungu9: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to HilfeDICH [CA DA]
+HilfeDICH: Raise to €2.00
+stopplayHUid: Fold
+sub5: Fold
+greendoho2: Fold
+Dikkesnor: Fold
+Mzungu9: Raise to €12.00
+HilfeDICH: Raise to €25.00
+Mzungu9: Call €13.00
+*** FLOP *** [SK SJ S5]
+Mzungu9: Check
+HilfeDICH: Bet €12.50
+Mzungu9: Call €12.50
+*** TURN *** [C3]
+Mzungu9: Check
+HilfeDICH: Bet €64.00
+Mzungu9: Call €62.50
+Uncalled bet (€1.50) returned to HilfeDICH
+*** RIVER *** [S4]
+*** SHOWDOWN ***
+Mzungu9: Shows [S8 S9] Flush
+HilfeDICH: Shows [CA DA] One Pair
+*** SUMMARY ***
+Total pot €200.50 Rake €3.00
+Mzungu9: wins €197.50
+
+GAME #2360600706 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-02-14 13:05:34/GMT
+Table Size 3
+Table €100 NL, 2360600706
+Seat 1: sub5 (€100.00 in chips)  DEALER
+Seat 2: Today12345 (€100.00 in chips)
+Seat 4: CanSom1Bluff (€152.07 in chips)
+Today12345: Post SB €0.50
+CanSom1Bluff: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to CanSom1Bluff [DQ D10]
+sub5: Raise to €2.50
+Today12345: Fold
+CanSom1Bluff: Raise to €13.00
+sub5: Call €10.50
+*** FLOP *** [S4 S2 S7]
+CanSom1Bluff: Bet €4.50
+sub5: Call €4.50
+*** TURN *** [DK]
+CanSom1Bluff: Bet €12.50
+sub5: Call €12.50
+*** RIVER *** [S6]
+CanSom1Bluff: Bet €90.75
+sub5: Call €70.00
+Uncalled bet (€20.75) returned to CanSom1Bluff
+*** SHOWDOWN ***
+sub5: Shows [SQ CK] Flush
+CanSom1Bluff: Shows [DQ D10] High Card
+*** SUMMARY ***
+Total pot €200.50 Rake €1.50
+sub5: wins €199.00
+
