@@ -1,0 +1,37 @@
+GAME #2361752812 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2026-02-17 12:22:37/GMT
+Table Size 5
+Table €50 NL, 2361752812
+Seat 1: ROYCOO (€50.00 in chips)
+Seat 2: BLUEWHALEy (€76.37 in chips)
+Seat 3: drakendrive (€60.80 in chips)
+Seat 4: Crumpet (€87.56 in chips)  DEALER
+Seat 5: looszae (€50.00 in chips)
+looszae: Post SB €0.25
+ROYCOO: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [SQ CQ]
+BLUEWHALEy: Raise to €1.00
+drakendrive: Fold
+Crumpet: Raise to €3.70
+looszae: Fold
+ROYCOO: Fold
+BLUEWHALEy: Call €2.70
+*** FLOP *** [HQ CA H9]
+BLUEWHALEy: Check
+Crumpet: Bet €2.56
+BLUEWHALEy: Raise to €11.25
+Crumpet: Call €8.69
+*** TURN *** [C7]
+BLUEWHALEy: Check
+Crumpet: Check
+*** RIVER *** [CJ]
+BLUEWHALEy: Check
+Crumpet: Bet €21.91
+BLUEWHALEy: Call €21.91
+*** SHOWDOWN ***
+BLUEWHALEy: Shows [SQ CQ] Three of a Kind
+Crumpet: Shows [H10 HK] Straight
+*** SUMMARY ***
+Total pot €74.47 Rake €2.00
+Crumpet: wins €72.47
+

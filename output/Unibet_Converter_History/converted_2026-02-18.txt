@@ -1,0 +1,39 @@
+GAME #2362205770 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.25/€0.50 2026-02-18 16:18:30/GMT
+Table Size 6
+Table €50 NL, 2362205770
+Seat 1: lordiz (€50.00 in chips)
+Seat 2: BAFFBUFF (€37.70 in chips)
+Seat 3: CAFUNE (€50.50 in chips)
+Seat 4: l4c (€103.64 in chips)
+Seat 5: BURDSR (€50.11 in chips)  DEALER
+Seat 6: Crumpet (€55.34 in chips)
+Crumpet: Post SB €0.25
+lordiz: Post BB €0.50
+*** HOLE CARDS ***
+Dealt to lordiz [CQ HA]
+BAFFBUFF: Fold
+CAFUNE: Raise to €1.25
+l4c: Fold
+BURDSR: Fold
+Crumpet: Fold
+lordiz: Call €0.75
+*** FLOP *** [H7 C3 CA]
+lordiz: Check
+CAFUNE: Bet €0.75
+lordiz: Raise to €2.88
+CAFUNE: Call €2.13
+*** TURN *** [S8]
+lordiz: Bet €8.25
+CAFUNE: Call €8.25
+*** RIVER *** [SJ]
+lordiz: Check
+CAFUNE: Bet €38.12
+lordiz: Call €37.62
+Uncalled bet (€0.50) returned to CAFUNE
+*** SHOWDOWN ***
+lordiz: Shows [CQ HA] One Pair
+CAFUNE: Shows [C9 C10] Straight
+*** SUMMARY ***
+Total pot €100.25 Rake €2.00
+CAFUNE: wins €98.25
+
