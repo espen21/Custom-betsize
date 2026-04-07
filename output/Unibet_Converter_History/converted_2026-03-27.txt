@@ -1,0 +1,39 @@
+GAME #2375675231 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-03-27 09:49:24/GMT
+Table Size 6
+Table €100 NL, 2375675231
+Seat 1: howihave2car (€100.00 in chips)
+Seat 2: R3M1GRAT10N (€144.76 in chips)  DEALER
+Seat 3: Brokendown (€43.16 in chips)
+Seat 4: misskissi (€100.00 in chips)
+Seat 5: Amz212 (€115.02 in chips)
+Seat 6: DrL3cter (€100.00 in chips)
+Brokendown: Post SB €0.50
+misskissi: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to misskissi [S5 S4]
+Amz212: Raise to €2.50
+DrL3cter: Fold
+howihave2car: Fold
+R3M1GRAT10N: Fold
+Brokendown: Call €2.00
+misskissi: Raise to €14.00
+Amz212: Call €11.50
+Brokendown: Call €11.50
+*** FLOP *** [H4 SQ D2]
+Brokendown: Check
+misskissi: Bet €10.50
+Amz212: Call €10.50
+Brokendown: Fold
+*** TURN *** [H3]
+misskissi: Check
+Amz212: Bet €21.66
+misskissi: Raise to €75.50 (all-in)
+Amz212: Call €53.84
+*** RIVER *** [CJ]
+*** SHOWDOWN ***
+misskissi: Shows [S5 S4] One Pair
+Amz212: Shows [C8 H8] One Pair
+*** SUMMARY ***
+Total pot €214.00 Rake €3.00
+Amz212: wins €211.00
+

@@ -1,0 +1,40 @@
+GAME #2374487567 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-03-23 20:21:52/GMT
+Table Size 6
+Table €100 NL, 2374487567
+Seat 1: no-fps (€122.56 in chips)
+Seat 2: Voltaire (€134.50 in chips)
+Seat 3: MFGA (€119.11 in chips)
+Seat 4: MuchaLucha5 (€293.25 in chips)  DEALER
+Seat 5: leakybalance (€120.50 in chips)
+Seat 6: BLUEWHALEy (€267.36 in chips)
+leakybalance: Post SB €0.50
+BLUEWHALEy: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to BLUEWHALEy [DA D8]
+no-fps: Raise to €2.50
+Voltaire: Fold
+MFGA: Fold
+MuchaLucha5: Fold
+leakybalance: Fold
+BLUEWHALEy: Call €1.50
+*** FLOP *** [D7 C2 S6]
+BLUEWHALEy: Check
+no-fps: Bet €1.59
+BLUEWHALEy: Call €1.59
+*** TURN *** [DQ]
+BLUEWHALEy: Check
+no-fps: Bet €5.90
+BLUEWHALEy: Call €5.90
+*** RIVER *** [D6]
+BLUEWHALEy: Check
+no-fps: Bet €13.93
+BLUEWHALEy: Raise to €257.37 (all-in)
+no-fps: Call €98.64
+Uncalled bet (€144.80) returned to BLUEWHALEy
+*** SHOWDOWN ***
+no-fps: Shows [S7 H7] Full House
+BLUEWHALEy: Shows [DA D8] Flush
+*** SUMMARY ***
+Total pot €245.62 Rake €3.00
+no-fps: wins €242.62
+
