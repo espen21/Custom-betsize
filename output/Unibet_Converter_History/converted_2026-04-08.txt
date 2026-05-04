@@ -1,0 +1,128 @@
+GAME #2379559047 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-04-07 10:45:43/GMT
+Table Size 6
+Table €100 NL, 2379559047
+Seat 1: CatAiZice (€116.70 in chips)
+Seat 2: 1111112 (€103.50 in chips)
+Seat 3: kbin89 (€120.38 in chips)
+Seat 4: HFH32 (€100.89 in chips)  DEALER
+Seat 5: Adoink (€110.84 in chips)
+Seat 6: misskissi (€100.17 in chips)
+Adoink: Post SB €0.50
+misskissi: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to misskissi [H7 S7]
+CatAiZice: Fold
+1111112: Fold
+kbin89: Fold
+HFH32: Fold
+Adoink: Raise to €3.00
+misskissi: Call €2.00
+*** FLOP *** [H10 C3 D7]
+Adoink: Bet €1.50
+misskissi: Raise to €6.00
+Adoink: Call €4.50
+*** TURN *** [S8]
+Adoink: Check
+misskissi: Bet €13.50
+Adoink: Raise to €31.00
+misskissi: Raise to €91.17 (all-in)
+Adoink: Call €60.17
+*** RIVER *** [D10]
+*** SHOWDOWN ***
+Adoink: Shows [C10 SJ] Three of a Kind
+misskissi: Shows [H7 S7] Full House
+*** SUMMARY ***
+Total pot €200.34 Rake €3.00
+misskissi: wins €197.34
+
+GAME #2379556474 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-04-07 10:35:43/GMT
+Table Size 6
+Table €100 NL, 2379556474
+Seat 1: HFH32 (€107.94 in chips)
+Seat 2: misskissi (€100.00 in chips)
+Seat 3: zi-LEPERRY (€103.70 in chips)
+Seat 4: Johnte111 (€200.12 in chips)
+Seat 5: Adoink (€100.00 in chips)
+Seat 6: kuplapieru (€106.50 in chips)  DEALER
+HFH32: Post SB €0.50
+misskissi: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to misskissi [CJ CK]
+Johnte111: Fold
+Adoink: Raise to €2.20
+kuplapieru: Fold
+HFH32: Fold
+misskissi: Raise to €12.00
+Adoink: Call €9.80
+*** FLOP *** [DK C8 D5]
+misskissi: Check
+Adoink: Bet €6.13
+misskissi: Call €6.13
+*** TURN *** [D2]
+misskissi: Check
+Adoink: Check
+*** RIVER *** [D4]
+misskissi: Check
+Adoink: Bet €21.00
+misskissi: Call €21.00
+*** SHOWDOWN ***
+misskissi: Shows [CJ CK] One Pair
+Adoink: Shows [D9 D7] Flush
+*** SUMMARY ***
+Total pot €78.76 Rake €3.00
+Adoink: wins €75.76
+
+GAME #2379555217 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-04-07 10:30:23/GMT
+Table Size 6
+Table €100 NL, 2379555217
+Seat 1: misskissi (€108.01 in chips)  DEALER
+Seat 2: TorkoNudo (€106.08 in chips)
+Seat 3: Prosse (€0.00 in chips)
+Seat 4: Blind30 (€179.13 in chips)
+Seat 5: HFH32 (€107.14 in chips)
+Seat 6: Adoink (€100.00 in chips)
+Blind30: Post SB €0.50
+HFH32: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to misskissi [C8 C9]
+misskissi: Raise to €2.50
+Blind30: Raise to €10.00
+HFH32: Fold
+misskissi: Call €7.50
+*** FLOP *** [C5 H2 D7]
+Blind30: Bet €15.75
+misskissi: Call €15.75
+*** TURN *** [D3]
+Blind30: Bet €153.38
+misskissi: Fold
+Uncalled bet (€153.38) returned to Blind30
+*** SUMMARY ***
+Total pot €52.50 Rake €1.50
+Blind30: wins €51.00
+
+GAME #2379561648 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-04-07 10:54:53/GMT
+Table Size 6
+Table €100 NL, 2379561648
+Seat 1: HFH32 (€124.85 in chips)
+Seat 2: misskissi (€102.87 in chips)
+Seat 3: zi-LEPERRY (€100.00 in chips)
+Seat 4: Johnte111 (€205.66 in chips)
+Seat 5: Adoink (€153.73 in chips)
+Seat 6: kuplapieru (€100.00 in chips)  DEALER
+HFH32: Post SB €0.50
+misskissi: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to misskissi [DA CQ]
+zi-LEPERRY: Fold
+Johnte111: Fold
+Adoink: Fold
+kuplapieru: Raise to €2.20
+HFH32: Raise to €12.00
+misskissi: Raise to €23.00
+kuplapieru: Fold
+HFH32: Raise to €124.85 (all-in)
+misskissi: Fold
+*** SUMMARY ***
+Total pot €150.05 Rake €0.00
+HFH32: wins €150.05
+

@@ -1,0 +1,70 @@
+GAME #2380097333 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-04-08 20:36:44/GMT
+Table Size 6
+Table €100 NL, 2380097333
+Seat 1: ride2lghtnin (€156.35 in chips)
+Seat 2: bankoedoezoe (€100.00 in chips)
+Seat 3: vivalapsg (€101.00 in chips)  DEALER
+Seat 4: jetty (€197.57 in chips)
+Seat 5: lazsia (€114.97 in chips)
+Seat 6: Ja52 (€161.31 in chips)
+jetty: Post SB €0.50
+lazsia: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to lazsia [HK SA]
+Ja52: Fold
+ride2lghtnin: Raise to €2.50
+vivalapsg: Fold
+jetty: Fold
+lazsia: Raise to €12.00
+ride2lghtnin: Raise to €25.20
+lazsia: Call €13.20
+*** FLOP *** [HQ C5 D4]
+lazsia: Check
+ride2lghtnin: Check
+*** TURN *** [D5]
+lazsia: Bet €15.50
+ride2lghtnin: Call €15.50
+*** RIVER *** [H2]
+lazsia: Bet €74.27
+ride2lghtnin: Call €74.27
+*** SHOWDOWN ***
+ride2lghtnin: Shows [SQ DA] Two Pair
+lazsia: Shows [HK SA] One Pair
+*** SUMMARY ***
+Total pot €230.44 Rake €3.00
+ride2lghtnin: wins €227.44
+
+GAME #2380332837 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-04-09 16:53:56/GMT
+Table Size 5
+Table €100 NL, 2380332837
+Seat 1: lazsia (€128.78 in chips)
+Seat 2: cocococ (€100.00 in chips)
+Seat 3: M1guell (€113.12 in chips)
+Seat 5: Bonkers6 (€366.63 in chips)
+Seat 6: Irina_Rimes (€102.17 in chips)  DEALER
+lazsia: Post SB €0.50
+cocococ: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to lazsia [HA SQ]
+M1guell: Fold
+Bonkers6: Raise to €2.20
+Irina_Rimes: Fold
+lazsia: Raise to €12.00
+cocococ: Fold
+Bonkers6: Call €9.80
+*** FLOP *** [D7 H3 H5]
+lazsia: Bet €18.75
+Bonkers6: Call €18.75
+*** TURN *** [S7]
+lazsia: Bet €31.25
+Bonkers6: Call €31.25
+*** RIVER *** [CQ]
+lazsia: Bet €66.78
+Bonkers6: Call €66.78
+*** SHOWDOWN ***
+lazsia: Shows [HA SQ] Two Pair
+Bonkers6: Shows [C7 H7] Four of a Kind
+*** SUMMARY ***
+Total pot €258.56 Rake €3.00
+Bonkers6: wins €255.56
+
