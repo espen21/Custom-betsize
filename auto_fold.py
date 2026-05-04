@@ -29,6 +29,10 @@ def adjust_pos_click(x, y, handle, name):
 
     return x_adjusted, y_adjusted
 
+def svs_fold(handle):
+    win32gui.SetForegroundWindow(handle)
+    print("FOLD SVS (right click)")
+    keyboard.press_and_release('F1')
 
 def unibet_fold(handle):
     win32gui.SetForegroundWindow(handle)
@@ -94,7 +98,7 @@ prev_m5 = win32api.GetKeyState(M5)
 
 m4_down_handle = None
 m5_down_handle = None
-
+svs_list = [ "| PL Omaha |" , "| NL Hold'em |" ]
 while True:
     try:
         point = win32gui.GetCursorPos()
@@ -143,7 +147,11 @@ while True:
         if curr_m4 >= 0 and prev_m4 < 0:
             if handle == m4_down_handle and name_stuff:
                 print("M4 RELEASE on SAME TABLE → FOLD")
-                unibet_fold(handle)
+                if( any(t in name for t in svs_list) ):
+                    svs_fold(handle)
+                else:
+                    unibet_fold(handle)
+                
             # reset
             m4_down_handle = None
 
