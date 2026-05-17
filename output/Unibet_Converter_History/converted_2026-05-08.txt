@@ -1,0 +1,33 @@
+GAME #2389843141 Version:24.7.1.16 Uncalled:Y Texas Hold'em NL €0.50/€1.00 2026-05-08 08:02:12/GMT
+Table Size 5
+Table €100 NL, 2389843141
+Seat 2: Crumpet (€198.64 in chips)  DEALER
+Seat 3: Sureal81 (€179.64 in chips)
+Seat 4: MonkeyBZnZz (€136.77 in chips)
+Seat 5: JullyEggy (€100.50 in chips)
+Seat 6: MICHAELPORTE (€130.75 in chips)
+JullyEggy: Post SB €0.50
+MICHAELPORTE: Post BB €1.00
+*** HOLE CARDS ***
+Dealt to JullyEggy [H10 S9]
+Crumpet: Fold
+JullyEggy: Raise to €3.00
+MICHAELPORTE: Call €2.00
+*** FLOP *** [CQ D8 C4]
+JullyEggy: Check
+MICHAELPORTE: Check
+*** TURN *** [DJ]
+JullyEggy: Bet €7.92
+MICHAELPORTE: Call €7.92
+*** RIVER *** [HK]
+JullyEggy: Check
+MICHAELPORTE: Bet €10.92
+JullyEggy: Raise to €89.58 (all-in)
+MICHAELPORTE: Call €78.66
+*** SHOWDOWN ***
+JullyEggy: Shows [H10 S9] Straight
+MICHAELPORTE: Shows [HA D10] Straight
+*** SUMMARY ***
+Total pot €201.00 Rake €1.50
+MICHAELPORTE: wins €199.50
+
